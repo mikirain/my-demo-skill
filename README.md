@@ -1,4 +1,5 @@
 # my-demo-skill
+<img width="1915" height="877" alt="局部截取_20261101_190624" src="https://github.com/user-attachments/assets/a0b615ad-8cdc-4896-baf2-64fbdfb4db77" />
 
 用 AI 编程助手（Kimi Code）从零做一套可运行的 Agent Skill，并把它接进一个能点、能看的全栈 Demo。
 
