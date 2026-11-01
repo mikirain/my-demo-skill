@@ -1,0 +1,614 @@
+{
+  "schemaVersion": "1.1",
+  "case": {
+    "retroId": "rp-03",
+    "id": "p-04",
+    "name": "CZ-Morava 320MWh 独立储能（2025 中标）",
+    "country": "CZ",
+    "mw": 80,
+    "mwh": 320,
+    "route": "LFP 液冷",
+    "customerType": "电网公司",
+    "bidMode": "公开招标",
+    "contractMode": "EPC 总承包",
+    "productModel": "Aster 5000",
+    "awardedYear": 2025,
+    "awardDate": "2025-05-20",
+    "competitorIds": ["竞对 A", "竞对 B"],
+    "hasScoreSheet": true,
+    "snapshotAt": "2026-10-22"
+  },
+  "evidence": [
+    {
+      "id": "EV-01",
+      "type": "tender",
+      "title": "招标文件技术规范书（Morava 80MW/320MWh）§5.3 循环寿命",
+      "documentId": "doc-021",
+      "originalFiled": true,
+      "page": 58,
+      "section": "§5.3 循环寿命与容量保持率",
+      "snippet": "投标人须提供 ≥8000 次循环（DoD 90%、25℃、SoH 70%）的同条件验证数据，口径不一致者按归一后折算评分。",
+      "reliability": "official",
+      "collectedBy": "李维",
+      "collectedAt": "2025-03-18"
+    },
+    {
+      "id": "EV-02",
+      "type": "tender",
+      "title": "招标文件技术规范书 §6.2 消防系统",
+      "documentId": "doc-021",
+      "originalFiled": true,
+      "page": 63,
+      "section": "§6.2 消防系统",
+      "snippet": "储能舱应采用全氟己酮（FK-5-1-12）灭火系统，喷放浓度 ≥6.0%、浸渍时间 ≥10 min，方案须经业主安全团队评审通过。",
+      "reliability": "official",
+      "collectedBy": "李维",
+      "collectedAt": "2025-03-18"
+    },
+    {
+      "id": "EV-03",
+      "type": "tender",
+      "title": "招标文件技术规范书 §4.2 系统效率与测试边界",
+      "documentId": "doc-021",
+      "originalFiled": true,
+      "page": 41,
+      "section": "§4.2 系统效率",
+      "snippet": "系统效率 ≥88.0%（AC-AC，含辅助功耗，25℃ 环境温度），测试方法依据 IEC 62933-2-1，未标注边界者按 DC-AC 口径折算。",
+      "reliability": "official",
+      "collectedBy": "李维",
+      "collectedAt": "2025-03-18"
+    },
+    {
+      "id": "EV-04",
+      "type": "scoreSheet",
+      "title": "客户评标打分表（技术分项汇总页）",
+      "documentId": "doc-034",
+      "originalFiled": true,
+      "page": 3,
+      "section": "2.3 技术评分汇总",
+      "snippet": "技术评分 42.0/45：技术符合性 20/20 分、寿命与质保 8/10 分、安全与消防 5/5 分、同类业绩 6/6 分、本地服务 3/4 分。",
+      "reliability": "official",
+      "collectedBy": "李维",
+      "collectedAt": "2025-05-27"
+    },
+    {
+      "id": "EV-05",
+      "type": "scoreSheet",
+      "title": "客户评标打分表（寿命与质保评语页）",
+      "documentId": "doc-034",
+      "originalFiled": true,
+      "page": 5,
+      "section": "2.3.2 寿命与质保评语",
+      "snippet": "寿命与质保：投标承诺 8500 次 @ DoD90/25℃/SoH70，与招标同条件且附第三方报告，未作归一扣分，得 8/10 分。",
+      "reliability": "official",
+      "collectedBy": "李维",
+      "collectedAt": "2025-05-27"
+    },
+    {
+      "id": "EV-06",
+      "type": "ourBid",
+      "title": "投标技术卷（提交版）第四章 §4.2 系统效率",
+      "documentId": "doc-007",
+      "originalFiled": true,
+      "page": 28,
+      "section": "4.2 系统效率",
+      "snippet": "系统效率（AC-AC，含辅助功耗）88.5%，辅助功耗 0.9%，测试边界依据 IEC 62933-2-1 附录 B，报告页码见附件 3。",
+      "reliability": "official",
+      "collectedBy": "王磊",
+      "collectedAt": "2025-04-16"
+    },
+    {
+      "id": "EV-07",
+      "type": "ourBid",
+      "title": "投标技术卷（提交版）第五章 §5.3 循环寿命",
+      "documentId": "doc-007",
+      "originalFiled": true,
+      "page": 41,
+      "section": "5.3 循环寿命",
+      "snippet": "循环寿命 8500 次（DoD 90%、25℃、SoH 70%），附第三方实验室同条件测试报告 TR-2024-1187 第 12 页及电芯批次号。",
+      "reliability": "official",
+      "collectedBy": "王磊",
+      "collectedAt": "2025-04-16"
+    },
+    {
+      "id": "EV-08",
+      "type": "clarification",
+      "title": "澄清回函（效率口径确认）",
+      "documentId": "doc-012",
+      "originalFiled": true,
+      "page": 1,
+      "section": "澄清回函第 1 条",
+      "snippet": "投标人以 AC-AC 含辅助功耗口径提交 88.5%，与招标 §4.2 要求 ≥88.0% 一致，无须二次澄清或折算。",
+      "reliability": "official",
+      "collectedBy": "李维",
+      "collectedAt": "2025-04-28"
+    },
+    {
+      "id": "EV-09",
+      "type": "other",
+      "title": "业主安全团队消防方案评审回函（2025-04-22）",
+      "documentId": "doc-016",
+      "originalFiled": true,
+      "page": 1,
+      "section": "第 2 条 消防方案评审结论",
+      "snippet": "业主安全团队 2025-04-22 评审结论：认可全氟己酮（FK-5-1-12）方案，喷放浓度 6.5%、浸渍 12 min，满足 NFPA 2001 要求。",
+      "reliability": "official",
+      "collectedBy": "赵敏",
+      "collectedAt": "2025-04-22"
+    },
+    {
+      "id": "EV-10",
+      "type": "clarification",
+      "title": "澄清回函（舱体运输尺寸偏差）",
+      "documentId": "doc-013",
+      "originalFiled": true,
+      "page": 2,
+      "section": "澄清回函第 4 条",
+      "snippet": "客户接受舱体 12.6m 的超限运输方案，投标人须在发运前 30 天提交路线许可并抄送业主运维部门。",
+      "reliability": "official",
+      "collectedBy": "吴桐",
+      "collectedAt": "2025-04-28"
+    },
+    {
+      "id": "EV-11",
+      "type": "negotiation",
+      "title": "商务谈判纪要（第二轮，2025-05-14）",
+      "documentId": "doc-019",
+      "originalFiled": true,
+      "page": 3,
+      "section": "条款让步记录第 3 条",
+      "snippet": "客户同意备件仓建成期限由 COD 后 12 个月调整为 18 个月，过渡期由波兰区域仓 48 小时调拨；性能罚则上限由 20% 降为 15%。",
+      "reliability": "official",
+      "collectedBy": "陈明",
+      "collectedAt": "2025-05-14"
+    },
+    {
+      "id": "EV-12",
+      "type": "awardNotice",
+      "title": "中标公示（Morava 80MW/320MWh 储能 EPC）",
+      "documentId": "doc-036",
+      "originalFiled": true,
+      "page": 1,
+      "section": "公示正文",
+      "snippet": "评标委员会推荐我方联合体为第一中标候选人，技术评分 42.0/45、商务评分 12.5/15，综合排名第 1。",
+      "reliability": "official",
+      "collectedBy": "李维",
+      "collectedAt": "2025-05-20"
+    },
+    {
+      "id": "EV-13",
+      "type": "other",
+      "title": "业绩核验表（评标附件 B）",
+      "documentId": "doc-038",
+      "originalFiled": true,
+      "page": 5,
+      "section": "附件 B 同类业绩核验",
+      "snippet": "核验 3 个欧洲同类规模项目：德国 230MWh（2023 并网）、波兰 200MWh（2024 并网）、奥地利 180MWh（2022 并网），并网证明齐备。",
+      "reliability": "official",
+      "collectedBy": "赵敏",
+      "collectedAt": "2025-05-26"
+    },
+    {
+      "id": "EV-14",
+      "type": "competitorBid",
+      "title": "竞对 A 技术标公开摘要",
+      "documentId": null,
+      "originalFiled": false,
+      "page": null,
+      "section": "公开摘要 性能参数页",
+      "snippet": "竞对 A：循环寿命 7500 次（DoD 80%）、系统效率 87.6%（DC-AC 口径）、欧洲同类业绩 2 个。",
+      "reliability": "public",
+      "collectedBy": "王磊",
+      "collectedAt": "2025-05-06"
+    },
+    {
+      "id": "EV-15",
+      "type": "competitorBid",
+      "title": "竞对 B 技术标公开摘要",
+      "documentId": null,
+      "originalFiled": false,
+      "page": null,
+      "section": "公开摘要 消防与效率条目",
+      "snippet": "竞对 B：消防采用七氟丙烷、系统效率 87.2%（未注明测试边界）、未列 ≥180MWh 欧洲并网业绩。",
+      "reliability": "public",
+      "collectedBy": "吴桐",
+      "collectedAt": "2025-05-06"
+    },
+    {
+      "id": "EV-16",
+      "type": "fulfilment",
+      "title": "首批设备到货验收台账（2025-10）",
+      "documentId": "doc-052",
+      "originalFiled": true,
+      "page": 1,
+      "section": "交付节点",
+      "snippet": "首批电池舱与 PCS 于 2025-10-03 到场，合同节点 NTP（2025-06-10）+120 天 为 2025-10-08，开箱验收合格。",
+      "reliability": "official",
+      "collectedBy": "王磊",
+      "collectedAt": "2025-10-06"
+    }
+  ],
+  "winFactors": [
+    {
+      "id": "wf-01",
+      "title": "循环寿命条件与招标完全对齐",
+      "category": "efficiency",
+      "level": "A",
+      "mandatory": false,
+      "score": 8,
+      "maxScore": 10,
+      "weightPct": 10,
+      "customerNeed": "≥8000 次 @ DoD90 / 25℃ / SoH70（招标 §5.3，寿命与质保分项满分 10 分）",
+      "ourResponse": "同条件承诺 8500 次 @ DoD90 / 25℃ / SoH70，附第三方实验室同条件测试报告 TR-2024-1187（技术卷 P.41），未做口径归一",
+      "competitorGap": "竞对 A 循环 7500 次 @ DoD80，条件不同被要求归一后折算（EV-14）",
+      "evidence": ["EV-01", "EV-04", "EV-05", "EV-07"],
+      "confirmedBy": "李维",
+      "reviewState": "verified",
+      "recentChange": { "at": "05-27 10:15", "by": "吴桐", "action": "升至 A", "auditId": "aud-011" },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "wf-02",
+      "title": "全氟己酮消防获业主安全团队书面认可",
+      "category": "safety",
+      "level": "A",
+      "mandatory": false,
+      "score": 5,
+      "maxScore": 5,
+      "weightPct": 5,
+      "customerNeed": "全氟己酮（FK-5-1-12）、喷放浓度 ≥6.0%、浸渍 ≥10 min，须经业主安全团队评审（招标 §6.2，安全与消防满分 5 分）",
+      "ourResponse": "舱级全氟己酮 + 两级探测，喷放浓度 6.5%、浸渍 12 min，2025-04-22 取得业主安全团队书面认可（EV-09）",
+      "competitorGap": "竞对 B 采用七氟丙烷，业主安全团队要求其补交药剂毒性说明（EV-15）",
+      "evidence": ["EV-02", "EV-04", "EV-09"],
+      "confirmedBy": "李维",
+      "reviewState": "verified",
+      "recentChange": { "at": "05-27 11:40", "by": "吴桐", "action": "升至 A", "auditId": "aud-012" },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "wf-03",
+      "title": "AC-AC 效率口径完整，未触发澄清降分",
+      "category": "compliance",
+      "level": "A",
+      "mandatory": false,
+      "score": 20,
+      "maxScore": 20,
+      "weightPct": 20,
+      "customerNeed": "系统效率 ≥88.0%（AC-AC，含辅助功耗，25℃，招标 §4.2，技术符合性满分 20 分）",
+      "ourResponse": "投标 88.5%（AC-AC 含辅助功耗，辅助功耗 0.9%，IEC 62933-2-1 边界），澄清回函第 1 条确认口径一致（EV-06/EV-08）",
+      "competitorGap": "竞对 B 报 87.2% 未注明测试边界，澄清阶段被要求补交口径说明（EV-15）",
+      "evidence": ["EV-03", "EV-04", "EV-06", "EV-08"],
+      "confirmedBy": "李维",
+      "reviewState": "verified",
+      "recentChange": { "at": "05-27 14:05", "by": "吴桐", "action": "升至 A", "auditId": "aud-013" },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "wf-04",
+      "title": "3 个欧洲同类规模业绩支撑业绩满分",
+      "category": "reference",
+      "level": "A",
+      "mandatory": false,
+      "score": 6,
+      "maxScore": 6,
+      "weightPct": 6,
+      "customerNeed": "近 8 年内 ≥180MWh 欧洲并网业绩不少于 2 个，附并网证明（招标 §7.4，业绩分项满分 6 分）",
+      "ourResponse": "提交 3 个：德国 230MWh（2023 并网）、波兰 200MWh（2024 并网）、奥地利 180MWh（2022 并网），并网证明与验收单齐备（EV-13）",
+      "competitorGap": "竞对 A 提交 2 个同类业绩，竞对 B 未提交 ≥180MWh 欧洲并网业绩（EV-14/EV-15）",
+      "evidence": ["EV-04", "EV-13", "EV-14", "EV-15"],
+      "confirmedBy": "李维",
+      "reviewState": "verified",
+      "recentChange": { "at": "05-28 09:30", "by": "吴桐", "action": "升至 A", "auditId": "aud-014" },
+      "conclusionCarrier": true
+    }
+  ],
+  "solution": {
+    "route": "LFP 液冷",
+    "hardGateParams": [
+      { "key": "cycles", "label": "循环寿命（DoD90/25℃/SoH70）", "requirement": "≥8000 次", "ourValue": "8500 次（同条件）", "status": "meet" },
+      { "key": "efficiency", "label": "系统效率（AC-AC 含辅助功耗）", "requirement": "≥ 88.0%", "ourValue": "88.5%", "status": "meet" },
+      { "key": "fire", "label": "消防介质与浓度", "requirement": "全氟己酮，喷放 ≥6.0%（§6.2）", "ourValue": "全氟己酮，喷放 6.5%", "status": "meet" },
+      { "key": "grid", "label": "并网认证（EN 50549-1 + PPDS 附录 4）", "requirement": "Aster 5000 型号须列名", "ourValue": "两证均覆盖 Aster 5000", "status": "meet" },
+      { "key": "spares", "label": "本地备件仓建成期限", "requirement": "COD 后 12 个月内（§9.6）", "ourValue": "承诺 18 个月 + 过渡期 48 小时调拨", "status": "deviation" },
+      { "key": "transport", "label": "单舱运输尺寸", "requirement": "≤12.2m × 2.4m × 2.9m（§3.5）", "ourValue": "12.6m × 2.4m × 2.9m", "status": "deviation" }
+    ],
+    "differentiators": [
+      { "key": "thermal", "label": "电芯温差", "ourValue": "±1.8℃", "competitorBest": "±3.0℃", "note": "支撑寿命与质保 8/10 分" },
+      { "key": "aux", "label": "辅助功耗", "ourValue": "0.9%", "competitorBest": "1.2%", "note": "已计入 88.5% 效率口径" },
+      { "key": "fireTime", "label": "消防浸渍时间", "ourValue": "12 min", "competitorBest": "10 min", "note": "业主安全团队评审关注项" }
+    ],
+    "configJudgement": {
+      "overSpec": [
+        "电池舱防护等级 IP55（招标仅要求 IP54）",
+        "10 年整机质保（寿命与质保满分 10 分内只计 8 分，延长质保未带来额外加分）"
+      ],
+      "underSpec": [
+        "本地备件仓 18 个月晚于招标 12 个月，以谈判让步与 48 小时过渡调拨覆盖（EV-11）"
+      ],
+      "note": "4 条胜因因素合计权重 41 分（技术分 45 分中的 41 分）；价格 40 分、交付与合同 15 分、本地服务 4 分不构成本次已证实赢因，不进结论载体。"
+    },
+    "certifications": [
+      { "name": "EN 50549-1 并网认证", "scope": "Aster 5000 / 5000H", "validUntil": "2027-06-30", "mandatory": true, "gapRisk": "Aster 5000L 未覆盖，本项目未投该型号" },
+      { "name": "IEC 62619 电芯与模组安全", "scope": "Aster 5000 LFP 电芯模组", "validUntil": "2028-01-31", "mandatory": true, "gapRisk": "无" },
+      { "name": "IEC 62933-5-2 系统安全", "scope": "Aster 5000 系统级（含 PCS）", "validUntil": "2029-03-31", "mandatory": true, "gapRisk": "无" },
+      { "name": "UL 2166 / FM 5600 洁净灭火剂容器", "scope": "Aster 5000 舱级消防单元", "validUntil": "2026-12-31", "mandatory": false, "gapRisk": "加分项，最早 2026-12-31 到期，需提前换证" },
+      { "name": "CZ PPDS 附录 4 型号列名", "scope": "Aster 5000", "validUntil": "2026-04-30", "mandatory": true, "gapRisk": "年度更新，COD 前须复核列名有效期" }
+    ],
+    "deviations": [
+      {
+        "id": "DV-01",
+        "requirement": "本地备件仓须在 COD 后 12 个月内建成，逾期按次扣款（招标 §9.6）",
+        "deviationType": "主动偏差",
+        "reason": "捷克境内选址与消防报批周期实测 15–17 个月，12 个月不可达",
+        "clarification": "承诺 COD 后 18 个月建成，过渡期由波兰区域仓 48 小时调拨，并接受按次考核",
+        "customerAccepted": true,
+        "acceptedEvidence": "EV-11",
+        "reusable": true
+      },
+      {
+        "id": "DV-02",
+        "requirement": "单舱运输尺寸 ≤12.2m × 2.4m × 2.9m（招标 §3.5）",
+        "deviationType": "被动偏差",
+        "reason": "20 尺标准舱为容纳 5MWh 电芯需加长至 12.6m，超限运输须办路线许可",
+        "clarification": "提供超限运输方案，承诺发运前 30 天提交路线许可并抄送业主运维部门",
+        "customerAccepted": true,
+        "acceptedEvidence": "EV-10",
+        "reusable": true
+      }
+    ]
+  },
+  "commercial": {
+    "noQuoteStatement": true,
+    "priceStructure": [
+      { "item": "储能系统（电池舱 + PCS，含舱级消防）", "sharePct": 62, "note": "与招标供货范围表 §2.1 口径一致" },
+      { "item": "升压站与并网设备", "sharePct": 14, "note": "本地分包，含 110kV 接入间隔" },
+      { "item": "土建与安装", "sharePct": 12, "note": "本地分包商，含舱基础与围栏" },
+      { "item": "调试与并网试验", "sharePct": 7, "note": "含 PPDS 附录 4 并网试验与见证测试" },
+      { "item": "5 年运维与备件", "sharePct": 5, "note": "含过渡期 48 小时调拨服务" }
+    ],
+    "tcoFactors": [
+      { "factor": "辅助功耗 0.9%", "impact": "15 年 TCO -2.4%", "note": "液冷按 25℃ 环温策略，效率口径已含辅助功耗" },
+      { "factor": "循环寿命 8500 次", "impact": "15 年 TCO -5.1%", "note": "同条件下比 8000 次多 500 次，等效延后一次增容" },
+      { "factor": "备件仓 18 个月 + 过渡调拨", "impact": "15 年 TCO +0.8%", "note": "建仓投入计入运维分项，未挤占设备分项" },
+      { "factor": "10 年整机质保", "impact": "15 年 TCO +1.1%", "note": "评分表无额外加分，属纯配置成本" }
+    ],
+    "delivery": {
+      "leadTimeDays": 120,
+      "localization": "本地服务伙伴 2 家（布尔诺、俄斯特拉发）；备件仓承诺 COD 后 18 个月建成，过渡期波兰区域仓 48 小时调拨",
+      "thirdPartyRisks": [
+        "110kV 并网柜依赖本地集成商，交期 16 周",
+        "超限运输需路线许可，办理周期 30 天",
+        "舱级消防药剂为单一来源供应商"
+      ]
+    },
+    "contractRisks": [
+      { "clause": "性能罚则上限 20% 合同额（效率低于 88.0% 触发）", "redFlag": true, "concession": "谈至 15%，并明确按 AC-AC 含辅助功耗口径判定", "impactOnFulfilment": "关联 FU-02（年限核验未到节点，罚则未触发）" },
+      { "clause": "延迟交付赔偿 1%/周，上限 10% 合同额", "redFlag": true, "concession": "维持 1%/周，增加不可抗力与清关滞留除外", "impactOnFulfilment": "关联 FU-01（提前 5 天到场，未触发赔付）" },
+      { "clause": "本地备件仓 12 个月内建成，逾期按次扣款", "redFlag": false, "concession": "调整为 18 个月 + 过渡期调拨（EV-11）", "impactOnFulfilment": "关联 FU-01（备件仓计时期自到场起算，随交付记录同步）" }
+    ]
+  },
+  "process": {
+    "involvementTimeline": [
+      { "phase": "2025-02-28 招标发布", "actor": "投标经理", "note": "立项并锁定技术、消防、商务三条线负责人" },
+      { "phase": "2025-03-20（T-29）", "actor": "技术负责人", "note": "抢在澄清截止前提交全氟己酮方案评审包给业主安全团队" },
+      { "phase": "2025-04-11（T-7）", "actor": "法务", "note": "性能罚则 20% 列为红旗，谈判预案含 15% 底线与口径判定条款" },
+      { "phase": "2025-04-11（T-7）", "actor": "商务", "note": "报价四级审批由串行改并行会签，冻结提前 2 天" },
+      { "phase": "2025-04-18 投标截止", "actor": "投标经理", "note": "技术卷、商务卷、资质卷同日提交，附口径对照表" },
+      { "phase": "2025-05-20 开标", "actor": "投标经理", "note": "技术评分 42.0/45，进入第二轮谈判" }
+    ],
+    "blockers": [
+      { "id": "PB-01", "stage": "技术卷效率口径", "issue": "营销口径 DC-AC 88.9% 与招标 AC-AC 含辅助功耗口径混用", "effect": "若按 DC-AC 提交将被澄清，技术符合性存在扣分风险", "fix": "T-10 终审统一为 AC-AC 88.5%，附 IEC 62933-2-1 边界说明与对照表" },
+      { "id": "PB-02", "stage": "舱体运输尺寸", "issue": "12.6m 超出招标建议 12.2m，需超限许可", "effect": "被动偏差若未提前说明可能被判符合性不符", "fix": "改为主动偏差并附路线许可承诺（DV-02），澄清阶段书面接受" },
+      { "id": "PB-03", "stage": "备件仓方案", "issue": "商务与运维成本口径未打通，服务承诺与报价分项脱节", "effect": "18 个月建仓投入无处落地", "fix": "运维与商务联合测算后计入 5% 运维分项，不挤占设备分项" }
+    ],
+    "effectiveReviews": [
+      { "node": "技术卷终审（T-10）", "owner": "王磊", "caught": "拦住效率口径混用（DC-AC 88.9% vs 招标 AC-AC 口径）" },
+      { "node": "消防专项评审", "owner": "赵敏", "caught": "拦住按 5.8% 喷放浓度提交，改为 6.5% 并附 UL 2166 报告" },
+      { "node": "商务合规审", "owner": "陈明", "caught": "拦住性能罚则 20% 与无限连带责任，谈至 15% 并加口径判定" }
+    ]
+  },
+  "fulfilment": [
+    {
+      "id": "FU-01",
+      "commitment": "首批设备到场不晚于 NTP + 120 天",
+      "target": "120 天",
+      "actual": "115 天",
+      "variance": "-5 天",
+      "status": "met",
+      "note": "NTP 2025-06-10 起算，2025-10-03 到场（第 115 天），提前 5 天；超限运输许可提前 30 天办妥",
+      "verifiedAt": "2025-10-06",
+      "experienceIds": ["EXP-03"]
+    },
+    {
+      "id": "FU-02",
+      "commitment": "第 5 年末容量保持率 ≥92.0%（循环 8500 次 @ DoD90/25℃/SoH70）",
+      "target": "≥92.0%",
+      "actual": "履约中",
+      "variance": "履约中",
+      "status": "pending",
+      "note": "5 年首核节点 2031-06-30；截至快照仅首年运行数据 92.8%，未到核验期，性能罚则未触发",
+      "verifiedAt": "2026-10-20",
+      "experienceIds": ["EXP-02"]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "EXP-01",
+      "category": "competitor",
+      "title": "中东欧电网公司项目：性能分是主战场",
+      "summary": "技术分 42.0/45 中寿命、消防、效率、业绩共 41 分接近或满分；竞对侧仅有公开摘要，结论停在 B。",
+      "country": "CZ",
+      "scaleBand": "300-400MWh",
+      "customerType": "电网公司",
+      "bidMode": "公开招标",
+      "productModel": "Aster 5000",
+      "requirement": "循环 ≥8000 次 @ DoD90/25℃/SoH70、效率 ≥88.0% AC-AC、消防全氟己酮（招标 §5.3/§4.2/§6.2）",
+      "strategy": "把重心放在条件与口径完全对齐：寿命用同条件数据、效率用 AC-AC 含辅助功耗，不在单价上让",
+      "result": "技术分 42.0/45，寿命 8/10、消防 5/5、业绩 6/6（EV-04/EV-05）",
+      "evidenceSources": ["EV-04", "EV-05", "EV-14", "EV-15"],
+      "reviewer": "吴桐",
+      "reviewedAt": "2025-05-30",
+      "scope": "适用于欧洲电网公司公开招标、技术分占比 ≥40% 的储能 EPC；不适用于最低价中标的纯设备供货标",
+      "evidenceLevel": "B",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "references": [
+        { "projectId": "p-01", "citedBy": "李维", "citedAt": "2025-06-12", "usedIn": "CZ-Morava 100MWh 技术卷 §5 循环寿命口径" }
+      ],
+      "pendingChange": null,
+      "changeHistory": []
+    },
+    {
+      "id": "EXP-02",
+      "category": "deviation",
+      "title": "效率必须按 AC-AC 含辅助功耗口径提交",
+      "summary": "招标 §4.2 明确 AC-AC 含辅助功耗；我方按 88.5% 提交并附 IEC 62933-2-1 边界说明，澄清零提问，技术符合性 20/20。",
+      "country": "CZ",
+      "scaleBand": "300-400MWh",
+      "customerType": "电网公司",
+      "bidMode": "公开招标",
+      "productModel": "Aster 5000",
+      "requirement": "系统效率 ≥88.0%，AC-AC 含辅助功耗，25℃ 环境温度（招标 §4.2）",
+      "strategy": "统一 AC-AC 口径，主动附辅助功耗 0.9% 拆分表与测试边界页码，避免澄清环节被要求归一折算",
+      "result": "技术符合性 20/20，澄清零技术提问（EV-08/EV-04）",
+      "evidenceSources": ["EV-03", "EV-06", "EV-08", "EV-04"],
+      "reviewer": "吴桐",
+      "reviewedAt": "2025-05-30",
+      "scope": "适用于以 AC-AC 含辅助功耗定义效率的欧洲并网项目；不适用于只按 DC-DC 或额定工况标定的项目",
+      "evidenceLevel": "A",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "references": [
+        { "projectId": "p-01", "citedBy": "李维", "citedAt": "2025-06-18", "usedIn": "CZ-Morava 100MWh 技术卷 §5.2 效率边界说明" }
+      ],
+      "pendingChange": null,
+      "changeHistory": [
+        {
+          "id": "CHG-03",
+          "from": "B",
+          "to": "A",
+          "status": "approved",
+          "requester": "吴桐",
+          "approver": "李维",
+          "requestedAt": "2025-05-26",
+          "reason": "取得评分表技术符合性 20/20 分项记录，可直接指向因果",
+          "newEvidenceIds": ["EV-04"]
+        }
+      ]
+    },
+    {
+      "id": "EXP-03",
+      "category": "commercial",
+      "title": "备件仓承诺要计入运维占比而非设备报价",
+      "summary": "以 18 个月备件仓 + 波兰区域仓 48 小时调拨换客户让步，建仓投入计入 5% 运维分项，避免服务承诺挤占设备口径。",
+      "country": "CZ",
+      "scaleBand": "300-400MWh",
+      "customerType": "电网公司",
+      "bidMode": "公开招标",
+      "productModel": "Aster 5000",
+      "requirement": "本地备件仓 COD 后 12 个月内建成、故障响应 ≤48 小时（招标 §9.6）",
+      "strategy": "谈至 18 个月并给出过渡期 48 小时调拨方案，建仓投入计入 5% 运维分项而非设备分项",
+      "result": "客户书面接受调整（EV-11），商务分 12.5/15（备件仓期限扣 2.5 分），交付提前 5 天（EV-16）",
+      "evidenceSources": ["EV-11", "EV-16"],
+      "reviewer": "陈明",
+      "reviewedAt": "2025-06-02",
+      "scope": "适用于要求本地备件仓与响应时限的欧洲 EPC；不适用于无服务义务的纯设备供货标",
+      "evidenceLevel": "B",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "references": [
+        { "projectId": "p-01", "citedBy": "陈明", "citedAt": "2025-06-20", "usedIn": "CZ-Morava 100MWh 服务承诺表 §3" }
+      ],
+      "pendingChange": null,
+      "changeHistory": []
+    },
+    {
+      "id": "EXP-04",
+      "category": "awarded",
+      "title": "消防方案前置取得业主安全团队书面认可",
+      "summary": "T-30 提交全氟己酮方案评审包，2025-04-22 取得书面认可，安全与消防 5/5；竞对 B 因七氟丙烷被要求补药剂毒性说明。",
+      "country": "CZ",
+      "scaleBand": "300-400MWh",
+      "customerType": "电网公司",
+      "bidMode": "公开招标",
+      "productModel": "Aster 5000",
+      "requirement": "全氟己酮（FK-5-1-12）喷放浓度 ≥6.0%、浸渍 ≥10 min，须经业主安全团队评审（招标 §6.2）",
+      "strategy": "把消防评审前置到澄清截止前，用 UL 2166 报告 + 舱级喷放试验视频支撑 6.5% 浓度与 12 min 浸渍",
+      "result": "安全与消防 5/5，2025-04-22 书面认可（EV-09/EV-04）",
+      "evidenceSources": ["EV-02", "EV-09", "EV-04"],
+      "reviewer": "赵敏",
+      "reviewedAt": "2025-05-30",
+      "scope": "适用于电网公司或公用事业业主且设安全团队评审的储能项目；不适用于仅按 NFPA 855 自证的工商业项目",
+      "evidenceLevel": "A",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "references": [
+        { "projectId": "p-pl-04", "citedBy": "赵敏", "citedAt": "2026-08-14", "usedIn": "波兰 200MWh 消防方案评审包 §2" }
+      ],
+      "pendingChange": null,
+      "changeHistory": []
+    },
+    {
+      "id": "EXP-05",
+      "category": "awarded",
+      "title": "效率口径终审前置到 T-10 可避免澄清降分",
+      "summary": "T-10 技术卷终审加口径对照表，拦住营销 DC-AC 88.9% 与招标 AC-AC 混用；本项目澄清阶段技术零提问。",
+      "country": "CZ",
+      "scaleBand": "300-400MWh",
+      "customerType": "电网公司",
+      "bidMode": "公开招标",
+      "productModel": "Aster 5000",
+      "requirement": "技术卷数据须与招标口径一致并附测试边界说明（招标 §4.2/§5.5）",
+      "strategy": "T-10 技术终审 + 三列口径对照表（招标条款 / 投标数值 / 测试报告页码）",
+      "result": "拦截 2 处口径问题，澄清零技术提问（EV-08/EV-06）",
+      "evidenceSources": ["EV-08", "EV-06", "EV-04"],
+      "reviewer": "王磊",
+      "reviewedAt": "2025-06-02",
+      "scope": "适用于多卷并行、技术分占比 ≥40% 的欧洲公开招标；不适用于单卷小规模供货标",
+      "evidenceLevel": "B",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "references": [],
+      "pendingChange": null,
+      "changeHistory": []
+    },
+    {
+      "id": "EXP-06",
+      "category": "deviation",
+      "title": "超限运输尺寸主动申报是否加分（待验证）",
+      "summary": "舱体 12.6m 超招标建议 12.2m，主动偏差附路线许可承诺获书面接受（EV-10），评分表未单列该项，因果未证实。",
+      "country": "CZ",
+      "scaleBand": "300-400MWh",
+      "customerType": "电网公司",
+      "bidMode": "公开招标",
+      "productModel": "Aster 5000",
+      "requirement": "单舱运输尺寸 ≤12.2m × 2.4m × 2.9m（招标 §3.5）",
+      "strategy": "被动偏差改主动申报：提前 30 天启动路线许可，提交超限运输方案与见证安排",
+      "result": "客户书面接受（EV-10），技术符合性未单列运输尺寸，无法证实加分",
+      "evidenceSources": ["EV-10", "EV-03"],
+      "reviewer": "吴桐",
+      "reviewedAt": "2025-05-30",
+      "scope": "适用于内陆场址、运输条件受限的储能项目；不适用于具备水运或铁路直达条件的沿海项目",
+      "evidenceLevel": "C",
+      "state": "draft",
+      "conclusionCarrier": false,
+      "verificationPlan": "在 p-01 CZ-Morava 100MWh 投标中观察招标是否将运输尺寸列为符合性条目，并核对客户是否在澄清阶段给予正向评价",
+      "verificationDue": "2027-03-31",
+      "references": [],
+      "pendingChange": null,
+      "changeHistory": []
+    }
+  ],
+  "openItems": [
+    { "id": "TODO-01", "item": "向业主索取评标反馈原件（技术分项评语全页），补齐竞对侧评语", "owner": "李维", "due": "2026-11-15", "blocks": "EXP-01 升 A" },
+    { "id": "TODO-02", "item": "归档奥地利 180MWh 项目并网运行证明原件，替换扫描件", "owner": "赵敏", "due": "2026-11-30", "blocks": "EXP-04 证据链完整性" },
+    { "id": "TODO-03", "item": "建立备件仓 COD 后 18 个月节点台账与 48 小时调拨 SLA 核验记录", "owner": "陈明", "due": "2027-01-31", "blocks": "FU-02 核验 / EXP-03 复核" }
+  ],
+  "retroMeta": {
+    "owner": "李维",
+    "retroDate": "2025-05-30",
+    "generatedBy": "retro skill（模拟数据）",
+    "humanConfirmed": false,
+    "dataNote": "模拟数据，非真实企业信息（演示用途）"
+  }
+}

@@ -1,0 +1,760 @@
+{
+  "schemaVersion": "1.1",
+  "case": {
+    "retroId": "rp-04",
+    "id": "p-05",
+    "name": "IT-Sardinia 80MWh 独立储能（2025 中标）",
+    "country": "IT",
+    "mw": 20,
+    "mwh": 80,
+    "route": "LFP 液冷",
+    "customerType": "独立发电商",
+    "bidMode": "公开招标（两阶段）",
+    "contractMode": "设备 + 5 年运维",
+    "productModel": "Aster 4000H",
+    "awardedYear": 2025,
+    "awardDate": "2025-03-10",
+    "competitorIds": ["竞对 A", "竞对 C"],
+    "hasScoreSheet": true,
+    "snapshotAt": "2025-08-01"
+  },
+  "evidence": [
+    {
+      "id": "EV-01",
+      "type": "tender",
+      "title": "招标文件（第二阶段）第 4 章 评分权重与评分办法",
+      "documentId": "doc-101",
+      "originalFiled": true,
+      "page": 12,
+      "section": "招标 §4.2 评分权重",
+      "snippet": "总分 100 分：商务 30 分、技术 50 分、本地内容 20 分；商务分项含付款条件与履约保函期限",
+      "reliability": "official",
+      "collectedBy": "周敏",
+      "collectedAt": "2025-01-20"
+    },
+    {
+      "id": "EV-02",
+      "type": "tender",
+      "title": "招标文件（第二阶段）第 5 章 交付与运维条款",
+      "documentId": "doc-101",
+      "originalFiled": true,
+      "page": 27,
+      "section": "招标 §5.3 交付与运维",
+      "snippet": "首批设备应在 NTP 后 105 天内到场；延误按 0.3%/天计罚、累计上限 5% 合同额；运维响应 ≤24 小时、备件到场 ≤72 小时",
+      "reliability": "official",
+      "collectedBy": "周敏",
+      "collectedAt": "2025-01-20"
+    },
+    {
+      "id": "EV-03",
+      "type": "tender",
+      "title": "招标文件（第二阶段）第 6 章 付款条件",
+      "documentId": "doc-101",
+      "originalFiled": true,
+      "page": 34,
+      "section": "招标 §6.4 付款条件",
+      "snippet": "预付款比例不低于 20%，其余按到货、验收、质保金节点支付，质保金上限 10%，质保期 24 个月",
+      "reliability": "official",
+      "collectedBy": "陈明",
+      "collectedAt": "2025-01-22"
+    },
+    {
+      "id": "EV-04",
+      "type": "scoreSheet",
+      "title": "评标结果汇总表（第二阶段，4 家投标人）",
+      "documentId": "doc-114",
+      "originalFiled": true,
+      "page": 2,
+      "section": "评分汇总",
+      "snippet": "商务 21/30、技术 41.5/50、本地内容 16/20，加权总分 78.5/100，排名第 1；第 2 名 76.8/100",
+      "reliability": "official",
+      "collectedBy": "周敏",
+      "collectedAt": "2025-03-18"
+    },
+    {
+      "id": "EV-05",
+      "type": "scoreSheet",
+      "title": "商务评分类别级明细（无分项细目）",
+      "documentId": "doc-115",
+      "originalFiled": true,
+      "page": 4,
+      "section": "2.1 商务评分（类别级）",
+      "snippet": "商务类别 7/10；扣分说明：付款条件无偏离，履约保函期限 90 天短于建议 120 天，未见分项计分明细",
+      "reliability": "official",
+      "collectedBy": "周敏",
+      "collectedAt": "2025-03-18"
+    },
+    {
+      "id": "EV-06",
+      "type": "ourBid",
+      "title": "投标商务卷（第二阶段提交版）",
+      "documentId": "doc-102",
+      "originalFiled": true,
+      "page": 33,
+      "section": "6.2 付款节点",
+      "snippet": "预付款 20%、到货付 50%、验收付 20%、质保金 10%，四项合计 100%，保函期 90 天",
+      "reliability": "official",
+      "collectedBy": "陈明",
+      "collectedAt": "2025-02-24"
+    },
+    {
+      "id": "EV-07",
+      "type": "negotiation",
+      "title": "商务谈判纪要（第二阶段第 2 轮，本项目唯一一份）",
+      "documentId": "doc-108",
+      "originalFiled": true,
+      "page": 3,
+      "section": "付款条件与运维承诺",
+      "snippet": "客户要求预付款提至 30%，并称另一投标人已接受 30%；我方维持 20%，以 5 年运维 24 小时响应置换",
+      "reliability": "official",
+      "collectedBy": "陈明",
+      "collectedAt": "2025-02-27"
+    },
+    {
+      "id": "EV-08",
+      "type": "ourBid",
+      "title": "投标技术卷（第二阶段提交版）第 5 章 并网与认证",
+      "documentId": "doc-103",
+      "originalFiled": true,
+      "page": 41,
+      "section": "5.3 CEI 0-16 并网符合性",
+      "snippet": "Aster 4000H 持 CEI 0-16 型式试验报告，证书有效期至 2027-09-30，覆盖 20MW/80MWh 单站配置",
+      "reliability": "official",
+      "collectedBy": "吴桐",
+      "collectedAt": "2025-02-24"
+    },
+    {
+      "id": "EV-09",
+      "type": "competitorBid",
+      "title": "竞对 A 技术标公开摘要（撒丁岛项目公示附件）",
+      "documentId": null,
+      "originalFiled": false,
+      "page": null,
+      "section": "性能与认证页",
+      "snippet": "竞对 A 液冷机型电芯温差控制 ±2.5℃，并网章节未列 CEI 0-16 型号覆盖清单及证书有效期",
+      "reliability": "public",
+      "collectedBy": "吴桐",
+      "collectedAt": "2025-03-14"
+    },
+    {
+      "id": "EV-10",
+      "type": "clarification",
+      "title": "客户澄清回函（噪声偏差，第 3 条）",
+      "documentId": "doc-109",
+      "originalFiled": true,
+      "page": 1,
+      "section": "澄清回函第 3 条",
+      "snippet": "客户书面接受 58 dB(A) 加隔声罩方案，要求并网前 30 天完成复测并提交第三方报告",
+      "reliability": "official",
+      "collectedBy": "周敏",
+      "collectedAt": "2025-02-18"
+    },
+    {
+      "id": "EV-11",
+      "type": "clarification",
+      "title": "客户澄清回函（本地内容计算口径，第 7 条）",
+      "documentId": "doc-110",
+      "originalFiled": true,
+      "page": 2,
+      "section": "澄清回函第 7 条",
+      "snippet": "本地内容按本地分包合同额占比计算，填报比例不得低于 25%，需附分包商清单与合同额拆分表",
+      "reliability": "official",
+      "collectedBy": "马晓东",
+      "collectedAt": "2025-02-18"
+    },
+    {
+      "id": "EV-12",
+      "type": "other",
+      "title": "内部复盘会纪要（2025-03-19，6 人）",
+      "documentId": "doc-112",
+      "originalFiled": true,
+      "page": 1,
+      "section": "赢因讨论",
+      "snippet": "与会 6 人认为本地内容比例加分是本次取胜关键，但未取得评分细项与竞对填报比例，属内部推断",
+      "reliability": "thirdParty",
+      "collectedBy": "周敏",
+      "collectedAt": "2025-03-19"
+    },
+    {
+      "id": "EV-13",
+      "type": "tender",
+      "title": "招标文件 §3.2 第一阶段资格文件清单",
+      "documentId": "doc-101",
+      "originalFiled": true,
+      "page": 8,
+      "section": "招标 §3.2 资格文件 b 项",
+      "snippet": "第一阶段须提交 CEI 0-16 型式试验报告及型号覆盖清单，缺失者不予进入第二阶段评审",
+      "reliability": "official",
+      "collectedBy": "吴桐",
+      "collectedAt": "2025-01-20"
+    },
+    {
+      "id": "EV-14",
+      "type": "clarification",
+      "title": "客户澄清回函（并网柜短名单与分批交付）",
+      "documentId": "doc-111",
+      "originalFiled": true,
+      "page": 1,
+      "section": "澄清回函第 5 条",
+      "snippet": "客户同意并网柜分两批交付：首批 1 面 2025-05-30 前到场用于并网试验，剩余 2 面 2025-06-30 前到场",
+      "reliability": "official",
+      "collectedBy": "马晓东",
+      "collectedAt": "2025-02-18"
+    },
+    {
+      "id": "EV-15",
+      "type": "fulfilment",
+      "title": "到货与清关台账（2025 年 Q3）",
+      "documentId": "doc-120",
+      "originalFiled": true,
+      "page": 1,
+      "section": "交付节点",
+      "snippet": "首批设备到场 2025-07-22，较 NTP 后 105 天节点（2025-07-15）延误 7 天，其中热那亚港清关占用 5 天",
+      "reliability": "thirdParty",
+      "collectedBy": "王磊",
+      "collectedAt": "2025-07-25"
+    },
+    {
+      "id": "EV-16",
+      "type": "fulfilment",
+      "title": "运维响应台账（2025-04 至 2025-07）",
+      "documentId": "doc-121",
+      "originalFiled": true,
+      "page": 1,
+      "section": "响应记录",
+      "snippet": "运维期尚未起算（待 COD），期间记录故障 3 次，平均响应 9 小时，备件均由卡利亚里港调拨",
+      "reliability": "thirdParty",
+      "collectedBy": "王磊",
+      "collectedAt": "2025-07-25"
+    }
+  ],
+  "winFactors": [
+    {
+      "id": "wf-01",
+      "title": "付款条件优于对手但非决定因素",
+      "category": "price",
+      "level": "B",
+      "mandatory": false,
+      "score": 7,
+      "maxScore": 10,
+      "weightPct": 30,
+      "customerNeed": "预付款不低于 20%，其余按到货/验收/质保金节点支付；商务 30 分含付款条件与保函期限（招标 §4.2、§6.4）",
+      "ourResponse": "按 20%/50%/20%/10% 四节点报价，保函 90 天；商务类别 7/10，折算 21/30（EV-05、EV-06）",
+      "competitorGap": "客户在谈判纪要中转述另一投标人已接受预付 30%，我方仍守 20%（EV-07）；竞对 C 付款条件未见披露",
+      "evidence": ["EV-05", "EV-06", "EV-07"],
+      "confirmedBy": "周敏",
+      "reviewState": "pending",
+      "recentChange": {
+        "at": "03-19 17:40",
+        "by": "周敏",
+        "action": "等级定为 B（商务分仅类别级，谈判纪要仅 1 份）",
+        "auditId": "aud-011"
+      },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "wf-02",
+      "title": "5 年运维 24 小时响应 + 备件 72 小时到场",
+      "category": "local",
+      "level": "B",
+      "mandatory": false,
+      "score": 8,
+      "maxScore": 10,
+      "weightPct": 25,
+      "customerNeed": "运维响应 ≤24 小时、备件到场 ≤72 小时，运维期 60 个月（招标 §5.3）",
+      "ourResponse": "承诺 5 年固定费率下 24 小时响应 / 72 小时到场；服务分 8/10，折算 20/25（EV-04）；技术卷其余 21.5/25 为参数分，未单列为胜因",
+      "competitorGap": "未知",
+      "evidence": ["EV-02", "EV-04", "EV-07"],
+      "confirmedBy": "吴桐",
+      "reviewState": "pending",
+      "recentChange": {
+        "at": "03-19 18:05",
+        "by": "吴桐",
+        "action": "维持 B，待补服务分分项依据",
+        "auditId": "aud-012"
+      },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "wf-03",
+      "title": "本地内容比例 27% 得 16/20，是否拉开差距待验证",
+      "category": "local",
+      "level": "C",
+      "mandatory": false,
+      "score": 16,
+      "maxScore": 20,
+      "weightPct": 20,
+      "customerNeed": "本地内容按本地分包合同额占比计算，填报比例不得低于 25%，占总分 20 分（招标 §4.2、澄清第 7 条）",
+      "ourResponse": "本地分包 27%（并网柜 + 土建），本地内容 16/20（EV-04、EV-11）",
+      "competitorGap": "未知",
+      "evidence": ["EV-04", "EV-11", "EV-12"],
+      "confirmedBy": "",
+      "reviewState": "draft",
+      "recentChange": {
+        "at": "03-20 10:15",
+        "by": "李静",
+        "action": "降为 C，竞对本地内容填报比例未知且无分项细目",
+        "auditId": "aud-013"
+      },
+      "conclusionCarrier": false,
+      "verificationPlan": "在 p-06 意大利 Sicilia 120MWh 两阶段招标中索取本地内容评分细项，并记录竞对填报比例",
+      "verificationDue": "2025-12-31"
+    }
+  ],
+  "solution": {
+    "route": "LFP 液冷",
+    "hardGateParams": [
+      {
+        "key": "efficiency",
+        "label": "系统效率（AC-AC，含辅助功耗）",
+        "requirement": "≥ 88.0%",
+        "ourValue": "89.2%",
+        "status": "meet"
+      },
+      {
+        "key": "cycles",
+        "label": "循环次数（DoD90 / 25℃ / SoH70）",
+        "requirement": "≥ 6000 次",
+        "ourValue": "8000 次（同条件四要素齐全）",
+        "status": "meet"
+      },
+      {
+        "key": "thermal",
+        "label": "电芯温差",
+        "requirement": "≤ ±3.0℃",
+        "ourValue": "±1.8℃",
+        "status": "meet"
+      },
+      {
+        "key": "grid",
+        "label": "并网认证 CEI 0-16",
+        "requirement": "型式试验报告 + 型号覆盖清单",
+        "ourValue": "Aster 4000H 已覆盖，有效期至 2027-09-30",
+        "status": "meet"
+      },
+      {
+        "key": "noise",
+        "label": "厂界噪声（距最近居民区 80 m）",
+        "requirement": "≤ 55 dB(A)",
+        "ourValue": "58 dB(A)，配隔声罩后 53 dB(A)",
+        "status": "deviation"
+      },
+      {
+        "key": "fire",
+        "label": "消防认证 UNI 9494-3",
+        "requirement": "并网前提交第三方报告",
+        "ourValue": "第三方报告出具中，预计 2025-08-30",
+        "status": "pending"
+      },
+      {
+        "key": "freq",
+        "label": "一次调频响应时间",
+        "requirement": "≤ 1 s（招标 §5.6）",
+        "ourValue": "—（答疑后该项改为并网考核项，投标阶段未应答）",
+        "status": "noResponse"
+      }
+    ],
+    "differentiators": [
+      {
+        "key": "thermal",
+        "label": "电芯温差",
+        "ourValue": "±1.8℃",
+        "competitorBest": "±2.5℃",
+        "note": "对应技术参数分项 21.5/25 的一部分，属评分项非废标项"
+      },
+      {
+        "key": "response",
+        "label": "运维响应时限",
+        "ourValue": "24 小时（5 年）",
+        "competitorBest": "未知",
+        "note": "仅招标条款 + 谈判纪要 + 服务分 8/10 支持，等级停在 B"
+      },
+      {
+        "key": "aux",
+        "label": "辅助功耗",
+        "ourValue": "0.9%",
+        "competitorBest": "未知",
+        "note": "影响 5 年运维电费，评分表中未单列该项"
+      },
+      {
+        "key": "local",
+        "label": "本地分包占比",
+        "ourValue": "27%（承诺 ≥25%）",
+        "competitorBest": "未知",
+        "note": "本地内容 16/20，分项细目未披露，结论不作因果使用"
+      }
+    ],
+    "configJudgement": {
+      "overSpec": [
+        "10 年整机质保（评分表无此项，纯成本）",
+        "双套通信网关冗余（技术卷要求单套即可）"
+      ],
+      "underSpec": [
+        "本地备件仓建设成本未计入 5 年运维固定费率，COD 前存在缺口",
+        "消防报告未随投标提交，成为并网前履约义务"
+      ],
+      "note": "配置按 20MW/80MWh 单站两小时系统设计，2 小时系统扩容至 4 小时需补 PCS 与土建，未在报价结构内预留"
+    },
+    "certifications": [
+      {
+        "name": "CEI 0-16",
+        "scope": "Aster 4000H",
+        "validUntil": "2027-09-30",
+        "mandatory": true,
+        "gapRisk": "4000H-S 扩容型未覆盖，若客户改型需 90 天补证"
+      },
+      {
+        "name": "IEC 62619",
+        "scope": "Aster 4000H",
+        "validUntil": "2026-12-31",
+        "mandatory": true,
+        "gapRisk": "2026-12 前需续证，已排入认证计划，与本次投标无关"
+      },
+      {
+        "name": "UNI 9494-3（储能消防）",
+        "scope": "Aster 4000H",
+        "validUntil": "2025-12-31",
+        "mandatory": false,
+        "gapRisk": "加分认证，第三方报告出具中，对应 hardGate fire 的 pending 状态"
+      }
+    ],
+    "deviations": [
+      {
+        "id": "DV-01",
+        "requirement": "厂界噪声 ≤ 55 dB(A)（招标 §5.7）",
+        "deviationType": "主动偏差",
+        "reason": "液冷机组实测 58 dB(A)，站址距最近居民区 80 m，超限值 3 dB(A)",
+        "clarification": "提供隔声罩方案，承诺并网前 30 天复测至 53 dB(A)",
+        "customerAccepted": true,
+        "acceptedEvidence": "EV-10",
+        "reusable": true
+      },
+      {
+        "id": "DV-02",
+        "requirement": "并网柜由投标人整体供货（招标 §5.5）",
+        "deviationType": "被动偏差",
+        "reason": "短名单内仅 1 家可供，交期 14 周超出 12 周窗口",
+        "clarification": "改为并网柜分两批交付，首批 1 面用于并网试验，剩余 2 面 2025-06-30 前到场",
+        "customerAccepted": true,
+        "acceptedEvidence": "EV-14",
+        "reusable": true
+      }
+    ]
+  },
+  "commercial": {
+    "noQuoteStatement": true,
+    "priceStructure": [
+      {
+        "item": "储能系统主机（含液冷与消防，不含并网柜）",
+        "sharePct": 58,
+        "note": "与招标供货范围表口径一致，含 2 小时系统 PCS 与电池舱"
+      },
+      {
+        "item": "并网柜与升压设备（本地分包）",
+        "sharePct": 14,
+        "note": "短名单单一来源，分批交付"
+      },
+      {
+        "item": "运输与清关（含撒丁岛海运）",
+        "sharePct": 7,
+        "note": "热那亚港清关 + 每周 2 班岛内海运"
+      },
+      {
+        "item": "安装调试与并网试验",
+        "sharePct": 9,
+        "note": "含 CEI 0-16 并网试验与隔声罩安装"
+      },
+      {
+        "item": "5 年运维服务（固定费率）",
+        "sharePct": 12,
+        "note": "对应 24 小时响应 / 72 小时到场承诺，建仓成本未单列"
+      }
+    ],
+    "tcoFactors": [
+      {
+        "factor": "辅助功耗",
+        "impact": "TCO -2.4%",
+        "note": "0.9% 辅助功耗，液冷温控策略优化"
+      },
+      {
+        "factor": "5 年运维固定费率",
+        "impact": "TCO -1.5%",
+        "note": "费率锁定，通胀与备件涨价风险由我方承担"
+      },
+      {
+        "factor": "10 年整机质保",
+        "impact": "TCO +1.1%",
+        "note": "评分表无对应加分项，纯成本"
+      }
+    ],
+    "delivery": {
+      "leadTimeDays": 105,
+      "localization": "本地分包 2 家（并网柜、土建）；备件依托卡利亚里港 72 小时调拨，正式备件仓未建",
+      "thirdPartyRisks": [
+        "并网柜短名单单一来源，交期 14 周",
+        "热那亚港清关平均滞留 4 至 6 天",
+        "撒丁岛海运每周仅 2 班，改班即延误 2 天"
+      ]
+    },
+    "contractRisks": [
+      {
+        "clause": "运维响应超时按次扣款 0.5%，未设年度累计上限",
+        "redFlag": true,
+        "concession": "未谈下年度上限，仅约定单次扣款上限 3%",
+        "impactOnFulfilment": "关联 FU-01（5 年运维期自 COD 起算，响应台账按月核验）"
+      },
+      {
+        "clause": "延误交付 0.3%/天，累计上限 5% 合同额",
+        "redFlag": true,
+        "concession": "上限由 8% 谈至 5%，未争取免责宽限期",
+        "impactOnFulfilment": "关联 FU-02（延误 7 天按 0.3%/天计罚 2.1%，未触达 5% 上限）"
+      },
+      {
+        "clause": "本地内容比例承诺 ≥25%，未达标扣 2% 合同额",
+        "redFlag": false,
+        "concession": "按澄清第 7 条口径申报 27%，无让步空间",
+        "impactOnFulfilment": "关联 FU-02（到货节点与本地分包合同额同步备案，占比 27%）"
+      }
+    ]
+  },
+  "process": {
+    "involvementTimeline": [
+      {
+        "phase": "第一阶段资格预审（T-45）",
+        "actor": "投标经理 周敏",
+        "note": "立项即拉认证组，CEI 0-16 型号覆盖清单提前 4 周启动"
+      },
+      {
+        "phase": "澄清截止前 5 天（T-20）",
+        "actor": "法务 李静",
+        "note": "介入偏晚，罚则与本地内容违约条款只出书面意见，未参与澄清提问"
+      },
+      {
+        "phase": "T-12",
+        "actor": "供应链 马晓东",
+        "note": "确认并网柜短名单仅 1 家可供、交期 14 周，触发被动偏差与分批交付澄清"
+      },
+      {
+        "phase": "T-6",
+        "actor": "商务 陈明",
+        "note": "谈判第 2 轮，客户要求预付 30%，我方维持 20% 并以运维响应置换"
+      },
+      {
+        "phase": "T-1",
+        "actor": "技术 吴桐",
+        "note": "终审发现噪声实测 58 dB(A) 超 55 dB(A)，改为主动偏差 + 隔声罩方案"
+      }
+    ],
+    "blockers": [
+      {
+        "id": "PB-01",
+        "stage": "认证补证",
+        "issue": "CEI 0-16 型号覆盖清单需第三方出具，出具晚 3 天",
+        "effect": "资格文件包 T-14 才齐，技术卷编写被压缩 3 天",
+        "fix": "认证组在招标发布前预置型号清单模板，T-30 前完成第三方预约"
+      },
+      {
+        "id": "PB-02",
+        "stage": "报价审批",
+        "issue": "并网柜短名单单一来源，价格确认串行两级",
+        "effect": "商务卷冻结晚 2 天，谈判首轮资料不全",
+        "fix": "单一来源项目 T-15 前完成价格确认，与整体报价并行会签"
+      },
+      {
+        "id": "PB-03",
+        "stage": "本地内容申报",
+        "issue": "分包占比台账由分包商提供，口径反复",
+        "effect": "第一版申报 23%，复核后改 27%，险些低于 25% 触发违约",
+        "fix": "按澄清第 7 条口径建标准台账，T-10 前锁定"
+      }
+    ],
+    "effectiveReviews": [
+      {
+        "node": "技术卷终审",
+        "owner": "吴桐",
+        "caught": "拦住 4000H 与 4000H-S 型号覆盖混淆，避免资格文件失效"
+      },
+      {
+        "node": "法务合规审",
+        "owner": "李静",
+        "caught": "拦住无限责任条款与无年度上限的响应扣款条款"
+      },
+      {
+        "node": "本地内容复核",
+        "owner": "马晓东",
+        "caught": "分包占比由 23% 修正为 27%，避免低于 25% 的扣款风险"
+      }
+    ]
+  },
+  "fulfilment": [
+    {
+      "id": "FU-01",
+      "commitment": "5 年运维期内故障响应 ≤24 小时、备件到场 ≤72 小时（招标 §5.3、合同附件 C）",
+      "target": "24 小时",
+      "actual": "履约中",
+      "variance": "履约中",
+      "status": "pending",
+      "note": "运维期自 COD 起 60 个月，COD 预计 2025-09-30；首月台账已建，待起算后按月核验",
+      "verifiedAt": "2025-07-25",
+      "experienceIds": ["EXP-03"]
+    },
+    {
+      "id": "FU-02",
+      "commitment": "首批设备在 NTP 后 105 天内到场（NTP 2025-04-01，节点 2025-07-15）",
+      "target": "105 天",
+      "actual": "112 天",
+      "variance": "+7 天",
+      "status": "partial",
+      "note": "到场 2025-07-22，清关滞留 5 天、岛内海运改班 2 天；按 0.3%/天计罚 2.1%，未达 5% 上限",
+      "verifiedAt": "2025-07-25",
+      "experienceIds": ["EXP-01"]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "EXP-01",
+      "category": "commercial",
+      "title": "预付比例 30% 谈到 20%：用运维响应置换付款条件",
+      "summary": "客户两轮要求预付 30%，我方守 20% 并以 5 年运维 24 小时响应置换；商务 7/10，但仅 1 份谈判纪要，因果未证实。",
+      "projectId": "p-05",
+      "country": "IT",
+      "scaleBand": "50-100MWh",
+      "customerType": "独立发电商",
+      "bidMode": "公开招标（两阶段）",
+      "productModel": "Aster 4000H",
+      "requirement": "预付款不低于 20%，其余按到货/验收/质保金节点支付；商务 30 分含付款条件与保函期限（招标 §4.2、§6.4）",
+      "strategy": "按 20%/50%/20%/10% 四节点报价，保函 90 天，用 5 年运维 24 小时响应与 72 小时到场置换 30% 预付要求",
+      "result": "商务类别 7/10、折算 21/30；谈判纪要仅 1 份，无分项计分依据，等级 B（EV-05/EV-06/EV-07）",
+      "evidenceSources": ["EV-05", "EV-06", "EV-07"],
+      "reviewer": "周敏",
+      "reviewedAt": "2025-03-21",
+      "scope": "适用于商务权重 ≥30%、预付款条款可谈的欧洲两阶段招标；不适用于固定付款条件、以最低价中标的纯设备供货项目",
+      "evidenceLevel": "B",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "verificationPlan": "在 p-06 意大利 Sicilia 120MWh 招标中核对付款条件得分与预付比例的对应关系，2025-12-31 前复核",
+      "verificationDue": "2025-12-31",
+      "references": [],
+      "pendingChange": null,
+      "changeHistory": []
+    },
+    {
+      "id": "EXP-02",
+      "category": "awarded",
+      "title": "意大利两阶段招标：第一阶段必须交 CEI 0-16 型号覆盖清单",
+      "summary": "第一阶段资格预审以 CEI 0-16 报告加型号覆盖清单为准入门槛，缺失直接不入围；我方 4000H 已覆盖，竞对 A 未列清单。",
+      "projectId": "p-05",
+      "country": "IT",
+      "scaleBand": "50-100MWh",
+      "customerType": "独立发电商",
+      "bidMode": "公开招标（两阶段）",
+      "productModel": "Aster 4000H",
+      "requirement": "第一阶段提交 CEI 0-16 型式试验报告及型号覆盖清单，缺失者不予进入第二阶段（招标 §3.2 资格文件 b 项）",
+      "strategy": "投标前 4 周由认证组出具覆盖清单并与并网章节交叉引用，注明证书有效期至 2027-09-30",
+      "result": "通过第一阶段资格预审，进入第二阶段 4 家之一；技术 41.5/50（EV-04/EV-08/EV-13）",
+      "evidenceSources": ["EV-04", "EV-08", "EV-13"],
+      "reviewer": "吴桐",
+      "reviewedAt": "2025-03-21",
+      "scope": "适用于意大利及其他要求 CEI 0-16 / EN 50549 型号覆盖的并网项目；不适用于离网或仅做设备供货、不含并网责任的项目",
+      "evidenceLevel": "A",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "verificationPlan": "在 p-06 意大利 Sicilia 120MWh 资格预审中复用同一覆盖清单模板，2025-10-31 前复核是否仍免补证",
+      "verificationDue": "2025-10-31",
+      "references": [],
+      "pendingChange": null,
+      "changeHistory": []
+    },
+    {
+      "id": "EXP-03",
+      "category": "deviation",
+      "title": "5 年运维 24 小时响应写进技术卷，服务分 8/10",
+      "summary": "把运维响应 24 小时、备件 72 小时到场写成可核验条款换服务分 8/10；但分项未披露，建仓成本未进运维费率。",
+      "projectId": "p-05",
+      "country": "IT",
+      "scaleBand": "50-100MWh",
+      "customerType": "独立发电商",
+      "bidMode": "公开招标（两阶段）",
+      "productModel": "Aster 4000H",
+      "requirement": "运维响应 ≤24 小时、备件到场 ≤72 小时，运维期 60 个月（招标 §5.3）",
+      "strategy": "以本地分包 2 家 + 卡利亚里港 72 小时调拨承诺 24/72 小时，运维费率 5 年固定",
+      "result": "服务分 8/10，技术合计 41.5/50；履约转 pending，COD 后按月核验（EV-02/EV-04/EV-16）",
+      "evidenceSources": ["EV-02", "EV-04", "EV-16"],
+      "reviewer": "吴桐",
+      "reviewedAt": "2025-03-21",
+      "scope": "适用于合同期 ≥5 年、运维响应写入评分的欧洲项目；不适用于无运维条款的纯设备供货或运维期 ≤2 年的项目",
+      "evidenceLevel": "B",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "verificationPlan": "在意大利后续招标中用服务分细项核对 24 小时响应的加分权重，2026-03-31 前复核",
+      "verificationDue": "2026-03-31",
+      "references": [
+        {
+          "projectId": "p-06",
+          "citedBy": "吴桐",
+          "citedAt": "2025-06-18",
+          "usedIn": "意大利 Sicilia 120MWh 投标技术卷 §3.4 运维服务承诺表"
+        }
+      ],
+      "pendingChange": null,
+      "changeHistory": []
+    },
+    {
+      "id": "EXP-04",
+      "category": "competitor",
+      "title": "本地内容 16/20：竞对填报比例未知，加分是否拉开差距待验证",
+      "summary": "我方按本地分包 27% 填报、本地内容得 16/20，但无分项细目、竞对比例未知，无法证明该项是拉开差距的因素。",
+      "projectId": "p-05",
+      "country": "IT",
+      "scaleBand": "50-100MWh",
+      "customerType": "独立发电商",
+      "bidMode": "公开招标（两阶段）",
+      "productModel": "Aster 4000H",
+      "requirement": "本地内容按本地分包合同额占比计算，填报 ≥25%，占总分 20 分（招标 §4.2、澄清第 7 条）",
+      "strategy": "本地分包 27%（并网柜 + 土建），备件依托卡利亚里港，按澄清口径附分包商清单与合同额拆分表",
+      "result": "本地内容 16/20；竞对 A、C 填报比例未知，无分项细目（EV-04/EV-11/EV-12）",
+      "evidenceSources": ["EV-04", "EV-11", "EV-12"],
+      "reviewer": "李静",
+      "reviewedAt": "2025-03-21",
+      "scope": "适用于设本地内容比例加分（≥15 分）的欧洲招标；不适用于本地化无加分、或客户按整机原产地而非分包占比计分的项目",
+      "evidenceLevel": "C",
+      "state": "draft",
+      "conclusionCarrier": false,
+      "verificationPlan": "在 p-06 意大利 Sicilia 120MWh 投标中向客户索取本地内容评分细项并记录竞对填报比例，2025-12-31 前复核",
+      "verificationDue": "2025-12-31",
+      "references": [],
+      "pendingChange": null,
+      "changeHistory": []
+    }
+  ],
+  "openItems": [
+    {
+      "id": "TODO-01",
+      "item": "向客户索取第二阶段评标细项（商务/技术/本地内容分项计分明细）",
+      "owner": "周敏",
+      "due": "2025-04-10",
+      "blocks": "wf-01、wf-02 升 A；EXP-01 升 A"
+    },
+    {
+      "id": "TODO-02",
+      "item": "取得竞对 A、C 的本地内容申报比例（公示附件与分包清单）",
+      "owner": "马晓东",
+      "due": "2025-06-30",
+      "blocks": "EXP-04 升 B"
+    },
+    {
+      "id": "TODO-03",
+      "item": "核定本地备件仓建设成本并重算 5 年运维固定费率，COD 前补齐缺口",
+      "owner": "陈明",
+      "due": "2025-09-15",
+      "blocks": "FU-01 运维期核验；EXP-03 修复"
+    }
+  ],
+  "retroMeta": {
+    "owner": "周敏",
+    "retroDate": "2025-03-21",
+    "generatedBy": "retro skill（模拟数据）",
+    "humanConfirmed": false,
+    "dataNote": "模拟数据，非真实企业信息（演示用途）"
+  }
+}

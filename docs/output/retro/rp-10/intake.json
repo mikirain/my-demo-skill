@@ -1,0 +1,79 @@
+{
+  "caseId": "p-06",
+  "projectName": "CZ-Morava 320MWh 独立储能",
+  "checkedAt": "2026-10-25",
+  "materials": [
+    {
+      "key": "tender",
+      "label": "招标文件/技术规格书",
+      "level": "required",
+      "why": "决定强制项、评分办法、并网规范",
+      "present": false,
+      "path": "",
+      "note": "未提供；评分办法与强制条款全部待补"
+    },
+    {
+      "key": "ourBid",
+      "label": "我方投标文件终版",
+      "level": "required",
+      "why": "技术卷/商务卷/偏差表终版，用于核对承诺",
+      "present": false,
+      "path": "",
+      "note": "未提供；技术方案、产品型号、承诺值全部待补"
+    },
+    {
+      "key": "awardNotice",
+      "label": "中标通知书或中标公示",
+      "level": "required",
+      "why": "确认结果与中标范围",
+      "present": false,
+      "path": "",
+      "note": "未提供；仅口头确认「已在捷克中标」，无中标日期/公示"
+    },
+    {
+      "key": "scoreSheet",
+      "label": "正式评标打分表/评标反馈",
+      "level": "strong",
+      "why": "决定能否评 A 级（BR-13）",
+      "present": true,
+      "path": "",
+      "note": "用户转述汇总分值：综合 87.6/100，技术 41/45、商务 46.6/50；评分表原件与分项明细待补；45+50=95≠100 的 5 分构成待确认"
+    },
+    {
+      "key": "clarification",
+      "label": "澄清/答疑往返记录",
+      "level": "optional",
+      "why": "偏差处理与客户书面认可的来源",
+      "present": false,
+      "path": "",
+      "note": "未提供"
+    },
+    {
+      "key": "negotiation",
+      "label": "商务谈判纪要",
+      "level": "optional",
+      "why": "让什么、换什么的证据",
+      "present": false,
+      "path": "",
+      "note": "未提供"
+    },
+    {
+      "key": "competitorBid",
+      "label": "竞对标书/公开参数",
+      "level": "optional",
+      "why": "竞对差距结论的支撑",
+      "present": false,
+      "path": "",
+      "note": "未提供；竞对/参与方未知"
+    },
+    {
+      "key": "fulfilment",
+      "label": "履约数据（交付/验收/服务记录）",
+      "level": "optional",
+      "why": "履约验证与 BR-14 降级依据",
+      "present": false,
+      "path": "",
+      "note": "未提供；履约记录全部标 pending"
+    }
+  ]
+}

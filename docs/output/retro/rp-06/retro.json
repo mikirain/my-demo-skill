@@ -1,0 +1,783 @@
+{
+  "schemaVersion": "1.1",
+  "case": {
+    "retroId": "rp-06",
+    "id": "p-de-02",
+    "name": "德国-下萨克森 230MWh 公用事业储能（2026 中标）",
+    "country": "DE",
+    "mw": 115,
+    "mwh": 230,
+    "route": "LFP 液冷",
+    "customerType": "公用事业",
+    "bidMode": "公开招标",
+    "contractMode": "EPC 总承包",
+    "productModel": "MegaBlock 6.0",
+    "awardedYear": 2026,
+    "awardDate": "2026-10-12",
+    "competitorIds": ["竞对 A", "竞对 C"],
+    "hasScoreSheet": true,
+    "snapshotAt": "2026-10-25"
+  },
+  "evidence": [
+    {
+      "id": "EV-DE-01",
+      "type": "tender",
+      "title": "招标文件《技术规范书》（下萨克森 230MWh BESS）",
+      "documentId": "doc-de-101",
+      "originalFiled": true,
+      "page": 18,
+      "section": "§5.3 系统性能与测试边界",
+      "snippet": "招标 §5.3：AC-AC 系统效率不低于 88.0%（25℃、0.5C 充放），辅助功耗计入测试边界；电池簇内温差不超过 3.0℃（满载工况最大温差）。",
+      "reliability": "official",
+      "collectedBy": "李静",
+      "collectedAt": "2026-06-18"
+    },
+    {
+      "id": "EV-DE-02",
+      "type": "scoreSheet",
+      "title": "客户评标打分表（技术分项，含评标意见栏）",
+      "documentId": "doc-de-211",
+      "originalFiled": true,
+      "page": 4,
+      "section": "3.2 技术评分表 / 3.4 商务评分表",
+      "snippet": "评标表 §3.2：并网符合性 12/15、噪声与环境 5/5（评标意见「隔声方案与整改时点获接受」）、系统效率 8/10、循环寿命与质保 9/10、交付 4/5、本地服务 4/5；§3.4 商务条款 8/10；综合得分 84.4 分，排名第 1。",
+      "reliability": "official",
+      "collectedBy": "李静",
+      "collectedAt": "2026-10-16"
+    },
+    {
+      "id": "EV-DE-03",
+      "type": "awardNotice",
+      "title": "中标公示（Niedersachsen 115MW/230MWh BESS EPC）",
+      "documentId": "doc-de-220",
+      "originalFiled": true,
+      "page": 1,
+      "section": "公示正文",
+      "snippet": "中标公示：中标人为我方联合体，中标范围 115MW/230MWh EPC，合同工期 240 天，计划并网日期 2027-06-30，评标办法为综合评分法（技术 60%、商务 40%）。",
+      "reliability": "official",
+      "collectedBy": "张启明",
+      "collectedAt": "2026-10-13"
+    },
+    {
+      "id": "EV-DE-04",
+      "type": "ourBid",
+      "title": "投标技术卷终版（提交版）",
+      "documentId": "doc-de-105",
+      "originalFiled": true,
+      "page": 56,
+      "section": "§6.1 认证与并网符合性清单",
+      "snippet": "投标 §6.1：MegaBlock 6.0 持 VDE-AR-N 4110 证书（2028-03-31 到期）；6.1 型号承诺于中标公示后 7 日内提交认证受理单与出证窗口确认函，并网前 90 天补齐证书。",
+      "reliability": "official",
+      "collectedBy": "王磊",
+      "collectedAt": "2026-09-15"
+    },
+    {
+      "id": "EV-DE-05",
+      "type": "clarification",
+      "title": "客户澄清回函（噪声偏差与可用率口径）",
+      "documentId": "doc-de-130",
+      "originalFiled": true,
+      "page": 2,
+      "section": "回函第 4 条、第 7 条",
+      "snippet": "客户回函第 4 条：接受 68 dB(A) 加装隔声罩方案，要求并网前完成整改并提供第三方复测报告；第 7 条：可用率按年度滚动核验，核验口径以停机时长计。",
+      "reliability": "official",
+      "collectedBy": "李静",
+      "collectedAt": "2026-07-28"
+    },
+    {
+      "id": "EV-DE-06",
+      "type": "negotiation",
+      "title": "商务谈判纪要（第二轮·违约责任）",
+      "documentId": "doc-de-141",
+      "originalFiled": true,
+      "page": 3,
+      "section": "条款让步记录",
+      "snippet": "第二轮谈判纪要：性能罚则上限由合同额 20% 调整为 15%；可用率保证值定为 98.0%，未达标按 1.5%/百分点扣减运维费。",
+      "reliability": "official",
+      "collectedBy": "陈明",
+      "collectedAt": "2026-09-30"
+    },
+    {
+      "id": "EV-DE-07",
+      "type": "competitorBid",
+      "title": "竞对 A 技术标公开摘要（性能参数页）",
+      "documentId": "doc-de-233",
+      "originalFiled": true,
+      "page": 9,
+      "section": "公开摘要·性能表",
+      "snippet": "竞对 A：系统效率 88.1%（AC-AC，未注明辅助功耗边界），电池簇内温差 ±2.8℃，可用率保证 97.5%，噪声 64 dB(A)（未注明测点距离）。",
+      "reliability": "public",
+      "collectedBy": "王磊",
+      "collectedAt": "2026-09-25"
+    },
+    {
+      "id": "EV-DE-08",
+      "type": "fulfilment",
+      "title": "第三方见证测试报告（样机 FAT）与排产计划",
+      "documentId": "doc-de-310",
+      "originalFiled": true,
+      "page": 1,
+      "section": "见证测试结论 / 排产节点",
+      "snippet": "第三方见证测试（样机 FAT，2026-09-05）：AC-AC 效率 89.6%（边界含辅助功耗，25℃、0.5C）；电池簇内温差 ±1.4℃；排产表列首批设备 2027-03-19 出厂。",
+      "reliability": "thirdParty",
+      "collectedBy": "王磊",
+      "collectedAt": "2026-09-08"
+    },
+    {
+      "id": "EV-DE-09",
+      "type": "other",
+      "title": "内部复盘会纪要（第一次）",
+      "documentId": "doc-de-320",
+      "originalFiled": true,
+      "page": 2,
+      "section": "赢因讨论",
+      "snippet": "复盘会纪要：与会者认为本地 8 小时备件响应与站内双人值班是本次取胜关键，但现场未提供客户侧文件或评标反馈佐证。",
+      "reliability": "thirdParty",
+      "collectedBy": "张启明",
+      "collectedAt": "2026-10-22"
+    },
+    {
+      "id": "EV-DE-10",
+      "type": "fulfilment",
+      "title": "认证排期周报（第 42 周）",
+      "documentId": "doc-de-330",
+      "originalFiled": true,
+      "page": 1,
+      "section": "6.1 型号证书状态",
+      "snippet": "认证排期周报：MegaBlock 6.1 的 VDE-AR-N 4110 证书仍在第三方认证机构复审，预计 2026-12-15 出具；认证受理单尚未取得，距承诺提交日 2026-10-19 已逾期 5 天。",
+      "reliability": "official",
+      "collectedBy": "陈明",
+      "collectedAt": "2026-10-22"
+    },
+    {
+      "id": "EV-DE-11",
+      "type": "tender",
+      "title": "招标文件《商务条款》（性能保证与违约）",
+      "documentId": "doc-de-102",
+      "originalFiled": true,
+      "page": 34,
+      "section": "§9.2 性能保证与违约责任",
+      "snippet": "招标 §9.2：性能罚则上限为合同额 20%；年度可用率低于 98.0% 时按 1.5%/百分点扣减运维费；交付逾期按 0.5%/周计违约金，上限 10%。",
+      "reliability": "official",
+      "collectedBy": "陈明",
+      "collectedAt": "2026-06-19"
+    },
+    {
+      "id": "EV-DE-12",
+      "type": "competitorBid",
+      "title": "竞对 C 公开技术摘要（交付与服务计划，仅存截图）",
+      "documentId": null,
+      "originalFiled": false,
+      "page": null,
+      "section": "公开摘要·交付计划",
+      "snippet": "竞对 C：承诺首批设备 180 天到场，服务体系依托汉堡区域中心仓，本地备件响应承诺 12 小时，未承诺站内备件仓。",
+      "reliability": "public",
+      "collectedBy": "王磊",
+      "collectedAt": "2026-09-26"
+    },
+    {
+      "id": "EV-DE-13",
+      "type": "tender",
+      "title": "招标文件《技术规范书》（交付与本地化要求）",
+      "documentId": "doc-de-103",
+      "originalFiled": true,
+      "page": 41,
+      "section": "§8.1 交付节点与本地化要求",
+      "snippet": "招标 §8.1：合同生效后 150 天内首批设备到场；投标人须承诺本地备件响应不超过 8 小时，并提交备件清单与仓库位置。",
+      "reliability": "official",
+      "collectedBy": "李静",
+      "collectedAt": "2026-06-18"
+    }
+  ],
+  "winFactors": [
+    {
+      "id": "wf-01",
+      "title": "VDE-AR-N 4110 并网分项 12/15，门槛与评分双过关",
+      "category": "compliance",
+      "level": "A",
+      "mandatory": true,
+      "score": 12,
+      "maxScore": 15,
+      "weightPct": 22,
+      "customerNeed": "招标 §7.1 把 VDE-AR-N 4110 并网符合性列为资格门槛（缺证即废标），§3.2 另设 15 分符合性评分，要求并网前提交证书、故障穿越仿真与 P-Q 能力曲线",
+      "ourResponse": "MegaBlock 6.0 已持 VDE-AR-N 4110 证书（2028-03-31 到期），技术卷附仿真报告与 Q(U)/P(f) 特性说明；6.1 型号以中标公示后 7 日内提交认证受理单 + 并网前 90 天补齐证书覆盖",
+      "competitorGap": "竞对 A 公开摘要只列 EN 50549-1，未列 VDE-AR-N 4110 故障穿越仿真与 P-Q 曲线（EV-DE-07）",
+      "evidence": ["EV-DE-02", "EV-DE-04", "EV-DE-01"],
+      "confirmedBy": "李静",
+      "reviewState": "verified",
+      "recentChange": { "at": "10-22 14:20", "by": "吴桐", "action": "升至 A", "auditId": "aud-017" },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "wf-02",
+      "title": "噪声 68 dB(A) 主动偏差配隔声罩，环评分项 5/5",
+      "category": "safety",
+      "level": "A",
+      "mandatory": false,
+      "score": 5,
+      "maxScore": 5,
+      "weightPct": 14,
+      "customerNeed": "招标 §5.6 要求厂界噪声不超过 65 dB(A)，站点距最近居民区 180m，须提交测点位置与整改时点",
+      "ourResponse": "如实申报实测 68 dB(A)，主动提交隔声罩方案（预计降噪 4–5 dB(A)、并网前整改时点与第三方复测承诺（DV-DE-01），不等客户追问",
+      "competitorGap": "竞对 A 申报 64 dB(A)，但未披露测点距离与背景噪声修正口径，可比性存疑（EV-DE-07）",
+      "evidence": ["EV-DE-02", "EV-DE-05", "EV-DE-07"],
+      "confirmedBy": "李静",
+      "reviewState": "verified",
+      "recentChange": { "at": "10-16 10:35", "by": "吴桐", "action": "升至 A", "auditId": "aud-018" },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "wf-03",
+      "title": "效率分项 8/10，测试边界写明含辅助功耗",
+      "category": "efficiency",
+      "level": "A",
+      "mandatory": false,
+      "score": 8,
+      "maxScore": 10,
+      "weightPct": 18,
+      "customerNeed": "招标 §5.3 要求 AC-AC 效率 ≥88.0%（25℃、0.5C 充放）且辅助功耗计入测试边界，评标按实测值与边界声明完整度打分",
+      "ourResponse": "投标申报 89.4%（边界含辅助功耗），附第三方见证样机 FAT 实测 89.6% 与 ±1.4℃ 温差数据（EV-DE-08），并写明测试工况与测点",
+      "competitorGap": "竞对 A 申报 88.1% 但未注明是否含辅助功耗，评标要求归一后再比（EV-DE-07）；归一后我方仍领先 0.8 个百分点",
+      "evidence": ["EV-DE-02", "EV-DE-08", "EV-DE-01"],
+      "confirmedBy": "王磊",
+      "reviewState": "verified",
+      "recentChange": { "at": "10-16 11:05", "by": "吴桐", "action": "升至 A", "auditId": "aud-019" },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "wf-04",
+      "title": "罚则上限 20%→15%，绑定可用率 98.0% 口径",
+      "category": "tco",
+      "level": "B",
+      "mandatory": false,
+      "score": 8,
+      "maxScore": 10,
+      "weightPct": 16,
+      "customerNeed": "招标 §9.2 罚则上限为合同额 20%，可用率低于 98.0% 按 1.5%/百分点扣减运维费，客户在谈判中反复追问长期风险敞口",
+      "ourResponse": "第二轮谈判把罚则上限压至 15%，同时把可用率保证值定为 98.0% 并接受年度滚动核验口径（EV-DE-06）",
+      "competitorGap": "竞对 A 公开摘要可用率保证 97.5%，低于招标 98.0% 基线（EV-DE-07）",
+      "evidence": ["EV-DE-06", "EV-DE-11", "EV-DE-02"],
+      "confirmedBy": "陈明",
+      "reviewState": "verified",
+      "recentChange": { "at": "10-21 15:40", "by": "吴桐", "action": "补录谈判纪要证据", "auditId": "aud-020" },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "wf-05",
+      "title": "150 天到场承诺对竞对 C 的 180 天，交付 4/5",
+      "category": "delivery",
+      "level": "B",
+      "mandatory": false,
+      "score": 4,
+      "maxScore": 5,
+      "weightPct": 18,
+      "customerNeed": "招标 §8.1 要求合同生效后 150 天内首批设备到场，并提交排产计划与海运窗口",
+      "ourResponse": "承诺 150 天到场，排产表列首批设备 2027-03-19 出厂、2027-04-01 到场（NTP 2026-11-02 起算），并附汉堡港清关预案",
+      "competitorGap": "竞对 C 承诺 180 天到场，比我方晚 30 天，但依托汉堡区域中心仓备货（EV-DE-12）",
+      "evidence": ["EV-DE-13", "EV-DE-03", "EV-DE-12", "EV-DE-02"],
+      "confirmedBy": "周敏",
+      "reviewState": "verified",
+      "recentChange": { "at": "10-21 16:05", "by": "周敏", "action": "维持 B 级", "auditId": "aud-021" },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "wf-06",
+      "title": "站内双人值班可能提升客户观感（待验证）",
+      "category": "local",
+      "level": "C",
+      "mandatory": false,
+      "score": 4,
+      "maxScore": 5,
+      "weightPct": 12,
+      "customerNeed": "招标 §8.1 本地备件响应不超过 8 小时，评标表本地服务子项 5 分（我方 4/5），客户澄清时追问过夜间值班安排",
+      "ourResponse": "本地伙伴 2 家 + 站内双人值班配置，承诺 8 小时响应；评价分项 4/5，但该配置是否提升客户观感无客户侧文字佐证（EV-DE-09）",
+      "competitorGap": "竞对 C 承诺 12 小时响应但依托汉堡中心仓，服务网络覆盖更成熟，两者不在同一口径（EV-DE-12）",
+      "evidence": ["EV-DE-09", "EV-DE-12", "EV-DE-02"],
+      "confirmedBy": "",
+      "reviewState": "draft",
+      "recentChange": { "at": "10-22 14:20", "by": "吴桐", "action": "降至 C", "auditId": "aud-022" },
+      "conclusionCarrier": false
+    }
+  ],
+  "solution": {
+    "route": "LFP 液冷",
+    "hardGateParams": [
+      { "key": "efficiency", "label": "系统效率（AC-AC，含辅助功耗）", "requirement": "≥ 88.0%（25℃、0.5C）", "ourValue": "89.4%（见证实测 89.6%）", "status": "meet" },
+      { "key": "noise", "label": "厂界噪声", "requirement": "≤ 65 dB(A)（距居民区 180m）", "ourValue": "68 dB(A)（配隔声罩后预计 ≤64 dB(A)）", "status": "deviation" },
+      { "key": "availability", "label": "年度可用率", "requirement": "≥ 98.0%（年度滚动核验）", "ourValue": "98.5% 设计可用率", "status": "meet" },
+      { "key": "grid", "label": "并网符合性（VDE-AR-N 4110）", "requirement": "并网前提交证书 + 故障穿越仿真", "ourValue": "6.0 已持证；6.1 承诺 7 日内提交受理单", "status": "deviation" },
+      { "key": "thermal", "label": "电池簇内温差", "requirement": "≤ 3.0℃（满载）", "ourValue": "±1.4℃（见证实测）", "status": "meet" },
+      { "key": "response", "label": "调频响应时间", "requirement": "≤ 200 ms", "ourValue": "120 ms（仿真与样机实测）", "status": "meet" },
+      { "key": "fire", "label": "消防认证（VdS 2511）", "requirement": "投标时提交消防认证或等效证明（招标 §5.8）", "ourValue": "VdS 2511 排期 2027-03，以 IEC 62619 + UL 9540A 过渡", "status": "pending" },
+      { "key": "tco", "label": "20 年 TCO 测算表", "requirement": "按招标 §5.9 模板提交 20 年 TCO 测算", "ourValue": "未单独成表，仅并入效率与辅助功耗说明", "status": "noResponse" }
+    ],
+    "differentiators": [
+      { "key": "thermal", "label": "电池簇内温差", "ourValue": "±1.4℃（见证实测）", "competitorBest": "±2.8℃（竞对 A 公开摘要）", "note": "温差满分项，对应评标表 §3.2 噪声与环境分项" },
+      { "key": "efficiency", "label": "系统效率（AC-AC）", "ourValue": "89.4%（见证 89.6%）", "competitorBest": "88.1%（竞对 A，未注明辅助功耗边界）", "note": "效率分项 8/10，口径可比性是拉分点" },
+      { "key": "aux", "label": "辅助功耗占比", "ourValue": "0.8%", "competitorBest": "未知（竞对 A 公开摘要未列辅助功耗）", "note": "影响 20 年 TCO 走向，仅记录我方数值与边界，不做跨口径推断" },
+      { "key": "grid", "label": "并网文件包完整度", "ourValue": "证书 + 故障穿越仿真 + P-Q 曲线", "competitorBest": "仅 EN 50549-1 证书（竞对 A）", "note": "并网符合性分项 12/15，失分点在 6.1 型号未持证" },
+      { "key": "delivery", "label": "首批到场周期", "ourValue": "150 天（计划 2027-04-01 到场）", "competitorBest": "180 天（竞对 C 公开摘要）", "note": "交付子项 4/5，未承诺更短周期" }
+    ],
+    "configJudgement": {
+      "overSpec": [
+        "2 套备用电池簇（冗余 4% 容量）：评分表无冗余加分项，纯成本，TCO +1.5%",
+        "整机质保 10 年：招标 §9.4 仅要求 5 年，超出部分无评分回报"
+      ],
+      "underSpec": [
+        "MegaBlock 6.1 的 VDE-AR-N 4110 证书未在投标前取得，仅以受理单 + 并网前 90 天补证承诺覆盖资格，形成履约硬节点（FU-DE-03）",
+        "VdS 2511 消防认证未取得，以 IEC 62619 与 UL 9540A 过渡，属被动偏差（DV-DE-03）",
+        "隔声罩成本未在报价结构中单列，临时并入并网调试分项，压缩终审时间"
+      ],
+      "note": "冗余配置与 10 年质保属评分表无回报的过度配置；真正压住资格风险的是补证承诺，而该承诺在履约头 12 天即已逾期 5 天"
+    },
+    "certifications": [
+      {
+        "name": "VDE-AR-N 4110",
+        "scope": "MegaBlock 6.0（6.1 未覆盖）",
+        "validUntil": "2028-03-31",
+        "mandatory": true,
+        "gapRisk": "6.1 型号未覆盖，以中标后 7 日内提交受理单 + 并网前 90 天补齐证书承诺替代；受理单已逾期 5 天"
+      },
+      {
+        "name": "EN 50549-1",
+        "scope": "MegaBlock 6.0 / 6.1",
+        "validUntil": "2027-11-30",
+        "mandatory": true,
+        "gapRisk": "无，两型号均在有效期内"
+      },
+      {
+        "name": "IEC 62619",
+        "scope": "MegaBlock 6.0 / 6.1（电芯与电池系统）",
+        "validUntil": "2029-05-31",
+        "mandatory": true,
+        "gapRisk": "无，覆盖两型号"
+      },
+      {
+        "name": "VdS 2511（德国消防）",
+        "scope": "MegaBlock 6.0 电池舱（20ft）",
+        "validUntil": "2027-03-31",
+        "mandatory": false,
+        "gapRisk": "投标时未取得，排期 2027-03 认证，客户未书面接受等效证明（DV-DE-03）"
+      },
+      {
+        "name": "IEC 62443-4-2",
+        "scope": "MegaBlock 6.0 电池舱控制器",
+        "validUntil": "2028-12-31",
+        "mandatory": false,
+        "gapRisk": "6.1 控制器固件版本不同，需做差异评估后沿用"
+      },
+      {
+        "name": "UL 9540A 热失控蔓延测试报告",
+        "scope": "MegaBlock 6.0 电池舱（20ft）",
+        "validUntil": "2028-09-30",
+        "mandatory": false,
+        "gapRisk": "6.1 舱体结构与 6.0 不同，报告不可直接沿用，客户已要求补充说明"
+      }
+    ],
+    "deviations": [
+      {
+        "id": "DV-DE-01",
+        "requirement": "厂界噪声 ≤ 65 dB(A)（招标 §5.6）",
+        "deviationType": "主动偏差",
+        "reason": "液冷机组满功率工况实测 68 dB(A)，测点距机组 1m，站点距居民区 180m，超招标限值 3 dB(A)",
+        "clarification": "提供隔声罩方案（预计降噪 4–5 dB(A)），承诺并网前完成整改并委托第三方复测",
+        "customerAccepted": true,
+        "acceptedEvidence": "EV-DE-05",
+        "reusable": true
+      },
+      {
+        "id": "DV-DE-02",
+        "requirement": "并网前提交所投型号的 VDE-AR-N 4110 证书（招标 §7.1）",
+        "deviationType": "主动偏差",
+        "reason": "MegaBlock 6.1 证书在投标截止时未取得，仅 6.0 型号持证",
+        "clarification": "承诺中标公示后 7 日内提交认证受理单与出证窗口确认函，并网前 90 天补齐证书与故障穿越仿真",
+        "customerAccepted": false,
+        "acceptedEvidence": "—",
+        "reusable": false
+      },
+      {
+        "id": "DV-DE-03",
+        "requirement": "投标时提交 VdS 2511 消防认证或等效证明（招标 §5.8）",
+        "deviationType": "被动偏差",
+        "reason": "投标阶段 VdS 2511 认证尚在排期，排期落在 2027-03，无法在投标时提交",
+        "clarification": "以 IEC 62619 与 UL 9540A 报告作为等效证明提交，并承诺 FAT 前补齐 VdS 2511",
+        "customerAccepted": false,
+        "acceptedEvidence": "—",
+        "reusable": true
+      }
+    ]
+  },
+  "commercial": {
+    "noQuoteStatement": true,
+    "priceStructure": [
+      { "item": "储能系统（电池舱 + 消防，不含并网柜）", "sharePct": 58, "note": "供货范围与招标供货表口径一致" },
+      { "item": "PCS 与 33kV 升压", "sharePct": 16, "note": "组串式 PCS，含箱变" },
+      { "item": "土建与安装", "sharePct": 12, "note": "本地分包商，含隔声罩基础" },
+      { "item": "并网与调试", "sharePct": 9, "note": "隔声罩成本临时并入本分项" },
+      { "item": "运维与延保（8 年）", "sharePct": 5, "note": "含可用率年度核验服务" }
+    ],
+    "tcoFactors": [
+      { "factor": "辅助功耗", "impact": "TCO -2.4%", "note": "液冷温控策略与分时充放曲线优化，占比 0.8%" },
+      { "factor": "性能罚则上限 20%→15%", "impact": "风险准备金 -1.2%", "note": "以谈判纪要 EV-DE-06 为准，未改变报价结构" },
+      { "factor": "隔声罩整改", "impact": "TCO +0.8%", "note": "并网前一次性投入，已并入并网调试分项" },
+      { "factor": "备用电池簇冗余 4%", "impact": "TCO +1.5%", "note": "评分表无冗余加分项，属纯成本" }
+    ],
+    "delivery": {
+      "leadTimeDays": 150,
+      "localization": "本地服务伙伴 2 家（下萨克森 1 家、不来梅 1 家），备件仓 1 处，维修件 48 小时到位，并网站点双人值班",
+      "thirdPartyRisks": [
+        "并网柜与箱变依赖本地集成商，交付窗口受其产能约束",
+        "隔声罩为单一供货来源，整改工期与并网日期强耦合",
+        "汉堡港清关与内陆驳船班期波动影响首批到场节点"
+      ]
+    },
+    "contractRisks": [
+      {
+        "clause": "性能罚则上限 20% 合同额（招标 §9.2）",
+        "redFlag": true,
+        "concession": "谈判压至 15%，未取得罚则豁免期",
+        "impactOnFulfilment": "关联 FU-DE-01（并网前见证测试未执行，罚则暂未触发）"
+      },
+      {
+        "clause": "认证文件逾期按 0.5%/日计违约金，上限 10% 合同额",
+        "redFlag": true,
+        "concession": "接受，仅争取到 15 天宽限期",
+        "impactOnFulfilment": "关联 FU-DE-03（受理单逾期 5 天，按 0.5%/日计 2.5%）"
+      },
+      {
+        "clause": "交付逾期按 0.5%/周计违约金，上限 10% 合同额",
+        "redFlag": true,
+        "concession": "接受，宽限期 10 天",
+        "impactOnFulfilment": "关联 FU-DE-02（NTP 起算 150 天，逾期按周累计）"
+      },
+      {
+        "clause": "年度可用率低于 98.0% 按 1.5%/百分点扣减运维费",
+        "redFlag": false,
+        "concession": "接受，绑定年度滚动核验口径与停机时长统计规则",
+        "impactOnFulfilment": "关联 FU-DE-04（首年核验节点 2028-06-30）"
+      }
+    ]
+  },
+  "process": {
+    "involvementTimeline": [
+      { "phase": "T-95 招标发布（2026-06-18）", "actor": "投标经理 周敏", "note": "立项即拉入并网与认证责任人，是本次与上一次欧洲项目的关键差异" },
+      { "phase": "T-55 澄清截止（2026-07-28）", "actor": "法务 陈明", "note": "提前介入，噪声偏差与可用率核验口径在澄清阶段一次写清（EV-DE-05）" },
+      { "phase": "T-28 谈判准备（2026-08-24）", "actor": "商务 李静", "note": "演练罚则上限与可用率两套让步次序，避免临场逐条让" },
+      { "phase": "T-20 技术卷终审（2026-09-01）", "actor": "技术 王磊", "note": "核对认证清单时发现 6.1 型号证书缺口，改为中标后 7 日内提交受理单" },
+      { "phase": "T-3 报价冻结（2026-09-18）", "actor": "财务 何蕊", "note": "隔声罩成本临时并入并网调试分项，报价结构变动压缩了终审缓冲" }
+    ],
+    "blockers": [
+      {
+        "id": "PB-01",
+        "stage": "认证排期",
+        "issue": "MegaBlock 6.1 未在投标前排期认证",
+        "effect": "只能以受理单 + 补证承诺覆盖投标资格，形成履约硬节点，FU-DE-03 已逾期 5 天",
+        "fix": "型号立项即锁认证排期，投标前 90 天必须确认第三方机构出证窗口"
+      },
+      {
+        "id": "PB-02",
+        "stage": "澄清阶段",
+        "issue": "噪声测点距离与背景噪声修正口径未在招标中定义",
+        "effect": "68 dB(A) 与 65 dB(A) 限值无法直接比较，需补交测点说明，占用 5 个工作日",
+        "fix": "凡涉噪声限值，必须在澄清提问中要求客户明确测点距离与修正规则"
+      },
+      {
+        "id": "PB-03",
+        "stage": "报价审批",
+        "issue": "隔声罩与并网调试成本归属不清",
+        "effect": "报价冻结晚 1 天，技术卷终审被压缩到 2 个工作日",
+        "fix": "EPC 分项成本归属在 T-15 前定稿，由商务与工程双签"
+      }
+    ],
+    "effectiveReviews": [
+      {
+        "node": "技术卷终审",
+        "owner": "王磊",
+        "caught": "拦住了把 6.1 型号写成「已持证」的表述，改为如实披露补证节点，避免投标文件失实"
+      },
+      {
+        "node": "商务合规审",
+        "owner": "陈明",
+        "caught": "拦住了原稿中「罚则上限接受 20%」的默认条款，推动进入第二轮谈判压至 15%"
+      },
+      {
+        "node": "并网符合性复核",
+        "owner": "周敏",
+        "caught": "拦住了一份缺故障穿越仿真边界的并网报告，补齐后并网分项 12/15，成为技术分第一的主要来源"
+      }
+    ]
+  },
+  "fulfilment": [
+    {
+      "id": "FU-DE-01",
+      "commitment": "并网前完成第三方见证效率测试，AC-AC ≥89.4%（含辅助功耗边界）",
+      "target": "≥89.4%",
+      "actual": "履约中",
+      "variance": "履约中",
+      "status": "pending",
+      "note": "见证测试计划 2027-05-10 执行（并网前 50 天），样机 FAT 实测 89.6% 可作参考，暂无站点实测数据",
+      "verifiedAt": "2026-10-24",
+      "experienceIds": ["EXP-DE-01"]
+    },
+    {
+      "id": "FU-DE-02",
+      "commitment": "合同生效后 150 天内首批设备到场（NTP 2026-11-02 起算）",
+      "target": "150 天（2027-04-01）",
+      "actual": "履约中",
+      "variance": "履约中",
+      "status": "pending",
+      "note": "排产表列首批 2027-03-19 出厂、2027-04-01 到场；交付逾期按 0.5%/周计违约金，上限 10%",
+      "verifiedAt": "2026-10-24",
+      "experienceIds": ["EXP-DE-06"]
+    },
+    {
+      "id": "FU-DE-03",
+      "commitment": "中标公示后 7 日内（2026-10-19 前）提交 MegaBlock 6.1 的 VDE-AR-N 4110 认证受理单",
+      "target": "2026-10-19",
+      "actual": "至 2026-10-24 未提交，逾期 5 天",
+      "variance": "触发赔付",
+      "status": "missed",
+      "note": "承诺 2026-10-19 前提交的 6.1 型号认证受理单至 2026-10-24 仍未取得，逾期 5 天；客户已按 0.5%/日主张 2.5% 违约金（上限 10%）并发函问询",
+      "verifiedAt": "2026-10-24",
+      "experienceIds": ["EXP-DE-04"]
+    },
+    {
+      "id": "FU-DE-04",
+      "commitment": "年度可用率 ≥98.0%（按停机时长核验）",
+      "target": "≥98.0%",
+      "actual": "履约中",
+      "variance": "履约中",
+      "status": "pending",
+      "note": "并网 2027-06-30，首年核验节点 2028-06-30，按月采集停机时长，暂无可核验数据",
+      "verifiedAt": "2026-10-24",
+      "experienceIds": ["EXP-DE-05"]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "EXP-DE-01",
+      "category": "competitor",
+      "title": "德国公用事业标：效率与温差是可比的性能主战场",
+      "summary": "评标表效率 8/10、温差所属分项满分，直接指向因果，故定 A；竞对差距对比仅来自公开摘要，只作参照，不构成 A 级依据。",
+      "country": "DE",
+      "scaleBand": "200-300MWh",
+      "customerType": "公用事业",
+      "bidMode": "公开招标",
+      "productModel": "MegaBlock 6.0",
+      "requirement": "AC-AC 效率 ≥88.0%（25℃/0.5C、含辅助功耗）、电池簇内温差 ≤3.0℃、可用率 ≥98.0%（招标 §5.3/§5.5/§9.2）",
+      "strategy": "以效率与温差的可比口径竞争：投标文件写明测试边界含辅助功耗，不跟单价",
+      "result": "效率分项 8/10、温差 ±1.4℃ 优于竞对 A 的 ±2.8℃，综合 84.4 分排名第 1（EV-DE-02/EV-DE-07/EV-DE-08）",
+      "evidenceSources": ["EV-DE-02", "EV-DE-07", "EV-DE-08"],
+      "reviewer": "周敏",
+      "reviewedAt": "2026-10-22",
+      "scope": "适用于德国/奥地利公用事业公开招标、评分含效率与温差分项的项目；不适用于纯最低价评标或客户自持电池舱只采购 PCS 的项目",
+      "evidenceLevel": "A",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "verificationPlan": "不适用（A 级已由评标表效率分项 8/10 与见证数据直接支撑）；按 90 天复核周期跟踪，逾期未复核则回退 B 级",
+      "verificationDue": "—",
+      "references": [
+        { "projectId": "p-de-01", "citedBy": "王磊", "citedAt": "2026-10-18", "usedIn": "德国勃兰登堡 120MWh 技术卷 §5.2 效率口径说明" }
+      ],
+      "pendingChange": null,
+      "changeHistory": []
+    },
+    {
+      "id": "EXP-DE-02",
+      "category": "deviation",
+      "title": "噪声限值缺口用主动偏差加隔声整改承诺换满分",
+      "summary": "如实申报 68 dB(A) 并主动提交隔声罩方案与时点，换得噪声与环境分项 5/5 与客户书面接受；取得评分表后由 B 升 A。",
+      "country": "DE",
+      "scaleBand": "200-300MWh",
+      "customerType": "公用事业",
+      "bidMode": "公开招标",
+      "productModel": "MegaBlock 6.0",
+      "requirement": "厂界噪声 ≤65 dB(A)，站点距居民区 180m，需提交测点与整改时点（招标 §5.6）",
+      "strategy": "不等客户发问：申报实测值 + 隔声罩方案（降噪 4–5 dB(A)）+ 并网前复测承诺，一次性打包提交",
+      "result": "噪声与环境分项 5/5，评标意见记载「隔声方案与整改时点获接受」（EV-DE-02/EV-DE-05）",
+      "evidenceSources": ["EV-DE-02", "EV-DE-05", "EV-DE-04"],
+      "reviewer": "李静",
+      "reviewedAt": "2026-10-22",
+      "scope": "适用于噪声限值严于设备实测值、且存在隔声改造空间的欧洲内陆站点；不适用于无整改预算或厂界已合规的项目",
+      "evidenceLevel": "A",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "verificationPlan": "不适用（A 级已由评标表噪声分项 5/5 与客户澄清回函直接支撑）；复测报告归档后按 90 天复核周期跟踪",
+      "verificationDue": "—",
+      "references": [
+        { "projectId": "p-de-03", "citedBy": "周敏", "citedAt": "2026-10-20", "usedIn": "德国巴伐利亚 80MWh 技术偏差表 §3 噪声方案" }
+      ],
+      "pendingChange": null,
+      "changeHistory": [
+        {
+          "id": "CHG-DE-01",
+          "from": "B",
+          "to": "A",
+          "status": "approved",
+          "requester": "周敏",
+          "approver": "陈明",
+          "requestedAt": "2026-10-16",
+          "reason": "取得客户评标打分表原件，噪声与环境分项 5/5 及评标意见可直接指向因果",
+          "newEvidenceIds": ["EV-DE-02"]
+        }
+      ]
+    },
+    {
+      "id": "EXP-DE-03",
+      "category": "commercial",
+      "title": "德国公用事业标的议价点在罚则上限与可用率口径",
+      "summary": "把谈判资源投在罚则上限 20%→15% 与可用率 98.0% 核验口径上，比压单价更能降低客户风险敞口。",
+      "country": "DE",
+      "scaleBand": "200-300MWh",
+      "customerType": "公用事业",
+      "bidMode": "公开招标",
+      "productModel": "MegaBlock 6.0",
+      "requirement": "性能罚则上限 20% 合同额、可用率 <98.0% 按 1.5%/百分点扣减运维费（招标 §9.2）",
+      "strategy": "澄清截止前完成法务介入，第二轮谈判把罚则上限压至 15%，同时用年度滚动核验口径锁定可用率 98.0%",
+      "result": "罚则上限 15%、可用率保证 98.0%，商务条款分项 8/10，成交结构未让单价（EV-DE-06/EV-DE-11）",
+      "evidenceSources": ["EV-DE-06", "EV-DE-11", "EV-DE-02"],
+      "reviewer": "陈明",
+      "reviewedAt": "2026-10-23",
+      "scope": "适用于含长期可用率保证与运维扣款的欧洲公用事业 EPC；不适用于一次性供货、无运维扣款条款的项目",
+      "evidenceLevel": "B",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "verificationPlan": "不适用（B 级以谈判纪要与招标条款双向支撑，无需另设验证项目）；按 90 天复核周期跟踪",
+      "verificationDue": "—",
+      "references": [
+        { "projectId": "p-de-01", "citedBy": "陈明", "citedAt": "2026-10-19", "usedIn": "德国勃兰登堡 120MWh 合同条款谈判清单 §2" }
+      ],
+      "pendingChange": null,
+      "changeHistory": []
+    },
+    {
+      "id": "EXP-DE-04",
+      "category": "awarded",
+      "title": "以补证承诺覆盖认证缺口会变成履约硬节点",
+      "summary": "6.1 型号 VDE-AR-N 4110 证书投标时未取得，用受理单加补证承诺换资格；头 12 天即逾期 5 天，承诺未被证实。",
+      "country": "DE",
+      "scaleBand": "200-300MWh",
+      "customerType": "公用事业",
+      "bidMode": "公开招标",
+      "productModel": "MegaBlock 6.0",
+      "requirement": "并网前提交所投型号的 VDE-AR-N 4110 证书与故障穿越仿真报告（招标 §7.1）",
+      "strategy": "用 6.0 型号证书 + 6.1 型号中标后 7 日内提交受理单、并网前 90 天补证的承诺覆盖型号缺口，未在投标前启动认证排期",
+      "result": "取得技术资格并中标（并网分项 12/15），但受理单逾期 5 天、客户按 0.5%/日主张 2.5% 违约金（EV-DE-04/EV-DE-10）",
+      "evidenceSources": ["EV-DE-04", "EV-DE-10", "EV-DE-01"],
+      "reviewer": "王磊",
+      "reviewedAt": "2026-10-24",
+      "scope": "适用于型号认证缺口可在并网前 6 个月以上闭合、且证书不是硬性投标资格的项目；不适用于证书为投标门槛的项目",
+      "evidenceLevel": "C",
+      "state": "draft",
+      "conclusionCarrier": false,
+      "verificationPlan": "在 p-de-03 德国巴伐利亚 80MWh 投标的认证清单编制中验证（2027-02 开标），并按 FU-DE-03 闭合结果复核；逾期未闭合则维持 C 级，复核人 陈明",
+      "verificationDue": "2027-05-31",
+      "references": [
+        { "projectId": "p-de-03", "citedBy": "周敏", "citedAt": "2026-10-20", "usedIn": "德国巴伐利亚 80MWh 认证清单 §2（已按降级结果向引用方提示）" }
+      ],
+      "pendingChange": null,
+      "changeHistory": [
+        {
+          "id": "CHG-DE-02",
+          "from": "B",
+          "to": "C",
+          "status": "approved",
+          "requester": "系统自动触发（FU-DE-03 missed，BR-14）",
+          "approver": "陈明",
+          "requestedAt": "2026-10-24",
+          "reason": "承诺的认证受理单逾期 5 天未提交，补证承诺未兑现，多材料支撑链断裂，降为待验证",
+          "newEvidenceIds": ["EV-DE-10"]
+        }
+      ]
+    },
+    {
+      "id": "EXP-DE-05",
+      "category": "deviation",
+      "title": "可用率 98.0% 口径可能提升客户观感（待验证）",
+      "summary": "把可用率写成 98.0% 基线加年度滚动核验，可能降低客户对停机风险的顾虑；评分表无对应分项，首年未核验。",
+      "country": "DE",
+      "scaleBand": "200-300MWh",
+      "customerType": "公用事业",
+      "bidMode": "公开招标",
+      "productModel": "MegaBlock 6.0",
+      "requirement": "年度可用率 ≥98.0%，未达标按 1.5%/百分点扣减运维费（招标 §9.2）",
+      "strategy": "承诺 98.5% 设计可用率并附停机时长统计规则，可用率测试成本未在报价中单列",
+      "result": "评标表未见可用率加分项，首年核验节点 2028-06-30 尚未到达（EV-DE-06/EV-DE-09/EV-DE-11）",
+      "evidenceSources": ["EV-DE-06", "EV-DE-09", "EV-DE-11"],
+      "reviewer": "周敏",
+      "reviewedAt": "2026-10-23",
+      "scope": "适用于要求年度可用率保证并带运维扣款的公用事业项目；不适用于无可用率条款的纯供货项目",
+      "evidenceLevel": "C",
+      "state": "draft",
+      "conclusionCarrier": false,
+      "verificationPlan": "在 p-de-03 投标（2027-02 开标）观察客户是否将可用率列为商务加分项；再按 p-de-02 首年核验节点 2028-06-30 复核，复核人 周敏",
+      "verificationDue": "2027-03-31",
+      "references": [],
+      "pendingChange": null,
+      "changeHistory": []
+    },
+    {
+      "id": "EXP-DE-06",
+      "category": "commercial",
+      "title": "交付 150 天承诺是差异化，但清关风险未入宽限期",
+      "summary": "以 150 天到场承诺对竞对 C 的 180 天形成差异化，交付子项拿到 4/5；但清关与驳船滞留未纳入违约金宽限期，交付风险仍全在我方。",
+      "country": "DE",
+      "scaleBand": "200-300MWh",
+      "customerType": "公用事业",
+      "bidMode": "公开招标",
+      "productModel": "MegaBlock 6.0",
+      "requirement": "合同生效后 150 天内首批设备到场，并提交排产计划与海运窗口（招标 §8.1）",
+      "strategy": "以 150 天承诺 + 2027-03-19 出厂排产 + 汉堡港清关预案争取交付分，但未把清关滞留纳入宽限期谈判",
+      "result": "交付子项 4/5；竞对 C 承诺 180 天到场，比我方晚 30 天（EV-DE-02/EV-DE-03/EV-DE-12/EV-DE-13）",
+      "evidenceSources": ["EV-DE-13", "EV-DE-03", "EV-DE-12", "EV-DE-02"],
+      "reviewer": "周敏",
+      "reviewedAt": "2026-10-23",
+      "scope": "适用于交付节点计入评分的欧洲公用事业 EPC；不适用于设备已在本地仓备货或由客户自提的项目",
+      "evidenceLevel": "B",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "verificationPlan": "不适用（B 级以招标条款、中标公示与竞对摘要三份材料支撑）；2027-04-01 到场节点复核后回看本条",
+      "verificationDue": "—",
+      "references": [],
+      "pendingChange": null,
+      "changeHistory": []
+    }
+  ],
+  "openItems": [
+    {
+      "id": "TODO-01",
+      "item": "向客户索取评标打分表完整版（含 6.1 型号技术资格认定意见）与评标意见栏原文",
+      "owner": "周敏",
+      "due": "2026-11-15",
+      "blocks": "wf-01 竞对对比部分的原文归档（当前竞对参数仅有公开摘要）"
+    },
+    {
+      "id": "TODO-02",
+      "item": "跟进 MegaBlock 6.1 的 VDE-AR-N 4110 认证受理单与出证窗口，并取得客户对违约金的书面处理意见",
+      "owner": "王磊",
+      "due": "2026-11-06",
+      "blocks": "FU-DE-03 闭合与 EXP-DE-04 等级复核"
+    },
+    {
+      "id": "TODO-03",
+      "item": "核对隔声罩整改成本是否已完整计入并网调试分项，补齐分项成本归属记录",
+      "owner": "陈明",
+      "due": "2026-11-10",
+      "blocks": "commercial.priceStructure 与 delivery.localization 口径复核"
+    },
+    {
+      "id": "TODO-04",
+      "item": "补录竞对 C 交付承诺摘要的原始页码与发布日期（现仅存摘录截图）",
+      "owner": "李静",
+      "due": "2026-11-05",
+      "blocks": "wf-05 等级复核（现为 B，缺公开原文页码的可追溯性）"
+    }
+  ],
+  "retroMeta": {
+    "owner": "周敏",
+    "retroDate": "2026-10-24",
+    "generatedBy": "retro skill（模拟数据）",
+    "humanConfirmed": false,
+    "dataNote": "模拟数据，非真实企业信息（演示用途）"
+  }
+}

@@ -1,0 +1,3 @@
+﻿编号,问题,背景,影响,依据,关键词,状态,复制时间
+clr-01,系统往返效率的测量边界与辅助功耗是否计入？,招标 3.2 要求 AC-AC ≥88%，但未说明辅助功耗处理方式；竞对 A 报价基于 DC 侧口径。,影响效率项横向可比性与评分,CZ-Morava_RFP_技术规范书.pdf P.12 §3.2 系统性能要求；竞对A_技术应答文件_v2.pdf P.37 §5.1 Efficiency,system_rte,copied,11-06 15:08
+clr-03,可用率的统计周期与计算方式是否限定为「年度、时间加权」？,竞对 B 采用月度口径，数值偏高，易造成评标误判。,影响可用率承诺与违约赔偿,CZ-Morava_RFP_技术规范书.pdf P.14 §3.3 质保与可用率；竞对B_PowerStack_产品手册_EN.pdf P.21 §Product specification,availability,not-sent,

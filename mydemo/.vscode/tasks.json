@@ -1,0 +1,68 @@
+{
+  // For more information, visit: https://go.microsoft.com/fwlink/?LinkId=733558
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "后端：AI 助手 (8787)",
+      "detail": "pi SDK 后端，同时托管 dist 里的前端；本终端打印每轮问题、执行与结果",
+      "type": "npm",
+      "script": "server",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "typescript",
+        "pattern": "$tsc",
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": { "regexp": "AI 助手后端" },
+          "endsPattern": { "regexp": "listening on" }
+        }
+      }
+    },
+    {
+      "label": "前端：ng serve (4200)",
+      "detail": "只跑 Angular dev server，/api 代理到 8787",
+      "type": "npm",
+      "script": "web",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "typescript",
+        "pattern": "$tsc",
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": { "regexp": "Changes detected" },
+          "endsPattern": { "regexp": "bundle generation (complete|failed)" }
+        }
+      }
+    },
+    {
+      "label": "全栈：build + 后端",
+      "detail": "先 ng build，再由后端同源托管（npm start）",
+      "type": "npm",
+      "script": "start",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "typescript",
+        "pattern": "$tsc",
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": { "regexp": "bundle generation (complete|failed)|AI 助手后端" },
+          "endsPattern": { "regexp": "listening on" }
+        }
+      }
+    },
+    {
+      "type": "npm",
+      "script": "test",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "typescript",
+        "pattern": "$tsc",
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": { "regexp": "Changes detected" },
+          "endsPattern": { "regexp": "bundle generation (complete|failed)" }
+        }
+      }
+    }
+  ]
+}

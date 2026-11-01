@@ -1,0 +1,2571 @@
+{
+  "sourceBundle": "p-01",
+  "projectId": "p-01",
+  "asOf": "2026-10-24",
+  "project": {
+    "id": "p-01",
+    "name": "CZ-Morava 100MWh 独立储能",
+    "customer": "Morava Grid a.s.（虚构）",
+    "country": "CZ",
+    "mw": 25,
+    "mwh": 100,
+    "route": "LFP 液冷",
+    "deadline": "2026-11-08",
+    "customerType": "电网公司",
+    "contractMode": "EPC 总承包",
+    "stage": "comparison"
+  },
+  "members": [
+    {
+      "userId": "u-01",
+      "name": "李维",
+      "role": "engineer"
+    },
+    {
+      "userId": "u-02",
+      "name": "王琛",
+      "role": "bidManager"
+    },
+    {
+      "userId": "u-03",
+      "name": "周敏",
+      "role": "commercial"
+    },
+    {
+      "userId": "u-04",
+      "name": "陈立",
+      "role": "legal"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-01",
+      "name": "CZ-Morava_RFP_技术规范书.pdf",
+      "type": "tender",
+      "reliability": "official",
+      "pages": 186,
+      "qualityScore": 96,
+      "parseStatus": "done"
+    },
+    {
+      "id": "doc-02",
+      "name": "竞对A_技术应答文件_v2.pdf",
+      "type": "competitorBid",
+      "reliability": "public",
+      "pages": 212,
+      "qualityScore": 88,
+      "parseStatus": "done"
+    },
+    {
+      "id": "doc-03",
+      "name": "竞对B_PowerStack_产品手册_EN.pdf",
+      "type": "competitorManual",
+      "reliability": "official",
+      "pages": 96,
+      "qualityScore": 91,
+      "parseStatus": "done"
+    },
+    {
+      "id": "doc-04",
+      "name": "2025_保加利亚BESS_中标公示摘要.pdf",
+      "type": "awardNotice",
+      "reliability": "thirdParty",
+      "pages": 24,
+      "qualityScore": 68,
+      "parseStatus": "review"
+    },
+    {
+      "id": "doc-05",
+      "name": "Aster5000_规格书_内部v4.pdf",
+      "type": "ourProduct",
+      "reliability": "official",
+      "pages": 64,
+      "qualityScore": 98,
+      "parseStatus": "done"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "anc-01",
+      "documentId": "doc-01",
+      "page": 12,
+      "section": "3.2 系统性能要求",
+      "paramKey": "system_rte",
+      "paramLabel": "系统往返效率",
+      "snippet": "AC-AC round trip efficiency shall be not less than 88%",
+      "confidence": 0.97
+    },
+    {
+      "id": "anc-02",
+      "documentId": "doc-01",
+      "page": 13,
+      "section": "3.2 系统性能要求",
+      "paramKey": "cycle_life",
+      "paramLabel": "循环寿命",
+      "snippet": "not less than 8000 cycles at 90% DoD, 25°C, end of life 70% SoH",
+      "confidence": 0.95
+    },
+    {
+      "id": "anc-03",
+      "documentId": "doc-01",
+      "page": 14,
+      "section": "3.3 质保与可用率",
+      "paramKey": "availability",
+      "paramLabel": "可用率保证",
+      "snippet": "annual availability of at least 98% calculated on a time-weighted basis",
+      "confidence": 0.93
+    },
+    {
+      "id": "anc-04",
+      "documentId": "doc-01",
+      "page": 15,
+      "section": "3.3 质保与可用率",
+      "paramKey": "warranty_years",
+      "paramLabel": "质保年限",
+      "snippet": "warranty period of 10 years from commercial operation date",
+      "confidence": 0.96
+    },
+    {
+      "id": "anc-05",
+      "documentId": "doc-01",
+      "page": 22,
+      "section": "4.1 并网要求",
+      "paramKey": "grid_code",
+      "paramLabel": "并网标准",
+      "snippet": "compliance with EN 50549-1/-2 and local grid code of the Czech Republic",
+      "confidence": 0.9
+    },
+    {
+      "id": "anc-06",
+      "documentId": "doc-01",
+      "page": 31,
+      "section": "6 交付计划",
+      "paramKey": "lead_time",
+      "paramLabel": "交付周期",
+      "snippet": "delivery within 30 weeks from contract signature",
+      "confidence": 0.94
+    },
+    {
+      "id": "anc-07",
+      "documentId": "doc-02",
+      "page": 37,
+      "section": "5.1 Efficiency",
+      "paramKey": "system_rte",
+      "paramLabel": "系统往返效率",
+      "snippet": "up to 92% round trip efficiency measured at DC terminals",
+      "confidence": 0.88
+    },
+    {
+      "id": "anc-08",
+      "documentId": "doc-02",
+      "page": 38,
+      "section": "5.2 Cycle life",
+      "paramKey": "cycle_life",
+      "paramLabel": "循环寿命",
+      "snippet": "up to 12000 cycles, conditions to be confirmed per project",
+      "confidence": 0.61
+    },
+    {
+      "id": "anc-09",
+      "documentId": "doc-02",
+      "page": 41,
+      "section": "5.4 Warranty",
+      "paramKey": "warranty_years",
+      "paramLabel": "质保年限",
+      "snippet": "10 years for battery cells, 5 years for PCS",
+      "confidence": 0.9
+    },
+    {
+      "id": "anc-10",
+      "documentId": "doc-02",
+      "page": 44,
+      "section": "5.6 Delivery",
+      "paramKey": "lead_time",
+      "paramLabel": "交付周期",
+      "snippet": "typical delivery 24 weeks excluding sea freight",
+      "confidence": 0.72
+    },
+    {
+      "id": "anc-11",
+      "documentId": "doc-02",
+      "page": 47,
+      "section": "5.7 Safety",
+      "paramKey": "fire_suppression",
+      "paramLabel": "消防方案",
+      "snippet": "aerosol based suppression plus NFPA 68 deflagration venting",
+      "confidence": 0.86
+    },
+    {
+      "id": "anc-12",
+      "documentId": "doc-03",
+      "page": 18,
+      "section": "Product specification",
+      "paramKey": "rated_energy",
+      "paramLabel": "额定能量",
+      "snippet": "5.0 MWh nominal energy per 20ft container",
+      "confidence": 0.95
+    },
+    {
+      "id": "anc-13",
+      "documentId": "doc-03",
+      "page": 19,
+      "section": "Product specification",
+      "paramKey": "system_rte",
+      "paramLabel": "系统往返效率",
+      "snippet": "89% AC-AC efficiency excluding auxiliary consumption",
+      "confidence": 0.83
+    },
+    {
+      "id": "anc-14",
+      "documentId": "doc-03",
+      "page": 21,
+      "section": "Product specification",
+      "paramKey": "availability",
+      "paramLabel": "可用率保证",
+      "snippet": "99% availability on a monthly reporting basis",
+      "confidence": 0.79
+    },
+    {
+      "id": "anc-15",
+      "documentId": "doc-03",
+      "page": 24,
+      "section": "Certification",
+      "paramKey": "certifications",
+      "paramLabel": "认证清单",
+      "snippet": "UL 9540, IEC 62619, EN 50549, CE pending for new model",
+      "confidence": 0.87
+    },
+    {
+      "id": "anc-16",
+      "documentId": "doc-05",
+      "page": 9,
+      "section": "2.1 系统参数",
+      "paramKey": "system_rte",
+      "paramLabel": "系统往返效率",
+      "snippet": "系统往返效率 88.5%（AC-AC，含辅助功耗，25℃，0.5C）",
+      "confidence": 0.99
+    },
+    {
+      "id": "anc-17",
+      "documentId": "doc-05",
+      "page": 10,
+      "section": "2.1 系统参数",
+      "paramKey": "cycle_life",
+      "paramLabel": "循环寿命",
+      "snippet": "循环寿命 8500 次（DoD 90%，25℃，SoH 70%）",
+      "confidence": 0.98
+    },
+    {
+      "id": "anc-18",
+      "documentId": "doc-05",
+      "page": 12,
+      "section": "2.3 质保",
+      "paramKey": "availability",
+      "paramLabel": "可用率保证",
+      "snippet": "年可用率保证 98.5%，按时间加权统计",
+      "confidence": 0.97
+    }
+  ],
+  "paramValues": [
+    {
+      "id": "pv-001",
+      "defKey": "system_rte",
+      "defLabel": "系统往返效率",
+      "sourceId": "our",
+      "sourceName": "我方 Aster 5000",
+      "value": 88.5,
+      "unit": "%",
+      "status": "confirmed",
+      "confidence": 0.99,
+      "conditions": {
+        "boundary": "ac-ac",
+        "temperature": 25,
+        "loadRate": 50
+      },
+      "anchorId": "anc-16"
+    },
+    {
+      "id": "pv-002",
+      "defKey": "cycle_life",
+      "defLabel": "循环寿命",
+      "sourceId": "our",
+      "sourceName": "我方 Aster 5000",
+      "value": 8500,
+      "unit": "次",
+      "status": "confirmed",
+      "confidence": 0.98,
+      "conditions": {
+        "dod": 90,
+        "temperature": 25,
+        "sohEnd": 70
+      },
+      "anchorId": "anc-17"
+    },
+    {
+      "id": "pv-003",
+      "defKey": "availability",
+      "defLabel": "可用率保证",
+      "sourceId": "our",
+      "sourceName": "我方 Aster 5000",
+      "value": 98.5,
+      "unit": "%",
+      "status": "confirmed",
+      "confidence": 0.97,
+      "conditions": {
+        "period": "year"
+      },
+      "anchorId": "anc-18"
+    },
+    {
+      "id": "pv-004",
+      "defKey": "warranty_years",
+      "defLabel": "质保年限",
+      "sourceId": "our",
+      "sourceName": "我方 Aster 5000",
+      "value": 10,
+      "unit": "年",
+      "status": "confirmed",
+      "confidence": 0.96,
+      "anchorId": null
+    },
+    {
+      "id": "pv-005",
+      "defKey": "lead_time",
+      "defLabel": "交付周期",
+      "sourceId": "our",
+      "sourceName": "我方 Aster 5000",
+      "value": 28,
+      "unit": "周",
+      "status": "confirmed",
+      "confidence": 0.95,
+      "anchorId": null
+    },
+    {
+      "id": "pv-006",
+      "defKey": "rated_energy",
+      "defLabel": "额定能量",
+      "sourceId": "our",
+      "sourceName": "我方 Aster 5000",
+      "value": 5,
+      "unit": "MWh",
+      "status": "confirmed",
+      "confidence": 0.99,
+      "anchorId": null
+    },
+    {
+      "id": "pv-007",
+      "defKey": "usable_energy",
+      "defLabel": "可用能量",
+      "sourceId": "our",
+      "sourceName": "我方 Aster 5000",
+      "value": 4.75,
+      "unit": "MWh",
+      "status": "confirmed",
+      "confidence": 0.94,
+      "conditions": {
+        "dod": 95,
+        "sohEnd": 70
+      },
+      "anchorId": null
+    },
+    {
+      "id": "pv-008",
+      "defKey": "thermal_type",
+      "defLabel": "温控方式",
+      "sourceId": "our",
+      "sourceName": "我方 Aster 5000",
+      "value": "液冷",
+      "unit": "—",
+      "status": "confirmed",
+      "confidence": 0.97,
+      "anchorId": null
+    },
+    {
+      "id": "pv-009",
+      "defKey": "aux_consumption",
+      "defLabel": "辅助功耗",
+      "sourceId": "our",
+      "sourceName": "我方 Aster 5000",
+      "value": 1.6,
+      "unit": "%",
+      "status": "pending",
+      "confidence": 0.88,
+      "conditions": {
+        "loadRate": 100
+      },
+      "anchorId": "anc-16"
+    },
+    {
+      "id": "pv-010",
+      "defKey": "temp_range",
+      "defLabel": "工作温度区间",
+      "sourceId": "our",
+      "sourceName": "我方 Aster 5000",
+      "value": "-30 ~ +50",
+      "unit": "℃",
+      "status": "confirmed",
+      "confidence": 0.93,
+      "anchorId": "anc-16"
+    },
+    {
+      "id": "pv-011",
+      "defKey": "fire_suppression",
+      "defLabel": "消防方案",
+      "sourceId": "our",
+      "sourceName": "我方 Aster 5000",
+      "value": "气溶胶 + NFPA 68",
+      "unit": "—",
+      "status": "confirmed",
+      "confidence": 0.95,
+      "anchorId": null
+    },
+    {
+      "id": "pv-012",
+      "defKey": "certifications",
+      "defLabel": "认证清单",
+      "sourceId": "our",
+      "sourceName": "我方 Aster 5000",
+      "value": "UL9540, IEC62619, EN50549, CE",
+      "unit": "—",
+      "status": "confirmed",
+      "confidence": 0.96,
+      "anchorId": null
+    },
+    {
+      "id": "pv-013",
+      "defKey": "grid_code",
+      "defLabel": "并网标准",
+      "sourceId": "our",
+      "sourceName": "我方 Aster 5000",
+      "value": "EN50549, VDE-AR-N 4110",
+      "unit": "—",
+      "status": "confirmed",
+      "confidence": 0.9,
+      "anchorId": null
+    },
+    {
+      "id": "pv-014",
+      "defKey": "noise",
+      "defLabel": "噪声",
+      "sourceId": "our",
+      "sourceName": "我方 Aster 5000",
+      "value": 65,
+      "unit": "dB(A)",
+      "status": "pending",
+      "confidence": 0.85,
+      "anchorId": null
+    },
+    {
+      "id": "pv-015",
+      "defKey": "local_service",
+      "defLabel": "本地服务能力",
+      "sourceId": "our",
+      "sourceName": "我方 Aster 5000",
+      "value": "4 小时响应",
+      "unit": "—",
+      "status": "confirmed",
+      "confidence": 0.9,
+      "anchorId": null
+    },
+    {
+      "id": "pv-016",
+      "defKey": "payment_terms",
+      "defLabel": "付款条件",
+      "sourceId": "our",
+      "sourceName": "我方 Aster 5000",
+      "value": "20/70/10",
+      "unit": "—",
+      "status": "pending",
+      "confidence": 0.8,
+      "anchorId": null
+    },
+    {
+      "id": "pv-017",
+      "defKey": "system_rte",
+      "defLabel": "系统往返效率",
+      "sourceId": "c-a",
+      "sourceName": "竞对 A",
+      "value": 92,
+      "unit": "%",
+      "status": "pending",
+      "confidence": 0.88,
+      "conditions": {
+        "boundary": "dc-dc",
+        "temperature": 25,
+        "loadRate": 50
+      },
+      "anchorId": "anc-07"
+    },
+    {
+      "id": "pv-018",
+      "defKey": "rated_energy",
+      "defLabel": "额定能量",
+      "sourceId": "c-a",
+      "sourceName": "竞对 A",
+      "value": 5,
+      "unit": "MWh",
+      "status": "confirmed",
+      "confidence": 0.94,
+      "anchorId": null
+    },
+    {
+      "id": "pv-019",
+      "defKey": "cycle_life",
+      "defLabel": "循环寿命",
+      "sourceId": "c-a",
+      "sourceName": "竞对 A",
+      "value": 12000,
+      "unit": "次",
+      "status": "conflict",
+      "confidence": 0.61,
+      "anchorId": "anc-08",
+      "conflictValues": [
+        {
+          "value": "12000 次（条件未给）",
+          "source": "投标文件 P.38"
+        },
+        {
+          "value": "10000 次（DoD 80%）",
+          "source": "产品手册 2026-03 P.22"
+        }
+      ]
+    },
+    {
+      "id": "pv-020",
+      "defKey": "availability",
+      "defLabel": "可用率保证",
+      "sourceId": "c-a",
+      "sourceName": "竞对 A",
+      "value": null,
+      "unit": "%",
+      "status": "pending",
+      "confidence": 0.4,
+      "anchorId": null
+    },
+    {
+      "id": "pv-021",
+      "defKey": "warranty_years",
+      "defLabel": "质保年限",
+      "sourceId": "c-a",
+      "sourceName": "竞对 A",
+      "value": "10/5",
+      "unit": "年",
+      "status": "confirmed",
+      "confidence": 0.9,
+      "anchorId": "anc-09"
+    },
+    {
+      "id": "pv-022",
+      "defKey": "lead_time",
+      "defLabel": "交付周期",
+      "sourceId": "c-a",
+      "sourceName": "竞对 A",
+      "value": 24,
+      "unit": "周",
+      "status": "pending",
+      "confidence": 0.72,
+      "anchorId": "anc-10"
+    },
+    {
+      "id": "pv-023",
+      "defKey": "fire_suppression",
+      "defLabel": "消防方案",
+      "sourceId": "c-a",
+      "sourceName": "竞对 A",
+      "value": "气溶胶 + NFPA 68",
+      "unit": "—",
+      "status": "confirmed",
+      "confidence": 0.86,
+      "anchorId": "anc-11"
+    },
+    {
+      "id": "pv-024",
+      "defKey": "noise",
+      "defLabel": "噪声",
+      "sourceId": "c-a",
+      "sourceName": "竞对 A",
+      "value": 68,
+      "unit": "dB(A)",
+      "status": "pending",
+      "confidence": 0.79,
+      "anchorId": null
+    },
+    {
+      "id": "pv-025",
+      "defKey": "pcs_efficiency",
+      "defLabel": "PCS 效率",
+      "sourceId": "c-a",
+      "sourceName": "竞对 A",
+      "value": 98.2,
+      "unit": "%",
+      "status": "pending",
+      "confidence": 0.83,
+      "conditions": {
+        "loadRate": 100
+      },
+      "anchorId": "anc-07"
+    },
+    {
+      "id": "pv-026",
+      "defKey": "temp_range",
+      "defLabel": "工作温度区间",
+      "sourceId": "c-a",
+      "sourceName": "竞对 A",
+      "value": "-25 ~ +55",
+      "unit": "℃",
+      "status": "pending",
+      "confidence": 0.8,
+      "anchorId": null
+    },
+    {
+      "id": "pv-027",
+      "defKey": "certifications",
+      "defLabel": "认证清单",
+      "sourceId": "c-a",
+      "sourceName": "竞对 A",
+      "value": "UL9540, IEC62619, CE",
+      "unit": "—",
+      "status": "confirmed",
+      "confidence": 0.87,
+      "anchorId": null
+    },
+    {
+      "id": "pv-028",
+      "defKey": "payment_terms",
+      "defLabel": "付款条件",
+      "sourceId": "c-a",
+      "sourceName": "竞对 A",
+      "value": "30/60/10",
+      "unit": "—",
+      "status": "pending",
+      "confidence": 0.75,
+      "anchorId": null
+    },
+    {
+      "id": "pv-029",
+      "defKey": "performance_bond",
+      "defLabel": "履约保函",
+      "sourceId": "c-a",
+      "sourceName": "竞对 A",
+      "value": 10,
+      "unit": "%",
+      "status": "pending",
+      "confidence": 0.82,
+      "anchorId": null
+    },
+    {
+      "id": "pv-030",
+      "defKey": "degradation",
+      "defLabel": "容量衰减保证",
+      "sourceId": "c-a",
+      "sourceName": "竞对 A",
+      "value": 0.5,
+      "unit": "%/年",
+      "status": "pending",
+      "confidence": 0.7,
+      "conditions": {
+        "temperature": 25
+      },
+      "anchorId": null
+    },
+    {
+      "id": "pv-031",
+      "defKey": "warranty_years",
+      "defLabel": "质保年限",
+      "sourceId": "c-b",
+      "sourceName": "竞对 B",
+      "value": 12,
+      "unit": "年",
+      "status": "conflict",
+      "confidence": 0.68,
+      "anchorId": null,
+      "conflictValues": [
+        {
+          "value": "12 年（需延保合同）",
+          "source": "产品手册 P.26"
+        },
+        {
+          "value": "10 年（标准质保）",
+          "source": "产品手册 P.25"
+        }
+      ]
+    },
+    {
+      "id": "pv-032",
+      "defKey": "system_rte",
+      "defLabel": "系统往返效率",
+      "sourceId": "c-b",
+      "sourceName": "竞对 B",
+      "value": 89,
+      "unit": "%",
+      "status": "pending",
+      "confidence": 0.83,
+      "conditions": {
+        "boundary": "ac-ac",
+        "temperature": 25,
+        "loadRate": 50
+      },
+      "anchorId": "anc-13"
+    },
+    {
+      "id": "pv-033",
+      "defKey": "availability",
+      "defLabel": "可用率保证",
+      "sourceId": "c-b",
+      "sourceName": "竞对 B",
+      "value": 99,
+      "unit": "%",
+      "status": "pending",
+      "confidence": 0.79,
+      "conditions": {
+        "period": "month"
+      },
+      "anchorId": "anc-14"
+    },
+    {
+      "id": "pv-034",
+      "defKey": "rated_energy",
+      "defLabel": "额定能量",
+      "sourceId": "c-b",
+      "sourceName": "竞对 B",
+      "value": 5,
+      "unit": "MWh",
+      "status": "confirmed",
+      "confidence": 0.95,
+      "anchorId": "anc-12"
+    },
+    {
+      "id": "pv-035",
+      "defKey": "cycle_life",
+      "defLabel": "循环寿命",
+      "sourceId": "c-b",
+      "sourceName": "竞对 B",
+      "value": 8000,
+      "unit": "次",
+      "status": "pending",
+      "confidence": 0.66,
+      "conditions": {
+        "dod": 80,
+        "temperature": 25,
+        "sohEnd": 60
+      },
+      "anchorId": null
+    },
+    {
+      "id": "pv-036",
+      "defKey": "aux_consumption",
+      "defLabel": "辅助功耗",
+      "sourceId": "c-b",
+      "sourceName": "竞对 B",
+      "value": 1.8,
+      "unit": "%",
+      "status": "pending",
+      "confidence": 0.81,
+      "conditions": {
+        "loadRate": 100
+      },
+      "anchorId": "anc-13"
+    },
+    {
+      "id": "pv-037",
+      "defKey": "certifications",
+      "defLabel": "认证清单",
+      "sourceId": "c-b",
+      "sourceName": "竞对 B",
+      "value": "UL9540, IEC62619, EN50549（CE 待发证）",
+      "unit": "—",
+      "status": "pending",
+      "confidence": 0.87,
+      "anchorId": "anc-15"
+    },
+    {
+      "id": "pv-038",
+      "defKey": "local_service",
+      "defLabel": "本地服务能力",
+      "sourceId": "c-b",
+      "sourceName": "竞对 B",
+      "value": "远程监控 + 3 年巡检",
+      "unit": "—",
+      "status": "confirmed",
+      "confidence": 0.84,
+      "anchorId": "anc-14"
+    },
+    {
+      "id": "pv-039",
+      "defKey": "lead_time",
+      "defLabel": "交付周期",
+      "sourceId": "c-b",
+      "sourceName": "竞对 B",
+      "value": null,
+      "unit": "周",
+      "status": "pending",
+      "confidence": 0.35,
+      "anchorId": null
+    },
+    {
+      "id": "pv-040",
+      "defKey": "thermal_type",
+      "defLabel": "温控方式",
+      "sourceId": "c-b",
+      "sourceName": "竞对 B",
+      "value": "液冷",
+      "unit": "—",
+      "status": "confirmed",
+      "confidence": 0.92,
+      "anchorId": "anc-12"
+    }
+  ],
+  "comparisonRows": [
+    {
+      "id": "cmp-001",
+      "defKey": "system_rte",
+      "defLabel": "系统往返效率",
+      "dimension": "performance",
+      "mandatory": true,
+      "requirement": {
+        "text": "AC-AC 全系统往返效率 ≥ 88%，含辅助功耗",
+        "targetValue": "≥ 88",
+        "unit": "%",
+        "conditions": {
+          "note": "25℃ · 0.5C"
+        }
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "88.5%（AC-AC，含辅助）",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "92%（DC-DC，不含辅助）",
+          "status": "incomparable"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "89%（AC-AC，不含辅助）",
+          "status": "potentialDeviation"
+        }
+      ],
+      "judged": "incomparable",
+      "reason": "竞对 A 为 DC 侧效率，边界与要求不一致；竞对 B 未计辅助功耗，扣减后约 87.8%。",
+      "ruleHits": [
+        {
+          "rule": "边界一致",
+          "detail": "A: dc-dc ≠ ac-ac"
+        },
+        {
+          "rule": "辅助功耗计入",
+          "detail": "B: 未计入"
+        },
+        {
+          "rule": "阈值",
+          "detail": "≥88"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": false
+      },
+      "clarify": "建议在答疑中提请业主统一效率测量边界与辅助功耗口径",
+      "weight": 3
+    },
+    {
+      "id": "cmp-002",
+      "defKey": "cycle_life",
+      "defLabel": "循环寿命",
+      "dimension": "performance",
+      "mandatory": true,
+      "requirement": {
+        "text": "≥ 8000 次（DoD 90%、25℃、SoH 70%）",
+        "targetValue": "≥ 8000",
+        "unit": "次",
+        "conditions": {
+          "note": "DoD90/25℃/SOH70"
+        }
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "8500 次（同条件）",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "12000 次（条件缺失）",
+          "status": "insufficientEvidence"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "8000 次（DoD80/SOH60）",
+          "status": "incomparable"
+        }
+      ],
+      "judged": "incomparable",
+      "reason": "竞对 A 未给出测试条件；竞对 B 的 DoD 与 SoH 终点均低于要求，不可直接比较。",
+      "ruleHits": [
+        {
+          "rule": "条件完整",
+          "detail": "A: 缺 DoD/温度/SoH"
+        },
+        {
+          "rule": "条件一致",
+          "detail": "B: DoD80≠90，SoH60≠70"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": false,
+        "boundary": true
+      },
+      "clarify": "要求业主统一循环寿命测试条件后再做横向比较",
+      "weight": 3
+    },
+    {
+      "id": "cmp-003",
+      "defKey": "availability",
+      "defLabel": "可用率保证",
+      "dimension": "warranty",
+      "mandatory": false,
+      "requirement": {
+        "text": "年可用率 ≥ 98%，按时间加权",
+        "targetValue": "≥ 98",
+        "unit": "%",
+        "conditions": {
+          "note": "年度口径"
+        }
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "98.5%（年，时间加权）",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "未披露",
+          "status": "undisclosed"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "99%（月度口径）",
+          "status": "incomparable"
+        }
+      ],
+      "judged": "incomparable",
+      "reason": "竞对 A 全文未披露；竞对 B 为月度口径，与年度时间加权不可比。",
+      "ruleHits": [
+        {
+          "rule": "口径一致",
+          "detail": "B: month ≠ year"
+        },
+        {
+          "rule": "缺失不等于零",
+          "detail": "A: 无值，不判为不满足"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": false,
+        "boundary": true
+      },
+      "clarify": "建议要求竞对按年度时间加权口径补充承诺",
+      "weight": 2
+    },
+    {
+      "id": "cmp-004",
+      "defKey": "warranty_years",
+      "defLabel": "质保年限与范围",
+      "dimension": "warranty",
+      "mandatory": true,
+      "requirement": {
+        "text": "整系统质保 ≥ 10 年（含 PCS）",
+        "targetValue": "≥ 10",
+        "unit": "年",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "10 年（整系统）",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "10 年电芯 + 5 年 PCS",
+          "status": "potentialDeviation"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "12 年（需延保合同）",
+          "status": "potentialDeviation"
+        }
+      ],
+      "judged": "potentialDeviation",
+      "reason": "竞对 A 的 PCS 质保仅 5 年，低于 10 年要求；竞对 B 的 12 年为条件性承诺。",
+      "ruleHits": [
+        {
+          "rule": "覆盖范围",
+          "detail": "A: PCS 5 年 < 10 年"
+        },
+        {
+          "rule": "承诺条件",
+          "detail": "B: 需延保合同"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": "要求竞对 A 澄清 PCS 质保覆盖；竞对 B 澄清延保价格",
+      "weight": 2
+    },
+    {
+      "id": "cmp-005",
+      "defKey": "lead_time",
+      "defLabel": "交付周期",
+      "dimension": "delivery",
+      "mandatory": false,
+      "requirement": {
+        "text": "≤ 30 周（自合同生效起算，含海运）",
+        "targetValue": "≤ 30",
+        "unit": "周",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "28 周（含海运）",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "24 周（不含海运）",
+          "status": "potentialDeviation"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "未披露",
+          "status": "undisclosed"
+        }
+      ],
+      "judged": "potentialDeviation",
+      "reason": "竞对 A 未明确起算点且不含海运，实际交付不可比。",
+      "ruleHits": [
+        {
+          "rule": "起算点",
+          "detail": "A: 不含海运"
+        },
+        {
+          "rule": "缺失",
+          "detail": "B: 未披露"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": "要求竞对 A 按「合同生效至并网」口径重新报交付",
+      "weight": 1
+    },
+    {
+      "id": "cmp-006",
+      "defKey": "rated_energy",
+      "defLabel": "额定能量",
+      "dimension": "technical",
+      "mandatory": false,
+      "requirement": {
+        "text": "单箱额定能量 ≥ 5.0 MWh",
+        "targetValue": "≥ 5.0",
+        "unit": "MWh",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "5.0 MWh",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "5.0 MWh",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "5.0 MWh",
+          "status": "compliant"
+        }
+      ],
+      "judged": "compliant",
+      "reason": "三家均满足，无差异。",
+      "ruleHits": [
+        {
+          "rule": "阈值",
+          "detail": "≥5.0"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": null,
+      "weight": 1
+    },
+    {
+      "id": "cmp-007",
+      "defKey": "usable_energy",
+      "defLabel": "可用能量",
+      "dimension": "technical",
+      "mandatory": false,
+      "requirement": {
+        "text": "可用能量 ≥ 4.6 MWh（DoD 95%、SoH 70%）",
+        "targetValue": "≥ 4.6",
+        "unit": "MWh",
+        "conditions": {
+          "note": "DoD95/SoH70"
+        }
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "4.75 MWh（DoD95）",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "未披露",
+          "status": "undisclosed"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "未披露",
+          "status": "undisclosed"
+        }
+      ],
+      "judged": "undisclosed",
+      "reason": "两家竞对均只给额定能量，未披露可用能量口径。",
+      "ruleHits": [
+        {
+          "rule": "口径",
+          "detail": "仅额定值"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": false,
+        "boundary": true
+      },
+      "clarify": "要求竞对按 DoD 95%/SoH 70% 报可用能量",
+      "weight": 2
+    },
+    {
+      "id": "cmp-008",
+      "defKey": "thermal_type",
+      "defLabel": "温控方式",
+      "dimension": "technical",
+      "mandatory": false,
+      "requirement": {
+        "text": "液冷优先，电芯温差 ≤ 3℃",
+        "targetValue": "液冷",
+        "unit": "—",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "液冷，温差 ≤3℃",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "液冷",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "液冷",
+          "status": "compliant"
+        }
+      ],
+      "judged": "compliant",
+      "reason": "三家均为液冷方案。",
+      "ruleHits": [
+        {
+          "rule": "一致性",
+          "detail": "均液冷"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": null,
+      "weight": 1
+    },
+    {
+      "id": "cmp-009",
+      "defKey": "aux_consumption",
+      "defLabel": "辅助功耗",
+      "dimension": "performance",
+      "mandatory": false,
+      "requirement": {
+        "text": "≤ 2.5% 额定功率（额定工况）",
+        "targetValue": "≤ 2.5",
+        "unit": "%",
+        "conditions": {
+          "note": "额定工况"
+        }
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "1.6%",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "未披露",
+          "status": "undisclosed"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "1.8%",
+          "status": "compliant"
+        }
+      ],
+      "judged": "undisclosed",
+      "reason": "竞对 A 未单独披露辅助功耗，其效率数值未说明是否含辅助。",
+      "ruleHits": [
+        {
+          "rule": "披露完整性",
+          "detail": "A: 缺值"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": "要求竞对 A 补充辅助功耗与效率口径",
+      "weight": 2
+    },
+    {
+      "id": "cmp-010",
+      "defKey": "temp_range",
+      "defLabel": "工作温度区间",
+      "dimension": "technical",
+      "mandatory": true,
+      "requirement": {
+        "text": "−30℃ ~ +50℃ 可正常运行",
+        "targetValue": "−30 ~ +50",
+        "unit": "℃",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "−30 ~ +50℃",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "−25 ~ +55℃",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "未披露",
+          "status": "undisclosed"
+        }
+      ],
+      "judged": "undisclosed",
+      "reason": "竞对 B 未披露环境适应性，需澄清（不得推断为不具备）。",
+      "ruleHits": [
+        {
+          "rule": "缺失不等于不具备",
+          "detail": "B: 未披露"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": "要求竞对 B 提供高低温降额曲线",
+      "weight": 1
+    },
+    {
+      "id": "cmp-011",
+      "defKey": "fire_suppression",
+      "defLabel": "消防方案",
+      "dimension": "safety",
+      "mandatory": true,
+      "requirement": {
+        "text": "满足 NFPA 68/69，含可燃气体探测与泄压",
+        "targetValue": "NFPA 68/69",
+        "unit": "—",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "气溶胶 + NFPA 68 泄压",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "气溶胶 + NFPA 68",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "未披露",
+          "status": "undisclosed"
+        }
+      ],
+      "judged": "undisclosed",
+      "reason": "竞对 B 手册未涉及消防细节。",
+      "ruleHits": [
+        {
+          "rule": "披露",
+          "detail": "B: 未披露"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": "要求竞对 B 提供消防设计与测试报告",
+      "weight": 2
+    },
+    {
+      "id": "cmp-012",
+      "defKey": "certifications",
+      "defLabel": "认证清单",
+      "dimension": "safety",
+      "mandatory": true,
+      "requirement": {
+        "text": "UL9540 / IEC62619 / EN50549 齐备且有效",
+        "targetValue": "全部齐备",
+        "unit": "—",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "UL9540、IEC62619、EN50549、CE",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "UL9540、IEC62619、CE",
+          "status": "potentialDeviation"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "UL9540、IEC62619、EN50549（CE 待发证）",
+          "status": "potentialDeviation"
+        }
+      ],
+      "judged": "potentialDeviation",
+      "reason": "竞对 A 缺 EN50549；竞对 B 的 CE 尚在办理。",
+      "ruleHits": [
+        {
+          "rule": "清单比对",
+          "detail": "A: 缺 EN50549"
+        },
+        {
+          "rule": "有效性",
+          "detail": "B: CE pending"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": "要求两家提供在有效期内的证书扫描件与发证日期",
+      "weight": 3
+    },
+    {
+      "id": "cmp-013",
+      "defKey": "grid_code",
+      "defLabel": "并网标准",
+      "dimension": "safety",
+      "mandatory": true,
+      "requirement": {
+        "text": "满足 EN50549，并适配捷克本地并网规范",
+        "targetValue": "EN50549 + 本地",
+        "unit": "—",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "EN50549 + VDE-AR-N 4110",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "未披露",
+          "status": "undisclosed"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "EN50549",
+          "status": "compliant"
+        }
+      ],
+      "judged": "undisclosed",
+      "reason": "竞对 A 未提供并网符合性说明。",
+      "ruleHits": [
+        {
+          "rule": "披露",
+          "detail": "A: 未披露"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": "要求竞对 A 提供并网仿真报告",
+      "weight": 2
+    },
+    {
+      "id": "cmp-014",
+      "defKey": "noise",
+      "defLabel": "噪声",
+      "dimension": "technical",
+      "mandatory": false,
+      "requirement": {
+        "text": "≤ 70 dB(A) @1m",
+        "targetValue": "≤ 70",
+        "unit": "dB(A)",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "65 dB(A)",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "68 dB(A)",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "未披露",
+          "status": "undisclosed"
+        }
+      ],
+      "judged": "undisclosed",
+      "reason": "竞对 B 未披露噪声数据。",
+      "ruleHits": [
+        {
+          "rule": "披露",
+          "detail": "B: 未披露"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": null,
+      "weight": 1
+    },
+    {
+      "id": "cmp-015",
+      "defKey": "pcs_efficiency",
+      "defLabel": "PCS 效率",
+      "dimension": "performance",
+      "mandatory": false,
+      "requirement": {
+        "text": "≥ 98%（额定负载）",
+        "targetValue": "≥ 98",
+        "unit": "%",
+        "conditions": {
+          "note": "额定负载"
+        }
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "98.4%",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "98.2%",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "未披露",
+          "status": "undisclosed"
+        }
+      ],
+      "judged": "undisclosed",
+      "reason": "竞对 B 未单独披露 PCS 效率。",
+      "ruleHits": [
+        {
+          "rule": "披露",
+          "detail": "B: 未披露"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": null,
+      "weight": 1
+    },
+    {
+      "id": "cmp-016",
+      "defKey": "degradation",
+      "defLabel": "容量衰减保证",
+      "dimension": "performance",
+      "mandatory": false,
+      "requirement": {
+        "text": "首年后年衰减 ≤ 0.5%",
+        "targetValue": "≤ 0.5",
+        "unit": "%/年",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "0.4%/年",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "≤0.5%/年",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "未披露",
+          "status": "undisclosed"
+        }
+      ],
+      "judged": "undisclosed",
+      "reason": "竞对 B 仅给循环寿命，未给年度衰减承诺。",
+      "ruleHits": [
+        {
+          "rule": "披露",
+          "detail": "B: 未披露"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": null,
+      "weight": 2
+    },
+    {
+      "id": "cmp-017",
+      "defKey": "local_service",
+      "defLabel": "本地服务能力",
+      "dimension": "delivery",
+      "mandatory": false,
+      "requirement": {
+        "text": "欧洲本地备件与 ≤8 小时响应",
+        "targetValue": "≤8 h",
+        "unit": "h",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "300+ 网点，4h 响应",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "未披露",
+          "status": "undisclosed"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "24/7 远程 + 3 年巡检",
+          "status": "compliant"
+        }
+      ],
+      "judged": "undisclosed",
+      "reason": "竞对 A 未披露欧洲本地服务能力。",
+      "ruleHits": [
+        {
+          "rule": "披露",
+          "detail": "A: 未披露"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": null,
+      "weight": 2
+    },
+    {
+      "id": "cmp-018",
+      "defKey": "payment_terms",
+      "defLabel": "付款条件",
+      "dimension": "commercial",
+      "mandatory": false,
+      "requirement": {
+        "text": "预付 ≤ 20%，验收后付 ≥ 10%",
+        "targetValue": "预付≤20%",
+        "unit": "—",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "20/70/10",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "30/60/10",
+          "status": "deviation"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "未披露",
+          "status": "undisclosed"
+        }
+      ],
+      "judged": "deviation",
+      "reason": "竞对 A 预付比例 30% 高于要求，属商务条件偏离（对业主不利，对我方有利）。",
+      "ruleHits": [
+        {
+          "rule": "预付比例",
+          "detail": "A: 30% > 20%"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": null,
+      "weight": 1
+    },
+    {
+      "id": "cmp-019",
+      "defKey": "performance_bond",
+      "defLabel": "履约保函",
+      "dimension": "commercial",
+      "mandatory": false,
+      "requirement": {
+        "text": "≤ 合同额 10%",
+        "targetValue": "≤ 10",
+        "unit": "%",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "10%",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "10%",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "未披露",
+          "status": "undisclosed"
+        }
+      ],
+      "judged": "undisclosed",
+      "reason": "竞对 B 未披露保函要求。",
+      "ruleHits": [
+        {
+          "rule": "披露",
+          "detail": "B: 未披露"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": null,
+      "weight": 1
+    },
+    {
+      "id": "cmp-020",
+      "defKey": "price_structure",
+      "defLabel": "报价结构",
+      "dimension": "commercial",
+      "mandatory": false,
+      "requirement": {
+        "text": "要求分设备/安装/运维三项报价",
+        "targetValue": "三项分列",
+        "unit": "—",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "三项分列",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "未披露",
+          "status": "insufficientEvidence"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "未披露",
+          "status": "insufficientEvidence"
+        }
+      ],
+      "judged": "insufficientEvidence",
+      "reason": "两家公开资料均未包含报价结构，属证据不足而非不符。",
+      "ruleHits": [
+        {
+          "rule": "证据",
+          "detail": "A/B: 无报价资料"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": "若需商务对标，应通过合法渠道获取报价拆分",
+      "weight": 1
+    },
+    {
+      "id": "cmp-021",
+      "defKey": "liquidated_damages",
+      "defLabel": "违约赔偿",
+      "dimension": "commercial",
+      "mandatory": false,
+      "requirement": {
+        "text": "≤ 0.5%/周，上限 10%",
+        "targetValue": "≤0.5%/周",
+        "unit": "%/周",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "0.5%/周，上限 10%",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "未披露",
+          "status": "undisclosed"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "1%/周，上限 15%",
+          "status": "compliant"
+        }
+      ],
+      "judged": "undisclosed",
+      "reason": "竞对 A 未披露 LD 条款。",
+      "ruleHits": [
+        {
+          "rule": "披露",
+          "detail": "A: 未披露"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": null,
+      "weight": 1
+    },
+    {
+      "id": "cmp-022",
+      "defKey": "duration",
+      "defLabel": "持续放电时长",
+      "dimension": "technical",
+      "mandatory": false,
+      "requirement": {
+        "text": "4 小时（@25MW 并网点）",
+        "targetValue": "4",
+        "unit": "h",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "4 h",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "4 h",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "4 h",
+          "status": "compliant"
+        }
+      ],
+      "judged": "compliant",
+      "reason": "三家一致。",
+      "ruleHits": [
+        {
+          "rule": "一致性",
+          "detail": "均 4h"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": null,
+      "weight": 1
+    },
+    {
+      "id": "cmp-023",
+      "defKey": "dc_ac_ratio",
+      "defLabel": "DC/AC 比",
+      "dimension": "technical",
+      "mandatory": false,
+      "requirement": {
+        "text": "≤ 1.10",
+        "targetValue": "≤ 1.10",
+        "unit": "—",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "1.00",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "1.05",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "未披露",
+          "status": "undisclosed"
+        }
+      ],
+      "judged": "undisclosed",
+      "reason": "竞对 B 未披露 DC/AC 配比。",
+      "ruleHits": [
+        {
+          "rule": "披露",
+          "detail": "B: 未披露"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": null,
+      "weight": 1
+    },
+    {
+      "id": "cmp-024",
+      "defKey": "ip_rating",
+      "defLabel": "防护等级",
+      "dimension": "safety",
+      "mandatory": false,
+      "requirement": {
+        "text": "≥ IP54",
+        "targetValue": "≥ IP54",
+        "unit": "IP",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "IP55",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "IP54",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "IP55",
+          "status": "compliant"
+        }
+      ],
+      "judged": "compliant",
+      "reason": "三家均满足。",
+      "ruleHits": [
+        {
+          "rule": "阈值",
+          "detail": "≥IP54"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": null,
+      "weight": 1
+    },
+    {
+      "id": "cmp-025",
+      "defKey": "response_time",
+      "defLabel": "响应时间",
+      "dimension": "performance",
+      "mandatory": false,
+      "requirement": {
+        "text": "≤ 500 ms",
+        "targetValue": "≤ 500",
+        "unit": "ms",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "100 ms",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "未披露",
+          "status": "undisclosed"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "200 ms",
+          "status": "compliant"
+        }
+      ],
+      "judged": "undisclosed",
+      "reason": "竞对 A 未披露控制响应时间。",
+      "ruleHits": [
+        {
+          "rule": "披露",
+          "detail": "A: 未披露"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": null,
+      "weight": 1
+    },
+    {
+      "id": "cmp-026",
+      "defKey": "thd",
+      "defLabel": "电流谐波畸变",
+      "dimension": "safety",
+      "mandatory": false,
+      "requirement": {
+        "text": "THD ≤ 3%",
+        "targetValue": "≤ 3",
+        "unit": "%",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "3%",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "未披露",
+          "status": "undisclosed"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "3%",
+          "status": "compliant"
+        }
+      ],
+      "judged": "undisclosed",
+      "reason": "竞对 A 未披露谐波指标。",
+      "ruleHits": [
+        {
+          "rule": "披露",
+          "detail": "A: 未披露"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": null,
+      "weight": 1
+    },
+    {
+      "id": "cmp-027",
+      "defKey": "pf_range",
+      "defLabel": "功率因数范围",
+      "dimension": "safety",
+      "mandatory": false,
+      "requirement": {
+        "text": "−1 ~ +1 连续可调",
+        "targetValue": "−1~+1",
+        "unit": "—",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "−1 ~ +1",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "未披露",
+          "status": "undisclosed"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "−0.9 ~ +0.9",
+          "status": "potentialDeviation"
+        }
+      ],
+      "judged": "potentialDeviation",
+      "reason": "竞对 B 功率因数范围小于要求。",
+      "ruleHits": [
+        {
+          "rule": "范围比较",
+          "detail": "B: 0.9 < 1.0"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": null,
+      "weight": 1
+    },
+    {
+      "id": "cmp-028",
+      "defKey": "lvrt",
+      "defLabel": "低电压穿越",
+      "dimension": "safety",
+      "mandatory": false,
+      "requirement": {
+        "text": "满足 EN50549 低电压穿越曲线",
+        "targetValue": "符合曲线",
+        "unit": "—",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "支持",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "未披露",
+          "status": "undisclosed"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "支持",
+          "status": "compliant"
+        }
+      ],
+      "judged": "undisclosed",
+      "reason": "竞对 A 未披露 LVRT 能力。",
+      "ruleHits": [
+        {
+          "rule": "披露",
+          "detail": "A: 未披露"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": null,
+      "weight": 1
+    },
+    {
+      "id": "cmp-029",
+      "defKey": "cell_type",
+      "defLabel": "电芯类型",
+      "dimension": "technical",
+      "mandatory": false,
+      "requirement": {
+        "text": "LFP 磷酸铁锂",
+        "targetValue": "LFP",
+        "unit": "—",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "LFP",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "LFP",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "LFP",
+          "status": "compliant"
+        }
+      ],
+      "judged": "compliant",
+      "reason": "三家均为 LFP。",
+      "ruleHits": [
+        {
+          "rule": "一致性",
+          "detail": "LFP"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": null,
+      "weight": 1
+    },
+    {
+      "id": "cmp-030",
+      "defKey": "weight",
+      "defLabel": "系统重量",
+      "dimension": "technical",
+      "mandatory": false,
+      "requirement": {
+        "text": "≤ 35 t / 20ft",
+        "targetValue": "≤ 35",
+        "unit": "t",
+        "conditions": {}
+      },
+      "cells": [
+        {
+          "sourceId": "our",
+          "sourceName": "我方",
+          "display": "32 t",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-a",
+          "sourceName": "竞对 A",
+          "display": "30 t",
+          "status": "compliant"
+        },
+        {
+          "sourceId": "c-b",
+          "sourceName": "竞对 B",
+          "display": "未披露",
+          "status": "undisclosed"
+        }
+      ],
+      "judged": "undisclosed",
+      "reason": "竞对 B 未披露重量，影响运输与吊装评估。",
+      "ruleHits": [
+        {
+          "rule": "披露",
+          "detail": "B: 未披露"
+        }
+      ],
+      "comparable": {
+        "level": true,
+        "unit": true,
+        "conditions": true,
+        "boundary": true
+      },
+      "clarify": "要求竞对 B 提供运输尺寸与重量",
+      "weight": 1
+    }
+  ],
+  "baseline": {
+    "insights": [
+      {
+        "id": "ins-001",
+        "projectId": "p-01",
+        "type": "fact",
+        "text": "竞对 A 标称系统效率 92%，但其原文明确为 DC 端测量，且不含辅助功耗，与招标要求的 AC-AC 口径不一致。",
+        "evidenceIds": [
+          "anc-07"
+        ],
+        "state": "draft"
+      },
+      {
+        "id": "ins-002",
+        "projectId": "p-01",
+        "type": "fact",
+        "text": "竞对 A 循环寿命标称 12000 次，但未给出 DoD、温度与 SoH 终点，条件不可核验。",
+        "evidenceIds": [
+          "anc-08"
+        ],
+        "state": "draft"
+      },
+      {
+        "id": "ins-003",
+        "projectId": "p-01",
+        "type": "fact",
+        "text": "竞对 A 全篇未披露可用率与欧洲本地服务能力，两项目前无证据支撑，不可视为其劣势。",
+        "evidenceIds": [],
+        "state": "draft"
+      },
+      {
+        "id": "ins-004",
+        "projectId": "p-01",
+        "type": "fact",
+        "text": "我方系统效率 88.5% 为 AC-AC 口径且已含辅助功耗，与招标要求同口径，可满足 88% 门槛。",
+        "evidenceIds": [
+          "anc-01",
+          "anc-16"
+        ],
+        "state": "draft"
+      },
+      {
+        "id": "ins-005",
+        "projectId": "p-01",
+        "type": "fact",
+        "text": "竞对 B 交付周期未在手册中披露，其「24 周」口径来自历史投标摘要，不含海运，起算点不同。",
+        "evidenceIds": [
+          "anc-10"
+        ],
+        "state": "draft"
+      },
+      {
+        "id": "ins-006",
+        "projectId": "p-01",
+        "type": "inference",
+        "text": "待核实：若业主接受竞对 A 的 DC 侧效率口径，我方在效率项将显劣势，建议在答疑阶段主动提出统一口径。",
+        "evidenceIds": [
+          "anc-07",
+          "anc-01"
+        ],
+        "state": "draft"
+      },
+      {
+        "id": "ins-007",
+        "projectId": "p-01",
+        "type": "inference",
+        "text": "待核实：竞对 B 的 99% 可用率为月度口径，若折算为年度时间加权，其承诺可能低于我方 98.5%。",
+        "evidenceIds": [
+          "anc-14",
+          "anc-18"
+        ],
+        "state": "draft"
+      },
+      {
+        "id": "ins-008",
+        "projectId": "p-01",
+        "type": "suggestion",
+        "text": "建议将「交付确定性（5 周海运 + 2 周并网）」写入技术标差异化章节，而非在效率参数上做正面比拼。",
+        "evidenceIds": [
+          "anc-06"
+        ],
+        "state": "draft"
+      },
+      {
+        "id": "ins-009",
+        "projectId": "p-01",
+        "type": "suggestion",
+        "text": "建议报价策略围绕本地服务响应（4 小时）与备件覆盖构建，商务让利空间由商务负责人填写。",
+        "evidenceIds": [
+          "anc-04"
+        ],
+        "state": "draft"
+      },
+      {
+        "id": "ins-010",
+        "projectId": "p-01",
+        "type": "inference",
+        "text": "无引用测试条目：竞对 A 的消防方案可能不满足业主最新要求。",
+        "evidenceIds": [],
+        "state": "draft"
+      }
+    ],
+    "risks": [
+      {
+        "id": "risk-01",
+        "projectId": "p-01",
+        "level": "high",
+        "kind": "废标风险",
+        "text": "系统效率测量边界与招标要求不一致，若按 DC 侧数值应答，存在被认定为「未按口径响应」的风险。",
+        "relatedKeys": [
+          "system_rte"
+        ],
+        "suggestion": "在澄清阶段确认边界定义，技术标中同时给出 AC-AC 与 DC-DC 两套数据并注明口径。",
+        "owner": "王琛",
+        "state": "mitigating"
+      },
+      {
+        "id": "risk-02",
+        "projectId": "p-01",
+        "level": "high",
+        "kind": "技术偏离",
+        "text": "竞对 A 的 PCS 质保仅 5 年，低于 10 年要求；我方若未在偏离表中明确整系统覆盖，可能被要求对标其低价配置。",
+        "relatedKeys": [
+          "warranty_years"
+        ],
+        "suggestion": "在偏离表中单独列出 PCS 质保覆盖范围，避免整体质保被拉低。",
+        "owner": "李维",
+        "state": "open"
+      },
+      {
+        "id": "risk-03",
+        "projectId": "p-01",
+        "level": "high",
+        "kind": "承诺风险",
+        "text": "循环寿命测试条件未统一，若我方按更宽条件承诺，将承担额外衰减赔付风险。",
+        "relatedKeys": [
+          "cycle_life"
+        ],
+        "suggestion": "承诺值严格采用 DoD 90%/25℃/SoH 70% 口径，并在合同中限定测试方法。",
+        "owner": "陈立",
+        "state": "open"
+      },
+      {
+        "id": "risk-04",
+        "projectId": "p-01",
+        "level": "mid",
+        "kind": "证据缺口",
+        "text": "竞对 B 的消防与噪声数据缺失，我方在安全维度的优势目前缺乏对手侧证据支撑，评审时说服力弱。",
+        "relatedKeys": [
+          "fire_suppression",
+          "noise"
+        ],
+        "suggestion": "通过公开渠道补充竞对 B 的认证与测试报告，或转为我方主动披露的对比点。",
+        "owner": "李维",
+        "state": "mitigating"
+      },
+      {
+        "id": "risk-05",
+        "projectId": "p-01",
+        "level": "mid",
+        "kind": "商务风险",
+        "text": "竞对 A 预付比例 30% 高于我方 20%，业主可能据此要求我方提高预付或降低总价。",
+        "relatedKeys": [
+          "payment_terms"
+        ],
+        "suggestion": "商务侧准备两种付款结构备选，避免在单一结构上被压价。",
+        "owner": "周敏",
+        "state": "open"
+      },
+      {
+        "id": "risk-06",
+        "projectId": "p-01",
+        "level": "low",
+        "kind": "证据缺口",
+        "text": "我方噪声数据来自内部测试，缺少第三方报告。",
+        "relatedKeys": [
+          "noise"
+        ],
+        "suggestion": "补充第三方噪声测试报告，或改为范围值披露。",
+        "owner": "李维",
+        "state": "closed"
+      }
+    ],
+    "clarifications": [
+      {
+        "id": "clr-01",
+        "projectId": "p-01",
+        "question": "请明确系统往返效率的测量边界与辅助功耗是否计入？",
+        "background": "招标文件 3.2 要求 AC-AC ≥88%，但未说明辅助功耗处理方式；竞对 A 报价基于 DC 侧口径。",
+        "impact": "影响效率项横向可比性与评分",
+        "evidenceIds": [
+          "anc-01",
+          "anc-07"
+        ]
+      },
+      {
+        "id": "clr-02",
+        "projectId": "p-01",
+        "question": "循环寿命的测试条件（DoD、温度、SoH 终点、倍率）是否统一按 3.2.4 执行？",
+        "background": "竞对 A 未给出条件，竞对 B 使用 DoD 80%/SoH 60%，与要求不一致。",
+        "impact": "影响寿命承诺与质保成本",
+        "evidenceIds": [
+          "anc-02",
+          "anc-08"
+        ]
+      },
+      {
+        "id": "clr-03",
+        "projectId": "p-01",
+        "question": "可用率的统计周期与计算方式是否限定为「年度、时间加权」？",
+        "background": "竞对 B 采用月度口径，数值偏高，易造成评标误判。",
+        "impact": "影响可用率承诺与违约赔偿",
+        "evidenceIds": [
+          "anc-03",
+          "anc-14"
+        ]
+      },
+      {
+        "id": "clr-04",
+        "projectId": "p-01",
+        "question": "PCS 是否纳入 10 年整系统质保范围？",
+        "background": "竞对 A 的 PCS 仅保 5 年，若业主接受该配置，将压低整体质保基准。",
+        "impact": "影响质保成本与偏离表口径",
+        "evidenceIds": [
+          "anc-04",
+          "anc-09"
+        ]
+      },
+      {
+        "id": "clr-05",
+        "projectId": "p-01",
+        "question": "交付周期的起算点与是否包含海运、并网调试？",
+        "background": "竞对 A 的 24 周不含海运，竞对 B 未披露，口径不统一。",
+        "impact": "影响交付承诺与违约金风险",
+        "evidenceIds": [
+          "anc-06",
+          "anc-10"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1126 @@
+{
+  "schemaVersion": "1.1",
+  "case": {
+    "retroId": "rp-09",
+    "id": "p-au-05",
+    "name": "AU-NSW 100MWh 公用事业储能 EPC（2025 中标）",
+    "country": "AU",
+    "mw": 50,
+    "mwh": 100,
+    "route": "LFP 液冷",
+    "customerType": "公用事业",
+    "bidMode": "公开招标",
+    "contractMode": "EPC 总承包",
+    "productModel": "MegaBlock 5.0",
+    "awardedYear": 2025,
+    "awardDate": "2025-09-18",
+    "competitorIds": [
+      "竞对 C",
+      "竞对 F"
+    ],
+    "hasScoreSheet": true,
+    "snapshotAt": "2026-10-24"
+  },
+  "evidence": [
+    {
+      "id": "EV-AU-01",
+      "type": "scoreSheet",
+      "title": "评标打分表原件（并网与辅助服务分项）",
+      "documentId": "doc-au-041",
+      "originalFiled": true,
+      "page": 3,
+      "section": "3.2 并网与辅助服务（满分 15 分）",
+      "snippet": "本分项得 12/15 分。评语：FCAS 有功响应 180ms，满足招标 §5.3.2 的 250ms 要求，较竞对 C 的 310ms 快 130ms。",
+      "reliability": "official",
+      "collectedBy": "周敏",
+      "collectedAt": "2026-09-05"
+    },
+    {
+      "id": "EV-AU-02",
+      "type": "scoreSheet",
+      "title": "评标打分表原件（环境适应与防火合规分项）",
+      "documentId": "doc-au-041",
+      "originalFiled": true,
+      "page": 5,
+      "section": "3.4 环境适应与防火合规（满分 12 分）",
+      "snippet": "本分项得 10/12 分。评语：提交 45℃ 降额曲线与 AS 5139 丛林火灾防护方案，偏差已获客户书面接受，扣分原因为第三方评估报告未随标提交。",
+      "reliability": "official",
+      "collectedBy": "周敏",
+      "collectedAt": "2026-09-05"
+    },
+    {
+      "id": "EV-AU-03",
+      "type": "tender",
+      "title": "招标文件（并网与辅助服务章）",
+      "documentId": "doc-au-007",
+      "originalFiled": true,
+      "page": 12,
+      "section": "招标 §5.3 并网与辅助服务要求",
+      "snippet": "投标人承诺的 FCAS 有功响应时间不得大于 250ms（10%→90% 上升沿），并须随标提交 AEMO 认可的第三方阶跃测试报告（招标 §5.3.2）。",
+      "reliability": "official",
+      "collectedBy": "赵磊",
+      "collectedAt": "2025-03-20"
+    },
+    {
+      "id": "EV-AU-04",
+      "type": "tender",
+      "title": "招标文件（可用率与罚则章）",
+      "documentId": "doc-au-007",
+      "originalFiled": true,
+      "page": 18,
+      "section": "招标 §6.5 可用率与罚则",
+      "snippet": "年度可用率不得低于 97%；每低 0.5 个百分点扣合同额 0.8%（不足 0.5 个百分点按比例计），累计罚则上限 8%，计量以 AEMO 月度结算数据为准（招标 §6.5.1）。",
+      "reliability": "official",
+      "collectedBy": "赵磊",
+      "collectedAt": "2025-03-20"
+    },
+    {
+      "id": "EV-AU-05",
+      "type": "awardNotice",
+      "title": "中标公示（NSW 100MWh BESS EPC）",
+      "documentId": "doc-au-052",
+      "originalFiled": true,
+      "page": 1,
+      "section": "公示正文第 2 段",
+      "snippet": "中标人为我方联合体，合同形式为 EPC 总承包，交付期 420 日历天，含 5 年可用率保证与本地运维服务条款。",
+      "reliability": "official",
+      "collectedBy": "周敏",
+      "collectedAt": "2025-09-22"
+    },
+    {
+      "id": "EV-AU-06",
+      "type": "ourBid",
+      "title": "投标技术卷终版（并网与 FCAS 章）",
+      "documentId": "doc-au-018",
+      "originalFiled": true,
+      "page": 38,
+      "section": "4.2 并网与 FCAS 响应",
+      "snippet": "MegaBlock 5.0 有功响应时间 180ms（10%→90% 上升沿），45℃ 环境温度下实测不超过 210ms，测试依据 AS/NZS 4777.2:2020 附录 H。",
+      "reliability": "official",
+      "collectedBy": "周敏",
+      "collectedAt": "2025-06-16"
+    },
+    {
+      "id": "EV-AU-07",
+      "type": "ourBid",
+      "title": "投标技术卷终版（环境适应与防火章）",
+      "documentId": "doc-au-018",
+      "originalFiled": true,
+      "page": 52,
+      "section": "5.4 环境适应与丛林火灾防护",
+      "snippet": "配置 AS 5139 丛林火灾防护包：A 级防火外壳、火花隔离、外置灭火接口；45℃ 环境温度下降额至 92% 额定功率，附降额曲线。",
+      "reliability": "official",
+      "collectedBy": "周敏",
+      "collectedAt": "2025-06-16"
+    },
+    {
+      "id": "EV-AU-08",
+      "type": "clarification",
+      "title": "客户澄清回函（第 4 条：45℃ 降额偏差）",
+      "documentId": "doc-au-024",
+      "originalFiled": true,
+      "page": 2,
+      "section": "澄清回函第 4 条",
+      "snippet": "客户书面确认接受 45℃ 降额至 92% 额定功率的偏差，要求并网前提交 AS 5139 第三方评估报告原件。",
+      "reliability": "official",
+      "collectedBy": "赵磊",
+      "collectedAt": "2025-06-28"
+    },
+    {
+      "id": "EV-AU-09",
+      "type": "competitorBid",
+      "title": "竞对 C 技术标公开摘要",
+      "documentId": "doc-au-033",
+      "originalFiled": true,
+      "page": 9,
+      "section": "性能参数页",
+      "snippet": "竞对 C 披露 FCAS 响应时间 310ms、系统效率 94.3%、首批到场承诺 130 天；技术标未列 45℃ 降额曲线，也未标注 AS 5139 评估编号。",
+      "reliability": "public",
+      "collectedBy": "赵磊",
+      "collectedAt": "2025-07-04"
+    },
+    {
+      "id": "EV-AU-10",
+      "type": "negotiation",
+      "title": "商务谈判纪要（第三轮）",
+      "documentId": "doc-au-029",
+      "originalFiled": true,
+      "page": 5,
+      "section": "第三轮谈判纪要 第 8 条",
+      "snippet": "双方确认可用率以 AEMO 月度结算数据为计量口径；我方承诺 12 个月内建成悉尼备件仓（备件齐套 ≥120 项），建成节点写入合同附件 3。",
+      "reliability": "official",
+      "collectedBy": "陈立",
+      "collectedAt": "2025-08-27"
+    },
+    {
+      "id": "EV-AU-11",
+      "type": "fulfilment",
+      "title": "并网调试与可用率考核台账（2026-Q3）",
+      "documentId": "doc-au-061",
+      "originalFiled": true,
+      "page": 1,
+      "section": "并网测试与可用率",
+      "snippet": "FCAS 阶跃测试实测响应 182ms（要求 ≤250ms）；一期 25MW/50MWh 自 2026-04-10 投运，2026-04 至 2026-09 六个月滚动可用率 96.1%，合同要求 ≥97%。",
+      "reliability": "thirdParty",
+      "collectedBy": "赵磊",
+      "collectedAt": "2026-10-08"
+    },
+    {
+      "id": "EV-AU-12",
+      "type": "clarification",
+      "title": "客户运维例会纪要（可用率未达标事项）",
+      "documentId": "doc-au-065",
+      "originalFiled": true,
+      "page": 1,
+      "section": "事项 2：可用率缺口",
+      "snippet": "客户指出 2026 年 6 月单月可用率降至 95.4%，原因为逆变单元故障停机与备件到场延迟 11 天，要求 30 日内提交整改计划。",
+      "reliability": "official",
+      "collectedBy": "周敏",
+      "collectedAt": "2026-09-18"
+    },
+    {
+      "id": "EV-AU-13",
+      "type": "fulfilment",
+      "title": "交付与物流记录（首批到场）",
+      "documentId": "doc-au-058",
+      "originalFiled": true,
+      "page": 2,
+      "section": "首批集装箱记录",
+      "snippet": "首批 14 个 40 尺集装箱 2025-11-25 出运，海运 58 天，2026-02-03 到场；自 NTP 2025-10-24 起算承诺 90 天，实际 102 天。",
+      "reliability": "thirdParty",
+      "collectedBy": "赵磊",
+      "collectedAt": "2026-02-05"
+    },
+    {
+      "id": "EV-AU-14",
+      "type": "other",
+      "title": "内部复盘会纪要（2026-09-28）",
+      "documentId": null,
+      "originalFiled": false,
+      "page": null,
+      "section": "竞对能力讨论",
+      "snippet": "与会者判断竞对 F 的 FCAS 响应能力不足，但竞对 F 未公开任何响应数据，我方也未曾获取其投标文件，该判断无客户侧文件佐证。",
+      "reliability": "thirdParty",
+      "collectedBy": "周敏",
+      "collectedAt": "2026-09-28"
+    },
+    {
+      "id": "EV-AU-15",
+      "type": "ourBid",
+      "title": "投标技术卷终版（可用率保证章）",
+      "documentId": "doc-au-018",
+      "originalFiled": true,
+      "page": 61,
+      "section": "7.1 可用率保证",
+      "snippet": "我方承诺首年可用率 97.5%、5 年不低于 97.0%，并提供 AEMO 月度报表与远程监控数据接入；未附同型号历史可用率统计。",
+      "reliability": "official",
+      "collectedBy": "周敏",
+      "collectedAt": "2025-06-16"
+    },
+    {
+      "id": "EV-AU-16",
+      "type": "other",
+      "title": "现场踏勘记录（站址林火风险带边界）",
+      "documentId": null,
+      "originalFiled": true,
+      "page": null,
+      "section": "踏勘第 3 天记录",
+      "snippet": "站址东侧 380m 为林火高风险植被带，客户技术规范要求按 AS 5139 附录 C 提供防护，该要求不在招标正文最低条款内。",
+      "reliability": "thirdParty",
+      "collectedBy": "赵磊",
+      "collectedAt": "2025-04-08"
+    },
+    {
+      "id": "EV-AU-17",
+      "type": "scoreSheet",
+      "title": "评标打分表原件（结果汇总页）",
+      "documentId": "doc-au-041",
+      "originalFiled": true,
+      "page": 1,
+      "section": "1 评标结果汇总",
+      "snippet": "技术评分 79.0/100（满分 100），排名第一；第二名竞对 C 76.5 分。商务为合格性审查，未设价格分项。",
+      "reliability": "official",
+      "collectedBy": "周敏",
+      "collectedAt": "2026-09-05"
+    },
+    {
+      "id": "EV-AU-18",
+      "type": "scoreSheet",
+      "title": "评标打分表原件（本地服务与运维分项）",
+      "documentId": "doc-au-041",
+      "originalFiled": true,
+      "page": 6,
+      "section": "3.6 本地服务与 5 年运维（满分 15 分）",
+      "snippet": "本分项得 10/15 分。评语：本地运维伙伴与 4 小时到场方案可行，但备件仓 6 个月建成节点未响应，按偏差处理扣 5 分。",
+      "reliability": "official",
+      "collectedBy": "周敏",
+      "collectedAt": "2026-09-05"
+    },
+    {
+      "id": "EV-AU-19",
+      "type": "scoreSheet",
+      "title": "评标打分表原件（交付与工期分项）",
+      "documentId": "doc-au-041",
+      "originalFiled": true,
+      "page": 9,
+      "section": "3.8 交付与工期（满分 10 分）",
+      "snippet": "本分项得 8/10 分。评语：首批到场 90 天为投标人中最短，但 14 个 40 尺柜单批次出运未附舱位证明，扣 2 分。",
+      "reliability": "official",
+      "collectedBy": "周敏",
+      "collectedAt": "2026-09-05"
+    },
+    {
+      "id": "EV-AU-20",
+      "type": "scoreSheet",
+      "title": "评标打分表原件（可用率与质保分项）",
+      "documentId": "doc-au-041",
+      "originalFiled": true,
+      "page": 7,
+      "section": "3.7 可用率与质保（满分 13 分）",
+      "snippet": "本分项得 10/13 分。评语：首年可用率承诺 97.5% 高于招标要求，但未提供同型号历史可用率数据，扣 3 分。",
+      "reliability": "official",
+      "collectedBy": "周敏",
+      "collectedAt": "2026-09-05"
+    }
+  ],
+  "winFactors": [
+    {
+      "id": "wf-01",
+      "title": "FCAS 有功响应 180ms，较招标门槛 250ms 富余 70ms",
+      "category": "efficiency",
+      "level": "A",
+      "mandatory": false,
+      "score": 12,
+      "maxScore": 15,
+      "weightPct": 15,
+      "customerNeed": "招标 §5.3.2 要求 FCAS 有功响应 ≤250ms（10%→90% 上升沿），并附 AEMO 认可的第三方阶跃测试报告",
+      "ourResponse": "投标承诺 180ms，45℃ 环温下不超过 210ms；主动提交阶跃测试方案与第三方见证安排，履约实测 182ms",
+      "competitorGap": "竞对 C 公开摘要披露 310ms，超出招标门槛 60ms（EV-AU-09）；竞对 F 未公开响应数据，差距未知",
+      "evidence": [
+        "EV-AU-01",
+        "EV-AU-03",
+        "EV-AU-06",
+        "EV-AU-11",
+        "EV-AU-17"
+      ],
+      "confirmedBy": "周敏",
+      "reviewState": "verified",
+      "recentChange": {
+        "at": "10-22 14:20",
+        "by": "吴桐",
+        "action": "升至 A",
+        "auditId": "aud-017"
+      },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "wf-02",
+      "title": "AS 5139 林火防护 + 45℃ 降额，环境与防火分项 10/12",
+      "category": "safety",
+      "level": "A",
+      "mandatory": false,
+      "score": 10,
+      "maxScore": 12,
+      "weightPct": 12,
+      "customerNeed": "招标 §5.6 要求 -5℃～+45℃ 不降额，且按 AS 5139 附录 C 提供林火防护（站址位于林火高风险带边缘，踏勘记录 EV-AU-16）",
+      "ourResponse": "主动申报 45℃ 降额至 92% 的书面偏差并附降额曲线，配 AS 5139 防护包（A 级外壳、火花隔离、外置灭火接口），取得客户书面接受",
+      "competitorGap": "竞对 C 技术标未列降额曲线，也未标注 AS 5139 评估编号（EV-AU-09）",
+      "evidence": [
+        "EV-AU-02",
+        "EV-AU-07",
+        "EV-AU-08",
+        "EV-AU-09",
+        "EV-AU-16"
+      ],
+      "confirmedBy": "周敏",
+      "reviewState": "verified",
+      "recentChange": {
+        "at": "10-22 15:05",
+        "by": "吴桐",
+        "action": "升至 A",
+        "auditId": "aud-018"
+      },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "wf-03",
+      "title": "本地运维伙伴 + 悉尼备件仓承诺：过门槛但被扣 5 分",
+      "category": "local",
+      "level": "B",
+      "mandatory": false,
+      "score": 10,
+      "maxScore": 15,
+      "weightPct": 15,
+      "customerNeed": "招标 §6.7 要求 4 小时到场，§6.8 要求合同生效后 6 个月内建成备件仓（齐套 ≥120 项）",
+      "ourResponse": "签约悉尼本地运维伙伴 1 家，承诺 12 个月内建成 120 项备件仓（未响应 6 个月节点），接受 AEMO 月度计量口径",
+      "competitorGap": "竞对 C 公开摘要承诺 4 小时到场并已建本地备件仓，该项我方无优势；竞对 F 服务方案未知",
+      "evidence": [
+        "EV-AU-18",
+        "EV-AU-10",
+        "EV-AU-12"
+      ],
+      "confirmedBy": "陈立",
+      "reviewState": "verified",
+      "recentChange": {
+        "at": "10-23 09:40",
+        "by": "陈立",
+        "action": "由 A 降为 B",
+        "auditId": "aud-021"
+      },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "wf-04",
+      "title": "90 天首批到场承诺为投标人中最短，工期项 8/10",
+      "category": "delivery",
+      "level": "B",
+      "mandatory": false,
+      "score": 8,
+      "maxScore": 10,
+      "weightPct": 10,
+      "customerNeed": "招标 §7.2 要求交付期 ≤420 日历天，首批设备到场 ≤90 天，并要求附舱位与物流方案证明",
+      "ourResponse": "锁定 14 个 40 尺柜舱位、预清关代理先行，承诺 90 天到场（未附舱位证明，评语按此扣 2 分）",
+      "competitorGap": "竞对 C 公开摘要承诺首批到场 130 天，较我方 90 天晚 40 天（EV-AU-09）",
+      "evidence": [
+        "EV-AU-19",
+        "EV-AU-05",
+        "EV-AU-13",
+        "EV-AU-09"
+      ],
+      "confirmedBy": "赵磊",
+      "reviewState": "pending",
+      "recentChange": {
+        "at": "10-23 10:15",
+        "by": "赵磊",
+        "action": "标记待复核",
+        "auditId": "aud-022"
+      },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "wf-05",
+      "title": "可用率 97.5% 承诺被内部当作可靠性优势（待验证）",
+      "category": "delivery",
+      "level": "C",
+      "mandatory": false,
+      "score": 10,
+      "maxScore": 13,
+      "weightPct": 13,
+      "customerNeed": "招标 §6.5.1 要求年度可用率 ≥97% 并设罚则，§3.7 分项满分 13 分",
+      "ourResponse": "标书承诺首年 97.5%、5 年 ≥97.0%，接入远程监控；评语显示因未附历史可用率数据被扣 3 分",
+      "competitorGap": "未知",
+      "evidence": [
+        "EV-AU-20",
+        "EV-AU-15",
+        "EV-AU-14"
+      ],
+      "confirmedBy": "周敏",
+      "reviewState": "draft",
+      "recentChange": {
+        "at": "10-23 11:02",
+        "by": "周敏",
+        "action": "新建 C 级假设",
+        "auditId": "aud-023"
+      },
+      "conclusionCarrier": false
+    }
+  ],
+  "solution": {
+    "route": "LFP 液冷",
+    "hardGateParams": [
+      {
+        "key": "fcas",
+        "label": "FCAS 有功响应（10%→90%）",
+        "requirement": "≤ 250ms（招标 §5.3.2）",
+        "ourValue": "180ms；45℃ 环温 210ms",
+        "status": "meet"
+      },
+      {
+        "key": "availability",
+        "label": "年度可用率",
+        "requirement": "≥ 97%（招标 §6.5.1）",
+        "ourValue": "承诺 97.5%；一期 2026-04 至 09 滚动实测 96.1%",
+        "status": "deviation"
+      },
+      {
+        "key": "ambient",
+        "label": "环境温度适应",
+        "requirement": "-5℃～+45℃ 不降额（招标 §5.6）",
+        "ourValue": "+45℃ 降额至 92% 额定功率",
+        "status": "deviation"
+      },
+      {
+        "key": "fire",
+        "label": "丛林火灾防护",
+        "requirement": "AS 5139 附录 C 级防护",
+        "ourValue": "A 级防火外壳 + 火花隔离 + 外置灭火接口",
+        "status": "meet"
+      },
+      {
+        "key": "grid",
+        "label": "并网认证与注册",
+        "requirement": "AS/NZS 4777.2:2020 + AEMO 注册",
+        "ourValue": "MegaBlock 5.0 证书覆盖，AEMO 注册号并网前更新",
+        "status": "meet"
+      },
+      {
+        "key": "leadtime",
+        "label": "交付期",
+        "requirement": "≤ 420 日历天（招标 §7.2）",
+        "ourValue": "承诺 400 天（NTP 2025-10-24 起，即 2026-11-28）；实际 321 天",
+        "status": "meet"
+      },
+      {
+        "key": "firstBatch",
+        "label": "首批设备到场",
+        "requirement": "≤ 90 天（招标 §7.2）",
+        "ourValue": "承诺 90 天；实际 102 天（2026-02-03 到场）",
+        "status": "deviation"
+      },
+      {
+        "key": "spareDepotLease",
+        "label": "备件仓租赁意向书",
+        "requirement": "随标提交（招标 §6.8.2）",
+        "ourValue": "以母公司承诺函替代，未附租赁意向书",
+        "status": "noResponse"
+      },
+      {
+        "key": "fireWater",
+        "label": "消防供水接口与市政许可",
+        "requirement": "并网前取得本地消防许可（招标 §5.8）",
+        "ourValue": "市政接口改造方案已报批，许可待发",
+        "status": "pending"
+      }
+    ],
+    "differentiators": [
+      {
+        "key": "fcas",
+        "label": "FCAS 有功响应时间",
+        "ourValue": "180ms",
+        "competitorBest": "310ms（竞对 C 公开摘要）",
+        "note": "对应并网与辅助服务分项 12/15（EV-AU-01）"
+      },
+      {
+        "key": "fire",
+        "label": "林火防护与降额可视性",
+        "ourValue": "AS 5139 防护包 + 45℃ 降额曲线",
+        "competitorBest": "竞对 C 未披露降额曲线与评估编号",
+        "note": "对应环境与防火分项 10/12（EV-AU-02）"
+      },
+      {
+        "key": "aux",
+        "label": "系统效率（AC-AC）",
+        "ourValue": "95.1%",
+        "competitorBest": "94.3%（竞对 C）",
+        "note": "液冷温控策略优化，影响 TCO 约 2.4%，未单独形成赢因"
+      }
+    ],
+    "configJudgement": {
+      "overSpec": [
+        "AS 5139 防护包按林火高风险带最高等级配置（站址实际为 BAL-19，BAL-29 配置纯成本）",
+        "远程监控数据接入按 10 年周期报价（评分表无对应加分项）"
+      ],
+      "underSpec": [
+        "备件仓建仓成本与 12 个月进度未进投标报价，履约期自担",
+        "一期调试期停机未预留容量裕度，叠加备件到场延迟 11 天，可用率缺口 0.9pp 直接触发罚则",
+        "并网调试窗口只排 3 周，未留 AEMO 复测缓冲"
+      ],
+      "note": "评分表 100 分制，本次识别的 5 条因素覆盖 65 分权重（15+12+15+10+13），其余 35 分为系统性能与业绩分项，未构成差异化赢因；胜负手集中于并网与防火两个分项（共 22 分）"
+    },
+    "certifications": [
+      {
+        "name": "AS/NZS 4777.2:2020",
+        "scope": "MegaBlock 5.0（PowerPass 3.1 逆变单元）",
+        "validUntil": "2027-03-31",
+        "mandatory": true,
+        "gapRisk": "MegaBlock 5.2 未覆盖，客户扩容或换型需重新取证"
+      },
+      {
+        "name": "AS 5139:2019（丛林火灾防护评估）",
+        "scope": "MegaBlock 5.0 集装箱式系统 + A 级防火外壳组件",
+        "validUntil": "2028-06-30",
+        "mandatory": true,
+        "gapRisk": "评估结论按站址出具，单站有效期 24 个月，换站须重做（本次报告晚于投标截止 6 周）"
+      },
+      {
+        "name": "IEC 62619:2022",
+        "scope": "MegaBlock 5.0 电芯与电池系统",
+        "validUntil": "2027-12-31",
+        "mandatory": true,
+        "gapRisk": "无缺口，注册地与型号均在证书覆盖范围内"
+      },
+      {
+        "name": "IEC 62933-5-2:2020",
+        "scope": "MegaBlock 5.0 并网储能系统安全",
+        "validUntil": "2027-09-30",
+        "mandatory": false,
+        "gapRisk": "加分认证，客户评分表未单列；到期需在 2027-Q3 前换证"
+      }
+    ],
+    "deviations": [
+      {
+        "id": "DV-AU-01",
+        "requirement": "环境温度 -5℃～+45℃ 不降额（招标 §5.6）",
+        "deviationType": "主动偏差",
+        "reason": "液冷系统在 45℃ 环温下需降额至 92% 额定功率，才能把电芯温度压在 35℃ 以下",
+        "clarification": "提交 45℃ 降额曲线与实测报告，承诺极端日通过 FCAS 能量预留补偿，并网前补齐 AS 5139 第三方评估报告",
+        "customerAccepted": true,
+        "acceptedEvidence": "EV-AU-08",
+        "reusable": true
+      },
+      {
+        "id": "DV-AU-02",
+        "requirement": "备件仓须在合同生效后 6 个月内建成（招标 §6.8）",
+        "deviationType": "被动偏差",
+        "reason": "悉尼备件仓选址与仓库许可审批比计划晚 4 个月，6 个月节点无法达成",
+        "clarification": "改为 12 个月内建成并写入合同附件 3，过渡期承诺空运补件（运费我方承担）",
+        "customerAccepted": true,
+        "acceptedEvidence": "EV-AU-10",
+        "reusable": false
+      }
+    ]
+  },
+  "commercial": {
+    "noQuoteStatement": true,
+    "priceStructure": [
+      {
+        "item": "储能系统（MegaBlock 5.0，含 AS 5139 防护包）",
+        "sharePct": 58,
+        "note": "含消防，不含并网柜之外的开关设备"
+      },
+      {
+        "item": "并网、AEMO 注册与调试",
+        "sharePct": 12,
+        "note": "含第三方阶跃测试见证费"
+      },
+      {
+        "item": "土建、安装与海运物流",
+        "sharePct": 20,
+        "note": "本地分包商，含 14 个 40 尺柜海运"
+      },
+      {
+        "item": "5 年运维与可用率保证",
+        "sharePct": 10,
+        "note": "含远程监控，不含备件仓建仓成本"
+      }
+    ],
+    "tcoFactors": [
+      {
+        "factor": "45℃ 降额与一期调试期停机",
+        "impact": "TCO +1.6%",
+        "note": "可用率缺口触发罚则，见 FU-AU-03"
+      },
+      {
+        "factor": "备件仓建仓与备件在库成本",
+        "impact": "TCO +0.9%",
+        "note": "未计入投标结构占比，履约期自担"
+      },
+      {
+        "factor": "180ms 响应可参与快速 FCAS 品种",
+        "impact": "TCO -2.2%",
+        "note": "客户侧收益，非价格竞争手段"
+      }
+    ],
+    "delivery": {
+      "leadTimeDays": 400,
+      "localization": "悉尼本地运维伙伴 1 家；备件仓承诺 12 个月内建成，截至 2026-09-30 齐套 42/120 项",
+      "thirdPartyRisks": [
+        "海运旺季舱位紧张，首批 14 个 40 尺柜单批次出运",
+        "本地土建分包商遇雨季停工，工期弹性仅 10 天",
+        "AS 5139 第三方评估机构排期 6 周，晚于投标截止"
+      ]
+    },
+    "contractRisks": [
+      {
+        "clause": "可用率罚则 8% 累计上限（招标 §6.5.1）",
+        "redFlag": true,
+        "concession": "未争取到豁免条款，仅将计量口径锁定为 AEMO 月度结算数据",
+        "impactOnFulfilment": "关联 FU-AU-03（0.9pp 缺口 × 1.6%/pp = 1.44% 赔付，未达 8% 上限）"
+      },
+      {
+        "clause": "延误罚则 0.5%/天，上限 10% 合同额",
+        "redFlag": true,
+        "concession": "谈至上限 8%，未争取不可抗力扩展条款",
+        "impactOnFulfilment": "关联 FU-AU-02（+12 天 × 0.5%/天 = 6% 扣款，未触上限）与 FU-AU-05（总工期 321 天，提前 79 天）"
+      },
+      {
+        "clause": "10 年备件可得性保证（招标 §6.8）",
+        "redFlag": false,
+        "concession": "接受，但未与备件仓建成节点绑定，形成软承诺缺口",
+        "impactOnFulfilment": "关联 FU-AU-04（核验 pending，齐套 42/120 项）"
+      }
+    ]
+  },
+  "process": {
+    "involvementTimeline": [
+      {
+        "phase": "T-45 招标发布（2025-03-14）",
+        "actor": "投标经理",
+        "note": "立项并组建投标组，未同步澳洲本地合规顾问"
+      },
+      {
+        "phase": "T-30 现场踏勘",
+        "actor": "技术负责人",
+        "note": "发现站址位于林火高风险带边缘，触发 AS 5139 需求与降额评估"
+      },
+      {
+        "phase": "T-20 澄清截止前 5 天",
+        "actor": "法务",
+        "note": "介入可用率罚则，锁定 AEMO 月度计量口径"
+      },
+      {
+        "phase": "T-10 技术卷终审",
+        "actor": "技术负责人 + 本地伙伴",
+        "note": "拦截 45℃ 降额曲线按 25℃ 数据标注的错误"
+      },
+      {
+        "phase": "T-3 报价冻结",
+        "actor": "商务",
+        "note": "备件仓成本仍未进报价，报价审批串行导致冻结晚 2 天"
+      }
+    ],
+    "blockers": [
+      {
+        "id": "PB-AU-01",
+        "stage": "认证补证",
+        "issue": "AS 5139 第三方评估机构排期 6 周，晚于投标截止",
+        "effect": "只能以「并网前提交报告」的承诺换合规分，形成履约义务并被扣 2 分",
+        "fix": "T-70 启动评估排期，把评估机构排期写进投标里程碑"
+      },
+      {
+        "id": "PB-AU-02",
+        "stage": "报价审批",
+        "issue": "本地分包商报价回传晚 4 天，三级审批仍串行",
+        "effect": "报价冻结晚 2 天，技术卷终审时间被压缩到 1 天",
+        "fix": "T-25 前锁定分包商价格上限，审批改并行会签"
+      },
+      {
+        "id": "PB-AU-03",
+        "stage": "跨时区协作",
+        "issue": "本地伙伴与总部每日重叠工作时间仅 2 小时",
+        "effect": "澄清问题平均回传 1.5 天，AS 5139 方案三次返工",
+        "fix": "设悉尼固定窗口 15:00-17:00 每日站会，问题清单当日闭单"
+      }
+    ],
+    "effectiveReviews": [
+      {
+        "node": "技术卷终审（T-10）",
+        "owner": "周敏",
+        "caught": "拦住了 45℃ 降额曲线按 25℃ 实测数据标注的错误，避免履约期口径争议"
+      },
+      {
+        "node": "商务合规审（T-7）",
+        "owner": "陈立",
+        "caught": "拦住了初版可用率罚则无上限的条款，把上限压到 8% 合同额"
+      },
+      {
+        "node": "履约移交评审",
+        "owner": "赵磊",
+        "caught": "拦住了把备件仓建成节点从交付里程碑中删除的做法，保住承诺可追溯"
+      }
+    ]
+  },
+  "fulfilment": [
+    {
+      "id": "FU-AU-01",
+      "commitment": "FCAS 有功响应 ≤250ms（并网调试见证）",
+      "target": "≤ 250ms",
+      "actual": "182ms",
+      "variance": "-68ms",
+      "status": "met",
+      "note": "一期并网调试第三方见证阶跃测试通过，测试边界与投标口径一致（10%→90% 上升沿）",
+      "verifiedAt": "2026-04-20",
+      "experienceIds": [
+        "EXP-AU-01"
+      ]
+    },
+    {
+      "id": "FU-AU-02",
+      "commitment": "首批设备 90 天内到场（含海运 60 天）",
+      "target": "90 天",
+      "actual": "102 天",
+      "variance": "+12 天",
+      "status": "partial",
+      "note": "自 NTP 2025-10-24 起算，海运 58 天按期，悉尼港清关滞留 9 天、内陆运输延后 3 天，12 天 × 0.5%/天 = 6% 扣款，未触 8% 上限",
+      "verifiedAt": "2026-02-05",
+      "experienceIds": [
+        "EXP-AU-04"
+      ]
+    },
+    {
+      "id": "FU-AU-03",
+      "commitment": "首年考核期年度可用率 ≥97%（按 AEMO 月度数据滚动计量，年度值 2027-03 结项）",
+      "target": "97.0%",
+      "actual": "96.1%",
+      "variance": "-0.9pp",
+      "status": "missed",
+      "note": "一期 2026-04 至 2026-09 滚动可用率 96.1%，缺口 0.9pp 主因为调试期停机与备件到场延迟 11 天，按 1.6%/pp 赔付 1.44%",
+      "verifiedAt": "2026-10-08",
+      "experienceIds": [
+        "EXP-AU-03"
+      ]
+    },
+    {
+      "id": "FU-AU-04",
+      "commitment": "12 个月内建成悉尼备件仓（齐套 ≥120 项）",
+      "target": "≥ 120 项齐套",
+      "actual": "履约中",
+      "variance": "履约中",
+      "status": "pending",
+      "note": "建仓节点 2027-03-31，截至 2026-09-30 齐套 42 项；选址许可延后 4 个月，过渡期空运补件由我方承担",
+      "verifiedAt": "2026-09-30",
+      "experienceIds": [
+        "EXP-AU-05"
+      ]
+    },
+    {
+      "id": "FU-AU-05",
+      "commitment": "总交付期 ≤420 日历天（NTP 2025-10-24 起，承诺 400 天）",
+      "target": "≤ 420 天",
+      "actual": "321 天",
+      "variance": "优于承诺",
+      "status": "met",
+      "note": "两期分别于 2026-04-10、2026-09-10 投运，较承诺 400 天提前 79 天，总工期罚则未触发",
+      "verifiedAt": "2026-09-15",
+      "experienceIds": [
+        "EXP-AU-04"
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "EXP-AU-01",
+      "category": "awarded",
+      "title": "澳洲 NEM 公用事业项目：FCAS 响应是并网硬门槛",
+      "summary": "以 180ms 对 250ms 门槛留 70ms 富余，评分表并网分项 12/15 点名优于竞对 C 的 310ms；履约实测 182ms，本条因果链最稳。",
+      "country": "AU",
+      "scaleBand": "100-200MWh",
+      "customerType": "公用事业",
+      "bidMode": "公开招标",
+      "productModel": "MegaBlock 5.0",
+      "requirement": "FCAS 有功响应 ≤250ms（10%→90% 上升沿）且须附 AEMO 认可测试报告（招标 §5.3.2）",
+      "strategy": "按上升沿口径承诺 180ms，并主动承诺 45℃ 环温下不超过 210ms；随标提交第三方阶跃测试方案，把口径争议前置解决",
+      "result": "并网与辅助服务分项 12/15，评语点名优于竞对 C 的 310ms（EV-AU-01）；履约实测 182ms（EV-AU-11）",
+      "evidenceSources": [
+        "EV-AU-01",
+        "EV-AU-03",
+        "EV-AU-06",
+        "EV-AU-11"
+      ],
+      "reviewer": "周敏",
+      "reviewedAt": "2026-10-24",
+      "scope": "适用于 AEMO 管辖的 NEM 并网、且招标设 FCAS 响应时间指标的澳洲公用事业储能项目；不适用于以能量套利为主、不考核辅助服务的工商业项目，也不适用于未设响应时间门槛的欧洲大陆招标",
+      "evidenceLevel": "A",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "verificationPlan": "在 p-au-07 澳洲 QLD 200MWh 并网测试中按同一上升沿口径复核，测试报告 2027-06-30 前归档",
+      "verificationDue": "2027-06-30",
+      "references": [
+        {
+          "projectId": "p-au-07",
+          "citedBy": "陈立",
+          "citedAt": "2026-10-12",
+          "usedIn": "澳洲 QLD 200MWh 技术卷 §4.2"
+        }
+      ],
+      "pendingChange": null,
+      "changeHistory": [
+        {
+          "id": "CHG-AU-01",
+          "from": "B",
+          "to": "A",
+          "status": "approved",
+          "requester": "周敏",
+          "approver": "陈立",
+          "requestedAt": "2026-09-08",
+          "reason": "取得客户评分表并网分项原件，12/15 分评语直接点名响应 180ms 优于竞对 C",
+          "newEvidenceIds": [
+            "EV-AU-01"
+          ],
+          "reviewNote": "证据为正式评分表原件，满足 LR-02 升 A 条件"
+        }
+      ]
+    },
+    {
+      "id": "EXP-AU-02",
+      "category": "deviation",
+      "title": "45℃ 降额 + AS 5139 林火防护：书面偏差换合规分",
+      "summary": "主动申报 45℃ 降额至 92% 并附降额曲线，客户书面接受；配合 AS 5139 防护包取得环境与防火分项 10/12，拿到评分表后由 B 升 A。",
+      "country": "AU",
+      "scaleBand": "100-200MWh",
+      "customerType": "公用事业",
+      "bidMode": "公开招标",
+      "productModel": "MegaBlock 5.0",
+      "requirement": "-5℃～+45℃ 不降额（招标 §5.6）+ AS 5139 附录 C 林火防护，站址位于林火高风险带边缘（EV-AU-16）",
+      "strategy": "不隐瞒 45℃ 降额，改为主动偏差 + 降额曲线 + 防护包三件套，并换取客户书面接受",
+      "result": "环境与防火分项 10/12，偏差获客户书面接受（EV-AU-02/EV-AU-08），扣 2 分因第三方评估报告晚到",
+      "evidenceSources": [
+        "EV-AU-02",
+        "EV-AU-07",
+        "EV-AU-08",
+        "EV-AU-16"
+      ],
+      "reviewer": "周敏",
+      "reviewedAt": "2026-10-24",
+      "scope": "适用于环温 ≥45℃ 或林火风险等级 ≥BAL-29 的澳洲储能项目；不适用于温带站址（降额与防护成本无对应得分），也不适用于客户不接受任何书面偏差的封闭式技术规范项目",
+      "evidenceLevel": "A",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "verificationPlan": "在 p-au-09 澳洲 VIC 120MWh 并网点复测降额曲线，2027-03-31 前取得 AS 5139 第三方复测报告",
+      "verificationDue": "2027-03-31",
+      "references": [
+        {
+          "projectId": "p-au-09",
+          "citedBy": "赵磊",
+          "citedAt": "2026-10-15",
+          "usedIn": "澳洲 VIC 120MWh 偏差表 DV-03"
+        }
+      ],
+      "pendingChange": null,
+      "changeHistory": [
+        {
+          "id": "CHG-AU-02",
+          "from": "B",
+          "to": "A",
+          "status": "approved",
+          "requester": "周敏",
+          "approver": "陈立",
+          "requestedAt": "2026-09-08",
+          "reason": "取得客户评分表环境与防火分项原件，10/12 分评语直接指向降额曲线与 AS 5139 方案",
+          "newEvidenceIds": [
+            "EV-AU-02"
+          ],
+          "reviewNote": "评分表评语与澄清回函可相互印证"
+        }
+      ]
+    },
+    {
+      "id": "EXP-AU-03",
+      "category": "commercial",
+      "title": "可用率 97% 保证承诺过头，首年没做到，因果链断裂",
+      "summary": "标书承诺首年 97.5%、5 年 ≥97%，客户据此写入罚则；首年实测 96.1%，缺口 0.9pp 触发赔付，本条已按 BR-14 自动降为 B 级并留痕。",
+      "country": "AU",
+      "scaleBand": "100-200MWh",
+      "customerType": "公用事业",
+      "bidMode": "公开招标",
+      "productModel": "MegaBlock 5.0",
+      "requirement": "年度可用率 ≥97%，每低 0.5pp 扣 0.8%（不足按比例计），上限 8%（招标 §6.5.1）",
+      "strategy": "承诺 97.5% 首年可用率并接受 AEMO 月度计量口径，但一期调试期停机未预留总量裕度、备件仓未按期建成",
+      "result": "一期 2026-04 至 2026-09 滚动可用率 96.1%，缺口 0.9pp，按 1.6%/pp 赔付 1.44%（EV-AU-11/EV-AU-12）",
+      "evidenceSources": [
+        "EV-AU-04",
+        "EV-AU-10",
+        "EV-AU-11",
+        "EV-AU-12",
+        "EV-AU-15"
+      ],
+      "reviewer": "周敏",
+      "reviewedAt": "2026-10-24",
+      "scope": "适用于把可用率写入罚则条款的公用事业与运维长协项目（含备件响应义务）；不适用于仅考核能量吞吐、无可用率罚则的纯供货 EPC，也不适用于考核期短于 6 个月的项目",
+      "evidenceLevel": "B",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "verificationPlan": "按季度跟踪 2026-Q4 与 2027 年度可用率，2027-06-30 前补齐 AEMO 原始月报再议等级",
+      "verificationDue": "2027-06-30",
+      "references": [
+        {
+          "projectId": "p-au-11",
+          "citedBy": "陈立",
+          "citedAt": "2026-10-18",
+          "usedIn": "澳洲 SA 80MWh 可用率承诺表 §2"
+        }
+      ],
+      "pendingChange": null,
+      "changeHistory": [
+        {
+          "id": "CHG-AU-05",
+          "from": "A",
+          "to": "B",
+          "status": "approved",
+          "requester": "系统自动触发（FU-AU-03 missed，BR-14）",
+          "approver": "陈立",
+          "requestedAt": "2026-10-20",
+          "reason": "首年可用率 96.1% 未达承诺 97%，客户例会书面记录缺口与原因，原 A 级的因果证据链断裂",
+          "newEvidenceIds": [
+            "EV-AU-11",
+            "EV-AU-12"
+          ],
+          "reviewNote": "确认 96.1% 与承诺 97% 的缺口，按 BR-14 立即降为 B 级，仍需人工复核"
+        }
+      ]
+    },
+    {
+      "id": "EXP-AU-04",
+      "category": "commercial",
+      "title": "60 天海运 + 90 天到场承诺拿下工期，清关没算进去",
+      "summary": "以锁舱位 + 预清关承诺 90 天到场，工期项拿到 8/10；实际 102 天，扣 6% 延误罚则，说明海运承诺必须按港口清关历史留缓冲。",
+      "country": "AU",
+      "scaleBand": "100-200MWh",
+      "customerType": "公用事业",
+      "bidMode": "公开招标",
+      "productModel": "MegaBlock 5.0",
+      "requirement": "交付期 ≤420 日历天，首批设备到场 ≤90 天，须附舱位证明（招标 §7.2）",
+      "strategy": "14 个 40 尺柜单批次出运锁定舱位，澳洲本地代理预清关，承诺 90 天到场，未附舱位证明",
+      "result": "首批到场 102 天（+12 天），扣延误罚则 6%，工期项 8/10（EV-AU-13/EV-AU-19）",
+      "evidenceSources": [
+        "EV-AU-05",
+        "EV-AU-13",
+        "EV-AU-19"
+      ],
+      "reviewer": "赵磊",
+      "reviewedAt": "2026-10-23",
+      "scope": "适用于跨洋海运、首批到场承诺 ≤90 天的澳洲与东南亚储能项目；不适用于中欧陆运项目（清关结构与运输周期不同），也不适用于设备已本地备货的项目",
+      "evidenceLevel": "B",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "verificationPlan": "在 p-au-09 澳洲 VIC 120MWh 交付计划中按悉尼港近 24 个月清关中位数重算缓冲，2027-03-31 前回填实际到场天数",
+      "verificationDue": "2027-03-31",
+      "references": [
+        {
+          "projectId": "p-au-09",
+          "citedBy": "赵磊",
+          "citedAt": "2026-10-16",
+          "usedIn": "澳洲 VIC 120MWh 交付计划表 §3"
+        }
+      ],
+      "pendingChange": {
+        "id": "CHG-AU-08",
+        "from": "B",
+        "to": "C",
+        "status": "pending",
+        "requester": "赵磊",
+        "approver": "陈立",
+        "requestedAt": "2026-10-21",
+        "reason": "第二批设备再次延误 9 天，锁舱位即准时的假设需要重估，建议降为 C 待验证",
+        "newEvidenceIds": [
+          "EV-AU-13"
+        ]
+      },
+      "changeHistory": []
+    },
+    {
+      "id": "EXP-AU-05",
+      "category": "commercial",
+      "title": "备件仓 6 个月承诺改 12 个月：本地化软承诺的代价",
+      "summary": "备件仓 6 个月节点无法达成，改为 12 个月并写入合同附件 3，过渡期空运补件自担；服务分项因此被扣 5 分，是否可复用待验证。",
+      "country": "AU",
+      "scaleBand": "100-200MWh",
+      "customerType": "公用事业",
+      "bidMode": "公开招标",
+      "productModel": "MegaBlock 5.0",
+      "requirement": "合同生效后 6 个月内建成备件仓（齐套 ≥120 项），随标提交租赁意向书（招标 §6.8）",
+      "strategy": "以母公司承诺函替代租赁意向书，谈判中把节点改为 12 个月并绑定合同附件 3",
+      "result": "服务分项 10/15，因未响应 6 个月节点被扣 5 分（EV-AU-18）；截至 2026-09-30 齐套 42/120 项（EV-AU-12）",
+      "evidenceSources": [
+        "EV-AU-10",
+        "EV-AU-12",
+        "EV-AU-18"
+      ],
+      "reviewer": "陈立",
+      "reviewedAt": "2026-10-24",
+      "scope": "适用于招标明确要求本地备件仓节点的公用事业与长协运维项目；不适用于无本地化门槛或备件由客户自管的纯供货项目",
+      "evidenceLevel": "C",
+      "state": "draft",
+      "conclusionCarrier": false,
+      "verificationPlan": "在 p-au-11 澳洲 SA 80MWh 供货+运维项目中跟踪备件仓建成节点与扣分情况，2027-01-31 前复核承诺口径是否可复用",
+      "verificationDue": "2027-01-31",
+      "references": [
+        {
+          "projectId": "p-au-11",
+          "citedBy": "陈立",
+          "citedAt": "2026-10-18",
+          "usedIn": "澳洲 SA 80MWh 备件仓节点假设区（未进结论）"
+        }
+      ],
+      "pendingChange": null,
+      "changeHistory": []
+    },
+    {
+      "id": "EXP-AU-06",
+      "category": "competitor",
+      "title": "竞对 F 的 FCAS 能力判断缺来源，只能作待验证假设",
+      "summary": "竞对 F 未公开任何 FCAS 响应数据，内部复盘会两次判断其无法满足 250ms，但无评分表或客户文件可证，本条不进入结论载体。",
+      "country": "AU",
+      "scaleBand": "100-200MWh",
+      "customerType": "公用事业",
+      "bidMode": "公开招标",
+      "productModel": "MegaBlock 5.0",
+      "requirement": "招标 §5.3.2 要求 FCAS 响应 ≤250ms，本用于横向比较各投标人响应能力",
+      "strategy": "以竞对 C 公开摘要 + 内部会议判断竞对 F 响应能力不足，未索取其投标文件",
+      "result": "中标，但竞对 F 的技术差距无客户侧文件佐证，评分表只点名了竞对 C（EV-AU-09/EV-AU-14）",
+      "evidenceSources": [
+        "EV-AU-09",
+        "EV-AU-14"
+      ],
+      "reviewer": "周敏",
+      "reviewedAt": "2026-10-24",
+      "scope": "适用于澳洲项目前期竞对能力预判（无开标记录可查）；不适用于国内有完整开标记录可逐条比对的项目",
+      "evidenceLevel": "C",
+      "state": "draft",
+      "conclusionCarrier": false,
+      "verificationPlan": "在 p-au-09 澳洲 VIC 120MWh 投标中同步收集竞对 F 的公开技术摘要与客户澄清问答记录，2027-01-31 前复核；若仍无来源则不入库",
+      "verificationDue": "2027-01-31",
+      "references": [
+        {
+          "projectId": "p-au-09",
+          "citedBy": "赵磊",
+          "citedAt": "2026-10-17",
+          "usedIn": "澳洲 VIC 120MWh 竞对预判假设区（未进结论）"
+        }
+      ],
+      "pendingChange": null,
+      "changeHistory": []
+    }
+  ],
+  "openItems": [
+    {
+      "id": "TODO-01",
+      "item": "向客户索取 AEMO 月度原始报表，补齐可用率缺口计算依据",
+      "owner": "周敏",
+      "due": "2026-11-15",
+      "blocks": "EXP-AU-03 降级后的再次复核（缺计量口径原件）"
+    },
+    {
+      "id": "TODO-02",
+      "item": "补 MegaBlock 5.2 的 AS/NZS 4777.2 认证与 AEMO 注册",
+      "owner": "赵磊",
+      "due": "2026-12-31",
+      "blocks": "p-au-07 投标资格（客户技术规范要求 5.2 型号可覆盖）"
+    },
+    {
+      "id": "TODO-03",
+      "item": "完成悉尼备件仓 120 项齐套并评估对可用率的影响",
+      "owner": "陈立",
+      "due": "2027-03-31",
+      "blocks": "FU-AU-04 关闭与 EXP-AU-05 的 C 级验证"
+    },
+    {
+      "id": "TODO-04",
+      "item": "取得 AS 5139 第三方评估机构对 45℃ 降额曲线的复测报告",
+      "owner": "周敏",
+      "due": "2026-12-15",
+      "blocks": "EXP-AU-02 的 A 级维持（报告未出则降回 B）"
+    },
+    {
+      "id": "TODO-05",
+      "item": "向 p-au-11 引用方书面提示 EXP-AU-03 已按 BR-14 降为 B 级",
+      "owner": "陈立",
+      "due": "2026-11-05",
+      "blocks": "引用影响面闭环（BR-15）"
+    },
+    {
+      "id": "TODO-06",
+      "item": "补记首次复盘（2025-09-28，S-01 窗口内）与本文件的版本关系说明",
+      "owner": "周敏",
+      "due": "2026-11-10",
+      "blocks": "本文件为履约验证后更新版，需说明 retroDate 晚于中标 +14 天的原因"
+    }
+  ],
+  "retroMeta": {
+    "owner": "周敏",
+    "retroDate": "2026-10-25",
+    "generatedBy": "retro skill（模拟数据）",
+    "humanConfirmed": false,
+    "dataNote": "模拟数据，非真实企业信息（演示用途）"
+  }
+}

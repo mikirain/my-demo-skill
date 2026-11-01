@@ -1,0 +1,112 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "中标复盘 skill（retro）· 输入输出与 SOP",
+    "locale": "zh-CN",
+    "quality_profile": "showcase",
+    "output": ".archify/workflow-retro-sop-20261025-190419/retro-sop.html"
+  },
+  "lanes": [
+    { "id": "input", "label": "输入 · 材料与条件" },
+    { "id": "sop", "label": "SOP · Agent 逐步执行" },
+    { "id": "out", "label": "输出 · 可回查资产" },
+    { "id": "stop", "label": "例外 · 中止与返工", "variant": "exception" },
+    { "id": "reuse", "label": "可选分支 · 经验复用" }
+  ],
+  "phases": [
+    { "id": "p_check", "label": "① 材料核对", "fromCol": 0, "toCol": 1 },
+    { "id": "p_evidence", "label": "② 证据复盘与落库", "fromCol": 2, "toCol": 3, "variant": "emphasis" },
+    { "id": "p_gate", "label": "③ 门禁与交付", "fromCol": 4, "toCol": 5, "variant": "dashed" }
+  ],
+  "mainPath": ["s1", "s2", "s3", "s4", "s45", "s5"],
+  "nodes": [
+    { "id": "materials", "lane": "input", "col": 0, "type": "external", "icon": "briefcase", "label": "材料输入", "sublabel": "必需 5 类 · 可选 6 类", "tag": "缺任一即停" },
+    { "id": "score_sheet", "lane": "input", "col": 1, "type": "security", "icon": "decision", "label": "评分表取值", "sublabel": "无正式表 → 全 ≤ B" },
+
+    { "id": "s1", "lane": "sop", "col": 0, "type": "backend", "label": "S1 输入核对", "sublabel": "init_case → intake.json", "tag": "check_inputs 退出码 2" },
+    { "id": "s2", "lane": "sop", "col": 1, "type": "backend", "label": "S2 十方面复盘", "sublabel": "十维度 + A/B/C 定级", "tag": "每条挂 EV 出处" },
+    { "id": "s3", "lane": "sop", "col": 2, "type": "backend", "label": "S3 写 retro.json", "sublabel": "v1.1 证据池 · 12 字段" },
+    { "id": "s4", "lane": "sop", "col": 3, "type": "backend", "label": "S4 机械校验", "sublabel": "validate_retro.py", "tag": "ERROR 逐条修" },
+    { "id": "s45", "lane": "sop", "col": 4, "type": "backend", "label": "S4.5 到期检查", "sublabel": "check_due.py → due.json" },
+    { "id": "s5", "lane": "sop", "col": 5, "type": "backend", "label": "S5 出报告", "sublabel": "render_report · 8 角色", "tag": "脱敏 / 只读视图" },
+
+    { "id": "a_intake", "lane": "out", "col": 0, "type": "database", "label": "intake.json", "sublabel": "材料清单 + gap.json" },
+    { "id": "a_retro", "lane": "out", "col": 2, "type": "database", "label": "retro.json v1.1", "sublabel": "复盘资产本体", "tag": "报告只是它的视图" },
+    { "id": "a_due", "lane": "out", "col": 4, "type": "database", "label": "due.json", "sublabel": "到期与待办清单" },
+    { "id": "a_report", "lane": "out", "col": 5, "type": "frontend", "label": "复盘报告 .md", "sublabel": "按角色视图 · 可脱敏" },
+
+    { "id": "x_ask", "lane": "stop", "col": 1, "type": "security", "icon": "stop", "label": "中止 · 逐项追问", "sublabel": "列缺口原文，不编造" },
+    { "id": "x_fix", "lane": "stop", "col": 3, "type": "security", "icon": "failure", "label": "修字段后重跑", "sublabel": "禁止删证据降级过关" },
+
+    { "id": "a_lib", "lane": "reuse", "col": 1, "type": "database", "label": "经验库 + 目标项目", "sublabel": "experiences / target" },
+    { "id": "s6", "lane": "reuse", "col": 2, "type": "backend", "label": "S6 复用匹配", "sublabel": "score_match.py → match.json", "tag": "匹配度只作排序" },
+    { "id": "a_match", "lane": "reuse", "col": 3, "type": "database", "label": "match.json", "sublabel": "可借鉴 / 差异 / 待验证" }
+  ],
+  "edges": [
+    { "id": "e-mat-s1", "from": "materials", "to": "s1", "role": "main" },
+    { "id": "e-score-s2", "from": "score_sheet", "to": "s2", "variant": "security" },
+    { "id": "e-s1-s2", "from": "s1", "to": "s2", "role": "main" },
+    { "id": "e-s2-s3", "from": "s2", "to": "s3", "role": "main" },
+    { "id": "e-s3-s4", "from": "s3", "to": "s4", "role": "main" },
+    { "id": "e-s4-s45", "from": "s4", "to": "s45", "role": "main" },
+    { "id": "e-s45-s5", "from": "s45", "to": "s5", "role": "main" },
+
+    { "id": "e-s1-intake", "from": "s1", "to": "a_intake" },
+    { "id": "e-s3-retro", "from": "s3", "to": "a_retro", "variant": "emphasis" },
+    { "id": "e-s45-due", "from": "s45", "to": "a_due" },
+    { "id": "e-s5-report", "from": "s5", "to": "a_report", "variant": "emphasis" },
+
+    { "id": "e-s1-ask", "from": "s1", "to": "x_ask", "label": "缺料", "variant": "security", "role": "error" },
+    { "id": "e-s4-fix", "from": "s4", "to": "x_fix", "label": "ERROR", "variant": "security", "role": "error" },
+
+    { "id": "e-retro-s6", "from": "a_retro", "to": "s6", "variant": "dashed", "role": "branch" },
+    { "id": "e-lib-s6", "from": "a_lib", "to": "s6" },
+    { "id": "e-s6-match", "from": "s6", "to": "a_match" }
+  ],
+  "cards": [
+    {
+      "dot": "emerald",
+      "title": "何时该触发",
+      "items": [
+        "已出结果（中标 / 失标）才复盘：为什么赢、按 A/B/C 定级、经验入库、出报告、到期检查",
+        "未投标 / 未开标 / 只想聊方法论，或要报价、标书、对比矩阵 → 不是本 skill",
+        "材料不足时按 S1 追问；缺必需材料就中止，不编造"
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "SOP 细则（图上未展开）",
+      "items": [
+        "S1 命令：init_case 建工作区 → check_inputs 出 gap.json；退出码 2 即停",
+        "S4 交付门禁加 --strict；WARNING 不拦交付，但要在报告告警区解释",
+        "S4.5 退出码 2 = 有到期项（待办，不是错误）；写进报告待补清单",
+        "S5 角色：engineer / bidManager / knowledge 全量，commercial 隐技术细项，legal 突出履约，exec 脱敏，viewer 只读，admin 拒绝",
+        "S5 输出目录 docs/output/retro/<retroId>/，文件名 中标复盘-<项目名>-<复盘日期>[-角色].md",
+        "S6 引用确定后回写 references[]，四项留痕"
+      ]
+    },
+    {
+      "dot": "rose",
+      "title": "红线（违反即返工）",
+      "items": [
+        "BR-11 无来源不入库；BR-12 C 级不作结论载体",
+        "BR-13 无评分表最高 B，score/maxScore 为 null",
+        "BR-14 履约 missed 立即降级并留痕",
+        "BR-18 不自动定级、不自动入库，一律 draft",
+        "BR-19 缺数据标 pending，禁止编造"
+      ]
+    },
+    {
+      "dot": "cyan",
+      "title": "交付前自检",
+      "items": [
+        "A 级能指到评分分项 / 评标反馈 / 客户书面认可，且 reviewState=verified",
+        "有评分表的项目，每条因素都能答「这条 8 分是哪一页」",
+        "缺失值全是 — 或 null，没有 0 填充，竞对未知未计入优势",
+        "每条经验齐 12 字段，scope 写清「适用于 / 不适用于」",
+        "C 级都有验证计划与到期日，且不在任何结论段"
+      ]
+    }
+  ]
+}

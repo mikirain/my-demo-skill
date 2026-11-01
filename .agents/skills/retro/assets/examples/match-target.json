@@ -1,0 +1,10 @@
+{
+  "caseId": "p-10",
+  "projectName": "PL 下西里西亚 300MWh 独立储能（模拟新标）",
+  "country": "PL",
+  "mwh": 300,
+  "productModel": "Aster 5000",
+  "route": "LFP 液冷",
+  "customerType": "独立发电商",
+  "contractMode": "供货 + 运维"
+}

@@ -1,0 +1,1011 @@
+{
+  "schemaVersion": "danger-draft-1.0",
+  "projectId": "p-01",
+  "asOf": "2026-10-24",
+  "sourceBundle": "p-01",
+  "stats": {
+    "insights": {
+      "total": 15,
+      "fact": 8,
+      "inference": 4,
+      "suggestion": 3,
+      "blockedNoEvidence": 3,
+      "needsReverify": 3
+    },
+    "risks": {
+      "total": 10,
+      "high": 6,
+      "mid": 4,
+      "low": 0
+    },
+    "clarifications": 13
+  },
+  "candidates": {
+    "insights": [
+      {
+        "compareRowId": "cmp-001",
+        "judged": "incomparable",
+        "defLabel": "系统往返效率",
+        "dimension": "performance",
+        "cells": [
+          {
+            "sourceName": "我方",
+            "display": "88.5%（AC-AC，含辅助）",
+            "status": "compliant"
+          },
+          {
+            "sourceName": "竞对 A",
+            "display": "92%（DC-DC，不含辅助）",
+            "status": "incomparable"
+          },
+          {
+            "sourceName": "竞对 B",
+            "display": "89%（AC-AC，不含辅助）",
+            "status": "potentialDeviation"
+          }
+        ],
+        "evidenceIds": [
+          "anc-16",
+          "anc-07",
+          "anc-13"
+        ],
+        "paramIds": [
+          "pv-001",
+          "pv-017",
+          "pv-032"
+        ],
+        "minEvidenceConfidence": 0.83,
+        "textSource": "rule",
+        "type": "fact",
+        "rule": "INS-R1",
+        "text": "系统往返效率：竞对 A 为 DC 侧效率，边界与要求不一致；竞对 B 未计辅助功耗，扣减后约 87.8%。",
+        "blockReason": null,
+        "unconfirmedParams": []
+      },
+      {
+        "compareRowId": "cmp-001",
+        "judged": "incomparable",
+        "defLabel": "系统往返效率",
+        "dimension": "performance",
+        "cells": [
+          {
+            "sourceName": "我方",
+            "display": "88.5%（AC-AC，含辅助）",
+            "status": "compliant"
+          },
+          {
+            "sourceName": "竞对 A",
+            "display": "92%（DC-DC，不含辅助）",
+            "status": "incomparable"
+          },
+          {
+            "sourceName": "竞对 B",
+            "display": "89%（AC-AC，不含辅助）",
+            "status": "potentialDeviation"
+          }
+        ],
+        "evidenceIds": [
+          "anc-16",
+          "anc-07",
+          "anc-13"
+        ],
+        "paramIds": [
+          "pv-001",
+          "pv-017",
+          "pv-032"
+        ],
+        "minEvidenceConfidence": 0.83,
+        "textSource": "rule",
+        "type": "inference",
+        "rule": "INS-R2",
+        "text": "待核实：系统往返效率项的测量边界不一致，若业主按他方口径评审，我方在该项将显劣势，建议在答疑阶段提出统一口径。",
+        "blockReason": null,
+        "unconfirmedParams": []
+      },
+      {
+        "compareRowId": "cmp-001",
+        "judged": "incomparable",
+        "defLabel": "系统往返效率",
+        "dimension": "performance",
+        "cells": [
+          {
+            "sourceName": "我方",
+            "display": "88.5%（AC-AC，含辅助）",
+            "status": "compliant"
+          },
+          {
+            "sourceName": "竞对 A",
+            "display": "92%（DC-DC，不含辅助）",
+            "status": "incomparable"
+          },
+          {
+            "sourceName": "竞对 B",
+            "display": "89%（AC-AC，不含辅助）",
+            "status": "potentialDeviation"
+          }
+        ],
+        "evidenceIds": [
+          "anc-16",
+          "anc-07",
+          "anc-13"
+        ],
+        "paramIds": [
+          "pv-001",
+          "pv-017",
+          "pv-032"
+        ],
+        "minEvidenceConfidence": 0.83,
+        "textSource": "rule",
+        "type": "suggestion",
+        "rule": "INS-R3",
+        "text": "建议在技术标中并列披露我方系统往返效率的88.5%（AC-AC，含辅助）与测试条件，与他方未标注条件的数值分开列示，不做正面对比。",
+        "blockReason": null,
+        "unconfirmedParams": []
+      },
+      {
+        "compareRowId": "cmp-002",
+        "judged": "incomparable",
+        "defLabel": "循环寿命",
+        "dimension": "performance",
+        "cells": [
+          {
+            "sourceName": "我方",
+            "display": "8500 次（同条件）",
+            "status": "compliant"
+          },
+          {
+            "sourceName": "竞对 A",
+            "display": "12000 次（条件缺失）",
+            "status": "insufficientEvidence"
+          },
+          {
+            "sourceName": "竞对 B",
+            "display": "8000 次（DoD80/SOH60）",
+            "status": "incomparable"
+          }
+        ],
+        "evidenceIds": [
+          "anc-17",
+          "anc-08"
+        ],
+        "paramIds": [
+          "pv-002",
+          "pv-019",
+          "pv-035"
+        ],
+        "minEvidenceConfidence": 0.61,
+        "textSource": "rule",
+        "type": "fact",
+        "rule": "INS-R1",
+        "text": "循环寿命：竞对 A 未给出测试条件；竞对 B 的 DoD 与 SoH 终点均低于要求，不可直接比较。",
+        "blockReason": "unconfirmed-field",
+        "unconfirmedParams": [
+          "pv-019"
+        ]
+      },
+      {
+        "compareRowId": "cmp-002",
+        "judged": "incomparable",
+        "defLabel": "循环寿命",
+        "dimension": "performance",
+        "cells": [
+          {
+            "sourceName": "我方",
+            "display": "8500 次（同条件）",
+            "status": "compliant"
+          },
+          {
+            "sourceName": "竞对 A",
+            "display": "12000 次（条件缺失）",
+            "status": "insufficientEvidence"
+          },
+          {
+            "sourceName": "竞对 B",
+            "display": "8000 次（DoD80/SOH60）",
+            "status": "incomparable"
+          }
+        ],
+        "evidenceIds": [
+          "anc-17",
+          "anc-08"
+        ],
+        "paramIds": [
+          "pv-002",
+          "pv-019",
+          "pv-035"
+        ],
+        "minEvidenceConfidence": 0.61,
+        "textSource": "rule",
+        "type": "inference",
+        "rule": "INS-R2",
+        "text": "待核实：循环寿命项的测试条件不一致，若业主按他方口径评审，我方在该项将显劣势，建议在答疑阶段提出统一口径。",
+        "blockReason": "unconfirmed-field",
+        "unconfirmedParams": [
+          "pv-019"
+        ]
+      },
+      {
+        "compareRowId": "cmp-002",
+        "judged": "incomparable",
+        "defLabel": "循环寿命",
+        "dimension": "performance",
+        "cells": [
+          {
+            "sourceName": "我方",
+            "display": "8500 次（同条件）",
+            "status": "compliant"
+          },
+          {
+            "sourceName": "竞对 A",
+            "display": "12000 次（条件缺失）",
+            "status": "insufficientEvidence"
+          },
+          {
+            "sourceName": "竞对 B",
+            "display": "8000 次（DoD80/SOH60）",
+            "status": "incomparable"
+          }
+        ],
+        "evidenceIds": [
+          "anc-17",
+          "anc-08"
+        ],
+        "paramIds": [
+          "pv-002",
+          "pv-019",
+          "pv-035"
+        ],
+        "minEvidenceConfidence": 0.61,
+        "textSource": "rule",
+        "type": "suggestion",
+        "rule": "INS-R3",
+        "text": "建议在技术标中并列披露我方循环寿命的8500 次（同条件）与测试条件，与他方未标注条件的数值分开列示，不做正面对比。",
+        "blockReason": "unconfirmed-field",
+        "unconfirmedParams": [
+          "pv-019"
+        ]
+      },
+      {
+        "compareRowId": "cmp-003",
+        "judged": "incomparable",
+        "defLabel": "可用率保证",
+        "dimension": "warranty",
+        "cells": [
+          {
+            "sourceName": "我方",
+            "display": "98.5%（年，时间加权）",
+            "status": "compliant"
+          },
+          {
+            "sourceName": "竞对 A",
+            "display": "未披露",
+            "status": "undisclosed"
+          },
+          {
+            "sourceName": "竞对 B",
+            "display": "99%（月度口径）",
+            "status": "incomparable"
+          }
+        ],
+        "evidenceIds": [
+          "anc-18",
+          "anc-14"
+        ],
+        "paramIds": [
+          "pv-003",
+          "pv-020",
+          "pv-033"
+        ],
+        "minEvidenceConfidence": 0.79,
+        "textSource": "rule",
+        "type": "fact",
+        "rule": "INS-R1",
+        "text": "可用率保证：竞对 A 全文未披露；竞对 B 为月度口径，与年度时间加权不可比。",
+        "blockReason": null,
+        "unconfirmedParams": []
+      },
+      {
+        "compareRowId": "cmp-003",
+        "judged": "incomparable",
+        "defLabel": "可用率保证",
+        "dimension": "warranty",
+        "cells": [
+          {
+            "sourceName": "我方",
+            "display": "98.5%（年，时间加权）",
+            "status": "compliant"
+          },
+          {
+            "sourceName": "竞对 A",
+            "display": "未披露",
+            "status": "undisclosed"
+          },
+          {
+            "sourceName": "竞对 B",
+            "display": "99%（月度口径）",
+            "status": "incomparable"
+          }
+        ],
+        "evidenceIds": [
+          "anc-18",
+          "anc-14"
+        ],
+        "paramIds": [
+          "pv-003",
+          "pv-020",
+          "pv-033"
+        ],
+        "minEvidenceConfidence": 0.79,
+        "textSource": "rule",
+        "type": "inference",
+        "rule": "INS-R2",
+        "text": "待核实：可用率保证项的测试条件不一致，若业主按他方口径评审，我方在该项将显劣势，建议在答疑阶段提出统一口径。",
+        "blockReason": null,
+        "unconfirmedParams": []
+      },
+      {
+        "compareRowId": "cmp-003",
+        "judged": "incomparable",
+        "defLabel": "可用率保证",
+        "dimension": "warranty",
+        "cells": [
+          {
+            "sourceName": "我方",
+            "display": "98.5%（年，时间加权）",
+            "status": "compliant"
+          },
+          {
+            "sourceName": "竞对 A",
+            "display": "未披露",
+            "status": "undisclosed"
+          },
+          {
+            "sourceName": "竞对 B",
+            "display": "99%（月度口径）",
+            "status": "incomparable"
+          }
+        ],
+        "evidenceIds": [
+          "anc-18",
+          "anc-14"
+        ],
+        "paramIds": [
+          "pv-003",
+          "pv-020",
+          "pv-033"
+        ],
+        "minEvidenceConfidence": 0.79,
+        "textSource": "rule",
+        "type": "suggestion",
+        "rule": "INS-R3",
+        "text": "建议在技术标中并列披露我方可用率保证的98.5%（年，时间加权）与测试条件，与他方未标注条件的数值分开列示，不做正面对比。",
+        "blockReason": null,
+        "unconfirmedParams": []
+      },
+      {
+        "compareRowId": "cmp-004",
+        "judged": "potentialDeviation",
+        "defLabel": "质保年限与范围",
+        "dimension": "warranty",
+        "cells": [
+          {
+            "sourceName": "我方",
+            "display": "10 年（整系统）",
+            "status": "compliant"
+          },
+          {
+            "sourceName": "竞对 A",
+            "display": "10 年电芯 + 5 年 PCS",
+            "status": "potentialDeviation"
+          },
+          {
+            "sourceName": "竞对 B",
+            "display": "12 年（需延保合同）",
+            "status": "potentialDeviation"
+          }
+        ],
+        "evidenceIds": [
+          "anc-09"
+        ],
+        "paramIds": [
+          "pv-004",
+          "pv-021",
+          "pv-031"
+        ],
+        "minEvidenceConfidence": 0.9,
+        "textSource": "rule",
+        "type": "fact",
+        "rule": "INS-R1",
+        "text": "质保年限与范围：竞对 A 的 PCS 质保仅 5 年，低于 10 年要求；竞对 B 的 12 年为条件性承诺。",
+        "blockReason": null,
+        "unconfirmedParams": []
+      },
+      {
+        "compareRowId": "cmp-005",
+        "judged": "potentialDeviation",
+        "defLabel": "交付周期",
+        "dimension": "delivery",
+        "cells": [
+          {
+            "sourceName": "我方",
+            "display": "28 周（含海运）",
+            "status": "compliant"
+          },
+          {
+            "sourceName": "竞对 A",
+            "display": "24 周（不含海运）",
+            "status": "potentialDeviation"
+          },
+          {
+            "sourceName": "竞对 B",
+            "display": "未披露",
+            "status": "undisclosed"
+          }
+        ],
+        "evidenceIds": [
+          "anc-10"
+        ],
+        "paramIds": [
+          "pv-005",
+          "pv-022",
+          "pv-039"
+        ],
+        "minEvidenceConfidence": 0.72,
+        "textSource": "rule",
+        "type": "fact",
+        "rule": "INS-R1",
+        "text": "交付周期：竞对 A 未明确起算点且不含海运，实际交付不可比。",
+        "blockReason": null,
+        "unconfirmedParams": []
+      },
+      {
+        "compareRowId": "cmp-007",
+        "judged": "undisclosed",
+        "defLabel": "可用能量",
+        "dimension": "technical",
+        "cells": [
+          {
+            "sourceName": "我方",
+            "display": "4.75 MWh（DoD95）",
+            "status": "compliant"
+          },
+          {
+            "sourceName": "竞对 A",
+            "display": "未披露",
+            "status": "undisclosed"
+          },
+          {
+            "sourceName": "竞对 B",
+            "display": "未披露",
+            "status": "undisclosed"
+          }
+        ],
+        "evidenceIds": [],
+        "paramIds": [
+          "pv-007"
+        ],
+        "minEvidenceConfidence": null,
+        "textSource": "rule",
+        "type": "inference",
+        "rule": "INS-R2",
+        "text": "待核实：可用能量项的测试条件不一致，若业主按他方口径评审，我方在该项将显劣势，建议在答疑阶段提出统一口径。",
+        "blockReason": "no-evidence",
+        "unconfirmedParams": []
+      },
+      {
+        "compareRowId": "cmp-012",
+        "judged": "potentialDeviation",
+        "defLabel": "认证清单",
+        "dimension": "safety",
+        "cells": [
+          {
+            "sourceName": "我方",
+            "display": "UL9540、IEC62619、EN50549、CE",
+            "status": "compliant"
+          },
+          {
+            "sourceName": "竞对 A",
+            "display": "UL9540、IEC62619、CE",
+            "status": "potentialDeviation"
+          },
+          {
+            "sourceName": "竞对 B",
+            "display": "UL9540、IEC62619、EN50549（CE 待发证）",
+            "status": "potentialDeviation"
+          }
+        ],
+        "evidenceIds": [
+          "anc-15"
+        ],
+        "paramIds": [
+          "pv-012",
+          "pv-027",
+          "pv-037"
+        ],
+        "minEvidenceConfidence": 0.87,
+        "textSource": "rule",
+        "type": "fact",
+        "rule": "INS-R1",
+        "text": "认证清单：竞对 A 缺 EN50549；竞对 B 的 CE 尚在办理。",
+        "blockReason": null,
+        "unconfirmedParams": []
+      },
+      {
+        "compareRowId": "cmp-018",
+        "judged": "deviation",
+        "defLabel": "付款条件",
+        "dimension": "commercial",
+        "cells": [
+          {
+            "sourceName": "我方",
+            "display": "20/70/10",
+            "status": "compliant"
+          },
+          {
+            "sourceName": "竞对 A",
+            "display": "30/60/10",
+            "status": "deviation"
+          },
+          {
+            "sourceName": "竞对 B",
+            "display": "未披露",
+            "status": "undisclosed"
+          }
+        ],
+        "evidenceIds": [],
+        "paramIds": [
+          "pv-016",
+          "pv-028"
+        ],
+        "minEvidenceConfidence": null,
+        "textSource": "rule",
+        "type": "fact",
+        "rule": "INS-R1",
+        "text": "付款条件：竞对 A 预付比例 30% 高于要求，属商务条件偏离（对业主不利，对我方有利）。",
+        "blockReason": "no-evidence",
+        "unconfirmedParams": []
+      },
+      {
+        "compareRowId": "cmp-027",
+        "judged": "potentialDeviation",
+        "defLabel": "功率因数范围",
+        "dimension": "safety",
+        "cells": [
+          {
+            "sourceName": "我方",
+            "display": "−1 ~ +1",
+            "status": "compliant"
+          },
+          {
+            "sourceName": "竞对 A",
+            "display": "未披露",
+            "status": "undisclosed"
+          },
+          {
+            "sourceName": "竞对 B",
+            "display": "−0.9 ~ +0.9",
+            "status": "potentialDeviation"
+          }
+        ],
+        "evidenceIds": [],
+        "paramIds": [],
+        "minEvidenceConfidence": null,
+        "textSource": "rule",
+        "type": "fact",
+        "rule": "INS-R1",
+        "text": "功率因数范围：竞对 B 功率因数范围小于要求。",
+        "blockReason": "no-evidence",
+        "unconfirmedParams": []
+      }
+    ],
+    "risks": [
+      {
+        "candidateId": "c-risk-01",
+        "level": "high",
+        "kind": "废标风险",
+        "rule": "RISK-R3",
+        "text": "系统往返效率为强制条款但口径不可比，若按他方数值应答存在被认定「未按口径响应」的风险。",
+        "relatedKeys": [
+          "system_rte"
+        ],
+        "relatedRows": [
+          "cmp-001"
+        ],
+        "evidenceIds": [
+          "anc-16",
+          "anc-07",
+          "anc-13"
+        ],
+        "suggestion": "建议在答疑中提请业主统一效率测量边界与辅助功耗口径",
+        "owner": null,
+        "state": "open",
+        "source": "cmp-001 强制条款",
+        "due": "2026-11-05",
+        "compareRowId": "cmp-001"
+      },
+      {
+        "candidateId": "c-risk-02",
+        "level": "high",
+        "kind": "废标风险",
+        "rule": "RISK-R3",
+        "text": "循环寿命为强制条款但口径不可比，若按他方数值应答存在被认定「未按口径响应」的风险。",
+        "relatedKeys": [
+          "cycle_life"
+        ],
+        "relatedRows": [
+          "cmp-002"
+        ],
+        "evidenceIds": [
+          "anc-17",
+          "anc-08"
+        ],
+        "suggestion": "要求业主统一循环寿命测试条件后再做横向比较",
+        "owner": null,
+        "state": "open",
+        "source": "cmp-002 强制条款",
+        "due": "2026-11-05",
+        "compareRowId": "cmp-002"
+      },
+      {
+        "candidateId": "c-risk-03",
+        "level": "high",
+        "kind": "承诺风险",
+        "rule": "RISK-R6",
+        "text": "循环寿命的测试条件未统一，若按更宽条件承诺将承担额外赔付风险。",
+        "relatedKeys": [
+          "cycle_life"
+        ],
+        "relatedRows": [
+          "cmp-002"
+        ],
+        "evidenceIds": [
+          "anc-17",
+          "anc-08"
+        ],
+        "suggestion": "要求业主统一循环寿命测试条件后再做横向比较",
+        "owner": null,
+        "state": "open",
+        "source": "cmp-002 强制条款",
+        "due": "2026-11-05",
+        "compareRowId": "cmp-002"
+      },
+      {
+        "candidateId": "c-risk-04",
+        "level": "high",
+        "kind": "承诺风险",
+        "rule": "RISK-R6",
+        "text": "可用率保证的测试条件未统一，若按更宽条件承诺将承担额外赔付风险。",
+        "relatedKeys": [
+          "availability"
+        ],
+        "relatedRows": [
+          "cmp-003"
+        ],
+        "evidenceIds": [
+          "anc-18",
+          "anc-14"
+        ],
+        "suggestion": "建议要求竞对按年度时间加权口径补充承诺",
+        "owner": null,
+        "state": "open",
+        "source": "cmp-003",
+        "due": "2026-11-05",
+        "compareRowId": "cmp-003"
+      },
+      {
+        "candidateId": "c-risk-05",
+        "level": "high",
+        "kind": "技术偏离",
+        "rule": "RISK-R2",
+        "text": "质保年限与范围为强制条款且存在潜在偏离：竞对 A 的 PCS 质保仅 5 年，低于 10 年要求；竞对 B 的 12 年为条件性承诺。",
+        "relatedKeys": [
+          "warranty_years"
+        ],
+        "relatedRows": [
+          "cmp-004"
+        ],
+        "evidenceIds": [
+          "anc-09"
+        ],
+        "suggestion": "要求竞对 A 澄清 PCS 质保覆盖；竞对 B 澄清延保价格",
+        "owner": null,
+        "state": "open",
+        "source": "cmp-004 强制条款",
+        "due": "2026-11-05",
+        "compareRowId": "cmp-004"
+      },
+      {
+        "candidateId": "c-risk-06",
+        "level": "high",
+        "kind": "技术偏离",
+        "rule": "RISK-R2",
+        "text": "认证清单为强制条款且存在潜在偏离：竞对 A 缺 EN50549；竞对 B 的 CE 尚在办理。",
+        "relatedKeys": [
+          "certifications"
+        ],
+        "relatedRows": [
+          "cmp-012"
+        ],
+        "evidenceIds": [
+          "anc-15"
+        ],
+        "suggestion": "要求两家提供在有效期内的证书扫描件与发证日期",
+        "owner": null,
+        "state": "open",
+        "source": "cmp-012 强制条款",
+        "due": "2026-11-05",
+        "compareRowId": "cmp-012"
+      },
+      {
+        "candidateId": "c-risk-07",
+        "level": "mid",
+        "kind": "证据缺口",
+        "rule": "RISK-R4",
+        "text": "竞对 B的工作温度区间未披露或证据不足，我方在该维度缺对手侧证据，评审时说服力弱。",
+        "relatedKeys": [
+          "temp_range"
+        ],
+        "relatedRows": [
+          "cmp-010"
+        ],
+        "evidenceIds": [
+          "anc-16"
+        ],
+        "suggestion": "要求竞对 B 提供高低温降额曲线",
+        "owner": null,
+        "state": "open",
+        "source": "cmp-010 强制条款",
+        "due": "2026-11-05",
+        "compareRowId": "cmp-010"
+      },
+      {
+        "candidateId": "c-risk-08",
+        "level": "mid",
+        "kind": "证据缺口",
+        "rule": "RISK-R4",
+        "text": "竞对 B的消防方案未披露或证据不足，我方在该维度缺对手侧证据，评审时说服力弱。",
+        "relatedKeys": [
+          "fire_suppression"
+        ],
+        "relatedRows": [
+          "cmp-011"
+        ],
+        "evidenceIds": [
+          "anc-11"
+        ],
+        "suggestion": "要求竞对 B 提供消防设计与测试报告",
+        "owner": null,
+        "state": "open",
+        "source": "cmp-011 强制条款",
+        "due": "2026-11-05",
+        "compareRowId": "cmp-011"
+      },
+      {
+        "candidateId": "c-risk-09",
+        "level": "mid",
+        "kind": "证据缺口",
+        "rule": "RISK-R4",
+        "text": "竞对 A的并网标准未披露或证据不足，我方在该维度缺对手侧证据，评审时说服力弱。",
+        "relatedKeys": [
+          "grid_code"
+        ],
+        "relatedRows": [
+          "cmp-013"
+        ],
+        "evidenceIds": [],
+        "suggestion": "要求竞对 A 提供并网仿真报告",
+        "owner": null,
+        "state": "open",
+        "source": "cmp-013 强制条款",
+        "due": "2026-11-05",
+        "compareRowId": "cmp-013"
+      },
+      {
+        "candidateId": "c-risk-10",
+        "level": "mid",
+        "kind": "商务风险",
+        "rule": "RISK-R5",
+        "text": "付款条件商务条件偏离：竞对 A 预付比例 30% 高于要求，属商务条件偏离（对业主不利，对我方有利）。",
+        "relatedKeys": [
+          "payment_terms"
+        ],
+        "relatedRows": [
+          "cmp-018"
+        ],
+        "evidenceIds": [],
+        "suggestion": "在澄清阶段确认付款条件的评定口径与条件，技术标中同时给出可核验数据并注明条件。",
+        "owner": null,
+        "state": "open",
+        "source": "cmp-018",
+        "due": "2026-11-05",
+        "compareRowId": "cmp-018"
+      }
+    ],
+    "clarifications": [
+      {
+        "candidateId": "c-clr-01",
+        "rule": "CLR-R1",
+        "question": "系统往返效率项的测量边界如何统一，请予明确？",
+        "background": "AC-AC 全系统往返效率 ≥ 88%，含辅助功耗；我方 88.5%（AC-AC，含辅助）；竞对 A 92%（DC-DC，不含辅助）；竞对 B 89%（AC-AC，不含辅助）。",
+        "impact": "影响性能评分与横向可比性",
+        "evidenceIds": [
+          "anc-16",
+          "anc-07",
+          "anc-13"
+        ],
+        "compareRowId": "cmp-001",
+        "priority": 3,
+        "ownerHint": "建议在答疑中提请业主统一效率测量边界与辅助功耗口径",
+        "state": "not-sent"
+      },
+      {
+        "candidateId": "c-clr-02",
+        "rule": "CLR-R1",
+        "question": "循环寿命项的测试条件如何统一，请予明确？",
+        "background": "≥ 8000 次（DoD 90%、25℃、SoH 70%）；我方 8500 次（同条件）；竞对 A 12000 次（条件缺失）；竞对 B 8000 次（DoD80/SOH60）。",
+        "impact": "影响性能评分与横向可比性",
+        "evidenceIds": [
+          "anc-17",
+          "anc-08"
+        ],
+        "compareRowId": "cmp-002",
+        "priority": 3,
+        "ownerHint": "要求业主统一循环寿命测试条件后再做横向比较",
+        "state": "not-sent"
+      },
+      {
+        "candidateId": "c-clr-03",
+        "rule": "CLR-R1",
+        "question": "可用率保证项的测试条件如何统一，请予明确？",
+        "background": "年可用率 ≥ 98%，按时间加权；我方 98.5%（年，时间加权）；竞对 A 未披露；竞对 B 99%（月度口径）。",
+        "impact": "影响质保成本与违约赔偿口径",
+        "evidenceIds": [
+          "anc-18",
+          "anc-14"
+        ],
+        "compareRowId": "cmp-003",
+        "priority": 2,
+        "ownerHint": "建议要求竞对按年度时间加权口径补充承诺",
+        "state": "not-sent"
+      },
+      {
+        "candidateId": "c-clr-04",
+        "rule": "CLR-R1",
+        "question": "质保年限与范围项的评定口径与依据如何确定，请予明确？",
+        "background": "整系统质保 ≥ 10 年（含 PCS）；我方 10 年（整系统）；竞对 A 10 年电芯 + 5 年 PCS；竞对 B 12 年（需延保合同）。",
+        "impact": "影响质保成本与违约赔偿口径",
+        "evidenceIds": [
+          "anc-09"
+        ],
+        "compareRowId": "cmp-004",
+        "priority": 2,
+        "ownerHint": "要求竞对 A 澄清 PCS 质保覆盖；竞对 B 澄清延保价格",
+        "state": "not-sent"
+      },
+      {
+        "candidateId": "c-clr-05",
+        "rule": "CLR-R1",
+        "question": "交付周期项的评定口径与依据如何确定，请予明确？",
+        "background": "≤ 30 周（自合同生效起算，含海运）；我方 28 周（含海运）；竞对 A 24 周（不含海运）；竞对 B 未披露。",
+        "impact": "影响交付承诺与违约金风险",
+        "evidenceIds": [
+          "anc-10"
+        ],
+        "compareRowId": "cmp-005",
+        "priority": 1,
+        "ownerHint": "要求竞对 A 按「合同生效至并网」口径重新报交付",
+        "state": "not-sent"
+      },
+      {
+        "candidateId": "c-clr-06",
+        "rule": "CLR-R1",
+        "question": "可用能量项的测试条件如何统一，请予明确？",
+        "background": "可用能量 ≥ 4.6 MWh（DoD 95%、SoH 70%）；我方 4.75 MWh（DoD95）；竞对 A 未披露；竞对 B 未披露。",
+        "impact": "影响技术符合性判定与偏离表口径",
+        "evidenceIds": [],
+        "compareRowId": "cmp-007",
+        "priority": 2,
+        "ownerHint": "要求竞对按 DoD 95%/SoH 70% 报可用能量",
+        "state": "not-sent"
+      },
+      {
+        "candidateId": "c-clr-07",
+        "rule": "CLR-R1",
+        "question": "辅助功耗项的评定口径与依据如何确定，请予明确？",
+        "background": "≤ 2.5% 额定功率（额定工况）；我方 1.6%；竞对 A 未披露；竞对 B 1.8%。",
+        "impact": "影响性能评分与横向可比性",
+        "evidenceIds": [
+          "anc-16",
+          "anc-13"
+        ],
+        "compareRowId": "cmp-009",
+        "priority": 2,
+        "ownerHint": "要求竞对 A 补充辅助功耗与效率口径",
+        "state": "not-sent"
+      },
+      {
+        "candidateId": "c-clr-08",
+        "rule": "CLR-R1",
+        "question": "工作温度区间项的评定口径与依据如何确定，请予明确？",
+        "background": "−30℃ ~ +50℃ 可正常运行；我方 −30 ~ +50℃；竞对 A −25 ~ +55℃；竞对 B 未披露。",
+        "impact": "影响技术符合性判定与偏离表口径",
+        "evidenceIds": [
+          "anc-16"
+        ],
+        "compareRowId": "cmp-010",
+        "priority": 1,
+        "ownerHint": "要求竞对 B 提供高低温降额曲线",
+        "state": "not-sent"
+      },
+      {
+        "candidateId": "c-clr-09",
+        "rule": "CLR-R1",
+        "question": "消防方案项的评定口径与依据如何确定，请予明确？",
+        "background": "满足 NFPA 68/69，含可燃气体探测与泄压；我方 气溶胶 + NFPA 68 泄压；竞对 A 气溶胶 + NFPA 68；竞对 B 未披露。",
+        "impact": "影响安全合规判定与评审说服力",
+        "evidenceIds": [
+          "anc-11"
+        ],
+        "compareRowId": "cmp-011",
+        "priority": 2,
+        "ownerHint": "要求竞对 B 提供消防设计与测试报告",
+        "state": "not-sent"
+      },
+      {
+        "candidateId": "c-clr-10",
+        "rule": "CLR-R1",
+        "question": "认证清单项的评定口径与依据如何确定，请予明确？",
+        "background": "UL9540 / IEC62619 / EN50549 齐备且有效；我方 UL9540、IEC62619、EN50549、CE；竞对 A UL9540、IEC62619、CE；竞对 B UL9540、IEC62619、EN50549（CE 待发证）。",
+        "impact": "影响安全合规判定与评审说服力",
+        "evidenceIds": [
+          "anc-15"
+        ],
+        "compareRowId": "cmp-012",
+        "priority": 3,
+        "ownerHint": "要求两家提供在有效期内的证书扫描件与发证日期",
+        "state": "not-sent"
+      },
+      {
+        "candidateId": "c-clr-11",
+        "rule": "CLR-R1",
+        "question": "并网标准项的评定口径与依据如何确定，请予明确？",
+        "background": "满足 EN50549，并适配捷克本地并网规范；我方 EN50549 + VDE-AR-N 4110；竞对 A 未披露；竞对 B EN50549。",
+        "impact": "影响安全合规判定与评审说服力",
+        "evidenceIds": [],
+        "compareRowId": "cmp-013",
+        "priority": 2,
+        "ownerHint": "要求竞对 A 提供并网仿真报告",
+        "state": "not-sent"
+      },
+      {
+        "candidateId": "c-clr-12",
+        "rule": "CLR-R1",
+        "question": "报价结构项的评定口径与依据如何确定，请予明确？",
+        "background": "要求分设备/安装/运维三项报价；我方 三项分列；竞对 A 未披露；竞对 B 未披露。",
+        "impact": "影响商务评分与付款结构谈判空间",
+        "evidenceIds": [],
+        "compareRowId": "cmp-020",
+        "priority": 1,
+        "ownerHint": "若需商务对标，应通过合法渠道获取报价拆分",
+        "state": "not-sent"
+      },
+      {
+        "candidateId": "c-clr-13",
+        "rule": "CLR-R1",
+        "question": "系统重量项的评定口径与依据如何确定，请予明确？",
+        "background": "≤ 35 t / 20ft；我方 32 t；竞对 A 30 t；竞对 B 未披露。",
+        "impact": "影响技术符合性判定与偏离表口径",
+        "evidenceIds": [],
+        "compareRowId": "cmp-030",
+        "priority": 1,
+        "ownerHint": "要求竞对 B 提供运输尺寸与重量",
+        "state": "not-sent"
+      }
+    ]
+  },
+  "openQuestions": [
+    "候选文案是规则骨架，提交前须人工改写为评审可读的结论（不得改变类型前缀与证据绑定）",
+    "owner / 责任人由投标经理指派，脚本不给默认值（BR-02 缺失不填）",
+    "决策留白两项（让利空间、承诺可用率）本脚本不产出任何数值（BR-06）"
+  ]
+}

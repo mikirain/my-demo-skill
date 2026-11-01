@@ -1,0 +1,716 @@
+{
+  "schemaVersion": "1.1",
+  "case": {
+    "retroId": "rp-02",
+    "id": "p-03",
+    "name": "UK-Northgate 100MWh 工商业储能（2026 中标）",
+    "country": "UK",
+    "mw": 25,
+    "mwh": 100,
+    "route": "LFP 风冷",
+    "customerType": "工商业",
+    "bidMode": "有限邀请招标",
+    "contractMode": "EPC 总承包",
+    "productModel": "Aster 4000",
+    "awardedYear": 2026,
+    "awardDate": "2026-09-25",
+    "competitorIds": ["竞对 B", "竞对 D"],
+    "hasScoreSheet": false,
+    "snapshotAt": "2026-10-08"
+  },
+  "evidence": [
+    {
+      "id": "EV-01",
+      "type": "tender",
+      "title": "招标文件第 5.3 条 消防、认证与并网要求",
+      "documentId": "doc-101",
+      "originalFiled": true,
+      "page": 22,
+      "section": "§5.3 消防、认证与并网",
+      "snippet": "投标储能系统须同时满足 BS 8414-1 外墙火灾试验与 NFPA 855 布置间距要求，耐火极限 ≥2 小时，测试报告签发日不早于 2025-01。",
+      "reliability": "official",
+      "collectedBy": "吴桐",
+      "collectedAt": "2026-03-06"
+    },
+    {
+      "id": "EV-02",
+      "type": "tender",
+      "title": "招标文件第 7.2 条 供货范围清单",
+      "documentId": "doc-101",
+      "originalFiled": true,
+      "page": 31,
+      "section": "§7.2 供货范围与接口界面",
+      "snippet": "供货范围清单 §7.2 含电池舱、PCS、EMS、消防系统与 5 年整机质保，不含 33kV 升压站与站外土建，投标人不得拆分报价。",
+      "reliability": "official",
+      "collectedBy": "吴桐",
+      "collectedAt": "2026-03-06"
+    },
+    {
+      "id": "EV-03",
+      "type": "tender",
+      "title": "招标文件第 9.4 条 交付期与延误赔偿",
+      "documentId": "doc-101",
+      "originalFiled": true,
+      "page": 47,
+      "section": "§9.4 交付期与延误赔偿",
+      "snippet": "交付期为 NTP 后 90 天，延迟交付赔偿不低于合同额 0.5%/周，累计上限不超过 10%，按实际逾期整周计算。",
+      "reliability": "official",
+      "collectedBy": "吴桐",
+      "collectedAt": "2026-03-06"
+    },
+    {
+      "id": "EV-04",
+      "type": "ourBid",
+      "title": "投标技术卷终版（技术分册 TS-03-R4）",
+      "documentId": "doc-104",
+      "originalFiled": true,
+      "page": 12,
+      "section": "§3.2 消防方案 / §3.6 质保与交付",
+      "snippet": "消防方案按 BS 8414-1 试验报告（2025-11-18 签发）与 NFPA 855 间距评估双口径响应，整机质保 5 年，交付期为 NTP 后 90 天。",
+      "reliability": "official",
+      "collectedBy": "周珂",
+      "collectedAt": "2026-04-08"
+    },
+    {
+      "id": "EV-05",
+      "type": "ourBid",
+      "title": "投标商务卷终版（商务分册 CS-03-R4）",
+      "documentId": "doc-105",
+      "originalFiled": true,
+      "page": 8,
+      "section": "§2.1 范围响应 / §2.5 条款响应",
+      "snippet": "商务卷按 §7.2 全清单计价含消防与 EMS，不拆分报价；延迟交付赔偿承诺 0.5%/周，累计上限 10%。",
+      "reliability": "official",
+      "collectedBy": "罗昇",
+      "collectedAt": "2026-04-08"
+    },
+    {
+      "id": "EV-06",
+      "type": "clarification",
+      "title": "澄清答复第 5 号（供货范围质疑）",
+      "documentId": "doc-108",
+      "originalFiled": true,
+      "page": 2,
+      "section": "澄清答复第 5 条",
+      "snippet": "澄清答复第 5 条：针对竞对 D 提出的供货范围缩水质疑，§7.2 清单含消防与 EMS，各投标人须按全清单口径报价。",
+      "reliability": "official",
+      "collectedBy": "吴桐",
+      "collectedAt": "2026-04-02"
+    },
+    {
+      "id": "EV-07",
+      "type": "clarification",
+      "title": "澄清答复第 8 号（噪声主动偏差）",
+      "documentId": "doc-109",
+      "originalFiled": true,
+      "page": 3,
+      "section": "澄清答复第 8 条",
+      "snippet": "澄清答复第 8 条：接受我方噪声 67 dB(A) 主动偏差，须加装消声导流罩并于投运前复测至 65 dB(A) 以下。",
+      "reliability": "official",
+      "collectedBy": "周珂",
+      "collectedAt": "2026-04-05"
+    },
+    {
+      "id": "EV-08",
+      "type": "awardNotice",
+      "title": "中标结果公示（Northgate 100MWh BESS EPC）",
+      "documentId": "doc-112",
+      "originalFiled": true,
+      "page": 1,
+      "section": "公示正文",
+      "snippet": "中标结果公示：Northgate 100MWh 储能 EPC 中标人确认，评标采用综合评估法，公示不载明各分项得分与权重。",
+      "reliability": "official",
+      "collectedBy": "郑岚",
+      "collectedAt": "2026-09-25"
+    },
+    {
+      "id": "EV-09",
+      "type": "competitorBid",
+      "title": "竞对 B 公开技术摘要（官网产品页）",
+      "documentId": null,
+      "originalFiled": false,
+      "page": null,
+      "section": "公开产品资料 · 技术参数",
+      "snippet": "竞对 B 公开技术摘要：系统效率 88.2%，电芯温差 ±4.0℃，交付期 NTP 后 120 天，消防仅列 NFPA 855 间距。",
+      "reliability": "public",
+      "collectedBy": "周珂",
+      "collectedAt": "2026-03-28"
+    },
+    {
+      "id": "EV-10",
+      "type": "negotiation",
+      "title": "合同谈判纪要（第 4 轮，罚则条款）",
+      "documentId": "doc-115",
+      "originalFiled": true,
+      "page": 5,
+      "section": "罚则条款让步记录",
+      "snippet": "谈判纪要第 4 轮：延迟交付赔偿由 0.5%/周、上限 10% 调整为 1%/周、上限 15%，我方以此换取质保期条款维持 5 年。",
+      "reliability": "official",
+      "collectedBy": "罗昇",
+      "collectedAt": "2026-09-10"
+    },
+    {
+      "id": "EV-11",
+      "type": "fulfilment",
+      "title": "设备到货台账（早期工程协议 EWA 项下）",
+      "documentId": "doc-120",
+      "originalFiled": true,
+      "page": 1,
+      "section": "交付节点",
+      "snippet": "早期工程协议 EWA 下发 NTP 2026-05-22，合同交付日 2026-08-20（NTP+90 天），实际到货 2026-10-01，逾期 42 天。",
+      "reliability": "thirdParty",
+      "collectedBy": "周珂",
+      "collectedAt": "2026-10-02"
+    },
+    {
+      "id": "EV-12",
+      "type": "fulfilment",
+      "title": "客户索赔确认函（延误扣款）",
+      "documentId": "doc-121",
+      "originalFiled": true,
+      "page": 2,
+      "section": "索赔计算表",
+      "snippet": "客户索赔确认：逾期 42 天（6 周）按 1%/周计，赔付比例 6%，未触及 15% 上限，扣款自质保金中抵扣。",
+      "reliability": "official",
+      "collectedBy": "郑岚",
+      "collectedAt": "2026-10-06"
+    },
+    {
+      "id": "EV-13",
+      "type": "other",
+      "title": "内部复盘会纪要（第一轮赢因讨论）",
+      "documentId": "doc-130",
+      "originalFiled": true,
+      "page": 3,
+      "section": "赢因讨论",
+      "snippet": "复盘会共识：客户可能因品牌与英国本地业绩加分，但未取得评审记录，5 名与会者仅 2 人持此判断。",
+      "reliability": "thirdParty",
+      "collectedBy": "吴桐",
+      "collectedAt": "2026-10-08"
+    }
+  ],
+  "winFactors": [
+    {
+      "id": "wf-01",
+      "title": "供货范围按全清单响应，未被认定缩水",
+      "category": "compliance",
+      "level": "B",
+      "mandatory": true,
+      "score": null,
+      "maxScore": null,
+      "weightPct": 40,
+      "customerNeed": "§7.2 全清单供货（含消防与 EMS、不含 33kV 升压站），且不得拆分报价（EV-02）",
+      "ourResponse": "商务卷按 §7.2 全清单计价不拆分；技术卷附 BS 8414-1 报告与 NFPA 855 间距评估，消防与 EMS 均在供货范围内（EV-04/EV-05）",
+      "competitorGap": "竞对 D 以「供货范围缩水」书面质疑我方，客户澄清第 5 条确认全清单口径，质疑未成立（EV-06）",
+      "evidence": ["EV-02", "EV-04", "EV-05", "EV-06"],
+      "confirmedBy": "吴桐",
+      "reviewState": "verified",
+      "recentChange": {
+        "at": "10-08 09:40",
+        "by": "吴桐",
+        "action": "补入澄清第 5 号，维持 B",
+        "auditId": "aud-021"
+      },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "wf-02",
+      "title": "90 天交付与 5 年整机质保组合压缩竞对空间",
+      "category": "delivery",
+      "level": "B",
+      "mandatory": false,
+      "score": null,
+      "maxScore": null,
+      "weightPct": 35,
+      "customerNeed": "§9.4 要求 NTP 后 90 天交付、延误赔偿 ≥0.5%/周；§7.2 要求整机质保 ≥5 年（EV-02/EV-03）",
+      "ourResponse": "承诺 NTP 后 90 天交付、整机质保 5 年（含 PCS 与消防探测）；履约实际到货 132 天，见 FU-02（EV-04/EV-11）",
+      "competitorGap": "竞对 B 公开摘要为 120 天交付、3 年质保，我方短 30 天、多 2 年（EV-09）",
+      "evidence": ["EV-03", "EV-04", "EV-05", "EV-09", "EV-11"],
+      "confirmedBy": "周珂",
+      "reviewState": "verified",
+      "recentChange": {
+        "at": "10-08 10:15",
+        "by": "周珂",
+        "action": "补入到货台账，维持 B",
+        "auditId": "aud-022"
+      },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "wf-03",
+      "title": "疑似因品牌业绩加分（待验证）",
+      "category": "reference",
+      "level": "C",
+      "mandatory": false,
+      "score": null,
+      "maxScore": null,
+      "weightPct": 25,
+      "customerNeed": "§3.2 邀请 5 家、要求 3 个 ≥50MWh 同类业绩；业绩与品牌是否独立计分未在招标披露",
+      "ourResponse": "提交英国本地 2 个已投运项目业绩与母公司全球装机清单，未取得该项计分反馈",
+      "competitorGap": "未知",
+      "evidence": ["EV-08", "EV-13"],
+      "confirmedBy": "郑岚",
+      "reviewState": "pending",
+      "recentChange": {
+        "at": "10-08 11:02",
+        "by": "吴桐",
+        "action": "由 B 降至 C（无评审记录）",
+        "auditId": "aud-023"
+      },
+      "conclusionCarrier": false
+    }
+  ],
+  "solution": {
+    "route": "LFP 风冷",
+    "hardGateParams": [
+      {
+        "key": "fire",
+        "label": "消防合规（BS 8414-1 + NFPA 855）",
+        "requirement": "双标准报告，签发日不早于 2025-01，耐火极限 ≥2 小时",
+        "ourValue": "BS 8414-1 报告 2025-11-18 签发；NFPA 855 间距评估 2025-12-02",
+        "status": "meet"
+      },
+      {
+        "key": "efficiency",
+        "label": "系统效率（AC-AC）",
+        "requirement": "≥ 88.0%",
+        "ourValue": "88.6%（含辅助功耗）",
+        "status": "meet"
+      },
+      {
+        "key": "leadTime",
+        "label": "交付期",
+        "requirement": "NTP 后 ≤90 天",
+        "ourValue": "90 天（分批到货曲线 A）",
+        "status": "meet"
+      },
+      {
+        "key": "warranty",
+        "label": "整机质保",
+        "requirement": "≥ 5 年（含 PCS 与消防探测）",
+        "ourValue": "5 年",
+        "status": "meet"
+      },
+      {
+        "key": "noise",
+        "label": "噪声",
+        "requirement": "≤ 65 dB(A) @10m",
+        "ourValue": "67 dB(A)（风机满转速工况）",
+        "status": "deviation"
+      }
+    ],
+    "differentiators": [
+      {
+        "key": "fire",
+        "label": "消防举证深度",
+        "ourValue": "BS 8414-1 与 NFPA 855 分别出具报告",
+        "competitorBest": "竞对 B 仅列 NFPA 855 间距",
+        "note": "消防章节澄清阶段零质询（EV-06）"
+      },
+      {
+        "key": "lead",
+        "label": "交付期",
+        "ourValue": "90 天",
+        "competitorBest": "竞对 B 120 天",
+        "note": "比竞对短 30 天，但海运舱位未锁定（FU-02）"
+      },
+      {
+        "key": "warranty",
+        "label": "整机质保",
+        "ourValue": "5 年",
+        "competitorBest": "竞对 B 3 年",
+        "note": "多 2 年质保，备件池成本未覆盖第 4-5 年（exp-13）"
+      }
+    ],
+    "configJudgement": {
+      "overSpec": [
+        "消声导流罩按投运后 ≤63 dB(A) 设计，比招标限值 65 dB(A) 多留 2 dB 余量",
+        "质保备件包 5 年一次性备齐，未按年分批采购"
+      ],
+      "underSpec": [
+        "海运舱位未锁定，90 天交付承诺缺少运力保障"
+      ],
+      "note": "风冷方案在 4 小时工况下辅助功耗 1.6%，比液冷高 0.4pp，TCO 影响已计入 priceStructure 第 2 项"
+    },
+    "certifications": [
+      {
+        "name": "BS 8414-1 外墙火灾试验报告",
+        "scope": "Aster 4000（25MW/100MWh 舱间布置）",
+        "validUntil": "2028-11-30",
+        "mandatory": true,
+        "gapRisk": "现场舱间距变更超过 1.5m 需重新评估"
+      },
+      {
+        "name": "NFPA 855 布置间距合规评估",
+        "scope": "Aster 4000 / 4000H",
+        "validUntil": "2027-09-30",
+        "mandatory": true,
+        "gapRisk": "无"
+      },
+      {
+        "name": "IEC 62619 电芯与电池系统安全",
+        "scope": "Aster 4000",
+        "validUntil": "2028-05-31",
+        "mandatory": true,
+        "gapRisk": "无"
+      },
+      {
+        "name": "ENA EREC G99 并网型式试验",
+        "scope": "Aster 4000",
+        "validUntil": "2027-03-31",
+        "mandatory": false,
+        "gapRisk": "Aster 4000H 未覆盖，已承诺并网前 60 天补证"
+      }
+    ],
+    "deviations": [
+      {
+        "id": "DV-01",
+        "requirement": "噪声 ≤ 65 dB(A) @10m",
+        "deviationType": "主动偏差",
+        "reason": "风冷机组风机满转速工况实测 67 dB(A)，边界距最近厂界 40m",
+        "clarification": "加装消声导流罩，按 ≤63 dB(A) 设计，投运前复测并提交报告",
+        "customerAccepted": true,
+        "acceptedEvidence": "EV-07",
+        "reusable": true
+      },
+      {
+        "id": "DV-02",
+        "requirement": "供货范围含 33kV 升压站土建（§7.2 附注 3）",
+        "deviationType": "被动偏差",
+        "reason": "我方 EPC 范围为储能区，升压站由客户既有承包商实施，接口界面不在我方供货范围",
+        "clarification": "澄清第 5 条确认按储能区边界执行，升压站不含在我方范围，接口清单另附",
+        "customerAccepted": true,
+        "acceptedEvidence": "EV-06",
+        "reusable": true
+      }
+    ]
+  },
+  "commercial": {
+    "noQuoteStatement": true,
+    "priceStructure": [
+      {
+        "item": "储能系统（电池舱 + PCS + EMS，含消防系统）",
+        "sharePct": 58,
+        "note": "与招标 §7.2 全清单口径一致，未拆分消防与 EMS"
+      },
+      {
+        "item": "温控与消防工程（消声导流罩、探测管路）",
+        "sharePct": 12,
+        "note": "含噪声主动偏差的消声改造"
+      },
+      {
+        "item": "储能区土建基础与围栏",
+        "sharePct": 14,
+        "note": "不含 33kV 升压站土建，见 DV-02"
+      },
+      {
+        "item": "安装调试与并网试验",
+        "sharePct": 11,
+        "note": "含 G99 并网试验见证"
+      },
+      {
+        "item": "5 年质保与备件包",
+        "sharePct": 5,
+        "note": "备件池按 3 年用量估算，第 4-5 年成本未覆盖（exp-13）"
+      }
+    ],
+    "tcoFactors": [
+      {
+        "factor": "辅助功耗（风冷 1.6%）",
+        "impact": "TCO +1.9%",
+        "note": "4 小时工况下比液冷高 0.4pp"
+      },
+      {
+        "factor": "整机质保 5 年",
+        "impact": "TCO +1.2%",
+        "note": "备件池 5 年一次性备齐，资金占用前移"
+      },
+      {
+        "factor": "交付提前 30 天",
+        "impact": "TCO -0.8%",
+        "note": "客户并网节点前移，容量收益提前计费"
+      }
+    ],
+    "delivery": {
+      "leadTimeDays": 90,
+      "localization": "英国本地 EPC 分包 1 家（储能区土建），曼彻斯特备件仓计划 2027-Q2 投用",
+      "thirdPartyRisks": [
+        "海运舱位（费利克斯托港）三次取消，运力未锁定",
+        "消声导流罩供货为单一来源",
+        "33kV 升压站由客户既有承包商实施，接口界面风险"
+      ]
+    },
+    "contractRisks": [
+      {
+        "clause": "延迟交付赔偿 0.5%/周、累计上限 10%（招标 §9.4）",
+        "redFlag": true,
+        "concession": "谈判放宽为 1%/周、上限 15%，换取质保 5 年条款不缩水",
+        "impactOnFulfilment": "关联 FU-01（已 missed，逾期 42 天赔付 6%）"
+      },
+      {
+        "clause": "容量保持率性能罚则 15% 合同额，无豁免条款",
+        "redFlag": true,
+        "concession": "仅争取到复测一次的机会，未设季节修正系数",
+        "impactOnFulfilment": "关联 FU-03（质保期核验，未到期）"
+      },
+      {
+        "clause": "供货范围以 §7.2 清单为限，升压站接口由客户承包商负责",
+        "redFlag": false,
+        "concession": "客户澄清第 5 条确认储能区边界",
+        "impactOnFulfilment": "关联 FU-02（分批到货节点）"
+      }
+    ]
+  },
+  "process": {
+    "involvementTimeline": [
+      {
+        "phase": "T-45 招标发布（2026-03-02）",
+        "actor": "投标经理",
+        "note": "仅 5 家受邀，立项时即确认早期工程协议 EWA 可行性"
+      },
+      {
+        "phase": "T-20 澄清截止前",
+        "actor": "法务",
+        "note": "介入罚则条款，但未要求锁定海运运力"
+      },
+      {
+        "phase": "2026-05-22 EWA 下发 NTP",
+        "actor": "项目经理",
+        "note": "客户下发有限开工通知，90 天交付计时开始，舱位仍未锁定"
+      },
+      {
+        "phase": "2026-09-10 合同谈判",
+        "actor": "商务",
+        "note": "罚则由 0.5%/周、上限 10% 放宽至 1%/周、上限 15%"
+      }
+    ],
+    "blockers": [
+      {
+        "id": "PB-01",
+        "stage": "物流",
+        "issue": "海运舱位三次取消，运力未在投标阶段锁定",
+        "effect": "到货逾期 42 天，触发赔付 6%",
+        "fix": "投标阶段即锁定舱位，或改用本地仓中转并计入报价结构"
+      },
+      {
+        "id": "PB-02",
+        "stage": "认证",
+        "issue": "Aster 4000H 未覆盖 G99 并网型式试验",
+        "effect": "需承诺并网前 60 天补证，形成履约义务",
+        "fix": "提前 8 周启动型式试验排期"
+      }
+    ],
+    "effectiveReviews": [
+      {
+        "node": "技术卷终审",
+        "owner": "吴桐",
+        "caught": "拦住消防章节只引 IEC 62619 的写法，改为 BS 8414-1 与 NFPA 855 双口径举证"
+      },
+      {
+        "node": "商务条款审",
+        "owner": "罗昇",
+        "caught": "发现供货范围边界与 §7.2 附注 3 不一致，促成澄清第 5 条"
+      }
+    ]
+  },
+  "fulfilment": [
+    {
+      "id": "FU-01",
+      "commitment": "延迟交付赔偿 ≤0.5%/周，上限 10%",
+      "target": "上限 10%",
+      "actual": "实际赔付 6%",
+      "variance": "触发赔付",
+      "status": "missed",
+      "note": "海运延误 6 周按谈判后 1%/周条款赔付 6%，上限 15%",
+      "verifiedAt": "2026-10-06",
+      "experienceIds": ["exp-10"]
+    },
+    {
+      "id": "FU-02",
+      "commitment": "NTP 后 90 天内全部设备到场（EWA §3.1）",
+      "target": "90 天",
+      "actual": "132 天",
+      "variance": "+42 天",
+      "status": "partial",
+      "note": "首批 8 台于第 88 天到场，其余 4 台因舱位取消延至第 132 天；按分批曲线判部分达成",
+      "verifiedAt": "2026-10-02",
+      "experienceIds": ["exp-10"]
+    },
+    {
+      "id": "FU-03",
+      "commitment": "整机质保 5 年，含 PCS 与消防探测",
+      "target": "5 年",
+      "actual": "履约中",
+      "variance": "履约中",
+      "status": "pending",
+      "note": "质保期自 2026-10-01 起算，按年度巡检核验，首个核验节点 2027-10",
+      "verifiedAt": "2026-10-08",
+      "experienceIds": ["exp-13"]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "exp-10",
+      "category": "commercial",
+      "title": "低周费率罚则换中标，运力未锁导致赔付",
+      "summary": "以 0.5%/周、上限 10% 的低罚则与 90 天短交付期中标；海运舱位未锁定，逾期 42 天，罚则被谈至 1%/周后赔付 6%。",
+      "country": "UK",
+      "scaleBand": "100-200MWh",
+      "customerType": "工商业",
+      "bidMode": "有限邀请招标",
+      "productModel": "Aster 4000",
+      "requirement": "延误赔偿 ≤0.5%/周、累计上限 10%，交付期 NTP 后 90 天（招标 §9.4）",
+      "strategy": "用低罚则费率与短交付期争取综合评估优势，海运运力未在投标阶段锁定",
+      "result": "合同罚则被谈至 1%/周、上限 15%，逾期 42 天赔付 6%（EV-10/EV-11/EV-12）",
+      "evidenceSources": ["EV-03", "EV-10", "EV-11", "EV-12"],
+      "reviewer": "周珂",
+      "reviewedAt": "2026-10-08",
+      "scope": "适用于海运交付、罚则按周计价的英国 EPC 项目；不适用于有本地库存或客户自提的纯设备供货项目",
+      "evidenceLevel": "B",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "verificationPlan": "在 p-04（英国 200MWh 邀请招标）中验证锁定舱位后 90 天交付的达成率，2027-03-31 前复核",
+      "verificationDue": "2027-03-31",
+      "references": [],
+      "pendingChange": null,
+      "changeHistory": [
+        {
+          "id": "CHG-14",
+          "from": "A",
+          "to": "B",
+          "status": "approved",
+          "requester": "系统自动触发（FU-01 missed，BR-14）",
+          "approver": "郑岚",
+          "requestedAt": "2026-10-06",
+          "reason": "海运延误 6 周致赔付 6%，原 A 级依据为早期工程协议下的客户交付能力认可，履约事实已使该因果链断裂",
+          "newEvidenceIds": ["EV-12"]
+        }
+      ]
+    },
+    {
+      "id": "exp-11",
+      "category": "deviation",
+      "title": "英国消防须按 BS 8414-1 与 NFPA 855 分别举证",
+      "summary": "招标同时引用 BS 8414-1 与 NFPA 855，只引 IEC 62619 会被澄清追问；两套标准分别出报告后消防章节零质询。",
+      "country": "UK",
+      "scaleBand": "100-200MWh",
+      "customerType": "工商业",
+      "bidMode": "有限邀请招标",
+      "productModel": "Aster 4000",
+      "requirement": "BS 8414-1 外墙火灾试验 + NFPA 855 布置间距，报告签发日不早于 2025-01（招标 §5.3）",
+      "strategy": "按两套标准分别出具试验报告与间距评估，在技术卷单列对照表逐条响应",
+      "result": "消防章节未被要求补证，澄清阶段仅就供货范围答复（EV-01/EV-04/EV-06）",
+      "evidenceSources": ["EV-01", "EV-04", "EV-06"],
+      "reviewer": "吴桐",
+      "reviewedAt": "2026-10-08",
+      "scope": "适用于英国及同时引用 BS 与 NFPA 体系的储能招标；不适用于仅要求 IEC 62619 的欧盟内陆项目",
+      "evidenceLevel": "B",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "verificationPlan": "在 p-04（英国 200MWh 邀请招标）复用消防对照表，核对是否仍需单独间距评估，2027-02-28 前复核",
+      "verificationDue": "2027-02-28",
+      "references": [
+        {
+          "projectId": "p-01",
+          "citedBy": "李维",
+          "citedAt": "2026-09-30",
+          "usedIn": "捷克 100MWh 复盘 · 消防口径对照表 §5.3"
+        }
+      ],
+      "pendingChange": null,
+      "changeHistory": []
+    },
+    {
+      "id": "exp-12",
+      "category": "awarded",
+      "title": "邀请招标下品牌与本地业绩可能是隐性门槛",
+      "summary": "5 家受邀、业绩要求 3 个 ≥50MWh 项目；中标公示未公布分项得分，品牌业绩是否独立计分无法确认，暂列待验证。",
+      "country": "UK",
+      "scaleBand": "100-200MWh",
+      "customerType": "工商业",
+      "bidMode": "有限邀请招标",
+      "productModel": "Aster 4000",
+      "requirement": "有限邀请招标 5 家受邀，业绩要求 3 个 ≥50MWh 同类项目（招标 §3.2）",
+      "strategy": "以英国本地 2 个已投运项目业绩加母公司全球装机清单响应，未额外补充品牌材料",
+      "result": "中标但公示不载明分项得分，因果无法确认（EV-08/EV-13）",
+      "evidenceSources": ["EV-08", "EV-13"],
+      "reviewer": "郑岚",
+      "reviewedAt": "2026-10-08",
+      "scope": "适用于邀请制、业绩门槛 ≥3 个同类项目的英国招标；不适用于公开招标且业绩仅作资格预审的项目",
+      "evidenceLevel": "C",
+      "state": "draft",
+      "conclusionCarrier": false,
+      "verificationPlan": "在 p-04（英国 200MWh 邀请招标）中争取客户评标反馈，核对业绩项是否独立计分，2027-01-15 前复核",
+      "verificationDue": "2027-01-15",
+      "references": [],
+      "pendingChange": null,
+      "changeHistory": []
+    },
+    {
+      "id": "exp-13",
+      "category": "commercial",
+      "title": "5 年质保承诺须与备件池成本同期锁定",
+      "summary": "以 5 年整机质保响应招标，备件池成本仅按 3 年估算；第 4-5 年兑付能力无证据支撑，已提交降级申请。",
+      "country": "UK",
+      "scaleBand": "100-200MWh",
+      "customerType": "工商业",
+      "bidMode": "有限邀请招标",
+      "productModel": "Aster 4000",
+      "requirement": "整机质保 ≥5 年，含 PCS 与消防探测（招标 §7.2）",
+      "strategy": "以 5 年整机质保形成差异化，但备件池按 3 年用量估算成本",
+      "result": "质保条款写入合同，FU-03 履约中；备件池覆盖期短于质保期（EV-05/EV-10）",
+      "evidenceSources": ["EV-05", "EV-10"],
+      "reviewer": "罗昇",
+      "reviewedAt": "2026-10-08",
+      "scope": "适用于质保 ≥5 年且要求本地备件的英国 EPC 项目；不适用于质保 ≤3 年或客户自建备件池的供货项目",
+      "evidenceLevel": "B",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "verificationPlan": "核对备件池第 4-5 年成本与质保兑付记录，2027-04-30 前复核",
+      "verificationDue": "2027-04-30",
+      "references": [],
+      "pendingChange": {
+        "id": "CHG-15",
+        "from": "B",
+        "to": "C",
+        "status": "pending",
+        "requester": "周珂",
+        "approver": "郑岚",
+        "requestedAt": "2026-10-07",
+        "reason": "备件池成本仅覆盖 3 年，第 4-5 年质保兑付能力无证据支撑",
+        "newEvidenceIds": ["EV-10"]
+      },
+      "changeHistory": []
+    }
+  ],
+  "openItems": [
+    {
+      "id": "TODO-01",
+      "item": "向客户索取邀请招标评审纪要或评标反馈（补 A 级直接证据）",
+      "owner": "郑岚",
+      "due": "2026-11-06",
+      "blocks": "wf-03 由 C 升 B、exp-12 验证"
+    },
+    {
+      "id": "TODO-02",
+      "item": "补 Aster 4000H 的 G99 并网型式试验覆盖",
+      "owner": "吴桐",
+      "due": "2026-12-31",
+      "blocks": "p-04 投标资格"
+    },
+    {
+      "id": "TODO-03",
+      "item": "重算海运舱位锁定成本，修订延误罚则让步口径",
+      "owner": "罗昇",
+      "due": "2026-11-20",
+      "blocks": "exp-10 修复"
+    }
+  ],
+  "retroMeta": {
+    "owner": "郑岚",
+    "retroDate": "2026-10-08",
+    "generatedBy": "retro skill（模拟数据）",
+    "humanConfirmed": false,
+    "dataNote": "模拟数据，非真实企业信息（演示用途）"
+  }
+}

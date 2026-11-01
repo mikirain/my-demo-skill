@@ -1,0 +1,19 @@
+{
+  "caseId": "p-06",
+  "projectName": "CZ-Morava 320MWh 独立储能",
+  "hasScoreSheet": true,
+  "maxLevel": "A",
+  "missingRequired": [
+    "tender",
+    "ourBid",
+    "awardNotice"
+  ],
+  "missingStrong": [],
+  "missingOptional": [
+    "clarification",
+    "negotiation",
+    "competitorBid",
+    "fulfilment"
+  ],
+  "verdict": "abort-ask-user"
+}

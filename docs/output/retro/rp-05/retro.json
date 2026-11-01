@@ -1,0 +1,731 @@
+{
+  "schemaVersion": "1.1",
+  "case": {
+    "retroId": "rp-05",
+    "id": "p-sa-01",
+    "name": "沙特-红海新城 400MWh 公用事业储能（2026 中标）",
+    "country": "SA",
+    "mw": 200,
+    "mwh": 400,
+    "route": "LFP 液冷",
+    "customerType": "公用事业",
+    "bidMode": "公开招标",
+    "contractMode": "EPC 总承包",
+    "productModel": "MegaBlock 5.0 Hi-Temp",
+    "awardedYear": 2026,
+    "awardDate": "2026-03-25",
+    "competitorIds": ["竞对 A", "竞对 B"],
+    "hasScoreSheet": false,
+    "snapshotAt": "2026-10-20"
+  },
+  "evidence": [
+    {
+      "id": "EV-SA-01",
+      "type": "tender",
+      "title": "招标文件技术规范书（高温运行与并网章节）",
+      "documentId": "doc-SA-001",
+      "originalFiled": true,
+      "page": 58,
+      "section": "招标 §5.3 高温环境运行",
+      "snippet": "招标 §5.3：环境温度 45℃ 时机组输出功率不得降额；55℃ 时允许降额，但输出功率不应低于额定值的 80%，投标人须提交 35℃/45℃/50℃/55℃ 四档降额曲线。",
+      "reliability": "official",
+      "collectedBy": "张岚",
+      "collectedAt": "2026-01-20"
+    },
+    {
+      "id": "EV-SA-02",
+      "type": "awardNotice",
+      "title": "中标结果公示（Red Sea 200MW/400MWh BESS）",
+      "documentId": "doc-SA-014",
+      "originalFiled": true,
+      "page": 1,
+      "section": "公示正文",
+      "snippet": "中标人：我方与本地合作方组成的联合体；中标范围含 200MW/400MWh 储能系统 EPC 及 10 年运维服务；公示期 5 个工作日，异议受理截止 2026-03-31。",
+      "reliability": "official",
+      "collectedBy": "张岚",
+      "collectedAt": "2026-03-26"
+    },
+    {
+      "id": "EV-SA-03",
+      "type": "ourBid",
+      "title": "投标技术卷终版（§5.3 高温降额与液冷配置）",
+      "documentId": "doc-SA-003",
+      "originalFiled": true,
+      "page": 112,
+      "section": "技术卷 §5.3 高温降额响应",
+      "snippet": "MegaBlock 5.0 Hi-Temp 在 45℃ 环境温度下输出 200.0MW（100%），50℃ 时输出 192.0MW（96%），55℃ 时输出 164.0MW（82%）；冷却回路按 N+1 冗余并联双泵配置。",
+      "reliability": "official",
+      "collectedBy": "陈嘉禾",
+      "collectedAt": "2026-02-28"
+    },
+    {
+      "id": "EV-SA-04",
+      "type": "clarification",
+      "title": "客户澄清回函 CR-05（噪声与降额曲线）",
+      "documentId": "doc-SA-008",
+      "originalFiled": true,
+      "page": 2,
+      "section": "澄清答复第 2、3 条",
+      "snippet": "答复 CR-05：客户接受 72dB(A)@1m 噪声值，要求在投运前完成隔声整改并复测；同时确认我方提交的四档降额曲线「数据完整、可作为考核依据」。",
+      "reliability": "official",
+      "collectedBy": "陈嘉禾",
+      "collectedAt": "2026-02-20"
+    },
+    {
+      "id": "EV-SA-05",
+      "type": "tender",
+      "title": "招标文件商务卷（本地化与分包要求）",
+      "documentId": "doc-SA-002",
+      "originalFiled": true,
+      "page": 21,
+      "section": "招标 §3.4 本地化要求",
+      "snippet": "招标 §3.4：本地化率不低于 30%，其中土建、安装与二次接线须由在沙注册且持有效资质的分包商承担；投标人须附分包商资质文件与本地化率测算表。",
+      "reliability": "official",
+      "collectedBy": "罗敏",
+      "collectedAt": "2026-01-20"
+    },
+    {
+      "id": "EV-SA-06",
+      "type": "tender",
+      "title": "招标文件商务卷（交货与罚则）",
+      "documentId": "doc-SA-002",
+      "originalFiled": true,
+      "page": 34,
+      "section": "招标 §6.2 交货期与延误罚则",
+      "snippet": "招标 §6.2：首批设备须于合同生效后 45 天内到场；逾期按合同额 0.5%/日计罚，累计上限为合同额的 10%，不可抗力须在事件发生后 7 天内书面通知。",
+      "reliability": "official",
+      "collectedBy": "罗敏",
+      "collectedAt": "2026-01-20"
+    },
+    {
+      "id": "EV-SA-07",
+      "type": "ourBid",
+      "title": "投标文件附件七（认证清单与 SEC 并网符合性）",
+      "documentId": "doc-SA-005",
+      "originalFiled": true,
+      "page": 6,
+      "section": "附件七 认证与合规",
+      "snippet": "随标提交 SASO 2870 与 IEC 62619 证书，覆盖型号 MegaBlock 5.0 Hi-Temp（铭牌后缀 -HT2）；证书有效期分别至 2027-03-31 与 2028-06-30；SEC 并网符合性声明含型号清单 3 项。",
+      "reliability": "official",
+      "collectedBy": "徐渭",
+      "collectedAt": "2026-02-28"
+    },
+    {
+      "id": "EV-SA-08",
+      "type": "competitorBid",
+      "title": "竞对 A 公开技术摘要（2026 年中东储能展展台资料）",
+      "documentId": null,
+      "originalFiled": false,
+      "page": 4,
+      "section": "液冷机型参数表",
+      "snippet": "竞对 A 展台资料：45℃ 环境温度下输出 100% 额定功率，防护等级 IP54，冷却回路数量 1；降额数据仅列 35℃ 与 45℃ 两档，未列 50℃ 与 55℃ 数据。",
+      "reliability": "public",
+      "collectedBy": "陈嘉禾",
+      "collectedAt": "2026-04-10"
+    },
+    {
+      "id": "EV-SA-09",
+      "type": "negotiation",
+      "title": "商务谈判纪要（第二轮，本地化与服务承诺）",
+      "documentId": "doc-SA-011",
+      "originalFiled": true,
+      "page": 3,
+      "section": "条款确认记录",
+      "snippet": "双方确认：本地分包比例 32%，其中土建与安装全部由在沙注册分包商承担；我方承诺 18 个月内在利雅得建成备件仓并配置 4 名常驻服务工程师，该承诺写入合同附件四。",
+      "reliability": "official",
+      "collectedBy": "罗敏",
+      "collectedAt": "2026-03-18"
+    },
+    {
+      "id": "EV-SA-10",
+      "type": "fulfilment",
+      "title": "到货与验收台账（2026 年 Q2-Q3）",
+      "documentId": "doc-SA-031",
+      "originalFiled": true,
+      "page": 1,
+      "section": "到货节点与见证测试",
+      "snippet": "合同 2026-05-02 生效，首批设备 2026-06-28 到场（57 天，计划 45 天）；45℃ 满载 4 小时见证测试系统效率 88.9%（承诺保证值 88.5%），第三方见证机构为本地检验公司。",
+      "reliability": "thirdParty",
+      "collectedBy": "罗敏",
+      "collectedAt": "2026-07-15"
+    },
+    {
+      "id": "EV-SA-11",
+      "type": "other",
+      "title": "项目部周例会纪要（2026-07-10，清关专题）",
+      "documentId": "doc-SA-040",
+      "originalFiled": true,
+      "page": 2,
+      "section": "清关滞留原因",
+      "snippet": "清关滞留累计 9 天：SASO 符合性证书（CoC）型号页后缀为 -HT1，与箱单及铭牌 -HT2 不一致，需重新出证；另船期延误 3 天，合计影响到场 12 天。",
+      "reliability": "thirdParty",
+      "collectedBy": "罗敏",
+      "collectedAt": "2026-07-10"
+    },
+    {
+      "id": "EV-SA-12",
+      "type": "other",
+      "title": "客户致谢函（2026-09-20，并网调试阶段）",
+      "documentId": "doc-SA-036",
+      "originalFiled": true,
+      "page": 1,
+      "section": "致谢内容",
+      "snippet": "贵方机组在 8 月连续 46℃ 环境工况下保持满功率运行，未发生降额停机；现邀请贵方参与二期 300MWh 项目技术交流。",
+      "reliability": "official",
+      "collectedBy": "张岚",
+      "collectedAt": "2026-09-22"
+    }
+  ],
+  "winFactors": [
+    {
+      "id": "WF-SA-01",
+      "title": "45℃ 满功率不降额，50℃ 仍保 96% 输出",
+      "category": "efficiency",
+      "level": "B",
+      "mandatory": false,
+      "score": null,
+      "maxScore": null,
+      "weightPct": 30,
+      "customerNeed": "招标 §5.3 要求 45℃ 输出不降额、55℃ 不低于 80%，并提交 35/45/50/55℃ 四档降额曲线（EV-SA-01）",
+      "ourResponse": "Hi-Temp 高温包 + 并联双泵液冷冗余，投标给出 50℃ = 96%、55℃ = 82% 的实测曲线（EV-SA-03），客户回函确认曲线「数据完整、可作为考核依据」（EV-SA-04）",
+      "competitorGap": "竞对 A 展台资料只到 45℃ 且冷却回路数量为 1，未列 50℃/55℃ 数据（EV-SA-08）；竞对 B 未提交降额曲线，无可比数据",
+      "evidence": ["EV-SA-01", "EV-SA-03", "EV-SA-04", "EV-SA-12"],
+      "confirmedBy": "张岚",
+      "reviewState": "verified",
+      "recentChange": { "at": "10-21 15:40", "by": "张岚", "action": "并入客户致谢函 EV-SA-12，维持 B 级", "auditId": "aud-021" },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "WF-SA-02",
+      "title": "本地化 32% 落到分包合同，服务承诺写进合同附件",
+      "category": "local",
+      "level": "B",
+      "mandatory": false,
+      "score": null,
+      "maxScore": null,
+      "weightPct": 20,
+      "customerNeed": "招标 §3.4 要求本地化率 ≥30%，土建安装须由在沙注册分包商承担（EV-SA-05）",
+      "ourResponse": "本地分包 32%，土建与二次接线全部交本地分包商；承诺 18 个月建成利雅得备件仓 + 4 名常驻工程师，并写入合同附件四（EV-SA-09）",
+      "competitorGap": "竞对 A、竞对 B 的本地化率承诺未公开，无法逐条比对；我方优势仅由自身承诺口径支撑",
+      "evidence": ["EV-SA-05", "EV-SA-09"],
+      "confirmedBy": "罗敏",
+      "reviewState": "verified",
+      "recentChange": { "at": "10-22 09:15", "by": "罗敏", "action": "核对分包合同 32% 口径，确认 B 级", "auditId": "aud-022" },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "WF-SA-03",
+      "title": "液冷 N+1 冗余与 IP54 防沙配置可能影响技术评价",
+      "category": "safety",
+      "level": "C",
+      "mandatory": false,
+      "score": null,
+      "maxScore": null,
+      "weightPct": 15,
+      "customerNeed": "红海沿岸沙尘工况，客户在技术澄清中追问冷却回路冗余与滤芯维护周期（EV-SA-04 答问背景）",
+      "ourResponse": "双泵并联 N+1 冗余、可拆卸防沙滤芯、机组 IP54",
+      "competitorGap": "竞对 A 展台资料标注冷却回路数量为 1 但未说明是否冗余，缺乏可比性；属我方内部判断",
+      "evidence": ["EV-SA-03", "EV-SA-08"],
+      "confirmedBy": "—",
+      "reviewState": "pending",
+      "recentChange": { "at": "10-22 10:20", "by": "陈嘉禾", "action": "新建待验证假设，标注不写入结论", "auditId": "aud-023" },
+      "conclusionCarrier": false
+    },
+    {
+      "id": "WF-SA-04",
+      "title": "45 天到场承诺未兑现，不能作为赢因",
+      "category": "delivery",
+      "level": "C",
+      "mandatory": true,
+      "score": null,
+      "maxScore": null,
+      "weightPct": 20,
+      "customerNeed": "招标 §6.2 要求合同生效后 45 天首批到场，逾期 0.5%/日、上限 10%（EV-SA-06）",
+      "ourResponse": "投标承诺 45 天到场并预留吉达港清关缓冲 5 天",
+      "competitorGap": "竞对 A、竞对 B 交期未公开；我方实际 57 天到场（EV-SA-10），承诺本身未被执行验证",
+      "evidence": ["EV-SA-06", "EV-SA-10", "EV-SA-11"],
+      "confirmedBy": "—",
+      "reviewState": "pending",
+      "recentChange": { "at": "10-22 10:55", "by": "罗敏", "action": "按履约记录改为待验证：迟到 12 天，不作赢因", "auditId": "aud-024" },
+      "conclusionCarrier": false
+    },
+    {
+      "id": "WF-SA-05",
+      "title": "SASO/IEC 与 SEC 并网认证覆盖更可能是入场条件",
+      "category": "compliance",
+      "level": "C",
+      "mandatory": true,
+      "score": null,
+      "maxScore": null,
+      "weightPct": 15,
+      "customerNeed": "招标文件要求 SASO 2870、IEC 62619 与 SEC 并网符合性文件，型号须与投标型号一致（EV-SA-07）",
+      "ourResponse": "SASO 2870 覆盖 MegaBlock 5.0 Hi-Temp（-HT2），有效期至 2027-03-31；IEC 62619 至 2028-06-30；SEC 符合性声明含 3 项型号",
+      "competitorGap": "无评标反馈，无法确认认证覆盖是否形成分差；按自检三问第 1 问，更接近入场条件而非赢因",
+      "evidence": ["EV-SA-07", "EV-SA-02"],
+      "confirmedBy": "—",
+      "reviewState": "draft",
+      "recentChange": { "at": "10-22 11:30", "by": "徐渭", "action": "标注为入场条件，待人工复核定级", "auditId": "aud-025" },
+      "conclusionCarrier": false
+    }
+  ],
+  "solution": {
+    "route": "LFP 液冷",
+    "hardGateParams": [
+      {
+        "key": "highTempDerating",
+        "label": "高温降额能力",
+        "requirement": "45℃ 输出不降额；55℃ ≥额定值 80%",
+        "ourValue": "45℃ 100%、50℃ 96%、55℃ 82%",
+        "status": "meet"
+      },
+      {
+        "key": "efficiency45",
+        "label": "系统效率（AC-AC，45℃）",
+        "requirement": "≥ 88.0%（含辅助功耗）",
+        "ourValue": "88.9%（45℃ 满载 4 小时见证测试，EV-SA-10）",
+        "status": "meet"
+      },
+      {
+        "key": "ip",
+        "label": "防护等级",
+        "requirement": "≥ IP54，且须说明滤芯维护周期",
+        "ourValue": "IP54，可拆卸滤芯，季度清理",
+        "status": "meet"
+      },
+      {
+        "key": "grid",
+        "label": "并网合规（SEC）",
+        "requirement": "SEC 并网符合性文件 + 型号清单",
+        "ourValue": "符合性声明含 3 项型号，2026-12-31 到期",
+        "status": "meet"
+      },
+      {
+        "key": "noise",
+        "label": "噪声 @1m",
+        "requirement": "≤ 70 dB(A)",
+        "ourValue": "72 dB(A)（液冷机组实测）",
+        "status": "deviation"
+      },
+      {
+        "key": "cycles45",
+        "label": "循环次数（45℃/80% DoD）",
+        "requirement": "≥ 6000 次（45℃ 口径）",
+        "ourValue": "6000 次（35℃ 口径），45℃ 口径报告未出",
+        "status": "pending"
+      }
+    ],
+    "differentiators": [
+      {
+        "key": "thermalRedundancy",
+        "label": "冷却回路冗余",
+        "ourValue": "并联双泵 N+1，单泵可维持满功率 30 分钟",
+        "competitorBest": "竞对 A 展台资料标注冷却回路数量为 1，未声明冗余",
+        "note": "对应技术卷 §5.2；冗余是高温工况可用性的前置条件"
+      },
+      {
+        "key": "deratingCurve",
+        "label": "降额曲线完整度",
+        "ourValue": "四档曲线（35/45/50/55℃）全部提交并被客户确认为考核依据",
+        "competitorBest": "竞对 A 仅 35℃/45℃ 两档；竞对 B 未提交",
+        "note": "EV-SA-04 客户回函明确「数据完整、可作为考核依据」"
+      },
+      {
+        "key": "sandProtection",
+        "label": "沙尘防护可维护性",
+        "ourValue": "IP54 + 可拆卸滤芯，季度清理工时 1.5 小时/机组",
+        "competitorBest": "竞对 A 标 IP54，未披露滤芯维护条款",
+        "note": "对应 10 年运维成本的隐性项"
+      }
+    ],
+    "configJudgement": {
+      "overSpec": [
+        "电站级 EMS 双机热备（技术规范书与商务卷均未要求，属纯成本项）",
+        "10 年整机质保（招标要求 5 年，多出 5 年未换取任何加分依据）"
+      ],
+      "underSpec": [
+        "SASO CoC 型号后缀核对未写入发运前检查清单，导致到场前重新出证、清关滞留 9 天",
+        "本地备件仓与 4 名常驻工程师的招聘周期未纳入交付基线，18 个月承诺缺少执行计划"
+      ],
+      "note": "过度配置集中在无评分依据的 EMS 冗余与质保年限；不足配置集中在发运合规核对与服务落地节奏，两者成本方向相反，但都不改变技术分位置"
+    },
+    "certifications": [
+      {
+        "name": "SASO 2870",
+        "scope": "MegaBlock 5.0 Hi-Temp（铭牌后缀 -HT2）",
+        "validUntil": "2027-03-31",
+        "mandatory": true,
+        "gapRisk": "标准型与 -HT1 后缀未覆盖；CoC 换证周期 6-8 周，型号后缀不一致即触发重出证（本次已发生）"
+      },
+      {
+        "name": "IEC 62619",
+        "scope": "MegaBlock 5.0 / 5.0 Hi-Temp",
+        "validUntil": "2028-06-30",
+        "mandatory": true,
+        "gapRisk": "无即时缺口；2027 年换证需同步更新电芯批次清单"
+      },
+      {
+        "name": "SEC 并网符合性声明（含型号清单）",
+        "scope": "3 个型号，含本次主推型号 MegaBlock 5.0 Hi-Temp",
+        "validUntil": "2026-12-31",
+        "mandatory": true,
+        "gapRisk": "SEC 新版规范 2027 年生效，未做差异评估，二期投标可能需重做并网建模与仿真报告"
+      }
+    ],
+    "deviations": [
+      {
+        "id": "DV-SA-01",
+        "requirement": "噪声 ≤ 70 dB(A) @1m",
+        "deviationType": "主动偏差",
+        "reason": "液冷机组在 50℃ 环境满负荷时实测 72 dB(A)，超出招标限值 2 dB(A)",
+        "clarification": "投标阶段主动披露并承诺投运前完成隔声罩整改与复测",
+        "customerAccepted": true,
+        "acceptedEvidence": "EV-SA-04",
+        "reusable": true
+      },
+      {
+        "id": "DV-SA-02",
+        "requirement": "循环次数 ≥6000 次（45℃ / 80% DoD 口径）",
+        "deviationType": "被动偏差",
+        "reason": "现有第三方测试报告为 35℃ 口径，45℃ 口径测试未排期",
+        "clarification": "承诺在中标后 6 个月内补交 45℃ 口径测试报告，客户未书面接受该口径差异",
+        "customerAccepted": false,
+        "acceptedEvidence": "—",
+        "reusable": false
+      }
+    ]
+  },
+  "commercial": {
+    "noQuoteStatement": true,
+    "priceStructure": [
+      { "item": "储能系统（含消防、不含并网柜）", "sharePct": 58, "note": "含 Hi-Temp 高温包与防沙滤芯" },
+      { "item": "土建与安装", "sharePct": 17, "note": "本地分包商承担，计入本地化率" },
+      { "item": "并网与调试", "sharePct": 12, "note": "含 SEC 并网建模与见证测试" },
+      { "item": "10 年运维服务", "sharePct": 9, "note": "含季度滤芯清理与远程监控" },
+      { "item": "备件仓与本地服务启动", "sharePct": 4, "note": "18 个月建仓与 4 名常驻工程师前期投入" }
+    ],
+    "tcoFactors": [
+      { "factor": "辅助功耗", "impact": "TCO -2.4%", "note": "双泵并联常态单泵运行，辅助功耗 1.1% vs 竞对公开值 1.6%" },
+      { "factor": "高温降额损失", "impact": "TCO -1.2%", "note": "50℃ 时段按 96% 输出折算年发电量差异" },
+      { "factor": "沙尘滤芯维护", "impact": "TCO +0.6%", "note": "季度更换，单次 1.5 工时/机组" },
+      { "factor": "隔声整改", "impact": "TCO +0.3%", "note": "投运前一次性投入，未单独计价" }
+    ],
+    "delivery": {
+      "leadTimeDays": 45,
+      "localization": "本地分包比例 32%（土建、安装、二次接线）；利雅得备件仓 18 个月建成承诺，截至 2026-10 仍在选址",
+      "thirdPartyRisks": [
+        "SASO CoC 出证依赖第三方检验机构，换证周期 6-8 周，型号后缀不一致即卡关",
+        "吉达港清关代理为单一来源，无备用代理",
+        "本地分包商高压持证电工不足，二次接线工序存在排期风险"
+      ]
+    },
+    "contractRisks": [
+      {
+        "clause": "到场逾期罚则 0.5%/日、上限 10% 合同额",
+        "redFlag": true,
+        "concession": "接受；仅争取到「不可抗力 7 天内书面通知」一条，未取得清关滞留豁免",
+        "impactOnFulfilment": "关联 FU-SA-01（实际 57 天、逾期 12 天，0.5%/日 计 6%，未触及 10% 上限）"
+      },
+      {
+        "clause": "45℃ 满功率保证值写入性能保证条款，未达标按年度扣减运维费",
+        "redFlag": true,
+        "concession": "接受，考核口径限定为连续 4 小时稳态运行",
+        "impactOnFulfilment": "关联 FU-SA-02（见证测试 88.9% 达标，罚则未触发）"
+      },
+      {
+        "clause": "运维本地化承诺写入合同附件四，未达 4 名常驻工程师按季度扣减 0.5% 运维费",
+        "redFlag": true,
+        "concession": "接受，未设过渡期豁免",
+        "impactOnFulfilment": "关联 FU-SA-03 / FU-SA-04（两项均 pending，扣款风险敞口持续）"
+      }
+    ]
+  },
+  "process": {
+    "involvementTimeline": [
+      { "phase": "T-50 招标发布（2026-01-12）", "actor": "投标经理 张岚", "note": "立项并锁定技术卷主笔，认证负责人未进核心组" },
+      { "phase": "T-35", "actor": "认证负责人 徐渭", "note": "介入后发现 SASO 证书型号后缀与拟投标型号不一致，需换证" },
+      { "phase": "T-25", "actor": "交付经理 罗敏", "note": "确认本地分包商资质与 32% 本地化率测算，锁定两家分包商" },
+      { "phase": "T-12", "actor": "商务 罗敏 / 法务", "note": "谈判确定备件仓与常驻工程师条款，写入合同附件四" },
+      { "phase": "T-3", "actor": "投标经理 张岚", "note": "报价与卷册汇总，三级审批串行导致冻结晚 1 天" },
+      { "phase": "中标后（2026-05）", "actor": "服务经理 何俊", "note": "服务落地计划此时才启动，备件仓选址无基线" }
+    ],
+    "blockers": [
+      {
+        "id": "PB-SA-01",
+        "stage": "认证与发运核对",
+        "issue": "SASO CoC 型号后缀（-HT1 / -HT2）未纳入发运前检查清单",
+        "effect": "到场前重新出证，清关滞留 9 天，构成 12 天逾期的主要部分（EV-SA-11）",
+        "fix": "把「证书型号后缀 = 箱单型号 = 铭牌型号」三项一致性核对写入发运 Gate，认证负责人在 Gate 上签字"
+      },
+      {
+        "id": "PB-SA-02",
+        "stage": "报价审批",
+        "issue": "三级审批串行，技术卷终审与商务定价互相等",
+        "effect": "报价冻结晚 1 天，技术卷终审被压缩到 6 小时",
+        "fix": "改为并行会签，T-5 前完成价格冻结，T-3 前完成卷册终审"
+      },
+      {
+        "id": "PB-SA-03",
+        "stage": "本地化证明",
+        "issue": "本地分包商高压电工持证名单在中标后才补齐",
+        "effect": "本地化率证明以承诺函口径提交，客户要求投运前补实证",
+        "fix": "投标阶段即索取分包商持证清单与在沙注册证明原件"
+      }
+    ],
+    "effectiveReviews": [
+      {
+        "node": "技术卷终审",
+        "owner": "陈嘉禾",
+        "caught": "拦住了把 50℃ 降额写成「不降额」的表述：营销口径只有 45℃ 数据，终审要求补 50℃/55℃ 实测曲线后才能提交，避免技术卷与见证测试口径不一致"
+      },
+      {
+        "node": "认证专项审",
+        "owner": "徐渭",
+        "caught": "拦住了用 -HT1 证书覆盖 -HT2 投标型号的做法，改为投标前换证，但换证后的箱单核对未跟进，问题在履约阶段以清关滞留形式重新出现"
+      },
+      {
+        "node": "商务合规审",
+        "owner": "罗敏",
+        "caught": "拦住了无上限延误罚则与「任何原因逾期均计罚」的表述，改为上限 10% 合同额并保留不可抗力通知条款"
+      }
+    ]
+  },
+  "fulfilment": [
+    {
+      "id": "FU-SA-01",
+      "commitment": "首批设备合同生效后 45 天内到场，逾期 0.5%/日、上限 10% 合同额",
+      "target": "45 天",
+      "actual": "57 天",
+      "variance": "+12 天",
+      "status": "partial",
+      "note": "合同 2026-05-02 生效，计划 2026-06-16 到场、实际 2026-06-28；清关滞留 9 天 + 船期 3 天，按 0.5%/日 计 6% 合同额",
+      "verifiedAt": "2026-07-15",
+      "experienceIds": ["EXP-SA-02"]
+    },
+    {
+      "id": "FU-SA-02",
+      "commitment": "45℃ 环境满载工况系统效率 ≥88.5%（AC-AC）",
+      "target": "88.5%",
+      "actual": "88.9%",
+      "variance": "+0.4pp",
+      "status": "met",
+      "note": "第三方见证连续 4 小时稳态测试通过，测试边界与投标口径一致，性能罚则未触发",
+      "verifiedAt": "2026-09-10",
+      "experienceIds": ["EXP-SA-01"]
+    },
+    {
+      "id": "FU-SA-03",
+      "commitment": "18 个月内在利雅得建成备件仓",
+      "target": "2027-08 前建成",
+      "actual": "履约中",
+      "variance": "履约中",
+      "status": "pending",
+      "note": "选址与投资口径未定，2026-10 仍为候选地块 2 处，无开工计划；核验节点 2027-08",
+      "verifiedAt": "2026-10-15",
+      "experienceIds": ["EXP-SA-02"]
+    },
+    {
+      "id": "FU-SA-04",
+      "commitment": "投运后 6 个月内配置 4 名本地常驻服务工程师",
+      "target": "4 名",
+      "actual": "履约中",
+      "variance": "履约中",
+      "status": "pending",
+      "note": "已到岗 1 名（远程支持），尚缺 3 名；招聘与本地签证流程未启动，首个核验节点 2027-03",
+      "verifiedAt": "2026-10-15",
+      "experienceIds": ["EXP-SA-02"]
+    },
+    {
+      "id": "FU-SA-05",
+      "commitment": "本地化率不低于 30%",
+      "target": "30%",
+      "actual": "32%（分包合同口径）",
+      "variance": "+2pp",
+      "status": "met",
+      "note": "土建与二次接线分包合同已签，本地分包商在沙注册证明齐备；客户要求投运前补持证人员实证",
+      "verifiedAt": "2026-08-20",
+      "experienceIds": ["EXP-SA-02"]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "EXP-SA-01",
+      "category": "deviation",
+      "title": "高温降额曲线要当承诺值交：45℃ 不降额是中东公用事业项目的硬门槛",
+      "summary": "把 45/50/55℃ 三档降额曲线作为实测承诺值完整披露，客户回函确认可作为考核依据；但缺评标反馈，无法证明该分项直接换来分数。",
+      "projectId": "p-sa-01",
+      "country": "SA",
+      "scaleBand": "300-500MWh",
+      "customerType": "公用事业",
+      "bidMode": "公开招标",
+      "productModel": "MegaBlock 5.0 Hi-Temp",
+      "requirement": "招标 §5.3：45℃ 输出不降额、55℃ ≥80%，须提交 35/45/50/55℃ 四档降额曲线",
+      "strategy": "Hi-Temp 高温包 + 并联双泵液冷冗余，主动披露 50℃ 降至 96%、55℃ 降至 82% 的真实曲线，不用「不降额」笼统承诺",
+      "result": "客户澄清回函确认曲线完整可作考核依据（EV-SA-04）；45℃ 满载见证效率 88.9% 达标（EV-SA-10）；无评分表，等级止于 B",
+      "evidenceSources": ["EV-SA-01", "EV-SA-03", "EV-SA-04", "EV-SA-10"],
+      "reviewer": "陈嘉禾",
+      "reviewedAt": "2026-10-21",
+      "scope": "适用于中东、北非、南亚等环境温度 ≥45℃ 且把降额曲线写入考核条款的公用事业储能项目；不适用于温带地区或仅按额定功率评标的项目",
+      "evidenceLevel": "B",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "verificationPlan": "在 p-sa-02 沙特 300MWh 项目澄清阶段核对高温降额条款口径；若该项目提供正式评分表与评标反馈，再评估是否具备升 A 条件",
+      "references": [
+        { "projectId": "p-sa-03", "citedBy": "张岚", "citedAt": "2026-09-30", "usedIn": "阿曼 200MWh 技术卷 §5.2 高温工况章节" }
+      ],
+      "pendingChange": null,
+      "changeHistory": [
+        {
+          "id": "CHG-SA-01",
+          "from": "C",
+          "to": "B",
+          "status": "approved",
+          "requester": "陈嘉禾",
+          "approver": "张岚",
+          "requestedAt": "2026-09-12",
+          "reason": "取得客户澄清回函 CR-05 原件，与投标技术卷构成两个独立来源指向同一判断",
+          "newEvidenceIds": ["EV-SA-04"]
+        }
+      ]
+    },
+    {
+      "id": "EXP-SA-02",
+      "category": "commercial",
+      "title": "本地化率与服务承诺必须拆成「分包合同 + 交付基线」两张纸",
+      "summary": "以本地分包 32% 与 18 个月建仓承诺取得本地化与服务分，但建仓与常驻工程师未纳入交付基线，履约两项 pending，已发起降级。",
+      "projectId": "p-sa-01",
+      "country": "SA",
+      "scaleBand": "300-500MWh",
+      "customerType": "公用事业",
+      "bidMode": "公开招标",
+      "productModel": "MegaBlock 5.0 Hi-Temp",
+      "requirement": "招标 §3.4 本地化率 ≥30% 且土建安装由在沙注册分包商承担；§6.2 首批到场 ≤45 天",
+      "strategy": "锁定两家本地分包商承担土建与二次接线、本地化率 32%；把 18 个月建仓与 4 名常驻工程师写入合同附件四",
+      "result": "本地化率 32% 兑现（EV-SA-09 / FU-SA-05），但到场 57 天逾期 12 天（EV-SA-10、EV-SA-11），备件仓与常驻工程师两项 pending",
+      "evidenceSources": ["EV-SA-05", "EV-SA-06", "EV-SA-09", "EV-SA-11"],
+      "reviewer": "罗敏",
+      "reviewedAt": "2026-10-21",
+      "scope": "适用于把本地化率与本地服务写进合同附件的公用事业/政府类项目；不适用于无本地化门槛的纯设备供货项目",
+      "evidenceLevel": "B",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "verificationPlan": "以 TODO-SA-03（2026-11-30）备件仓选址结论与常驻工程师到岗名单为准，届时按 CHG-SA-04 的结论定级（B 保持或降 C）",
+      "references": [
+        { "projectId": "p-sa-04", "citedBy": "罗敏", "citedAt": "2026-10-10", "usedIn": "卡塔尔 150MWh 本地化率测算表与分包商名单" }
+      ],
+      "pendingChange": {
+        "id": "CHG-SA-04",
+        "from": "B",
+        "to": "C",
+        "status": "pending",
+        "requester": "罗敏",
+        "approver": "张岚",
+        "requestedAt": "2026-10-18",
+        "reason": "备件仓选址未定、常驻工程师仅到岗 1 名，本地服务承诺兑现链断裂，不足以维持 B 级",
+        "newEvidenceIds": []
+      },
+      "changeHistory": []
+    },
+    {
+      "id": "EXP-SA-03",
+      "category": "competitor",
+      "title": "竞对未披露 50℃ 降额曲线，不等于我方高温能力领先",
+      "summary": "竞对 A 公开资料只到 45℃、竞对 B 未提交曲线，我方以此得出「高温能力领先」的结论缺可比数据，属内部推断，只能停在 C。",
+      "projectId": "p-sa-01",
+      "country": "SA",
+      "scaleBand": "300-500MWh",
+      "customerType": "公用事业",
+      "bidMode": "公开招标",
+      "productModel": "MegaBlock 5.0 Hi-Temp",
+      "requirement": "招标 §5.3 要求 35/45/50/55℃ 四档降额曲线，55℃ 输出 ≥80%",
+      "strategy": "以主动披露完整曲线形成差异；但对竞对只掌握展会公开资料与未提交情况，未取得竞对技术标正文",
+      "result": "中标（EV-SA-02），但无任何材料证明竞对因降额曲线失分，竞对差距判断未经证实",
+      "evidenceSources": ["EV-SA-02", "EV-SA-08"],
+      "reviewer": "陈嘉禾",
+      "reviewedAt": "2026-10-22",
+      "scope": "适用于需要判断竞对高温性能差距的中东储能项目竞品分析；不适用于把该判断直接作为技术分预测或定价依据的场景",
+      "evidenceLevel": "C",
+      "state": "draft",
+      "conclusionCarrier": false,
+      "verificationPlan": "在 p-sa-03 阿曼 200MWh 项目开标后，通过客户技术澄清文件或异议答复获取竞对降额曲线，2027-01-31 前复核本结论",
+      "verificationDue": "2027-01-31",
+      "references": [
+        { "projectId": "p-sa-03", "citedBy": "何俊", "citedAt": "2026-10-16", "usedIn": "阿曼 200MWh 竞对技术对标表（待验证假设区）" }
+      ],
+      "pendingChange": null,
+      "changeHistory": []
+    },
+    {
+      "id": "EXP-SA-04",
+      "category": "awarded",
+      "title": "SEC 并网与 SASO 认证覆盖更像入场条件，不是赢因",
+      "summary": "认证与并网文件齐备是投标资格门槛，本次中标公示未提供任何评审反馈，把它当作赢因属于结果倒推，只能作为待验证假设。",
+      "projectId": "p-sa-01",
+      "country": "SA",
+      "scaleBand": "300-500MWh",
+      "customerType": "公用事业",
+      "bidMode": "公开招标",
+      "productModel": "MegaBlock 5.0 Hi-Temp",
+      "requirement": "SASO 2870、IEC 62619、SEC 并网符合性文件齐备且型号与投标型号一致",
+      "strategy": "投标前完成 SASO 换证至 -HT2 后缀并提交 SEC 符合性声明；未对 SEC 2027 新规做差异评估",
+      "result": "认证文件齐备并通过符合性审查（EV-SA-07），但型号后缀在发运核对中脱节，导致清关滞留 9 天（EV-SA-11）",
+      "evidenceSources": ["EV-SA-02", "EV-SA-05", "EV-SA-07"],
+      "reviewer": "徐渭",
+      "reviewedAt": "2026-10-22",
+      "scope": "适用于沙特及海合会国家要求 SASO/IEC 双证与本地并网规范的项目；不适用于认证口径与招标一致的欧洲项目",
+      "evidenceLevel": "C",
+      "state": "draft",
+      "conclusionCarrier": false,
+      "verificationPlan": "在 p-sa-02 沙特 300MWh 项目技术符合性审查结果公布后，核对未通过投标人的淘汰原因是否集中在认证项，2027-02-28 前复核",
+      "verificationDue": "2027-02-28",
+      "references": [],
+      "pendingChange": null,
+      "changeHistory": []
+    }
+  ],
+  "openItems": [
+    {
+      "id": "TODO-SA-01",
+      "item": "向客户项目公司索取技术符合性审查反馈与评审材料",
+      "owner": "张岚",
+      "due": "2026-12-15",
+      "blocks": "EXP-SA-01 与 EXP-SA-03 升 B 以上（当前 hasScoreSheet=false，全项目最高 B）"
+    },
+    {
+      "id": "TODO-SA-02",
+      "item": "补 MegaBlock 5.0 标准型（-HT1 后缀）SASO CoC 换证，并建立型号后缀一致性核对清单",
+      "owner": "徐渭",
+      "due": "2026-12-31",
+      "blocks": "p-sa-02 投标资格与发运清关时效（本次已造成 9 天滞留）"
+    },
+    {
+      "id": "TODO-SA-03",
+      "item": "确定利雅得备件仓选址与投资口径，出台 18 个月建设里程碑",
+      "owner": "罗敏",
+      "due": "2026-11-30",
+      "blocks": "EXP-SA-02 待审降级（CHG-SA-04）的最终定级与 FU-SA-03 闭合"
+    },
+    {
+      "id": "TODO-SA-04",
+      "item": "排期 45℃ / 80% DoD 口径的 6000 次循环第三方测试",
+      "owner": "陈嘉禾",
+      "due": "2027-01-15",
+      "blocks": "DV-SA-02 偏差闭合与二期技术卷口径"
+    },
+    {
+      "id": "TODO-SA-05",
+      "item": "核算 FU-SA-01 逾期 12 天的罚则敞口（0.5%/日 计 6% 合同额）并明确索赔与成本归属",
+      "owner": "张岚",
+      "due": "2026-11-10",
+      "blocks": "FU-SA-01 闭环与合同风险账目更新"
+    }
+  ],
+  "retroMeta": {
+    "owner": "张岚",
+    "retroDate": "2026-10-22",
+    "generatedBy": "retro skill（模拟数据）",
+    "humanConfirmed": false,
+    "dataNote": "模拟数据，非真实企业信息（演示用途）",
+    "retroWindowLate": true,
+    "retroWindowNote": "中标日 2026-03-25，S-01 复盘窗口 2026-04-08；因履约项需到并网调试与见证测试后才能核验，实际复盘顺延至 2026-10-22（超窗口 197 天），check_due.py 会列入「复盘窗口」到期项"
+  }
+}

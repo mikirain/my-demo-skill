@@ -1,0 +1,2137 @@
+{
+  "target": {
+    "caseId": "p-10",
+    "projectName": "PL 下西里西亚 300MWh 独立储能（模拟新标）",
+    "country": "PL",
+    "mwh": 300,
+    "productModel": "Aster 5000",
+    "route": "LFP 液冷",
+    "customerType": "独立发电商",
+    "contractMode": "供货 + 运维"
+  },
+  "results": [
+    {
+      "experienceId": "EXP-PL-01",
+      "title": "容量市场项目：12 年运维费率锁定决定 20 年 TCO 排名",
+      "evidenceLevel": "A",
+      "score": 85,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 30,
+          "max": 30,
+          "note": "同国"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.50 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 15,
+          "max": 15,
+          "note": "同客户类型"
+        },
+        {
+          "name": "合同模式",
+          "score": 15,
+          "max": 15,
+          "note": "同合同模式"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "规模相近：规模差 1.50 倍",
+        "技术路线：同技术路线（LFP 液冷）"
+      ]
+    },
+    {
+      "experienceId": "EXP-PL-02",
+      "title": "本地仓 + 4 小时响应换服务分：兑现依赖并网定值冻结",
+      "evidenceLevel": "C",
+      "score": 85,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 30,
+          "max": 30,
+          "note": "同国"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.50 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 15,
+          "max": 15,
+          "note": "同客户类型"
+        },
+        {
+          "name": "合同模式",
+          "score": 15,
+          "max": 15,
+          "note": "同合同模式"
+        }
+      ],
+      "usable": false,
+      "hypothesis": true,
+      "differences": [
+        "规模相近：规模差 1.50 倍",
+        "技术路线：同技术路线（LFP 液冷）"
+      ]
+    },
+    {
+      "experienceId": "EXP-PL-03",
+      "title": "竞对 A 响应 8 小时、竞对 E 缺并网证明：合规完整性易分差",
+      "evidenceLevel": "B",
+      "score": 85,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 30,
+          "max": 30,
+          "note": "同国"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.50 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 15,
+          "max": 15,
+          "note": "同客户类型"
+        },
+        {
+          "name": "合同模式",
+          "score": 15,
+          "max": 15,
+          "note": "同合同模式"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "规模相近：规模差 1.50 倍",
+        "技术路线：同技术路线（LFP 液冷）"
+      ]
+    },
+    {
+      "experienceId": "EXP-PL-04",
+      "title": "两次澄清两种结局：噪声换书面接受，并网时序只换口头放行",
+      "evidenceLevel": "B",
+      "score": 85,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 30,
+          "max": 30,
+          "note": "同国"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.50 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 15,
+          "max": 15,
+          "note": "同客户类型"
+        },
+        {
+          "name": "合同模式",
+          "score": 15,
+          "max": 15,
+          "note": "同合同模式"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "规模相近：规模差 1.50 倍",
+        "技术路线：同技术路线（LFP 液冷）"
+      ]
+    },
+    {
+      "experienceId": "EXP-PL-05",
+      "title": "45 天并网时序承诺是否拿分仍未证实（待验证）",
+      "evidenceLevel": "C",
+      "score": 85,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 30,
+          "max": 30,
+          "note": "同国"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.50 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 15,
+          "max": 15,
+          "note": "同客户类型"
+        },
+        {
+          "name": "合同模式",
+          "score": 15,
+          "max": 15,
+          "note": "同合同模式"
+        }
+      ],
+      "usable": false,
+      "hypothesis": true,
+      "differences": [
+        "规模相近：规模差 1.50 倍",
+        "技术路线：同技术路线（LFP 液冷）"
+      ]
+    },
+    {
+      "experienceId": "EXP-PL-06",
+      "title": "投标组织：技术终审前置到 T-10 拦住三处口径风险",
+      "evidenceLevel": "B",
+      "score": 85,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 30,
+          "max": 30,
+          "note": "同国"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.50 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 15,
+          "max": 15,
+          "note": "同客户类型"
+        },
+        {
+          "name": "合同模式",
+          "score": 15,
+          "max": 15,
+          "note": "同合同模式"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "规模相近：规模差 1.50 倍",
+        "技术路线：同技术路线（LFP 液冷）"
+      ]
+    },
+    {
+      "experienceId": "EXP-01",
+      "title": "中东欧电网公司项目：性能分是主战场",
+      "evidenceLevel": "B",
+      "score": 55,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 15,
+          "max": 30,
+          "note": "同区域（中东欧）"
+        },
+        {
+          "name": "规模相近",
+          "score": 25,
+          "max": 25,
+          "note": "规模相近（1.07 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 15,
+          "max": 15,
+          "note": "同型号"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 电网公司）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：同区域（中东欧）",
+        "客户类型：客户类型不同（独立发电商 → 电网公司）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-02",
+      "title": "效率必须按 AC-AC 含辅助功耗口径提交",
+      "evidenceLevel": "A",
+      "score": 55,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 15,
+          "max": 30,
+          "note": "同区域（中东欧）"
+        },
+        {
+          "name": "规模相近",
+          "score": 25,
+          "max": 25,
+          "note": "规模相近（1.07 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 15,
+          "max": 15,
+          "note": "同型号"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 电网公司）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：同区域（中东欧）",
+        "客户类型：客户类型不同（独立发电商 → 电网公司）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-03",
+      "title": "备件仓承诺要计入运维占比而非设备报价",
+      "evidenceLevel": "B",
+      "score": 55,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 15,
+          "max": 30,
+          "note": "同区域（中东欧）"
+        },
+        {
+          "name": "规模相近",
+          "score": 25,
+          "max": 25,
+          "note": "规模相近（1.07 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 15,
+          "max": 15,
+          "note": "同型号"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 电网公司）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：同区域（中东欧）",
+        "客户类型：客户类型不同（独立发电商 → 电网公司）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-04",
+      "title": "消防方案前置取得业主安全团队书面认可",
+      "evidenceLevel": "A",
+      "score": 55,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 15,
+          "max": 30,
+          "note": "同区域（中东欧）"
+        },
+        {
+          "name": "规模相近",
+          "score": 25,
+          "max": 25,
+          "note": "规模相近（1.07 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 15,
+          "max": 15,
+          "note": "同型号"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 电网公司）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：同区域（中东欧）",
+        "客户类型：客户类型不同（独立发电商 → 电网公司）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-05",
+      "title": "效率口径终审前置到 T-10 可避免澄清降分",
+      "evidenceLevel": "B",
+      "score": 55,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 15,
+          "max": 30,
+          "note": "同区域（中东欧）"
+        },
+        {
+          "name": "规模相近",
+          "score": 25,
+          "max": 25,
+          "note": "规模相近（1.07 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 15,
+          "max": 15,
+          "note": "同型号"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 电网公司）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：同区域（中东欧）",
+        "客户类型：客户类型不同（独立发电商 → 电网公司）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-06",
+      "title": "超限运输尺寸主动申报是否加分（待验证）",
+      "evidenceLevel": "C",
+      "score": 55,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 15,
+          "max": 30,
+          "note": "同区域（中东欧）"
+        },
+        {
+          "name": "规模相近",
+          "score": 25,
+          "max": 25,
+          "note": "规模相近（1.07 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 15,
+          "max": 15,
+          "note": "同型号"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 电网公司）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": false,
+      "hypothesis": true,
+      "differences": [
+        "国家匹配：同区域（中东欧）",
+        "客户类型：客户类型不同（独立发电商 → 电网公司）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-01",
+      "title": "竞对 A 在消防介质与机型覆盖上留了缺口",
+      "evidenceLevel": "B",
+      "score": 30,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → DE）"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.50 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 15,
+          "max": 15,
+          "note": "同型号"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → DE）",
+        "规模相近：规模差 1.50 倍",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-01",
+      "title": "预付比例 30% 谈到 20%：用运维响应置换付款条件",
+      "evidenceLevel": "B",
+      "score": 30,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → IT）"
+        },
+        {
+          "name": "规模相近",
+          "score": 5,
+          "max": 25,
+          "note": "规模差 3.75 倍（超 2 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 15,
+          "max": 15,
+          "note": "同客户类型"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → 设备 + 5 年运维）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → IT）",
+        "规模相近：规模差 3.75 倍（超 2 倍）",
+        "技术路线：同技术路线（LFP 液冷）",
+        "合同模式：合同模式不同（供货 + 运维 → 设备 + 5 年运维）"
+      ]
+    },
+    {
+      "experienceId": "EXP-02",
+      "title": "AC-AC 与 DC-DC 双口径效率必须分别承诺",
+      "evidenceLevel": "A",
+      "score": 30,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → DE）"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.50 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 15,
+          "max": 15,
+          "note": "同型号"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → DE）",
+        "规模相近：规模差 1.50 倍",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-02",
+      "title": "意大利两阶段招标：第一阶段必须交 CEI 0-16 型号覆盖清单",
+      "evidenceLevel": "A",
+      "score": 30,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → IT）"
+        },
+        {
+          "name": "规模相近",
+          "score": 5,
+          "max": 25,
+          "note": "规模差 3.75 倍（超 2 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 15,
+          "max": 15,
+          "note": "同客户类型"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → 设备 + 5 年运维）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → IT）",
+        "规模相近：规模差 3.75 倍（超 2 倍）",
+        "技术路线：同技术路线（LFP 液冷）",
+        "合同模式：合同模式不同（供货 + 运维 → 设备 + 5 年运维）"
+      ]
+    },
+    {
+      "experienceId": "EXP-03",
+      "title": "LD 罚则先谈累计上限，再谈工期承诺",
+      "evidenceLevel": "B",
+      "score": 30,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → DE）"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.50 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 15,
+          "max": 15,
+          "note": "同型号"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → DE）",
+        "规模相近：规模差 1.50 倍",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-03",
+      "title": "5 年运维 24 小时响应写进技术卷，服务分 8/10",
+      "evidenceLevel": "B",
+      "score": 30,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → IT）"
+        },
+        {
+          "name": "规模相近",
+          "score": 5,
+          "max": 25,
+          "note": "规模差 3.75 倍（超 2 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 15,
+          "max": 15,
+          "note": "同客户类型"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → 设备 + 5 年运维）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → IT）",
+        "规模相近：规模差 3.75 倍（超 2 倍）",
+        "技术路线：同技术路线（LFP 液冷）",
+        "合同模式：合同模式不同（供货 + 运维 → 设备 + 5 年运维）"
+      ]
+    },
+    {
+      "experienceId": "EXP-04",
+      "title": "循环寿命四项条件同口径应答，避免被归一",
+      "evidenceLevel": "A",
+      "score": 30,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → DE）"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.50 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 15,
+          "max": 15,
+          "note": "同型号"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → DE）",
+        "规模相近：规模差 1.50 倍",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-04",
+      "title": "本地内容 16/20：竞对填报比例未知，加分是否拉开差距待验证",
+      "evidenceLevel": "C",
+      "score": 30,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → IT）"
+        },
+        {
+          "name": "规模相近",
+          "score": 5,
+          "max": 25,
+          "note": "规模差 3.75 倍（超 2 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 15,
+          "max": 15,
+          "note": "同客户类型"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → 设备 + 5 年运维）"
+        }
+      ],
+      "usable": false,
+      "hypothesis": true,
+      "differences": [
+        "国家匹配：跨区域（PL → IT）",
+        "规模相近：规模差 3.75 倍（超 2 倍）",
+        "技术路线：同技术路线（LFP 液冷）",
+        "合同模式：合同模式不同（供货 + 运维 → 设备 + 5 年运维）"
+      ]
+    },
+    {
+      "experienceId": "EXP-05",
+      "title": "备件仓承诺可能是加分印象（待验证）",
+      "evidenceLevel": "C",
+      "score": 30,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → DE）"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.50 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 15,
+          "max": 15,
+          "note": "同型号"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": false,
+      "hypothesis": true,
+      "differences": [
+        "国家匹配：跨区域（PL → DE）",
+        "规模相近：规模差 1.50 倍",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-DE-01",
+      "title": "德国公用事业标：效率与温差是可比的性能主战场",
+      "evidenceLevel": "A",
+      "score": 25,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → DE）"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.30 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → DE）",
+        "规模相近：规模差 1.30 倍",
+        "技术路线：同技术路线（LFP 液冷）",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-DE-02",
+      "title": "噪声限值缺口用主动偏差加隔声整改承诺换满分",
+      "evidenceLevel": "A",
+      "score": 25,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → DE）"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.30 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → DE）",
+        "规模相近：规模差 1.30 倍",
+        "技术路线：同技术路线（LFP 液冷）",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-DE-03",
+      "title": "德国公用事业标的议价点在罚则上限与可用率口径",
+      "evidenceLevel": "B",
+      "score": 25,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → DE）"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.30 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → DE）",
+        "规模相近：规模差 1.30 倍",
+        "技术路线：同技术路线（LFP 液冷）",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-DE-04",
+      "title": "以补证承诺覆盖认证缺口会变成履约硬节点",
+      "evidenceLevel": "C",
+      "score": 25,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → DE）"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.30 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": false,
+      "hypothesis": true,
+      "differences": [
+        "国家匹配：跨区域（PL → DE）",
+        "规模相近：规模差 1.30 倍",
+        "技术路线：同技术路线（LFP 液冷）",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-DE-05",
+      "title": "可用率 98.0% 口径可能提升客户观感（待验证）",
+      "evidenceLevel": "C",
+      "score": 25,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → DE）"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.30 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": false,
+      "hypothesis": true,
+      "differences": [
+        "国家匹配：跨区域（PL → DE）",
+        "规模相近：规模差 1.30 倍",
+        "技术路线：同技术路线（LFP 液冷）",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-DE-06",
+      "title": "交付 150 天承诺是差异化，但清关风险未入宽限期",
+      "evidenceLevel": "B",
+      "score": 25,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → DE）"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.30 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → DE）",
+        "规模相近：规模差 1.30 倍",
+        "技术路线：同技术路线（LFP 液冷）",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-SA-01",
+      "title": "高温降额曲线要当承诺值交：45℃ 不降额是中东公用事业项目的硬门槛",
+      "evidenceLevel": "B",
+      "score": 25,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → SA）"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.33 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → SA）",
+        "规模相近：规模差 1.33 倍",
+        "技术路线：同技术路线（LFP 液冷）",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-SA-02",
+      "title": "本地化率与服务承诺必须拆成「分包合同 + 交付基线」两张纸",
+      "evidenceLevel": "B",
+      "score": 25,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → SA）"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.33 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → SA）",
+        "规模相近：规模差 1.33 倍",
+        "技术路线：同技术路线（LFP 液冷）",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-SA-03",
+      "title": "竞对未披露 50℃ 降额曲线，不等于我方高温能力领先",
+      "evidenceLevel": "C",
+      "score": 25,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → SA）"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.33 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": false,
+      "hypothesis": true,
+      "differences": [
+        "国家匹配：跨区域（PL → SA）",
+        "规模相近：规模差 1.33 倍",
+        "技术路线：同技术路线（LFP 液冷）",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-SA-04",
+      "title": "SEC 并网与 SASO 认证覆盖更像入场条件，不是赢因",
+      "evidenceLevel": "C",
+      "score": 25,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → SA）"
+        },
+        {
+          "name": "规模相近",
+          "score": 15,
+          "max": 25,
+          "note": "规模差 1.33 倍"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": false,
+      "hypothesis": true,
+      "differences": [
+        "国家匹配：跨区域（PL → SA）",
+        "规模相近：规模差 1.33 倍",
+        "技术路线：同技术路线（LFP 液冷）",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-AU-01",
+      "title": "澳洲 NEM 公用事业项目：FCAS 响应是并网硬门槛",
+      "evidenceLevel": "A",
+      "score": 15,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → AU）"
+        },
+        {
+          "name": "规模相近",
+          "score": 5,
+          "max": 25,
+          "note": "规模差 3.00 倍（超 2 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → AU）",
+        "规模相近：规模差 3.00 倍（超 2 倍）",
+        "技术路线：同技术路线（LFP 液冷）",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-AU-02",
+      "title": "45℃ 降额 + AS 5139 林火防护：书面偏差换合规分",
+      "evidenceLevel": "A",
+      "score": 15,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → AU）"
+        },
+        {
+          "name": "规模相近",
+          "score": 5,
+          "max": 25,
+          "note": "规模差 3.00 倍（超 2 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → AU）",
+        "规模相近：规模差 3.00 倍（超 2 倍）",
+        "技术路线：同技术路线（LFP 液冷）",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-AU-03",
+      "title": "可用率 97% 保证承诺过头，首年没做到，因果链断裂",
+      "evidenceLevel": "B",
+      "score": 15,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → AU）"
+        },
+        {
+          "name": "规模相近",
+          "score": 5,
+          "max": 25,
+          "note": "规模差 3.00 倍（超 2 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → AU）",
+        "规模相近：规模差 3.00 倍（超 2 倍）",
+        "技术路线：同技术路线（LFP 液冷）",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-AU-04",
+      "title": "60 天海运 + 90 天到场承诺拿下工期，清关没算进去",
+      "evidenceLevel": "B",
+      "score": 15,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → AU）"
+        },
+        {
+          "name": "规模相近",
+          "score": 5,
+          "max": 25,
+          "note": "规模差 3.00 倍（超 2 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → AU）",
+        "规模相近：规模差 3.00 倍（超 2 倍）",
+        "技术路线：同技术路线（LFP 液冷）",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-AU-05",
+      "title": "备件仓 6 个月承诺改 12 个月：本地化软承诺的代价",
+      "evidenceLevel": "C",
+      "score": 15,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → AU）"
+        },
+        {
+          "name": "规模相近",
+          "score": 5,
+          "max": 25,
+          "note": "规模差 3.00 倍（超 2 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": false,
+      "hypothesis": true,
+      "differences": [
+        "国家匹配：跨区域（PL → AU）",
+        "规模相近：规模差 3.00 倍（超 2 倍）",
+        "技术路线：同技术路线（LFP 液冷）",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-AU-06",
+      "title": "竞对 F 的 FCAS 能力判断缺来源，只能作待验证假设",
+      "evidenceLevel": "C",
+      "score": 15,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → AU）"
+        },
+        {
+          "name": "规模相近",
+          "score": 5,
+          "max": 25,
+          "note": "规模差 3.00 倍（超 2 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 10,
+          "max": 15,
+          "note": "同技术路线（LFP 液冷）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 公用事业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": false,
+      "hypothesis": true,
+      "differences": [
+        "国家匹配：跨区域（PL → AU）",
+        "规模相近：规模差 3.00 倍（超 2 倍）",
+        "技术路线：同技术路线（LFP 液冷）",
+        "客户类型：客户类型不同（独立发电商 → 公用事业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "exp-10",
+      "title": "低周费率罚则换中标，运力未锁导致赔付",
+      "evidenceLevel": "B",
+      "score": 11,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → UK）"
+        },
+        {
+          "name": "规模相近",
+          "score": 5,
+          "max": 25,
+          "note": "规模差 3.00 倍（超 2 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 6,
+          "max": 15,
+          "note": "同技术家族（LFP）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 工商业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → UK）",
+        "规模相近：规模差 3.00 倍（超 2 倍）",
+        "技术路线：同技术家族（LFP）",
+        "客户类型：客户类型不同（独立发电商 → 工商业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "exp-11",
+      "title": "英国消防须按 BS 8414-1 与 NFPA 855 分别举证",
+      "evidenceLevel": "B",
+      "score": 11,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → UK）"
+        },
+        {
+          "name": "规模相近",
+          "score": 5,
+          "max": 25,
+          "note": "规模差 3.00 倍（超 2 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 6,
+          "max": 15,
+          "note": "同技术家族（LFP）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 工商业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → UK）",
+        "规模相近：规模差 3.00 倍（超 2 倍）",
+        "技术路线：同技术家族（LFP）",
+        "客户类型：客户类型不同（独立发电商 → 工商业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "exp-12",
+      "title": "邀请招标下品牌与本地业绩可能是隐性门槛",
+      "evidenceLevel": "C",
+      "score": 11,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → UK）"
+        },
+        {
+          "name": "规模相近",
+          "score": 5,
+          "max": 25,
+          "note": "规模差 3.00 倍（超 2 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 6,
+          "max": 15,
+          "note": "同技术家族（LFP）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 工商业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": false,
+      "hypothesis": true,
+      "differences": [
+        "国家匹配：跨区域（PL → UK）",
+        "规模相近：规模差 3.00 倍（超 2 倍）",
+        "技术路线：同技术家族（LFP）",
+        "客户类型：客户类型不同（独立发电商 → 工商业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "exp-13",
+      "title": "5 年质保承诺须与备件池成本同期锁定",
+      "evidenceLevel": "B",
+      "score": 11,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → UK）"
+        },
+        {
+          "name": "规模相近",
+          "score": 5,
+          "max": 25,
+          "note": "规模差 3.00 倍（超 2 倍）"
+        },
+        {
+          "name": "技术路线",
+          "score": 6,
+          "max": 15,
+          "note": "同技术家族（LFP）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 工商业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → EPC 总承包）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → UK）",
+        "规模相近：规模差 3.00 倍（超 2 倍）",
+        "技术路线：同技术家族（LFP）",
+        "客户类型：客户类型不同（独立发电商 → 工商业）",
+        "合同模式：合同模式不同（供货 + 运维 → EPC 总承包）"
+      ]
+    },
+    {
+      "experienceId": "EXP-UK-01",
+      "title": "英国工商业邀请招标：按 §2.6 切分范围拿满价格分",
+      "evidenceLevel": "A",
+      "score": 6,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → UK）"
+        },
+        {
+          "name": "规模相近",
+          "score": 0,
+          "max": 25,
+          "note": "规模差 5.00 倍（超 4 倍，结构不可直接套用）"
+        },
+        {
+          "name": "技术路线",
+          "score": 6,
+          "max": 15,
+          "note": "同技术家族（LFP）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 工商业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → 设备供货 + 调试）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → UK）",
+        "规模相近：规模差 5.00 倍（超 4 倍，结构不可直接套用）",
+        "技术路线：同技术家族（LFP）",
+        "客户类型：客户类型不同（独立发电商 → 工商业）",
+        "合同模式：合同模式不同（供货 + 运维 → 设备供货 + 调试）"
+      ]
+    },
+    {
+      "experienceId": "EXP-UK-02",
+      "title": "90 天交付靠 PCS 分供前置与排产窗口锁定",
+      "evidenceLevel": "B",
+      "score": 6,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → UK）"
+        },
+        {
+          "name": "规模相近",
+          "score": 0,
+          "max": 25,
+          "note": "规模差 5.00 倍（超 4 倍，结构不可直接套用）"
+        },
+        {
+          "name": "技术路线",
+          "score": 6,
+          "max": 15,
+          "note": "同技术家族（LFP）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 工商业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → 设备供货 + 调试）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → UK）",
+        "规模相近：规模差 5.00 倍（超 4 倍，结构不可直接套用）",
+        "技术路线：同技术家族（LFP）",
+        "客户类型：客户类型不同（独立发电商 → 工商业）",
+        "合同模式：合同模式不同（供货 + 运维 → 设备供货 + 调试）"
+      ]
+    },
+    {
+      "experienceId": "EXP-UK-03",
+      "title": "内部共识最低价是唯一取胜原因（仅结果，未拆解）",
+      "evidenceLevel": "C",
+      "score": 6,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → UK）"
+        },
+        {
+          "name": "规模相近",
+          "score": 0,
+          "max": 25,
+          "note": "规模差 5.00 倍（超 4 倍，结构不可直接套用）"
+        },
+        {
+          "name": "技术路线",
+          "score": 6,
+          "max": 15,
+          "note": "同技术家族（LFP）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 工商业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → 设备供货 + 调试）"
+        }
+      ],
+      "usable": false,
+      "hypothesis": true,
+      "differences": [
+        "国家匹配：跨区域（PL → UK）",
+        "规模相近：规模差 5.00 倍（超 4 倍，结构不可直接套用）",
+        "技术路线：同技术家族（LFP）",
+        "客户类型：客户类型不同（独立发电商 → 工商业）",
+        "合同模式：合同模式不同（供货 + 运维 → 设备供货 + 调试）"
+      ]
+    },
+    {
+      "experienceId": "EXP-UK-04",
+      "title": "以 NFPA 855 附录 E 主张等效 BS 8414-1（已停用，反例）",
+      "evidenceLevel": "B",
+      "score": 6,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → UK）"
+        },
+        {
+          "name": "规模相近",
+          "score": 0,
+          "max": 25,
+          "note": "规模差 5.00 倍（超 4 倍，结构不可直接套用）"
+        },
+        {
+          "name": "技术路线",
+          "score": 6,
+          "max": 15,
+          "note": "同技术家族（LFP）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 工商业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → 设备供货 + 调试）"
+        }
+      ],
+      "usable": true,
+      "hypothesis": false,
+      "differences": [
+        "国家匹配：跨区域（PL → UK）",
+        "规模相近：规模差 5.00 倍（超 4 倍，结构不可直接套用）",
+        "技术路线：同技术家族（LFP）",
+        "客户类型：客户类型不同（独立发电商 → 工商业）",
+        "合同模式：合同模式不同（供货 + 运维 → 设备供货 + 调试）"
+      ]
+    },
+    {
+      "experienceId": "EXP-UK-05",
+      "title": "备件点建成承诺必须先核土建与许可周期",
+      "evidenceLevel": "C",
+      "score": 6,
+      "dims": [
+        {
+          "name": "国家匹配",
+          "score": 0,
+          "max": 30,
+          "note": "跨区域（PL → UK）"
+        },
+        {
+          "name": "规模相近",
+          "score": 0,
+          "max": 25,
+          "note": "规模差 5.00 倍（超 4 倍，结构不可直接套用）"
+        },
+        {
+          "name": "技术路线",
+          "score": 6,
+          "max": 15,
+          "note": "同技术家族（LFP）"
+        },
+        {
+          "name": "客户类型",
+          "score": 0,
+          "max": 15,
+          "note": "客户类型不同（独立发电商 → 工商业）"
+        },
+        {
+          "name": "合同模式",
+          "score": 0,
+          "max": 15,
+          "note": "合同模式不同（供货 + 运维 → 设备供货 + 调试）"
+        }
+      ],
+      "usable": false,
+      "hypothesis": true,
+      "differences": [
+        "国家匹配：跨区域（PL → UK）",
+        "规模相近：规模差 5.00 倍（超 4 倍，结构不可直接套用）",
+        "技术路线：同技术家族（LFP）",
+        "客户类型：客户类型不同（独立发电商 → 工商业）",
+        "合同模式：合同模式不同（供货 + 运维 → 设备供货 + 调试）"
+      ]
+    }
+  ]
+}

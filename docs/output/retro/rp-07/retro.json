@@ -1,0 +1,650 @@
+{
+  "schemaVersion": "1.1",
+  "case": {
+    "retroId": "rp-07",
+    "id": "p-uk-03",
+    "name": "英国-中部工业园 60MWh 工商业储能供货（2025 中标）",
+    "country": "UK",
+    "mw": 30,
+    "mwh": 60,
+    "route": "LFP 风冷",
+    "customerType": "工商业",
+    "bidMode": "有限邀请招标",
+    "contractMode": "设备供货 + 调试",
+    "productModel": "MegaBlock 4.0 风冷",
+    "awardedYear": 2025,
+    "awardDate": "2025-08-01",
+    "competitorIds": ["竞对 B", "竞对 D"],
+    "hasScoreSheet": true,
+    "snapshotAt": "2026-09-30"
+  },
+  "evidence": [
+    {
+      "id": "EV-UK-01",
+      "type": "tender",
+      "title": "招标文件（邀请招标 ITT-UK-2025-117）条款摘录",
+      "documentId": "doc-uk-011",
+      "originalFiled": true,
+      "page": 18,
+      "section": "§2.6 报价口径 / §5.3 消防要求",
+      "snippet": "§2.6 投标人应按供货范围表分项报价，买方自购项（含并网柜、消防主机）须在偏差表中单列；§5.3 储能舱应提交 BS 8414-1 大尺度火灾试验报告，或等效的 NFPA 855 附录 E 消防评估。",
+      "reliability": "official",
+      "collectedBy": "郑宇",
+      "collectedAt": "2025-06-20"
+    },
+    {
+      "id": "EV-UK-02",
+      "type": "ourBid",
+      "title": "投标技术卷终版（TT-UK-117-R3）",
+      "documentId": "doc-uk-003",
+      "originalFiled": true,
+      "page": 12,
+      "section": "§2.1 供货范围表",
+      "snippet": "供货范围：电池舱 15 台（MegaBlock 4.0 风冷，单舱 4.0MWh）、PCS 8 台（第三方分供）、EMS 1 套；不含消防系统与并网柜，按招标 §2.6 列入偏差表第 1、2 项。",
+      "reliability": "official",
+      "collectedBy": "秦朗",
+      "collectedAt": "2025-07-04"
+    },
+    {
+      "id": "EV-UK-03",
+      "type": "clarification",
+      "title": "竞对 B 对报价口径的质疑函（开标后第 4 天，复印件）",
+      "documentId": null,
+      "originalFiled": false,
+      "page": 2,
+      "section": "质疑事项第 2 条",
+      "snippet": "质疑函第 2 条：投标人未含消防系统与并网柜的报价，不构成对招标 §5.3 的等效响应，请求评标委员会否决其响应性；其报价低于我方 8.4%。",
+      "reliability": "thirdParty",
+      "collectedBy": "郑宇",
+      "collectedAt": "2025-07-11"
+    },
+    {
+      "id": "EV-UK-04",
+      "type": "clarification",
+      "title": "客户澄清回函（编号 CL-07）",
+      "documentId": "doc-uk-023",
+      "originalFiled": true,
+      "page": 1,
+      "section": "回函第 1、2 条",
+      "snippet": "回函第 1 条：按 §2.6 分项报价且偏差表已单列的报价有效，评标按同一供货口径比较；第 2 条：接受 NFPA 855 附录 E 评估作为 §5.3 的偏差响应，不作等效认可。",
+      "reliability": "official",
+      "collectedBy": "郑宇",
+      "collectedAt": "2025-07-14"
+    },
+    {
+      "id": "EV-UK-05",
+      "type": "scoreSheet",
+      "title": "客户评标打分表（汇总页）",
+      "documentId": "doc-uk-031",
+      "originalFiled": true,
+      "page": 1,
+      "section": "评分汇总",
+      "snippet": "价格分 40/40（最低价，较次低价低 8.4%），技术分 32/40，商务与服务分 17/20，总分 89.0 排名第 1；竞对 B 总分 85.5（价格分 32/40，技术分 37/40，商务服务分 16.5/20）。",
+      "reliability": "official",
+      "collectedBy": "沈黎",
+      "collectedAt": "2026-08-05"
+    },
+    {
+      "id": "EV-UK-06",
+      "type": "scoreSheet",
+      "title": "客户评标打分表（技术分项明细）",
+      "documentId": "doc-uk-031",
+      "originalFiled": true,
+      "page": 3,
+      "section": "§4.2 技术评分-消防等效口径",
+      "snippet": "§4.2 消防等效口径（满分 5 分）：我方 NFPA 855 附录 E 评估 + BS 8414-1 舱体报告得 3/5；竞对 B 整体布局 BS 8414-1 报告得 5/5；评语：评估范围仅覆盖单舱。",
+      "reliability": "official",
+      "collectedBy": "沈黎",
+      "collectedAt": "2026-08-05"
+    },
+    {
+      "id": "EV-UK-07",
+      "type": "awardNotice",
+      "title": "中标通知书（PO-UK-2025-0431）",
+      "documentId": "doc-uk-040",
+      "originalFiled": true,
+      "page": 1,
+      "section": "中标条件",
+      "snippet": "中标范围按供货范围表分项确认；交付期自合同生效日起 90 个日历日；质保期 5 年，第 5 年末电池容量保持率不低于 70%。",
+      "reliability": "official",
+      "collectedBy": "周敏",
+      "collectedAt": "2025-08-01"
+    },
+    {
+      "id": "EV-UK-08",
+      "type": "competitorBid",
+      "title": "竞对 B 技术标公开摘要（答疑资料包）",
+      "documentId": "doc-uk-022",
+      "originalFiled": true,
+      "page": 9,
+      "section": "性能与交付页",
+      "snippet": "竞对 B：供货含消防系统与并网柜，舱体间距 3.0 m，系统效率 93.8%，交付期 120 天，质保 5 年，提供整体布局 BS 8414-1 试验报告。",
+      "reliability": "public",
+      "collectedBy": "秦朗",
+      "collectedAt": "2025-07-18"
+    },
+    {
+      "id": "EV-UK-09",
+      "type": "negotiation",
+      "title": "合同谈判纪要（第二轮，2025-08-20）",
+      "documentId": "doc-uk-045",
+      "originalFiled": true,
+      "page": 3,
+      "section": "质保与罚则条款",
+      "snippet": "第 3 条：PCS 质保由分供方直保 2 年，第 3–5 年由供货方承接界面协调，双方按两段划分；第 5 条：延期罚则 0.5%/天，累计上限 10% 合同额。",
+      "reliability": "official",
+      "collectedBy": "陈默",
+      "collectedAt": "2025-08-20"
+    },
+    {
+      "id": "EV-UK-10",
+      "type": "fulfilment",
+      "title": "交付与到场台账（2026 Q1）",
+      "documentId": "doc-uk-061",
+      "originalFiled": true,
+      "page": 1,
+      "section": "到场节点",
+      "snippet": "首台电池舱到场第 86 天，全量 15 台到场第 90 天（合同生效日 2025-12-18）；PCS 分两批 45 天到货，较电池舱排产提前 15 天。",
+      "reliability": "thirdParty",
+      "collectedBy": "何川",
+      "collectedAt": "2026-03-18"
+    },
+    {
+      "id": "EV-UK-11",
+      "type": "fulfilment",
+      "title": "消防联动验收记录（编号 FS-2026-014）",
+      "documentId": "doc-uk-063",
+      "originalFiled": true,
+      "page": 2,
+      "section": "验收结论",
+      "snippet": "储能舱 BS 8414-1 舱体报告与 NFPA 855 附录 E 评估资料齐全，资料项判定符合；消防联动因买方消防主机通讯接口未完成，验收结论 partial，复验计划 2026-10-15（首验 2026-05-28）。",
+      "reliability": "official",
+      "collectedBy": "秦朗",
+      "collectedAt": "2026-05-28"
+    },
+    {
+      "id": "EV-UK-12",
+      "type": "other",
+      "title": "内部复盘会纪要（第一次，2026-09-05）",
+      "documentId": "doc-uk-070",
+      "originalFiled": true,
+      "page": null,
+      "section": "赢因讨论",
+      "snippet": "与会 6 人一致认为最低价是本次唯一取胜原因，未取得客户侧对价格因素的书面说明；消防口径失分被口头归因于客户不理解等效标准，无书面依据。",
+      "reliability": "thirdParty",
+      "collectedBy": "沈黎",
+      "collectedAt": "2026-09-05"
+    },
+    {
+      "id": "EV-UK-13",
+      "type": "fulfilment",
+      "title": "备件调拨工单台账（2026 Q2-Q3）",
+      "documentId": "doc-uk-066",
+      "originalFiled": true,
+      "page": 2,
+      "section": "工单明细",
+      "snippet": "2026-06-12、2026-07-24、2026-09-03 三单备件调拨：PCS 功率模块 2 套、BMS 采集板 1 块，自欧洲中心仓发出，到场 94 小时、99 小时、95 小时（承诺 72 小时）。",
+      "reliability": "official",
+      "collectedBy": "何川",
+      "collectedAt": "2026-09-28"
+    },
+    {
+      "id": "EV-UK-14",
+      "type": "ourBid",
+      "title": "投标商务卷服务承诺页（TT-UK-117-R3 §7.3）",
+      "documentId": "doc-uk-004",
+      "originalFiled": true,
+      "page": 27,
+      "section": "§7.3 备件与响应承诺",
+      "snippet": "承诺合同生效后 9 个月内建成中部备件点（常用件 120 种），常用备件到场时间 ≤72 小时；建点完成前由欧洲中心仓直发，单次到场 ≤96 小时。",
+      "reliability": "official",
+      "collectedBy": "周敏",
+      "collectedAt": "2025-07-04"
+    }
+  ],
+  "winFactors": [
+    {
+      "id": "WF-UK-01",
+      "title": "价格分 40/40 满分：按 §2.6 切分供货范围做到最低价",
+      "category": "price",
+      "level": "A",
+      "mandatory": false,
+      "score": 40,
+      "maxScore": 40,
+      "weightPct": 40,
+      "customerNeed": "邀请招标价格分 40 分，客户要求按 §2.6 分项报价、各投标人按同一供货口径比较（招标 §2.6 / §4.1）",
+      "ourResponse": "把消防系统与并网柜切出我方供货范围（买方自购），报价只含电池舱 15 台、PCS 8 台、EMS 与调试，价格分拿满 40/40、总分 89.0",
+      "competitorGap": "竞对 B 报含消防与并网柜的整体方案，价格分 32/40、总分 85.5；其质疑我方口径不构成等效响应，被客户回函第 1 条驳回（EV-UK-03/EV-UK-04/EV-UK-05）",
+      "evidence": ["EV-UK-01", "EV-UK-04", "EV-UK-05"],
+      "confirmedBy": "沈黎",
+      "reviewState": "verified",
+      "recentChange": { "at": "10-22 14:20", "by": "吴桐", "action": "升至 A（评分表价格分逐项可定位）", "auditId": "aud-017" },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "WF-UK-02",
+      "title": "消防口径分列 BS 8414-1 与 NFPA 855 附录 E，该项拿 3/5",
+      "category": "compliance",
+      "level": "B",
+      "mandatory": true,
+      "score": 3,
+      "maxScore": 5,
+      "weightPct": 25,
+      "customerNeed": "招标 §5.3 要求 BS 8414-1 大尺度火灾试验，或等效的 NFPA 855 附录 E 评估；§5.3 为强制条款",
+      "ourResponse": "分列舱体 BS 8414-1 试验报告与 NFPA 855 附录 E 评估，投标卷明确标注偏差响应、不主张等效，偏差获客户回函第 2 条书面接受",
+      "competitorGap": "竞对 B 提供整体布局 BS 8414-1 报告，该项 5/5，比我方多 2 分（EV-UK-06/EV-UK-08）；我方该项落后，故不构成取胜因果，只保住响应性",
+      "evidence": ["EV-UK-04", "EV-UK-06", "EV-UK-08"],
+      "confirmedBy": "秦朗",
+      "reviewState": "pending",
+      "recentChange": { "at": "10-22 15:05", "by": "沈黎", "action": "维持 B：补入客户回函与评分表分项", "auditId": "aud-018" },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "WF-UK-03",
+      "title": "90 天交付：PCS 分供 45 天 + 电池舱排产窗口前置锁定",
+      "category": "delivery",
+      "level": "B",
+      "mandatory": true,
+      "score": null,
+      "maxScore": null,
+      "weightPct": 20,
+      "customerNeed": "招标 §6.1 要求交付期 ≤90 日历日，自合同生效日起算（硬门槛，逾期按 §8.2 罚则）",
+      "ourResponse": "承诺 90 天，PCS 由分供方欧洲仓 45 天发运，电池舱排产提前锁定 60 天窗口分批到场；实际首台第 86 天、全量第 90 天到场",
+      "competitorGap": "竞对 B 交付期 120 天，比我方多 30 天（EV-UK-08）；评分表未单列交付分项，交付承诺的作用无分项得分可定位",
+      "evidence": ["EV-UK-08", "EV-UK-09", "EV-UK-10"],
+      "confirmedBy": "何川",
+      "reviewState": "pending",
+      "recentChange": { "at": "10-22 15:12", "by": "何川", "action": "补入到场台账，维持 B", "auditId": "aud-019" },
+      "conclusionCarrier": true
+    },
+    {
+      "id": "WF-UK-04",
+      "title": "5 年质保承诺拉高商务服务分（内部推断，未证实）",
+      "category": "local",
+      "level": "C",
+      "mandatory": false,
+      "score": null,
+      "maxScore": null,
+      "weightPct": 15,
+      "customerNeed": "招标 §7.2 要求质保 5 年、第 5 年末容量保持率 ≥70%；§7.4 要求备件 72 小时可得",
+      "ourResponse": "承诺 5 年质保 + 72 小时备件可得，第 5 年末容量保持率 72%（投标商务卷 §7.3）",
+      "competitorGap": "竞对 B 同样报 5 年质保（EV-UK-08），我方无差异化；商务服务分仅得 20 分制汇总 17/20，分差来源无法从评分表拆到分项",
+      "evidence": ["EV-UK-05", "EV-UK-12"],
+      "confirmedBy": "—",
+      "reviewState": "draft",
+      "recentChange": { "at": "10-22 15:18", "by": "秦朗", "action": "新建 C（待验证假设）", "auditId": "aud-020" },
+      "conclusionCarrier": false
+    }
+  ],
+  "solution": {
+    "route": "LFP 风冷",
+    "hardGateParams": [
+      { "key": "efficiency", "label": "系统效率（AC-AC）", "requirement": "≥ 92.0%（招标 §5.1）", "ourValue": "92.8%（型式试验，25℃）", "status": "meet" },
+      { "key": "delivery", "label": "交付期", "requirement": "≤ 90 日历日（招标 §6.1）", "ourValue": "90 天（实际全量到场第 90 天）", "status": "meet" },
+      { "key": "fire", "label": "消防试验口径", "requirement": "BS 8414-1 大尺度火灾试验（招标 §5.3）", "ourValue": "BS 8414-1 舱体报告 + NFPA 855 附录 E 评估（偏差响应，客户回函接受）", "status": "deviation" },
+      { "key": "scope", "label": "供货范围", "requirement": "含消防系统与并网柜（招标 §2.1 供货表）", "ourValue": "不含，买方自购并在偏差表第 1、2 项单列", "status": "deviation" },
+      { "key": "warranty", "label": "质保期与容量保持率", "requirement": "5 年 / 第 5 年末 ≥70%（招标 §7.2）", "ourValue": "5 年 / 承诺第 5 年末 72%", "status": "meet" },
+      { "key": "spare", "label": "备件可得性", "requirement": "≤ 72 小时（招标 §7.4）", "ourValue": "承诺 9 个月内建成中部备件点，建点前欧洲中心仓直发", "status": "meet" },
+      { "key": "grid", "label": "并网认证型号覆盖", "requirement": "EN 50549-1 覆盖投标 PCS 型号（招标 §5.4）", "ourValue": "分供方 PCS-X300 证书覆盖，有效期至 2026-12-31", "status": "meet" }
+    ],
+    "differentiators": [
+      { "key": "aux", "label": "辅助功耗", "ourValue": "0.9%", "competitorBest": "1.3%（竞对 B 液冷方案）", "note": "对应 TCO 影响 -1.6%，评分表未单列" },
+      { "key": "delivery", "label": "交付周期", "ourValue": "90 天", "competitorBest": "120 天", "note": "招标 §6.1 为硬门槛，评分表未单列交付分" },
+      { "key": "footprint", "label": "单舱占地面积", "ourValue": "5.8 m²/MWh", "competitorBest": "6.4 m²/MWh", "note": "工商业场地受限时的实际优势，未进评分表" }
+    ],
+    "configJudgement": {
+      "overSpec": [
+        "舱体防护等级 IP55（招标 §5.5 仅要求 IP54），单舱成本上升且评分表无对应加分项",
+        "电池簇双 BMS 冗余（招标未要求），为内部可靠性标准，客户侧不可见"
+      ],
+      "underSpec": [
+        "报价未含消防系统与并网柜，交付阶段依赖买方自购，导致消防联动验收 partial（FU-UK-02）",
+        "备件点建点成本未计入本地固定成本，9 个月建点承诺未核土建许可周期，导致逾期未建成（FU-UK-05）"
+      ],
+      "note": "过度与不足同时存在：IP55 与双 BMS 属纯成本项；消防/并网柜切分换来价格分满分，却把联动验收风险留在买方侧；备件点承诺未做土建可行性核验，直接触发季度扣款"
+    },
+    "certifications": [
+      { "name": "BS 8414-1", "scope": "MegaBlock 4.0 单舱（20ft 风冷舱体）", "validUntil": "2027-03-31", "mandatory": true, "gapRisk": "仅覆盖单舱级，2 舱并柜布局未覆盖，评标评语已点出评估范围仅覆盖单舱" },
+      { "name": "EN 50549-1", "scope": "MegaBlock 4.0 配套 PCS（分供型号 PCS-X300）", "validUntil": "2026-12-31", "mandatory": true, "gapRisk": "证书由分供方持有，2026-12-31 到期，续证排期不受我方控制" },
+      { "name": "IEC 62619 / IEC 63056", "scope": "MegaBlock 4.0 电池舱", "validUntil": "2028-06-30", "mandatory": true, "gapRisk": "型号全覆盖，无缺口" },
+      { "name": "NFPA 855 附录 E 消防评估", "scope": "MegaBlock 4.0 风冷舱", "validUntil": "2027-09-30", "mandatory": false, "gapRisk": "属评估报告而非型式认证，客户回函仅接受为偏差、不作等效认可" }
+    ],
+    "deviations": [
+      {
+        "id": "DV-01",
+        "requirement": "招标 §2.1 供货表含消防系统与并网柜",
+        "deviationType": "主动偏差",
+        "reason": "含消防与并网柜的整体方案拿不到价格分满分，且并网柜由英国本地集成商供货、交期不受我方控制",
+        "clarification": "按 §2.6 分项报价，消防系统与并网柜列为买方自购项，在偏差表第 1、2 项单列并附接口责任说明",
+        "customerAccepted": true,
+        "acceptedEvidence": "EV-UK-04",
+        "reusable": true
+      },
+      {
+        "id": "DV-02",
+        "requirement": "招标 §5.3 BS 8414-1 大尺度火灾试验报告",
+        "deviationType": "被动偏差",
+        "reason": "风冷舱仅有单舱级 BS 8414-1 试验报告，整体布局试验未做，报告范围不足以覆盖并柜布局",
+        "clarification": "提交 NFPA 855 附录 E 评估 + 单舱 BS 8414-1 报告，明确标注偏差响应、不主张等效，并同步启动并柜布局评估",
+        "customerAccepted": true,
+        "acceptedEvidence": "EV-UK-04",
+        "reusable": true
+      },
+      {
+        "id": "DV-03",
+        "requirement": "招标 §5.6 PCS 与电池同厂、统一质保 5 年",
+        "deviationType": "主动偏差",
+        "reason": "PCS 为第三方分供型号 PCS-X300，无法与电池同厂，质保责任主体天然分离",
+        "clarification": "质保按两段划分：前 2 年分供方直保，第 3–5 年我方承接界面协调，写入合同第 3 条",
+        "customerAccepted": true,
+        "acceptedEvidence": "EV-UK-09",
+        "reusable": false
+      }
+    ]
+  },
+  "commercial": {
+    "noQuoteStatement": true,
+    "priceStructure": [
+      { "item": "电池舱 15 台（MegaBlock 4.0 风冷）", "sharePct": 52, "note": "含包装与随机备件，不含舱外消防管路" },
+      { "item": "PCS 8 台（第三方分供）", "sharePct": 21, "note": "分供型号 PCS-X300，按分项口径单列" },
+      { "item": "EMS 与监控", "sharePct": 7, "note": "含 SCADA 接口与远程运维许可" },
+      { "item": "运输与保险", "sharePct": 6, "note": "含英国港口清关与内陆运输" },
+      { "item": "现场调试（不含消防联动）", "sharePct": 8, "note": "买方自购消防系统的联动调试不在范围内" },
+      { "item": "5 年质保服务", "sharePct": 6, "note": "按备件清单估算，未含本地备件点固定成本" }
+    ],
+    "tcoFactors": [
+      { "factor": "风冷辅助功耗", "impact": "TCO +2.4%", "note": "英国冬季加热工况年运行约 1900 h，相对液冷基准" },
+      { "factor": "PCS 分供质保界面", "impact": "TCO +1.1%", "note": "第 3–5 年界面协调由我方承担，买方需另购分供方延保" },
+      { "factor": "90 天交付", "impact": "TCO -0.6%", "note": "缩短并网窗口占用 30 天" },
+      { "factor": "消防与并网柜买方自购", "impact": "TCO +0.8%", "note": "自购件不在我方报价内，买方 TCO 需另行计入" }
+    ],
+    "delivery": {
+      "leadTimeDays": 90,
+      "localization": "英国本地服务伙伴 1 家，规划中部备件点（承诺 9 个月内建成）；PCS 由分供方欧洲仓发货；消防系统与并网柜为买方自购",
+      "thirdPartyRisks": [
+        "PCS 分供方欧洲仓 45 天发运，与电池舱 60 天排产窗口错配，任一方延期即压缩调试工期",
+        "消防主机与并网柜由买方自购，联动调试工期不受我方控制（已导致 FU-UK-02 partial）",
+        "英国港口清关平均 4 天，风冷机组含制冷剂需单独申报",
+        "中部备件点土建许可由本地伙伴办理，进度不在我方控制（已导致 FU-UK-05 missed）"
+      ]
+    },
+    "contractRisks": [
+      { "clause": "延期罚则 0.5%/天、累计上限 10% 合同额（合同 §8.2）", "redFlag": true, "concession": "接受 10% 上限，未争取 15 天宽限期", "impactOnFulfilment": "关联 FU-UK-01（全量到场第 90 天，罚则未触发）" },
+      { "clause": "消防验收未通过按合同额 5% 扣款（合同 §9.4）", "redFlag": true, "concession": "接受，但把消防系统与联动划入买方供货范围并要求书面确认接口责任", "impactOnFulfilment": "关联 FU-UK-02（验收 partial，扣款条件存在争议）" },
+      { "clause": "PCS 质保第 3–5 年由我方承接界面协调（合同 §3.4）", "redFlag": true, "concession": "接受，未设分供方退出时的替代供方条款", "impactOnFulfilment": "关联 FU-UK-04（现场服务平均 31 小时，分供方远程闭环）" },
+      { "clause": "最低价中标后不接受范围复议（合同 §2.7）", "redFlag": false, "concession": "维持原分项口径，范围冻结后无追加采购", "impactOnFulfilment": "关联 FU-UK-01（供货范围口径贯穿交付全程）" },
+      { "clause": "第 5 年末容量保持率低于 70% 按差额补偿（合同 §7.5）", "redFlag": false, "concession": "接受，承诺值设为 72% 留 2 个百分点余量", "impactOnFulfilment": "关联 FU-UK-03（履约中，首个见证点 2026-12-31）" },
+      { "clause": "本地备件点未按期建成按季度扣减服务费 2%（合同 §10.2）", "redFlag": true, "concession": "接受，未争取土建许可延误的豁免条款", "impactOnFulfilment": "关联 FU-UK-05（备件点逾期未建成，扣款已发生）" }
+    ]
+  },
+  "process": {
+    "involvementTimeline": [
+      { "phase": "T-45 邀请招标发出", "actor": "投标经理 周敏", "note": "确定最低价策略，消防条款未拉消防专业工程师参与" },
+      { "phase": "T-20 澄清截止前 5 天", "actor": "法务 郑宇", "note": "发现 §2.6 允许分项报价，制定供货范围切分口径与偏差表结构" },
+      { "phase": "T-12", "actor": "供应链 何川", "note": "确认 PCS 分供 45 天发运，指出与电池舱 60 天排产需前置锁定窗口" },
+      { "phase": "T-9", "actor": "服务经理 陈默", "note": "拍定 9 个月建点承诺，未核土建许可与本地伙伴施工排期" },
+      { "phase": "T-3", "actor": "投标经理 周敏", "note": "报价审批串行，冻结晚 1 天，技术卷终审被压缩到半天" },
+      { "phase": "开标后第 4 天", "actor": "法务 郑宇", "note": "应对竞对 B 质疑函，2 个工作日内提交口径说明并取得客户回函 CL-07" }
+    ],
+    "blockers": [
+      { "id": "PB-UK-01", "stage": "供货范围界定", "issue": "招标 §2.6 分项报价条款与 §5.3 消防强制条款冲突，内部两轮讨论未决", "effect": "消防口径只能以偏差形式递交，给竞对 B 留下质疑入口，技术分消防项少 2 分", "fix": "T-15 前由法务与消防工程师联合出具口径备忘，并主动向客户书面澄清" },
+      { "id": "PB-UK-02", "stage": "认证与分供", "issue": "PCS 并网认证由分供方持有，续证排期不在我方控制", "effect": "EN 50549-1 只能承诺到 2026-12-31，后续交付批次存在合规缺口", "fix": "把分供方续证排期写入采购合同里程碑与违约条款" },
+      { "id": "PB-UK-03", "stage": "本地化承诺", "issue": "9 个月建点承诺未做土建许可与本地伙伴施工排期核验", "effect": "备件点逾期未建成，三单备件平均 96 小时，触发 §10.2 季度扣款", "fix": "任何建点承诺前先取得许可受理回执，再定承诺期限" }
+    ],
+    "effectiveReviews": [
+      { "node": "商务合规审（T-20）", "owner": "郑宇", "caught": "拦住了无限责任条款与无上限延误罚则，把罚则压到 0.5%/天、累计上限 10%" },
+      { "node": "技术卷终审（T-10）", "owner": "秦朗", "caught": "拦住了把 NFPA 855 附录 E 写成等效 BS 8414-1 的表述，改为分列两份报告并标注偏差响应，避免了虚假响应被否决" },
+      { "node": "报价复核（T-3）", "owner": "陈默", "caught": "拦住了把消防系统成本摊进电池舱单价的算法，恢复了 §2.6 分项口径，否则会被竞对质疑可比性" }
+    ]
+  },
+  "fulfilment": [
+    {
+      "id": "FU-UK-01",
+      "commitment": "合同生效起 90 日历日内全量 15 台电池舱到场",
+      "target": "90 天",
+      "actual": "90 天（首台第 86 天到场）",
+      "variance": "0",
+      "status": "met",
+      "note": "PCS 提前 15 天到货，未触发合同 §8.2 延期罚则",
+      "verifiedAt": "2026-03-18",
+      "experienceIds": ["EXP-UK-02"]
+    },
+    {
+      "id": "FU-UK-02",
+      "commitment": "消防联动验收一次通过（合同 §9.4）",
+      "target": "一次通过",
+      "actual": "联动验收延后 140 天（舱体资料项符合）",
+      "variance": "-140 天",
+      "status": "partial",
+      "note": "买方自购消防主机通讯接口未完成，首验 2026-05-28、复验计划 2026-10-15，5% 扣款条件存在争议",
+      "verifiedAt": "2026-09-30",
+      "experienceIds": ["EXP-UK-01", "EXP-UK-04"]
+    },
+    {
+      "id": "FU-UK-03",
+      "commitment": "5 年质保期内第 5 年末容量保持率 ≥70%（合同 §7.5）",
+      "target": "第 5 年末 ≥70%",
+      "actual": "履约中",
+      "variance": "履约中",
+      "status": "pending",
+      "note": "首个容量保持率见证点 2026-12-31（满 12 个月），当前实测 SOH 98.4%，不低于承诺衰减曲线",
+      "verifiedAt": "2026-09-30",
+      "experienceIds": ["EXP-UK-02"]
+    },
+    {
+      "id": "FU-UK-04",
+      "commitment": "英国境内现场服务响应 ≤48 小时",
+      "target": "48 小时",
+      "actual": "平均 31 小时（3 次工单）",
+      "variance": "-17 小时",
+      "status": "met",
+      "note": "工单含一次 PCS 通讯故障，分供方 24 小时内远程介入并闭环",
+      "verifiedAt": "2026-09-12",
+      "experienceIds": ["EXP-UK-02"]
+    },
+    {
+      "id": "FU-UK-05",
+      "commitment": "合同生效后 9 个月内建成中部备件点，常用备件 ≤72 小时到场（合同 §10.2）",
+      "target": "9 个月内建成 / 72 小时",
+      "actual": "备件点逾期未建成；三单备件平均到场 96 小时",
+      "variance": "触发赔付",
+      "status": "missed",
+      "note": "土建许可延后，至 2026-09-18 承诺期满仍未建成；三单平均 96 小时超 72 小时承诺，按 §10.2 季度扣减 2%",
+      "verifiedAt": "2026-09-28",
+      "experienceIds": ["EXP-UK-05"]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "EXP-UK-01",
+      "category": "deviation",
+      "title": "英国工商业邀请招标：按 §2.6 切分范围拿满价格分",
+      "summary": "把消防系统与并网柜列为买方自购项并单列偏差，报价成为最低价：价格分 40/40、总分 89.0 排名第 1，竞对 B 的响应性质疑被客户回函第 1 条驳回。",
+      "projectId": "p-uk-03",
+      "country": "UK",
+      "scaleBand": "50-100MWh",
+      "customerType": "工商业",
+      "bidMode": "有限邀请招标",
+      "productModel": "MegaBlock 4.0 风冷",
+      "requirement": "招标 §2.6 允许分项报价、买方自购项须单列偏差；§2.1 供货表含消防系统与并网柜",
+      "strategy": "切出消防系统与并网柜（买方自购），报价只含电池舱、PCS、EMS 与调试，按 §2.6 分项递交并在偏差表单列 2 项",
+      "result": "价格分 40/40、总分 89.0 排名第 1；竞对 B 质疑不构成等效响应被客户回函第 1 条驳回，偏差获书面接受（EV-UK-04/EV-UK-05）",
+      "evidenceSources": ["EV-UK-04", "EV-UK-05", "EV-UK-06"],
+      "reviewer": "沈黎",
+      "reviewedAt": "2026-10-22",
+      "scope": "适用于允许分项报价、买方具备自购能力的工商业邀请招标（英国/爱尔兰）；不适用于要求整体交钥匙或买方无采购能力的 EPC 项目",
+      "evidenceLevel": "A",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "verificationPlan": "已在 p-uk-05 投标范围表引用，回看时核对客户是否再次接受同类切分口径；不另设到期日",
+      "verificationDue": "—",
+      "references": [
+        { "projectId": "p-uk-05", "citedBy": "周敏", "citedAt": "2026-10-18", "usedIn": "英国 120MWh 供货投标范围表 §2.1" }
+      ],
+      "pendingChange": null,
+      "changeHistory": [
+        {
+          "id": "CHG-UK-01",
+          "from": "B",
+          "to": "A",
+          "status": "approved",
+          "requester": "沈黎",
+          "approver": "陈默",
+          "requestedAt": "2026-08-06",
+          "reason": "取得客户评标打分表原件，价格分 40/40 与客户回函口径可直接对应",
+          "newEvidenceIds": ["EV-UK-05"]
+        }
+      ]
+    },
+    {
+      "id": "EXP-UK-02",
+      "category": "commercial",
+      "title": "90 天交付靠 PCS 分供前置与排产窗口锁定",
+      "summary": "承诺 90 天时把 PCS 分供 45 天发运与电池舱 60 天排产并排压链，首台第 86 天、全量第 90 天到场；评分表未单列交付分项，因果只剩履约证据，等级停在 B。",
+      "projectId": "p-uk-03",
+      "country": "UK",
+      "scaleBand": "50-100MWh",
+      "customerType": "工商业",
+      "bidMode": "有限邀请招标",
+      "productModel": "MegaBlock 4.0 风冷",
+      "requirement": "招标 §6.1 交付期 ≤90 日历日；§5.6 要求 PCS 与电池同厂统一质保 5 年",
+      "strategy": "PCS 由分供方欧洲仓 45 天发运，电池舱排产提前锁定 60 天窗口分批到场；质保按两段划分并在合同 §3.4 固化",
+      "result": "全量到场第 90 天按上限达成，现场服务平均 31 小时；但评分表未单列交付分，因果只剩履约证据（EV-UK-09/EV-UK-10）",
+      "evidenceSources": ["EV-UK-08", "EV-UK-09", "EV-UK-10"],
+      "reviewer": "何川",
+      "reviewedAt": "2026-10-20",
+      "scope": "适用于交付期 ≤90 天、PCS 可外购分供的供货类项目；不适用于要求 PCS 与电池同厂单一质保责任主体的项目",
+      "evidenceLevel": "B",
+      "state": "draft",
+      "conclusionCarrier": true,
+      "verificationPlan": "在 p-uk-04（英国 80MWh 供货）交付计划中复用压链排期，开标后对比同类交付分项是否进入评分；不另设到期日",
+      "verificationDue": "—",
+      "references": [
+        { "projectId": "p-uk-04", "citedBy": "何川", "citedAt": "2026-10-15", "usedIn": "英国 80MWh 供货交付计划 §3" }
+      ],
+      "pendingChange": null,
+      "changeHistory": []
+    },
+    {
+      "id": "EXP-UK-03",
+      "category": "awarded",
+      "title": "内部共识最低价是唯一取胜原因（仅结果，未拆解）",
+      "summary": "复盘会 6 人一致把中标归因于最低价，但无客户侧对价格因素的书面说明，也未拆出技术分与商务分的贡献；只能作为待验证假设。",
+      "projectId": "p-uk-03",
+      "country": "UK",
+      "scaleBand": "50-100MWh",
+      "customerType": "工商业",
+      "bidMode": "有限邀请招标",
+      "productModel": "MegaBlock 4.0 风冷",
+      "requirement": "邀请招标价格分 40 分、技术分 40 分、商务与服务分 20 分（招标 §4.1）",
+      "strategy": "内部将中标归因为最低价，未按分项拆解价格分与技术分的贡献占比",
+      "result": "总分 89.0 排名第 1，但价格分优势与技术分劣势（32/40 对竞对 B 37/40）同时存在（EV-UK-05/EV-UK-12）",
+      "evidenceSources": ["EV-UK-05", "EV-UK-12"],
+      "reviewer": "沈黎",
+      "reviewedAt": "2026-10-22",
+      "scope": "适用于复盘会上的归因假设清单与内部讨论；不适用于对外汇报、定价决策或作为投标策略依据",
+      "evidenceLevel": "C",
+      "state": "draft",
+      "conclusionCarrier": false,
+      "verificationPlan": "在 p-uk-05（英国 120MWh 邀请招标）开标后索取评分明细，按价格/技术/商务三项分差做贡献拆解；若价格分差贡献低于 60% 则该归因推翻",
+      "verificationDue": "2027-03-31",
+      "references": [],
+      "pendingChange": null,
+      "changeHistory": []
+    },
+    {
+      "id": "EXP-UK-04",
+      "category": "competitor",
+      "title": "以 NFPA 855 附录 E 主张等效 BS 8414-1（已停用，反例）",
+      "summary": "曾以 NFPA 855 附录 E 等效 BS 8414-1 作为回应竞对 B 质疑的口径，客户回函明确不作等效认可、该项仅 3/5；口径不成立，条目已停用，仅作反例留存。",
+      "projectId": "p-uk-03",
+      "country": "UK",
+      "scaleBand": "50-100MWh",
+      "customerType": "工商业",
+      "bidMode": "有限邀请招标",
+      "productModel": "MegaBlock 4.0 风冷",
+      "requirement": "招标 §5.3 BS 8414-1 大尺度火灾试验；竞对 B 质疑不含消防系统的报价不构成等效响应",
+      "strategy": "以 NFPA 855 附录 E 评估主张与 BS 8414-1 等效，并在答疑与内部口径中复用该表述",
+      "result": "客户回函第 2 条只接受为偏差、不作等效认可；该项 3/5，竞对 B 5/5（EV-UK-04/EV-UK-06）",
+      "evidenceSources": ["EV-UK-03", "EV-UK-04", "EV-UK-06"],
+      "reviewer": "秦朗",
+      "reviewedAt": "2026-10-10",
+      "scope": "适用于反例培训：说明等效标准表述不可在英联邦项目复用，必须先取客户书面口径；不适用于任何对外答疑、技术卷表述或评分预判",
+      "evidenceLevel": "B",
+      "state": "deprecated",
+      "conclusionCarrier": false,
+      "evaluation": "停用原因：客户回函 CL-07 第 2 条明确「接受为偏差、不作等效认可」，评标该项仅得 3/5 且评语指出评估范围仅覆盖单舱，原「等效 BS 8414-1」推断的因果链断裂（原 A 级无法维持）；该口径若继续复用存在虚假响应被否决的风险，故停用并仅作反例留存，不再进入匹配候选与结论载体。",
+      "verificationPlan": "—",
+      "verificationDue": "—",
+      "references": [],
+      "pendingChange": null,
+      "changeHistory": [
+        {
+          "id": "CHG-UK-02",
+          "from": "A",
+          "to": "B",
+          "status": "approved",
+          "requester": "秦朗",
+          "approver": "沈黎",
+          "requestedAt": "2026-10-10",
+          "reason": "客户回函仅接受为偏差、未认可等效，原 A 级因果链断裂；该口径存疑，条目转 deprecated 仅作反例",
+          "newEvidenceIds": ["EV-UK-04"]
+        }
+      ]
+    },
+    {
+      "id": "EXP-UK-05",
+      "category": "commercial",
+      "title": "备件点建成承诺必须先核土建与许可周期",
+      "summary": "以 9 个月建成中部备件点 + 72 小时备件承诺换服务分，土建许可周期未前置核实；承诺期满未建成，三单平均 96 小时，触发合同 §10.2 季度扣款。",
+      "projectId": "p-uk-03",
+      "country": "UK",
+      "scaleBand": "50-100MWh",
+      "customerType": "工商业",
+      "bidMode": "有限邀请招标",
+      "productModel": "MegaBlock 4.0 风冷",
+      "requirement": "招标 §7.4 要求备件 ≤72 小时可得；我方投标商务卷承诺合同生效后 9 个月内建成中部备件点（合同 §10.2）",
+      "strategy": "以 9 个月建点 + 72 小时备件承诺补商务服务分，建点时间按理想土建周期估算、未取许可受理回执",
+      "result": "商务服务分 17/20；备件点至 2026-09-18 承诺期满未建成，三单平均 96 小时，触发季度扣减 2%（EV-UK-13/EV-UK-14）",
+      "evidenceSources": ["EV-UK-09", "EV-UK-13", "EV-UK-14"],
+      "reviewer": "何川",
+      "reviewedAt": "2026-10-21",
+      "scope": "适用于要求本地备件点或 ≤72 小时备件可得性的分销与供货项目；不适用于客户自建备件库、或纯 EPC 由客户承担仓储的项目",
+      "evidenceLevel": "C",
+      "state": "draft",
+      "conclusionCarrier": false,
+      "verificationPlan": "在 p-uk-05（英国 120MWh 供货）投标前复核客户对建点期限的要求，并核对中部备件点土建许可受理与施工排期；2027-03-31 前验证「先取许可回执再定承诺期限」是否可落地",
+      "verificationDue": "2027-03-31",
+      "references": [],
+      "pendingChange": null,
+      "changeHistory": [
+        {
+          "id": "CHG-UK-03",
+          "from": "B",
+          "to": "C",
+          "status": "approved",
+          "requester": "系统自动触发（FU-UK-05 missed，BR-14）",
+          "approver": "沈黎",
+          "requestedAt": "2026-09-28",
+          "reason": "备件点逾期未建成、三单平均 96 小时，「本地化承诺可兑现」推断断裂，降级至 C 待新项目验证",
+          "newEvidenceIds": ["EV-UK-13"]
+        }
+      ]
+    }
+  ],
+  "openItems": [
+    { "id": "TODO-UK-01", "item": "向客户索取评标反馈原件，含商务与服务分 20 分的分项明细（现只有 17/20 汇总）", "owner": "沈黎", "due": "2026-11-20", "blocks": "EXP-UK-01 维持 A 级；WF-UK-03/WF-UK-04 无分项得分可引" },
+    { "id": "TODO-UK-02", "item": "补齐 2 舱并柜布局的 BS 8414-1 布局级试验评估排期", "owner": "秦朗", "due": "2026-12-15", "blocks": "p-uk-05 投标资格（消防条款）与 WF-UK-02 升 A" },
+    { "id": "TODO-UK-03", "item": "与 PCS 分供方确认 EN 50549-1 续证排期并写入采购合同里程碑", "owner": "何川", "due": "2026-11-30", "blocks": "后续交付批次的并网合规（证书 2026-12-31 到期）" },
+    { "id": "TODO-UK-04", "item": "重排中部备件点建点计划，取得土建许可受理回执后向客户提交整改函", "owner": "陈默", "due": "2026-11-15", "blocks": "FU-UK-05 扣款争议与 EXP-UK-05 复核" },
+    { "id": "TODO-UK-05", "item": "安排第 12 个月容量保持率见证测试并归档第三方报告", "owner": "秦朗", "due": "2026-12-31", "blocks": "FU-UK-03（首个核验节点）与 EXP-UK-02 复核" },
+    { "id": "TODO-UK-06", "item": "补存竞对 B 质疑函原件扫描件（当前仅有复印件，未入库）", "owner": "郑宇", "due": "2026-11-10", "blocks": "EV-UK-03 原件入库，三栏 B 级证据可加固" }
+  ],
+  "retroMeta": {
+    "owner": "沈黎",
+    "retroDate": "2026-10-22",
+    "generatedBy": "retro skill（模拟数据）",
+    "humanConfirmed": false,
+    "dataNote": "模拟数据，非真实企业信息（演示用途）"
+  }
+}

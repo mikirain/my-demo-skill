@@ -1,0 +1,569 @@
+{
+  "schemaVersion": "danger-1.0-draft",
+  "caseId": "ir-p01",
+  "projectId": "p-01",
+  "asOf": "2026-10-24",
+  "project": {
+    "name": "CZ-Morava 100MWh 独立储能",
+    "customer": "Morava Grid a.s.（虚构）",
+    "country": "CZ",
+    "mw": 25,
+    "mwh": 100,
+    "route": "LFP 液冷",
+    "contractMode": "EPC 总承包",
+    "deadline": "2026-11-08"
+  },
+  "gate": {
+    "confirmedParams": 38,
+    "totalParams": 40,
+    "conflictParams": 0,
+    "conflictIds": [],
+    "pendingParams": 0,
+    "noEvidenceParams": 0,
+    "noEvidenceIds": [],
+    "mandatoryJudged": 7,
+    "mandatoryTotal": 7,
+    "mandatoryCompliant": 0,
+    "draftAllowed": false,
+    "draftBlockers": [],
+    "submitAllowed": true,
+    "submitBlockers": [],
+    "computedAt": "2026-10-24"
+  },
+  "insights": [
+    {
+      "id": "ins-001",
+      "type": "fact",
+      "text": "竞对 A 标称系统效率 92%，但原文明确为 DC 端测量且不含辅助功耗，与招标 AC-AC 口径不一致。",
+      "evidenceIds": [
+        "anc-07",
+        "anc-01"
+      ],
+      "state": "adopted",
+      "blockReason": null,
+      "compareRowId": "cmp-001",
+      "paramIds": [
+        "pv-017",
+        "pv-001"
+      ],
+      "linkedRiskIds": [
+        "risk-01"
+      ],
+      "lowConfidence": false,
+      "needsReverify": false,
+      "audit": [
+        {
+          "at": "11-06 09:12",
+          "actor": "u-01",
+          "action": "adopt",
+          "detail": "核对 P.37 原文 measured at DC terminals 后采纳"
+        }
+      ]
+    },
+    {
+      "id": "ins-002",
+      "type": "fact",
+      "text": "竞对 A 循环寿命标称 12000 次，但未给出 DoD、温度与 SoH 终点，条件不可核验。",
+      "evidenceIds": [
+        "anc-08"
+      ],
+      "state": "adopted",
+      "blockReason": null,
+      "compareRowId": "cmp-002",
+      "paramIds": [
+        "pv-019"
+      ],
+      "linkedRiskIds": [
+        "risk-03"
+      ],
+      "lowConfidence": false,
+      "needsReverify": false,
+      "audit": [
+        {
+          "at": "11-06 09:20",
+          "actor": "u-01",
+          "action": "adopt",
+          "detail": "该字段存在冲突（12000 次 vs 10000 次），仅作内部研判，不作对外结论"
+        }
+      ]
+    },
+    {
+      "id": "ins-003",
+      "type": "fact",
+      "text": "竞对 A 未披露可用率，属明显劣势。",
+      "evidenceIds": [],
+      "state": "adopted",
+      "blockReason": null,
+      "compareRowId": "cmp-003",
+      "paramIds": [
+        "pv-020"
+      ],
+      "linkedRiskIds": [],
+      "lowConfidence": false,
+      "needsReverify": false,
+      "audit": []
+    },
+    {
+      "id": "ins-004",
+      "type": "fact",
+      "text": "我方系统效率 88.5% 为 AC-AC 口径且含辅助功耗，与招标要求同口径。",
+      "evidenceIds": [
+        "anc-16",
+        "anc-01"
+      ],
+      "state": "adopted",
+      "blockReason": null,
+      "compareRowId": "cmp-001",
+      "paramIds": [
+        "pv-001"
+      ],
+      "linkedRiskIds": [],
+      "lowConfidence": false,
+      "needsReverify": false,
+      "audit": [
+        {
+          "at": "11-06 09:31",
+          "actor": "u-01",
+          "action": "adopt",
+          "detail": "同口径唯一可正面对比的效率值"
+        }
+      ]
+    },
+    {
+      "id": "ins-005",
+      "type": "fact",
+      "text": "竞对 A 交付 24 周的口径来自历史投标摘要且不含海运，起算点与招标 30 周不同。",
+      "evidenceIds": [
+        "anc-10"
+      ],
+      "state": "edited",
+      "blockReason": null,
+      "compareRowId": "cmp-005",
+      "paramIds": [
+        "pv-022",
+        "pv-005"
+      ],
+      "linkedRiskIds": [],
+      "lowConfidence": false,
+      "needsReverify": false,
+      "audit": [
+        {
+          "at": "11-06 09:40",
+          "actor": "u-01",
+          "action": "adopt",
+          "detail": "采纳草稿"
+        },
+        {
+          "at": "11-06 09:52",
+          "actor": "u-01",
+          "action": "edit",
+          "detail": "把「可能」改为原文口径（excluding sea freight）"
+        }
+      ]
+    },
+    {
+      "id": "ins-006",
+      "type": "inference",
+      "text": "若业主接受竞对 A 的 DC 侧口径，我方效率项将显劣势。",
+      "evidenceIds": [
+        "anc-99"
+      ],
+      "state": "adopted",
+      "blockReason": null,
+      "compareRowId": "cmp-001",
+      "paramIds": [
+        "pv-017",
+        "pv-001"
+      ],
+      "linkedRiskIds": [
+        "risk-01"
+      ],
+      "lowConfidence": false,
+      "needsReverify": false,
+      "audit": [
+        {
+          "at": "11-06 10:05",
+          "actor": "u-02",
+          "action": "adopt",
+          "detail": "投标经理采纳，作为答疑策略依据"
+        }
+      ]
+    },
+    {
+      "id": "ins-007",
+      "type": "inference",
+      "text": "待核实：竞对 B 的 99% 可用率为月度口径，折算为年度时间加权后可能低于我方 98.5%。",
+      "evidenceIds": [
+        "anc-14",
+        "anc-18"
+      ],
+      "state": "adopted",
+      "blockReason": null,
+      "compareRowId": "cmp-003",
+      "paramIds": [
+        "pv-033",
+        "pv-003"
+      ],
+      "linkedRiskIds": [],
+      "lowConfidence": true,
+      "needsReverify": false,
+      "audit": [
+        {
+          "at": "11-06 10:12",
+          "actor": "u-01",
+          "action": "adopt",
+          "detail": "折算前不得对外使用，先发澄清确认口径"
+        }
+      ]
+    },
+    {
+      "id": "ins-008",
+      "type": "suggestion",
+      "text": "建议把交付确定性写入技术标，我方交付能力排名第一。",
+      "evidenceIds": [
+        "anc-06"
+      ],
+      "state": "adopted",
+      "blockReason": null,
+      "compareRowId": "cmp-005",
+      "paramIds": [
+        "pv-005"
+      ],
+      "linkedRiskIds": [],
+      "lowConfidence": false,
+      "needsReverify": false,
+      "audit": [
+        {
+          "at": "11-06 10:20",
+          "actor": "u-01",
+          "action": "adopt",
+          "detail": "采纳为技术标差异化建议"
+        }
+      ]
+    },
+    {
+      "id": "ins-009",
+      "type": "suggestion",
+      "text": "建议技术标突出整系统质保 10 年（含 PCS），避免被竞对 PCS 5 年配置拉低质保基准。",
+      "evidenceIds": [
+        "anc-04",
+        "anc-09"
+      ],
+      "state": "rejected",
+      "blockReason": null,
+      "compareRowId": "cmp-004",
+      "paramIds": [
+        "pv-004",
+        "pv-021"
+      ],
+      "linkedRiskIds": [
+        "risk-02"
+      ],
+      "lowConfidence": false,
+      "needsReverify": false,
+      "audit": [
+        {
+          "at": "11-06 10:28",
+          "actor": "u-02",
+          "action": "adopt",
+          "detail": "与偏离表口径一致，采纳"
+        }
+      ],
+      "rejectReason": ""
+    },
+    {
+      "id": "insight-010",
+      "type": "inference",
+      "text": "待核实：竞对 B 的功率因数范围可能不满足连续可调要求，暂无原文锚点可引。",
+      "evidenceIds": [],
+      "state": "blocked",
+      "blockReason": "no-evidence",
+      "compareRowId": "cmp-027",
+      "paramIds": [],
+      "linkedRiskIds": [],
+      "lowConfidence": false,
+      "needsReverify": false,
+      "audit": []
+    }
+  ],
+  "risks": [
+    {
+      "id": "risk-05",
+      "level": "mid",
+      "kind": "商务风险",
+      "text": "竞对 A 预付比例 30% 高于我方 20%，业主可能据此要求我方提高预付或降低总价。",
+      "relatedKeys": [
+        "payment_terms"
+      ],
+      "relatedRows": [
+        "cmp-018"
+      ],
+      "evidenceIds": [],
+      "suggestion": "商务侧准备两种付款结构备选，避免在单一结构上被压价。",
+      "owner": "u-03",
+      "state": "open",
+      "closeReason": null,
+      "source": "cmp-018",
+      "due": "2026-11-05",
+      "audit": [
+        {
+          "at": "11-06 13:20",
+          "actor": "u-02",
+          "action": "assign",
+          "detail": "risk-05 指派给周敏"
+        }
+      ]
+    },
+    {
+      "id": "risk-01",
+      "level": "critical",
+      "kind": "废标风险",
+      "text": "效率测量边界与招标要求不一致，若按 DC 侧数值应答，存在被认定「未按口径响应」的风险。",
+      "relatedKeys": [
+        "system_rte"
+      ],
+      "relatedRows": [
+        "cmp-001"
+      ],
+      "evidenceIds": [
+        "anc-07",
+        "anc-01"
+      ],
+      "suggestion": "在澄清阶段确认边界定义，技术标中同时给出 AC-AC 与 DC-DC 两套数据并注明口径。",
+      "owner": "u-02",
+      "state": "mitigating",
+      "closeReason": null,
+      "source": "cmp-001 强制条款",
+      "due": "2026-11-05",
+      "audit": [
+        {
+          "at": "11-06 11:02",
+          "actor": "u-02",
+          "action": "assign",
+          "detail": "risk-01 指派给王琛"
+        },
+        {
+          "at": "11-06 11:10",
+          "actor": "u-02",
+          "action": "correct",
+          "detail": "状态 待处理 → 处置中"
+        }
+      ]
+    },
+    {
+      "id": "risk-02",
+      "level": "high",
+      "kind": "技术偏离",
+      "text": "竞对 A 的 PCS 质保仅 5 年，低于 10 年要求；我方若未在偏离表明确整系统覆盖，可能被要求对标其低价配置。",
+      "relatedKeys": [
+        "warranty_years"
+      ],
+      "relatedRows": [
+        "cmp-004"
+      ],
+      "evidenceIds": [
+        "anc-09",
+        "anc-04"
+      ],
+      "suggestion": "在偏离表中单独列出 PCS 质保覆盖范围，避免整体质保被拉低。",
+      "owner": "u-99",
+      "state": "mitigating",
+      "closeReason": null,
+      "source": "cmp-004 强制条款",
+      "due": "2026-11-05",
+      "audit": [
+        {
+          "at": "11-06 11:18",
+          "actor": "u-02",
+          "action": "assign",
+          "detail": "risk-02 指派给李维"
+        },
+        {
+          "at": "11-06 11:26",
+          "actor": "u-01",
+          "action": "correct",
+          "detail": "状态 待处理 → 处置中：偏离表已加覆盖范围行"
+        }
+      ]
+    },
+    {
+      "id": "risk-03",
+      "level": "high",
+      "kind": "承诺风险",
+      "text": "循环寿命测试条件未统一，若我方按更宽条件承诺，将承担额外衰减赔付风险。",
+      "relatedKeys": [
+        "cycle_life"
+      ],
+      "relatedRows": [
+        "cmp-002"
+      ],
+      "evidenceIds": [
+        "anc-08",
+        "anc-02"
+      ],
+      "suggestion": "承诺值严格采用 DoD 90%/25℃/SoH 70% 口径，并在合同中限定测试方法。",
+      "owner": "u-04",
+      "state": "closed",
+      "closeReason": null,
+      "source": "cmp-002 强制条款",
+      "due": "2026-11-05",
+      "audit": []
+    },
+    {
+      "id": "risk-04",
+      "level": "mid",
+      "kind": "证据缺口",
+      "text": "竞对 B 的消防与噪声数据缺失，我方在安全维度的优势目前缺乏对手侧证据支撑，评审时说服力弱。",
+      "relatedKeys": [
+        "ghost_key"
+      ],
+      "relatedRows": [
+        "cmp-011",
+        "cmp-014"
+      ],
+      "evidenceIds": [
+        "anc-11"
+      ],
+      "suggestion": "通过公开渠道补充竞对 B 的认证与测试报告，或转为我方主动披露的对比点。",
+      "owner": "u-01",
+      "state": "mitigating",
+      "closeReason": null,
+      "source": "risk-999",
+      "due": "2026-11-05",
+      "audit": [
+        {
+          "at": "11-06 13:05",
+          "actor": "u-02",
+          "action": "assign",
+          "detail": "risk-04 指派给李维"
+        },
+        {
+          "at": "11-06 13:12",
+          "actor": "u-01",
+          "action": "correct",
+          "detail": "状态 待处理 → 处置中"
+        }
+      ]
+    },
+    {
+      "id": "risk-06",
+      "level": "low",
+      "kind": "证据缺口",
+      "text": "我方噪声数据来自内部测试，缺第三方报告。",
+      "relatedKeys": [
+        "noise"
+      ],
+      "relatedRows": [
+        "cmp-014"
+      ],
+      "evidenceIds": [],
+      "suggestion": "补充第三方噪声测试报告，或改为范围值披露。",
+      "owner": "u-01",
+      "state": "closed",
+      "closeReason": "第三方噪声测试报告已归档（2026-10-30 收），不再作为缺口跟踪。",
+      "source": "cmp-014",
+      "due": "2026-10-30",
+      "audit": [
+        {
+          "at": "11-06 14:02",
+          "actor": "u-02",
+          "action": "close",
+          "detail": "关闭理由已存档，报告归档在 doc-13"
+        }
+      ]
+    }
+  ],
+  "clarifications": [
+    {
+      "id": "clr-01",
+      "question": "系统往返效率的测量边界与辅助功耗是否计入，请业主明确测量位置、辅助功耗是否计入、测试温度与负载率等全部前置条件",
+      "background": "招标 3.2 要求 AC-AC ≥88%，但未说明辅助功耗处理方式；竞对 A 报价基于 DC 侧口径。",
+      "impact": "影响效率项横向可比性与评分",
+      "evidenceIds": [
+        "anc-01",
+        "anc-07"
+      ],
+      "compareRowId": "cmp-001",
+      "state": "copied",
+      "copiedAt": "11-06 15:08"
+    },
+    {
+      "id": "clr-02",
+      "question": "循环寿命的测试条件（DoD、温度、SoH 终点、倍率）是否统一按 3.2.4 执行？",
+      "background": "竞对 A 未给出条件，竞对 B 使用 DoD 80%/SoH 60%，与要求不一致。",
+      "impact": "影响寿命承诺与质保成本",
+      "evidenceIds": [],
+      "compareRowId": "cmp-002",
+      "state": "not-sent",
+      "copiedAt": null
+    },
+    {
+      "id": "clr-03",
+      "question": "可用率的统计周期与计算方式是否限定为「年度、时间加权」？",
+      "background": "竞对 B 采用月度口径，数值偏高，易造成评标误判。",
+      "impact": "影响可用率承诺与违约赔偿",
+      "evidenceIds": [
+        "anc-03",
+        "anc-14"
+      ],
+      "compareRowId": "cmp-003",
+      "state": "not-sent",
+      "copiedAt": null
+    },
+    {
+      "id": "clr-04",
+      "question": "PCS 是否纳入 10 年整系统质保范围？",
+      "background": "竞对 A 的 PCS 仅保 5 年，若业主接受该配置，将压低整体质保基准。",
+      "impact": "影响质保成本与偏离表口径",
+      "evidenceIds": [
+        "anc-04",
+        "anc-09"
+      ],
+      "compareRowId": "cmp-004",
+      "state": "not-sent",
+      "copiedAt": null
+    },
+    {
+      "id": "clr-05",
+      "question": "交付周期的起算点与是否包含海运、并网调试？",
+      "background": "竞对 A 的 24 周不含海运，竞对 B 未披露，口径不统一。",
+      "impact": "影响交付承诺与违约金风险",
+      "evidenceIds": [
+        "anc-06",
+        "anc-10"
+      ],
+      "compareRowId": "cmp-005",
+      "state": "not-sent",
+      "copiedAt": null
+    }
+  ],
+  "decisionBlank": {
+    "discountPct": 3.3,
+    "discountBasis": "让利",
+    "availabilityPct": 99.2,
+    "availabilityBasis": "我方 Aster5000 年可用率 98.5%，按时间加权统计",
+    "discountAuth": null,
+    "filledBy": "u-01",
+    "filledAt": "11-06 16:20",
+    "systemGenerated": true
+  },
+  "submission": {
+    "submittedBy": "u-01",
+    "submittedAt": "11-06 17:02",
+    "insightIds": [
+      "ins-002"
+    ]
+  },
+  "meta": {
+    "dataNote": "演示数据，非真实企业信息",
+    "humanConfirmed": true,
+    "generatedBy": "danger skill",
+    "lastChangeAt": "11-06 16:20",
+    "blockedCount": 0,
+    "openItems": [
+      "ins-003 / ins-010 已拦截：补引用或转为澄清",
+      "risk-05 商务风险待周敏开始处置",
+      "提交审核前需由他人复核高风险结论（BR-08 双人规则）"
+    ]
+  }
+}

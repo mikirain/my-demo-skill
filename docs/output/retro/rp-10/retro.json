@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.1",
+  "case": {
+    "retroId": "rp-10",
+    "id": "p-06",
+    "name": "CZ-Morava 320MWh 独立储能",
+    "country": "CZ",
+    "mw": 80,
+    "mwh": 320,
+    "route": "—",
+    "customerType": "电网公司",
+    "bidMode": "公开招标",
+    "contractMode": "EPC 总承包",
+    "productModel": "—",
+    "awardedYear": 2025,
+    "awardDate": "2025-05-20",
+    "competitorIds": [],
+    "hasScoreSheet": true,
+    "snapshotAt": "2026-10-25"
+  },
+  "evidence": [
+    {
+      "id": "EV-01",
+      "type": "scoreSheet",
+      "title": "评标得分汇总（用户转述，评分表原件待补）",
+      "documentId": null,
+      "originalFiled": false,
+      "page": null,
+      "section": "评标结果汇总（用户转述）",
+      "snippet": "综合得分 87.6/100，技术 41/45、商务 46.6/50；技术满分 45 + 商务满分 50 = 95，与总分 100 相差 5 分，评分构成待确认。",
+      "reliability": "unknown",
+      "collectedBy": "待补",
+      "collectedAt": "2026-10-25"
+    },
+    {
+      "id": "EV-02",
+      "type": "other",
+      "title": "项目基本要素（用户提供）",
+      "documentId": null,
+      "originalFiled": false,
+      "page": null,
+      "section": "项目基本信息",
+      "snippet": "业主 ČEPS（捷克输电系统运营商），站址 Morava，规模 320MWh 独立储能，已在捷克中标；具体中标日期与中标范围待补。",
+      "reliability": "unknown",
+      "collectedBy": "待补",
+      "collectedAt": "2026-10-25"
+    }
+  ],
+  "winFactors": [],
+  "solution": {
+    "route": "—",
+    "hardGateParams": [],
+    "differentiators": [],
+    "configJudgement": {
+      "overSpec": [],
+      "underSpec": [],
+      "note": "缺招标文件/技术规格书与我方投标终版，无法进行方案配置复盘（十方面第 3/4/7 维全部标 pending）"
+    },
+    "certifications": [],
+    "deviations": []
+  },
+  "commercial": {
+    "noQuoteStatement": true,
+    "priceStructure": [],
+    "tcoFactors": [],
+    "delivery": {
+      "leadTimeDays": null,
+      "localization": "—",
+      "thirdPartyRisks": []
+    },
+    "contractRisks": []
+  },
+  "process": {
+    "involvementTimeline": [],
+    "blockers": [],
+    "effectiveReviews": []
+  },
+  "fulfilment": [],
+  "experiences": [],
+  "openItems": [
+    { "id": "TODO-01", "item": "确认中标日期与中标年份（当前占位 2025-05-20 / 2025，取自既有 rp-03 记录，需用户核实）", "owner": "待补", "due": "2026-11-01", "blocks": "case.awardDate / awardedYear 定稿，S-01 复盘窗口起算" },
+    { "id": "TODO-02", "item": "确认功率 MW（当前占位 80MW，按 320MWh/4h 时长假设，需核实）", "owner": "待补", "due": "2026-11-01", "blocks": "case.mw 定稿" },
+    { "id": "TODO-03", "item": "确认招标方式与合同模式（当前占位「公开招标」「EPC 总承包」，需核实）", "owner": "待补", "due": "2026-11-01", "blocks": "case.bidMode / contractMode 定稿" },
+    { "id": "TODO-04", "item": "补技术路线与产品型号（当前为「—」）", "owner": "待补", "due": "2026-11-08", "blocks": "case.route / productModel、solution 方案复盘" },
+    { "id": "TODO-05", "item": "补竞对/参与方信息（competitorIds 当前为空）", "owner": "待补", "due": "2026-11-08", "blocks": "维度 2 竞品策略与 competitorGap" },
+    { "id": "TODO-06", "item": "补招标文件/技术规格书（评分办法权重表与强制条款）", "owner": "待补", "due": "2026-11-15", "blocks": "winFactors 拆解、强制项核对" },
+    { "id": "TODO-07", "item": "补我方投标文件终版（技术卷/商务卷/偏差表）", "owner": "待补", "due": "2026-11-15", "blocks": "ourResponse 与承诺值核对" },
+    { "id": "TODO-08", "item": "补中标通知书或中标公示", "owner": "待补", "due": "2026-11-15", "blocks": "确认结果与中标范围（BR-11 无来源不入库）" },
+    { "id": "TODO-09", "item": "补评分表原件与分项得分明细，并澄清「45+50=95 与总分 100 相差 5 分」的评分构成", "owner": "待补", "due": "2026-11-15", "blocks": "技术 41 分、商务 46.6 分的分项分解与 A 级定位" },
+    { "id": "TODO-10", "item": "补澄清答疑、商务谈判纪要（可选）", "owner": "待补", "due": "2026-11-22", "blocks": "维度 4/8 偏差与合同风险" },
+    { "id": "TODO-11", "item": "补履约数据（交付/验收/服务记录，可选）", "owner": "待补", "due": "2026-12-31", "blocks": "维度 10 履约验证与经验闭环" },
+    { "id": "TODO-12", "item": "与既有 rp-03（CZ-Morava 320MWh 独立储能，模拟数据，技术 42/45、商务 12.5/15）做版本核对与去重，决定合并或替换", "owner": "待补", "due": "2026-11-08", "blocks": "同一项目两份复盘的去重，避免经验库重复" }
+  ],
+  "retroMeta": {
+    "owner": "待补",
+    "retroDate": "2026-10-25",
+    "generatedBy": "retro skill",
+    "humanConfirmed": false,
+    "dataNote": "带缺口复盘草稿：仅含用户提供的项目名/国别/规模/业主/得分汇总，其余字段为待补占位值；既有 rp-03 为同名项目模拟数据版本，需人工核对去重后确认入库"
+  }
+}
